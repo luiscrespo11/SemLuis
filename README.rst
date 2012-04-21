@@ -1,3 +1,3 @@
 Seminario de Luis Crespo
 -----------------------------------------
-No veo cambios
+No veo cambios, haga algo
