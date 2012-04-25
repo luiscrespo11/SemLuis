@@ -151,7 +151,7 @@ theorems-ams
 \begin_body
 
 \begin_layout Subject
-Seminario del Profesorado en Matemática
+Seminario para obtener el título de Profesora en Matemática
 \lang english
 
 \begin_inset Note Note
@@ -179,47 +179,17 @@ El subtítulo
 \end_layout
 
 \begin_layout Author
-Silvia Noemí Romero
-\end_layout
-
-\begin_layout Date
-
-\lang english
-Date (optional)
+Mi nombre
 \end_layout
 
 \begin_layout Publishers
+\begin_inset Graphics
+	filename escunsa.bmp
+
+\end_inset
+
 
 \lang english
-\begin_inset Box Boxed
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "40col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-
-\lang english
-Replace this box e.
-\begin_inset space \thinspace{}
-\end_inset
-
-g.
-\begin_inset space ~
-\end_inset
-
-by the coat of arms of the university.
-\end_layout
-
-\end_inset
-
 
 \begin_inset ERT
 status collapsed
@@ -252,6 +222,10 @@ Universidad Nacional de Salta
 Facultad de Ciencias Exactas
 \lang english
 
+\begin_inset Newline newline
+\end_inset
+
+Departamento de Matemáticas
 \begin_inset Newline newline
 \end_inset
 
@@ -320,7 +294,7 @@ Prof.
 
 
 \series bold
-Date of the graduation (optional)
+Fecha de graduación
 \series default
 
 \begin_inset VSpace smallskip
@@ -658,6 +632,13 @@ status open
 \end_inset
 
 Agradecimientos
+\begin_inset CommandInset citation
+LatexCommand citet
+key "TOK06"
+
+\end_inset
+
+
 \begin_inset Note Note
 status collapsed
 
@@ -863,6 +844,11 @@ restore the right header line
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
 \begin_inset ERT
 status open
 
