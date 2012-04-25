@@ -55,8 +55,8 @@
 \options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
 \use_default_options true
 \begin_modules
-customHeadersFooters
 theorems-ams
+customHeadersFooters
 \end_modules
 \maintain_unincluded_children false
 \language spanish
@@ -134,7 +134,7 @@ theorems-ams
 \color #008000
 \end_index
 \secnumdepth 3
-\tocdepth 2
+\tocdepth 3
 \paragraph_separation skip
 \defskip medskip
 \quotes_language english
@@ -437,6 +437,24 @@ thepage
 \end_layout
 
 \begin_layout Center Footer
+
+\end_layout
+
+\begin_layout Right Footer
+
+\lang english
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+thepage
+\end_layout
+
+\end_inset
+
 
 \end_layout
 

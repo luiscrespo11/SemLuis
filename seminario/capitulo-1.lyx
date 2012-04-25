@@ -116,7 +116,7 @@ theorems-ams
 \color #008000
 \end_index
 \secnumdepth 3
-\tocdepth 2
+\tocdepth 3
 \paragraph_separation skip
 \defskip medskip
 \quotes_language english
@@ -222,32 +222,7 @@ leftmark
 
 \end_layout
 
-\begin_layout Left Footer
-\begin_inset Argument
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-thepage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Center Footer
+\begin_layout Standard
 
 \end_layout
 
@@ -287,6 +262,7 @@ Un cuerpo
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Definition
 Se dice que una extensión 
 \begin_inset Formula $F/K$
@@ -307,23 +283,20 @@ Se dice que una extensión
 \end_inset
 
  .
- 
-\end_layout
-
-\begin_layout Remark
-Si tomamos a 
+ Si tomamos a 
 \begin_inset Formula $F$
 \end_inset
 
  como un 
-\begin_inset Formula $K-$
+\begin_inset Formula $K$
 \end_inset
 
-espacio vectorial, esto nos permite utilizar los conceptos y resultados
+-espacio vectorial, esto nos permite utilizar los conceptos y resultados
  del álgebra lineal en el estudio de los extensiones de cuerpos.
  
 \end_layout
 
+\end_deeper
 \begin_layout Example
 \begin_inset Formula $\phantom{}$
 \end_inset
@@ -870,6 +843,112 @@ Una extensión puede ser simple aunque aparentemente esté́ generada por un
 Toda extensión finita es algebraica.
 \end_layout
 
+\begin_layout Proof
+Sea 
+\begin_inset Formula $F/K$
+\end_inset
+
+ una extensión finita.
+ Se trata de probar que cada 
+\begin_inset Formula $\alpha\in F$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ .
+ Se tiene 
+\begin_inset Formula $K\subset K(\alpha)\subset F$
+\end_inset
+
+ y por tanto, en virtud del teorema del grado 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:grad1"
+
+\end_inset
+
+, 
+\begin_inset Formula $\left[K(\alpha):K\right]$
+\end_inset
+
+ divide a 
+\begin_inset Formula $\left[F:K\right]$
+\end_inset
+
+ y entonces es también finito.
+ Si 
+\begin_inset Formula $\left[K(\alpha):K\right]=n$
+\end_inset
+
+ ; y si los 
+\begin_inset Formula $n+1$
+\end_inset
+
+ elementos 
+\begin_inset Formula $1,\alpha,...,\alpha^{n}\in K(\alpha)$
+\end_inset
+
+ son diferentes, entonces son necesariamente 
+\begin_inset Formula $K$
+\end_inset
+
+-linealmente dependientes, y por lo tanto existen 
+\begin_inset Formula $a_{0},a_{1},...,a_{n}\in K$
+\end_inset
+
+ , no todos nulos, tales que 
+\begin_inset Formula $a_{0}+a_{1}\alpha+...+a_{n}\alpha^{n}=0$
+\end_inset
+
+.
+ El polinomio no nulo 
+\begin_inset Formula $f(X)=a_{n}X^{n}+...+a_{1}X+a_{0}\in K\left[X\right]$
+\end_inset
+
+ es tal que 
+\begin_inset Formula $f(\alpha)=0$
+\end_inset
+
+.
+ Si, por el contrario, existen 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+ con 
+\begin_inset Formula $0\leq i\leq j\leq n$
+\end_inset
+
+, tales que 
+\begin_inset Formula $\alpha^{i}=\alpha^{j}$
+\end_inset
+
+ , entonces 
+\begin_inset Formula $\alpha^{j-i}=0$
+\end_inset
+
+, lo que indica que 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ es un cero del polinomio 
+\begin_inset Formula $X^{j-i}-1\in K\left[X\right]$
+\end_inset
+
+.
+ En cualquier caso resulta que 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ 
+\end_layout
+
 \begin_layout Corollary
 Sea 
 \begin_inset Formula $F/K$
@@ -1186,10 +1265,6 @@ Un número real
  son construibles.
  Notemos que los enteros son claramente construibles; además se puede probar
  los siguientes hechos:
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Enumerate
@@ -1794,11 +1869,19 @@ Vamos a examinar los cuerpos de división del polinomio
 \begin_inset Formula $n$
 \end_inset
 
-.
+.( esto es característica 
+\begin_inset Formula $K=0$
+\end_inset
+
+ o es primo relativo con 
+\begin_inset Formula $n$
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
-La dimensión de una extensión cuerpo ciclotómica de orden 
+La dimensión de una extensión ciclotómica de orden 
 \begin_inset Formula $n$
 \end_inset
 
@@ -1806,7 +1889,216 @@ La dimensión de una extensión cuerpo ciclotómica de orden
 \begin_inset Formula $\varphi$
 \end_inset
 
- de la elemental de números,
+ de la teoría elemental de números, que asigna a cada entero positivo 
+\begin_inset Formula $n$
+\end_inset
+
+ el número 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+ que es la cantidad de enteros 
+\begin_inset Formula $i$
+\end_inset
+
+ tal que 
+\begin_inset Formula $1\leq i\leq n$
+\end_inset
+
+ y 
+\begin_inset Formula $(i,n)=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Theorem
+Sea 
+\begin_inset Formula $n$
+\end_inset
+
+ un entero positivo, 
+\begin_inset Formula $K$
+\end_inset
+
+ un cuerpo tal que la característica de 
+\begin_inset Formula $K$
+\end_inset
+
+ no divide 
+\begin_inset Formula $n$
+\end_inset
+
+ y 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión ciclotómica de 
+\begin_inset Formula $K$
+\end_inset
+
+ de orden 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $F=K(\zeta)$
+\end_inset
+
+, donde 
+\begin_inset Formula $\zeta\in F$
+\end_inset
+
+ es una raíz 
+\begin_inset Formula $n$
+\end_inset
+
+-ésima de la unidad primitiva.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión abeliana de dimensión 
+\begin_inset Formula $d$
+\end_inset
+
+, donde 
+\begin_inset Formula $d/\varphi(n)$
+\end_inset
+
+(
+\begin_inset Formula $\varphi$
+\end_inset
+
+ función de Euler); más aún si 
+\begin_inset Formula $n$
+\end_inset
+
+ es primo la extensión es cíclica.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Aut_{K}F$
+\end_inset
+
+ es isomorfo a un subgrupo de orden 
+\begin_inset Formula $d$
+\end_inset
+
+ del grupo multiplicativo de las unidades de 
+\begin_inset Formula $\mathbb{Z}_{n}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Proof
+\begin_inset Formula $i)$
+\end_inset
+
+ Por las observaciones hechas en el preliminar tenemos que 
+\begin_inset Formula $F$
+\end_inset
+
+ contiene una raíz n-ésima de la unidad primitiva 
+\begin_inset Formula $\zeta$
+\end_inset
+
+.
+ Por definición,
+\begin_inset Formula $1_{K},\zeta,...,\zeta^{n-1}\in K(\zeta)$
+\end_inset
+
+, son las 
+\begin_inset Formula $n$
+\end_inset
+
+ raíces distintas de 
+\begin_inset Formula $x^{n-1}-1_{K}$
+\end_inset
+
+, luego 
+\begin_inset Formula $F=K(\zeta)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $ii)-iii)$
+\end_inset
+
+ Los factores irreducibles de 
+\begin_inset Formula $x^{n-1}-1_{K}$
+\end_inset
+
+, son claramente separables, así 
+\begin_inset Formula $F$
+\end_inset
+
+ es el cuerpo de descomposición de familia ﬁnita de polinomios separables
+ y por la proposición 3.11 
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $\sigma\in Aut_{K}F$
+\end_inset
+
+ , entonces 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ queda completamente determinado por 
+\begin_inset Formula $\sigma(\zeta)$
+\end_inset
+
+.
+ Por la proposición 2.4, 
+\begin_inset Formula $\sigma(\zeta)=\zeta^{i}$
+\end_inset
+
+ para algún 
+\begin_inset Formula $i$
+\end_inset
+
+ (
+\begin_inset Formula $1\leq i\leq n-1$
+\end_inset
+
+).
+ Análogamente, 
+\begin_inset Formula $\sigma^{-1}(\zeta)=\zeta^{j}$
+\end_inset
+
+ asi que 
+\begin_inset Formula $\zeta=\sigma^{-1}\sigma(\zeta)=\zeta^{i.j}.$
+\end_inset
+
+ Luego kr ≡ 1 (mod n) y por lo tanto k ∈ Zn es una unidad.
+ ( k 7→ k es la proyecci´on can´onica al cociente).
+ La funci´on σ 7→ k deﬁne un monomorﬁsmo (es claro que es morﬁsmo; para
+ ver que es monomorﬁsmo supongamos k = 1, luego σ(ζ) = ζ y as´ı σ = id)
+ f de G(F/K) en el grupo abeliano multiplicativo de las unidades en el anillo
+ Zn (que tiene orden ϕ(n)).
+ Por lo tanto, G(F/K) =∼ Im f es abeliano de orden d que divide a ϕ(n).
+ Por el teorema 2.10 tenemos [F : K] = d.
+ Si n es primo, entonces Zn es cuerpo y G(F/K) =∼ Im f es c´ıclico por la
+ proposici´on 3.13.
 \end_layout
 
 \end_body
