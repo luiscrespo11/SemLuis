@@ -255,6 +255,7 @@ thepage
 Introducción
 \end_layout
 
+<<<<<<< HEAD
 \begin_layout Section
 Primera Sección
 \end_layout
@@ -266,9 +267,1560 @@ Todo lo que va en esta sección
 \begin_layout Section
 Segunda Sección
 \end_layout
+=======
+\begin_layout Definition
+Un cuerpo 
+\begin_inset Formula $F$
+\end_inset
 
-\begin_layout Theorem
-chcncvjnchjn
+ se dice que es una extensión de cuerpo un 
+\begin_inset Formula $K$
+\end_inset
+
+(o simplemente una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+) siempre que 
+\begin_inset Formula $K$
+\end_inset
+
+ sea un subcuerpo de 
+\begin_inset Formula $F.$
+\end_inset
+
+ La notación que se usa habitualmente para designar una extensión es 
+\begin_inset Formula $F/K$
+\end_inset
+
+ o también 
+\begin_inset Formula $F:K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Definition
+Se dice que una extensión 
+\begin_inset Formula $F/K$
+\end_inset
+
+ es finita si 
+\begin_inset Formula $F$
+\end_inset
+
+ como 
+\begin_inset Formula $K$
+\end_inset
+
+-espacio vectorial es de dimensión finita.
+ A la dimensión de este espacio vectorial se le llama grado de la extensión
+ y se denota 
+\begin_inset Formula $\left[F:K\right]$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Remark
+Si tomamos a 
+\begin_inset Formula $F$
+\end_inset
+
+ como un 
+\begin_inset Formula $K-$
+\end_inset
+
+espacio vectorial, esto nos permite utilizar los conceptos y resultados
+ del álgebra lineal en el estudio de los extensiones de cuerpos.
+ 
+\end_layout
+
+\begin_layout Example
+\begin_inset Formula $\phantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]=2$
+\end_inset
+
+; ya que cada 
+\begin_inset Formula $\alpha\in\mathbb{C}$
+\end_inset
+
+ admite una única expresión 
+\begin_inset Formula $\alpha=a+b.i$
+\end_inset
+
+ con 
+\begin_inset Formula $i^{2}=-1$
+\end_inset
+
+ y 
+\begin_inset Formula $a,b\in\mathbb{R}$
+\end_inset
+
+, lo cual significa que 
+\begin_inset Formula $\left\{ 1,i\right\} $
+\end_inset
+
+ constituye una base de 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+ como 
+\begin_inset Formula $\mathbb{R}-$
+\end_inset
+
+espacio vectorial.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $\left[\mathbb{R}:\mathbb{Q}\right]$
+\end_inset
+
+ son extensiones no finitas.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left[\mathbb{Q}(\sqrt{2}):\mathbb{Q}\right]=2$
+\end_inset
+
+ 
+\begin_inset space ~
+\end_inset
+
+,
+\begin_inset Formula $\mathbb{Q}(\sqrt{2})=\left\{ a+b\sqrt{2},a,b\in\mathbb{Q}\right\} $
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $B=\left\{ 1,\sqrt{2}\right\} $
+\end_inset
+
+ generan 
+\begin_inset Formula $\mathbb{Q}\sqrt{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Theorem*
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:grad1"
+
+\end_inset
+
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de un cuerpo 
+\begin_inset Formula $E$
+\end_inset
+
+ y 
+\begin_inset Formula $E$
+\end_inset
+
+ una extensión de un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\left[F:K\right]=\left[F:E\right]\left[E:K\right]$
+\end_inset
+
+.
+ Por otra parte 
+\begin_inset Formula $\left[F:K\right]$
+\end_inset
+
+ es finita si y solo si 
+\begin_inset Formula $\left[F:E\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $\left[E:K\right]$
+\end_inset
+
+ son finitas.
+\end_layout
+
+\begin_layout Proof
+Supongamos primero que 
+\begin_inset Formula $K\subset E$
+\end_inset
+
+ y 
+\begin_inset Formula $E\subset F$
+\end_inset
+
+ son extensiones finitas.
+ Sean entonces 
+\begin_inset Formula $\left\{ \alpha_{1},...,\alpha_{m}\right\} $
+\end_inset
+
+ una 
+\begin_inset Formula $E$
+\end_inset
+
+-base de 
+\begin_inset Formula $F$
+\end_inset
+
+, y 
+\begin_inset Formula $\left\{ \beta_{1},...,\beta_{n}\right\} $
+\end_inset
+
+ una 
+\begin_inset Formula $K$
+\end_inset
+
+-base de 
+\begin_inset Formula $E$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Proof
+Dado 
+\begin_inset Formula $\gamma\in F$
+\end_inset
+
+, existen únicos 
+\begin_inset Formula $a_{i}\in E$
+\end_inset
+
+ tales que 
+\begin_inset Formula $\gamma=a_{1}\alpha_{1}+...+a_{m}\alpha_{m}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Proof
+A su vez 
+\begin_inset Formula $a_{i}\in E$
+\end_inset
+
+, luego existen 
+\begin_inset Formula $b_{ij}\in K$
+\end_inset
+
+ tales que 
+\begin_inset Formula $a_{i}=b_{i1}\beta_{1}+...+b_{in}\beta_{n}$
+\end_inset
+
+ .
+ Por lo tanto 
+\begin_inset Formula 
+\[
+\gamma=\sum_{i=1,j=1}^{m.n}b_{ij}\beta_{j}\alpha_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Entonces 
+\begin_inset Formula $\left\{ \beta_{j}\alpha_{i}\right\} _{i,j=1}^{m.n}$
+\end_inset
+
+ es un generador de 
+\begin_inset Formula $K$
+\end_inset
+
+ sobre 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Es linealmente independiente: Supongamos que 
+\begin_inset Formula $\sum_{i,j}b_{ij}\beta_{j}\alpha_{i}=0$
+\end_inset
+
+, es decir, 
+\begin_inset Formula $\sum_{i}a_{i}\alpha_{i}=0$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $\left\{ a_{i}\right\} _{i=1}^{m}$
+\end_inset
+
+ es linealmente independiente, entonces 
+\begin_inset Formula $a_{i}=0$
+\end_inset
+
+ para todo 
+\begin_inset Formula $i=1,...,m$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\left\{ b_{i1}\beta_{1}+...+b_{in}\beta_{n}\right\} =0$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $\left\{ \beta_{j}\right\} _{j=1}^{n}$
+\end_inset
+
+ es linealmente independiente , entonces 
+\begin_inset Formula $b_{ij}=0$
+\end_inset
+
+ para todo 
+\begin_inset Formula $i,j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En la situación que 
+\begin_inset Formula $K\subset E\subset F$
+\end_inset
+
+ del Teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:grad1"
+
+\end_inset
+
+, 
+\begin_inset Formula $E$
+\end_inset
+
+ se dice que es un cuerpo intermedio de 
+\begin_inset Formula $K$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es un cuerpo y 
+\begin_inset Formula $X\subset F$
+\end_inset
+
+, entonces el 
+\series bold
+subcuerpo generado
+\series default
+ por 
+\begin_inset Formula $X$
+\end_inset
+
+ es la intersección de todos los subcuerpos de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contienen a 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de cuerpos de 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $X\subset F$
+\end_inset
+
+ entonces el subcuerpo generado por 
+\begin_inset Formula $K\bigcup X$
+\end_inset
+
+ se llama el subcuerpo generado por 
+\begin_inset Formula $X$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ y se denota 
+\begin_inset Formula $K(X)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $X=\left\{ u_{1},...,u_{n}\right\} $
+\end_inset
+
+, entonces el subcuerpo 
+\begin_inset Formula $K(X)$
+\end_inset
+
+ de 
+\begin_inset Formula $F$
+\end_inset
+
+ se denota por 
+\begin_inset Formula $K(u_{1},...,u_{n}).$
+\end_inset
+
+El cuerpo 
+\begin_inset Formula $K(u_{1},...,u_{n})$
+\end_inset
+
+ se dice que es una 
+\series bold
+extensión finitamente generada
+\series default
+ de 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $X=\left\{ u\right\} $
+\end_inset
+
+, entonces 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ se dice que es una 
+\series bold
+extensión simple
+\series default
+ de 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de cuerpos de 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Un elemento 
+\begin_inset Formula $u$
+\end_inset
+
+ de 
+\begin_inset Formula $F$
+\end_inset
+
+ se dice que es 
+\series bold
+algebraico
+\series default
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ siempre que 
+\begin_inset Formula $u$
+\end_inset
+
+ sea una raíz de algún polinomio distinto de cero 
+\begin_inset Formula $f\in K\left[u\right]$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $u$
+\end_inset
+
+ no es una raíz de cualquier polinomio distinto de cero 
+\begin_inset Formula $f\in K\left[u\right]$
+\end_inset
+
+, 
+\begin_inset Formula $u$
+\end_inset
+
+ se dice que es 
+\series bold
+trascendental
+\series default
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama 
+\series bold
+extensión algebraica
+\series default
+ de 
+\begin_inset Formula $K$
+\end_inset
+
+ si cada elemento de 
+\begin_inset Formula $F$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama 
+\series bold
+extensión trascendental
+\series default
+ si por lo menos un elemento de 
+\begin_inset Formula $F$
+\end_inset
+
+ es trascendental sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+\begin_inset Formula $\mathbb{C}/\mathbb{R}$
+\end_inset
+
+ es una extensión simple puesto que 
+\begin_inset Formula $\mathbb{C}=\mathbb{R}(i)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Remark
+Una extensión puede ser simple aunque aparentemente esté́ generada por un
+ conjunto de varios elementos.
+ Así ejemplo,
+\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+ es simple porque como veremos un próximo ejemplo, 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})=\mathbb{Q}(\sqrt{2}+\sqrt{3})$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\sqrt{2},\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+ por lo tanto 
+\begin_inset Formula $(\sqrt{2}+\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+, además 
+\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+ por lo que 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2}+\sqrt{3})\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proposition
+Toda extensión finita es algebraica.
+\end_layout
+
+\begin_layout Corollary
+Sea 
+\begin_inset Formula $F/K$
+\end_inset
+
+ una extensión y sea 
+\begin_inset Formula $\alpha\in F$
+\end_inset
+
+ un elemento algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Entonces la extensión 
+\begin_inset Formula $K(\alpha)/K$
+\end_inset
+
+ es algebraica.
+\end_layout
+
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F/K$
+\end_inset
+
+ una extensión de cuerpos.
+ Entonces el conjunto 
+\begin_inset Formula 
+\[
+E=\left\{ u\in F/u\, es\, algebraico\, sobre\, K\right\} 
+\]
+
+\end_inset
+
+ es un subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
+\begin_inset Formula $K$
+\end_inset
+
+.(
+\begin_inset Formula $E$
+\end_inset
+
+ se llama la 
+\series bold
+clausura algebraica 
+\series default
+de 
+\begin_inset Formula $K$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Construcción con regla y compás
+\end_layout
+
+\begin_layout Standard
+Vamos a utilizar las extensiones de cuerpos para resolver dos problemas
+ famosos de la antigüedad:
+\end_layout
+
+\begin_layout Itemize
+¿Es posible trisecar un ángulo arbitrario solo por construcciones de regla
+ y compás?
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+¿Es posible a través de construcciones de regla y compás duplicar un cubo
+ arbitrario ( es decir para construir el lado de un cubo que tiene el doble
+ de la volumen del cubo dado)?
+\end_layout
+
+\begin_layout Standard
+De aquí en más construible sera sinónimo de construible con regla y compás.
+ Dada una linea recta 
+\begin_inset Formula $L$
+\end_inset
+
+ y un punto un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ que no este en 
+\begin_inset Formula $L$
+\end_inset
+
+, la única linea recta que pasa por 
+\begin_inset Formula $P$
+\end_inset
+
+ y es paralela a 
+\begin_inset Formula $L$
+\end_inset
+
+ es construible.
+ Podemos entonces construir dos lineas rectas perpendiculares (ejes).
+ Tomemos una unidad de longitud, y a partir de esta construimos todos los
+ puntos en el plano de coordenadas enteras.
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es un subcuerpo del cuerpo 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ de los números reales, el plano de 
+\begin_inset Formula $F$
+\end_inset
+
+ es el subconjunto del plano formado por los puntos de la forma 
+\begin_inset Formula $(c,d)$
+\end_inset
+
+, con 
+\begin_inset Formula $c\in F$
+\end_inset
+
+,
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $d\in F$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $P$
+\end_inset
+
+ ,
+\begin_inset Formula $Q$
+\end_inset
+
+ son puntos distintos en el plano de 
+\begin_inset Formula $F$
+\end_inset
+
+, la única recta que pasa por 
+\begin_inset Formula $P$
+\end_inset
+
+ y 
+\begin_inset Formula $Q$
+\end_inset
+
+ se llama recta en 
+\begin_inset Formula $F$
+\end_inset
+
+ y el círculo con centro en 
+\begin_inset Formula $P$
+\end_inset
+
+ y radio el segmento 
+\begin_inset Formula $PQ$
+\end_inset
+
+ se llama círculo en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ Se verifica que toda linea recta en 
+\begin_inset Formula $F$
+\end_inset
+
+ tiene una ecuación de la forma 
+\begin_inset Formula $ax+by+c=0\,\,\,(a,b,c)\in F$
+\end_inset
+
+ y todo círculo en 
+\begin_inset Formula $F$
+\end_inset
+
+ tiene una ecuación de la forma 
+\begin_inset Formula $x^{2}+y^{2}+ax+by+c=0\,\,\,(a,b,c)\in F$
+\end_inset
+
+.
+ Aceptaremos el siguiente resultado:
+\end_layout
+
+\begin_layout Lemma
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ un subcuerpo del cuerpo de los números reales 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ y sea 
+\begin_inset Formula $L_{1},L_{2}$
+\end_inset
+
+ lineas rectas no paralelas en 
+\begin_inset Formula $F$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{1,}C_{2}$
+\end_inset
+
+ círculos distintos en 
+\begin_inset Formula $F.$
+\end_inset
+
+ Entonces
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\begin_inset Formula $L_{1}\cap L_{2}=\emptyset$
+\end_inset
+
+ es un punto en el plano de 
+\begin_inset Formula $F.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\begin_inset Formula $L_{1}\cap L_{2}=\emptyset$
+\end_inset
+
+ o consiste en uno o dos puntos en el plano de 
+\begin_inset Formula $F(\sqrt{u})$
+\end_inset
+
+ para algún 
+\begin_inset Formula $u\in F$
+\end_inset
+
+, 
+\begin_inset Formula $(u\geq0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\begin_inset Formula $C_{1}\cap C_{2}=\textrm{\emptyset}$
+\end_inset
+
+ o consiste en uno o dos puntos en el plano de 
+\begin_inset Formula $F(\sqrt{u})$
+\end_inset
+
+ para algún 
+\begin_inset Formula $u\in F$
+\end_inset
+
+, 
+\begin_inset Formula $(u\geq0)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Un número real 
+\begin_inset Formula $c$
+\end_inset
+
+ se dice construible si el punto 
+\begin_inset Formula $(c,0)$
+\end_inset
+
+ puede ser localizado en el plano mediante una sucesión finita de construcciones
+ con regla y compás que comiencen en un punto con coordenadas enteras.
+ Claramente, el número 
+\begin_inset Formula $c$
+\end_inset
+
+ es construible si y sólo si se puede construir un segmento de longitud
+ 
+\begin_inset Formula $\left|c\right|$
+\end_inset
+
+.
+ Más aún, el punto 
+\begin_inset Formula $(c,d)$
+\end_inset
+
+ en el plano es construible si y sólo si 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son construibles.
+ Notemos que los enteros son claramente construibles; además se puede probar
+ los siguientes hechos:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Los números racionales son construibles.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ es construibles, entonces 
+\begin_inset Formula $\sqrt{c}$
+\end_inset
+
+ también lo es.
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son construibles, entonces 
+\begin_inset Formula $c\pm d,\, cd\,$
+\end_inset
+
+y 
+\begin_inset Formula $c/d\,(d\neq0)$
+\end_inset
+
+ son construibles, así los números construibles son un subcuerpo de los
+ números reales.
+\end_layout
+
+\begin_layout Proposition
+\begin_inset CommandInset label
+LatexCommand label
+name "prop:gradopar"
+
+\end_inset
+
+Si un número real 
+\begin_inset Formula $c$
+\end_inset
+
+ es construible, entonces 
+\begin_inset Formula $c$
+\end_inset
+
+ es algebraico de grado una potencia de 2 sobre el cuerpo 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de los racionales.
+\end_layout
+
+\begin_layout Proof
+\noindent
+Como los racionales son construibles, que un número 
+\begin_inset Formula $c$
+\end_inset
+
+ sea construible significa que el punto 
+\begin_inset Formula $(c,0)$
+\end_inset
+
+ puede ser ubicado mediante una sucesión finita de construcciones con regla
+ y compás que comiencen en un punto perteneciente al plano de 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+ El primer paso es la construcción de una recta o un círculo, los cuales
+ están determinados por dos puntos (en el caso del círculo el centro y el
+ radio) en el plano de 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+ Del mismo modo en las sucesivas etapas construimos una recta o un círculo,
+ a partir de puntos en el plano de 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ o puntos construidos en la etapa anterior.
+ Por el lema 1 el primer punto construido esta en cuerpo 
+\begin_inset Formula $\mathbb{Q}(\sqrt{u})$
+\end_inset
+
+, con 
+\begin_inset Formula $u\in\mathbb{Q}$
+\end_inset
+
+ o equivalentemente en el plano de 
+\begin_inset Formula $\mathbb{Q}(v)$
+\end_inset
+
+ con 
+\begin_inset Formula $v^{2}\in\mathbb{Q}$
+\end_inset
+
+.
+ Esta es una extensión de grado 1 o 2 sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+ El próximo punto construido esta en el plano 
+\begin_inset Formula $\mathbb{Q}(v,w)=\mathbb{Q}(v)(w)$
+\end_inset
+
+ con 
+\begin_inset Formula $w^{2}\in\mathbb{Q}(v)$
+\end_inset
+
+.
+ Luego de numero finitos de pasos tendremos 
+\begin_inset Formula $v_{\imath}^{2}\in\mathbb{Q}(v_{1,}v_{2},...,v_{\imath-1})$
+\end_inset
+
+ y 
+\begin_inset Formula $\left[\mathbb{Q}(v_{1},...,v_{\imath-1}):\mathbb{Q}(v_{1},...,v_{\imath}\right]=1$
+\end_inset
+
+ ó 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\begin_inset Formula $(2\leq\imath\leq n)$
+\end_inset
+
+.
+ El punto 
+\begin_inset Formula $(c,0)$
+\end_inset
+
+ construido mediante este proceso está en el plano de 
+\begin_inset Formula $F=\mathbb{Q}(v_{1},...,v_{n})$
+\end_inset
+
+.
+ Así 
+\begin_inset Formula $\left[F:\mathbb{Q}\right]$
+\end_inset
+
+ es una potencia de 2 y luego 
+\begin_inset Formula $c$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(c)$
+\end_inset
+
+
+\begin_inset Formula $\subset F$
+\end_inset
+
+ 
+\begin_inset space ~
+\end_inset
+
+implica que 
+\begin_inset Formula $\left[\mathbb{Q}(c):\mathbb{Q}\right]$
+\end_inset
+
+ divide a 
+\begin_inset Formula $\left[F:\mathbb{Q}\right]$
+\end_inset
+
+ y por lo tanto el grado de 
+\begin_inset Formula $\left[\mathbb{Q}(c):\mathbb{Q}\right]$
+\end_inset
+
+ de 
+\begin_inset Formula $c$
+\end_inset
+
+ sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ es una potencia de 2.
+\end_layout
+
+\begin_layout Corollary
+Un ángulo de 60° no puede ser trisecado por construcciones con regla y compás.
+\end_layout
+
+\begin_layout Proof
+Trisecar un ángulo dado 
+\begin_inset Formula $\theta$
+\end_inset
+
+ es equivalente a: dado 
+\begin_inset Formula $\cos\theta$
+\end_inset
+
+, construir 
+\begin_inset Formula $\cos\theta/3$
+\end_inset
+
+.
+ En efecto, tener un ángulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ es equivalente a tener el punto en la circunferencia unidad con ángulo
+ 
+\begin_inset Formula $\theta$
+\end_inset
+
+, es decir, a tener 
+\begin_inset Formula $(\cos\theta,\sin\theta$
+\end_inset
+
+), que es equivalente a tener sólo 
+\begin_inset Formula $\cos\theta$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+Consideremos 
+\begin_inset Formula $\theta=60\text{°}$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\cos\theta=1/2$
+\end_inset
+
+.
+ Tenemos la identidad :
+\begin_inset Formula 
+\[
+\cos\theta=4\cos^{3}\theta/3-3\cos\theta/3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+En este caso si 
+\begin_inset Formula $\beta=\cos20\text{°}$
+\end_inset
+
+, la fórmula queda
+\begin_inset Formula 
+\[
+4\beta^{3}-3\beta-1/2=0\Rightarrow8\beta^{3}-6\beta-1=0\Rightarrow(2\beta)^{3}-3(2\beta)-1=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Si 
+\begin_inset Formula $\alpha=2\beta$
+\end_inset
+
+, nos queda 
+\begin_inset Formula $\alpha^{3}-3\alpha-1=0$
+\end_inset
+
+.
+ Construir 
+\begin_inset Formula $\beta$
+\end_inset
+
+ es equivalente a construir 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, pero 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ es raiz del polinomio 
+\begin_inset Formula $f=x^{3}-3x-1$
+\end_inset
+
+ de grado 
+\begin_inset Formula $3$
+\end_inset
+
+ que es irreducible sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+ Tenemos entonces 
+\begin_inset Formula $\left[\mathbb{Q}(\alpha):\mathbb{Q}\right]=3$
+\end_inset
+
+, luego 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ no es construible por proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:gradopar"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Corollary
+Es imposible con regla y compás la construcción para duplicar un cubo de
+ longitud de lado 1 .
+\end_layout
+
+\begin_layout Proof
+Para duplicar el cubo unitario tendríamos que construir 
+\begin_inset Formula $\sqrt[3]{2}$
+\end_inset
+
+ a partir de 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+, pero 
+\begin_inset Formula $\left[\mathbb{Q}(\sqrt[3]{2}):\mathbb{Q}\right]=3$
+\end_inset
+
+ que no es potencia de dos, por lo que por proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:gradopar"
+
+\end_inset
+
+, no es construible.
+\end_layout
+
+\begin_layout Corollary
+Es imposible cuadrar un circulo con construcciones de regla y compás.
+ 
+\end_layout
+
+\begin_layout Proof
+Para construir un cuadrado con misma área que un círculo de diámetro 1,
+ tendríamos que construir 
+\begin_inset Formula $\sqrt{\pi}$
+\end_inset
+
+.
+ Pero si 
+\begin_inset Formula $\sqrt{\pi}$
+\end_inset
+
+ fuera algebraico, también 
+\begin_inset Formula $\pi$
+\end_inset
+
+ sería algebraico.
+ En efecto, si consideramos 
+\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\pi)\subset\mathbb{Q}(\sqrt{\pi})$
+\end_inset
+
+, entonces la transitividad de grados nos dice 
+\begin_inset Formula $\left[\mathbb{Q}(\sqrt{\pi}):\mathbb{Q}\right]=\left[\mathbb{Q}(\sqrt{\pi}):\mathbb{Q}(\pi)\right]\left[\mathbb{Q}(\pi):\mathbb{Q}\right]$
+\end_inset
+
+.
+ Suponiendo el lado izquierdo finito, se tendría 
+\begin_inset Formula $\left[\mathbb{Q}(\pi):\mathbb{Q}\right]<\infty$
+\end_inset
+
+, absurdo.
+ 
+\end_layout
+
+\begin_layout Section
+Teorema Fundamental
+\end_layout
+
+\begin_layout Standard
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ un cuerpo.
+ El conjunto de 
+\begin_inset Formula $Aut\, F$
+\end_inset
+
+ de los todos los automorfismos 
+\begin_inset Formula $F\rightarrow F$
+\end_inset
+
+ forman un grupo bajo las operaciones de composición de funciones.
+ En general, no es abeliano.
+ Fue un descubrimiento notable de Galois que muchas preguntas acerca de
+ que los cuerpos son, de hecho, equivalentes a las preguntas de teoría de
+ grupos determinados por grupos de automorfismos de cuerpos.
+ Cuando surgen estas preguntas, que implican generalmente no solo a 
+\begin_inset Formula $F$
+\end_inset
+
+, sino también a un subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ En otras palabras, nos ocupamos de las extensiones de cuerpo.
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de un cuerpo
+\begin_inset Formula $K$
+\end_inset
+
+ , la estructura de 
+\begin_inset Formula $F$
+\end_inset
+
+ como un 
+\begin_inset Formula $K$
+\end_inset
+
+ -espacio vectorial tiene mucha significancia.
+ Por lo tanto, parece natural considerar los automorfismos de 
+\begin_inset Formula $F$
+\end_inset
+
+ que también son 
+\begin_inset Formula $K$
+\end_inset
+
+-module maps.
+ Es evidente que el conjunto de todos los automorfismos, es un subgrupo
+ de 
+\begin_inset Formula $Aut\, F$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Definition
+Sean 
+\begin_inset Formula $E$
+\end_inset
+
+ y 
+\begin_inset Formula $F$
+\end_inset
+
+ extensiones de cuerpos de un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Un función no nula 
+\begin_inset Formula $\sigma:E\rightarrow F$
+\end_inset
+
+ que es tanto un cuerpo y un 
+\begin_inset Formula $K$
+\end_inset
+
+-homomorfismo módulo se denomina un 
+\begin_inset Formula $K$
+\end_inset
+
+-homomorfismo.
+ Del mismo modo, si un automorfismo de cuerpos 
+\begin_inset Formula $\sigma\in Aut\, F$
+\end_inset
+
+ es un 
+\begin_inset Formula $K-$
+\end_inset
+
+homomorfismo, entonces 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ se llama un 
+\begin_inset Formula $K-$
+\end_inset
+
+automorfismo de 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ El grupo de todos los 
+\begin_inset Formula $K-$
+\end_inset
+
+automorfismo de 
+\begin_inset Formula $F$
+\end_inset
+
+ se llaman el grupo de Galois de 
+\begin_inset Formula $F$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K,$
+\end_inset
+
+ y se denota 
+\begin_inset Formula $Aut_{K}\, F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Extensiones Ciclotómicas
+\end_layout
+
+\begin_layout Standard
+Vamos a examinar los cuerpos de división del polinomio 
+\begin_inset Formula $x^{n}-1_{K}$
+\end_inset
+
+, con especial atención al caso 
+\begin_inset Formula $K=\mathbb{Q}$
+\end_inset
+
+.
+ Estos cuerpos de división(descomposición) resultan ser las extensiones
+ abelianas cuyo grupos de Galois son bien conocidos.Un cuerpo 
+\begin_inset Formula $F$
+\end_inset
+
+ de descomposición(división) sobre un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+ de 
+\begin_inset Formula $x^{n}-1_{K}\in K\left[x\right]$
+\end_inset
+
+,(cuando 
+\begin_inset Formula $n\geq1$
+\end_inset
+
+) se llama una extensión ciclotómica de orden 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Si la característica de 
+\begin_inset Formula $K=p\neq0$
+\end_inset
+
+ y 
+\begin_inset Formula $n=mp^{t}$
+\end_inset
+
+ con 
+\begin_inset Formula $(p,m)=1$
+\end_inset
+
+, entonces 
+\begin_inset Formula $x^{n}-1_{K}=(x^{m}-1)^{p^{t}}$
+\end_inset
+
+(EJERCICIO) de modo que una extensión ciclotomica de orden 
+\begin_inset Formula $n$
+\end_inset
+
+ coincide con una de orden 
+\begin_inset Formula $m$
+\end_inset
+
+.
+ Por lo general se supone que la característica de 
+\begin_inset Formula $K$
+\end_inset
+
+ no divide a 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La dimensión de una extensión cuerpo ciclotómica de orden 
+\begin_inset Formula $n$
+\end_inset
+
+ está relacionada con la función de Euler 
+\begin_inset Formula $\varphi$
+\end_inset
+>>>>>>> e1330aa522ae368a2ea3caae67f7ae1e6eababc0
+
+ de la elemental de números,
 \end_layout
 
 \end_body

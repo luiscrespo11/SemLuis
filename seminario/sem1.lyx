@@ -98,7 +98,7 @@ theorems-ams
 \use_esint 1
 \use_mhchem 1
 \use_mathdots 1
-\cite_engine basic
+\cite_engine natbib_numerical
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -169,7 +169,7 @@ Use the official terms and title page layout instead of this one!
 \end_layout
 
 \begin_layout Title
-El Título
+Justificación algebraica de las construcciones con regla y compás 
 \end_layout
 
 \begin_layout Subtitle
@@ -179,7 +179,17 @@ El subtítulo
 \end_layout
 
 \begin_layout Author
+<<<<<<< HEAD
 Mi nombre
+=======
+Luis Fernando Crespo
+\end_layout
+
+\begin_layout Date
+
+\lang english
+Date (optional)
+>>>>>>> e1330aa522ae368a2ea3caae67f7ae1e6eababc0
 \end_layout
 
 \begin_layout Publishers
@@ -865,12 +875,10 @@ selectlanguage{spanish}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "thesisExample"
-options "alpha"
+options "apalike"
 
 \end_inset
 

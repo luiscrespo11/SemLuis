@@ -149,6 +149,90 @@ Si
  
 \end_layout
 
+\begin_layout Example
+\begin_inset Formula $\phantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]=2$
+\end_inset
+
+; ya que cada 
+\begin_inset Formula $\alpha\in\mathbb{C}$
+\end_inset
+
+ admite una única expresión 
+\begin_inset Formula $\alpha=a+b.i$
+\end_inset
+
+ con 
+\begin_inset Formula $i^{2}=1$
+\end_inset
+
+ y 
+\begin_inset Formula $a,b\in\mathbb{R}$
+\end_inset
+
+, lo cual significa que 
+\begin_inset Formula $\left\{ 1,i\right\} $
+\end_inset
+
+ constituye una base de 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+ como 
+\begin_inset Formula $\mathbb{R}-$
+\end_inset
+
+espacio vectorial.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $\left[\mathbb{R}:\mathbb{Q}\right]$
+\end_inset
+
+ son extensiones no finitas.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left[\mathbb{Q}(\sqrt{2}):\mathbb{Q}\right]=2$
+\end_inset
+
+ 
+\begin_inset space ~
+\end_inset
+
+,
+\begin_inset Formula $\mathbb{Q}(\sqrt{2})=\left\{ a+b\sqrt{2},a,b\in\mathbb{Q}\right\} $
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $B=\left\{ 1,\sqrt{2}\right\} $
+\end_inset
+
+ generan 
+\begin_inset Formula $\mathbb{Q}\sqrt{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Theorem*
 \begin_inset CommandInset label
 LatexCommand label
@@ -333,7 +417,7 @@ Es linealmente independiente: Supongamos que
 \end_layout
 
 \begin_layout Standard
-En la situacion que 
+En la situación que 
 \begin_inset Formula $K\subset E\subset F$
 \end_inset
 
@@ -376,7 +460,7 @@ subcuerpo generado
 \begin_inset Formula $X$
 \end_inset
 
- es la interseccion de todos los subcuerpos de 
+ es la intersección de todos los subcuerpos de 
 \begin_inset Formula $F$
 \end_inset
 
@@ -389,7 +473,7 @@ subcuerpo generado
 \begin_inset Formula $F$
 \end_inset
 
- es una extension de cuerpos de 
+ es una extensión de cuerpos de 
 \begin_inset Formula $K$
 \end_inset
 
@@ -586,6 +670,91 @@ Una extensión puede ser simple aunque aparentemente esté́ generada por un
 \end_inset
 
  .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\sqrt{2},\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+ por lo tanto 
+\begin_inset Formula $(\sqrt{2}+\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+, además 
+\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+ por lo que 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2}+\sqrt{3})\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proposition
+Toda extensión finita es algebraica.
+\end_layout
+
+\begin_layout Corollary
+Sea 
+\begin_inset Formula $F/K$
+\end_inset
+
+ una extensión y sea 
+\begin_inset Formula $\alpha\in F$
+\end_inset
+
+ un elemento algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Entonces la extensión 
+\begin_inset Formula $K(\alpha)/K$
+\end_inset
+
+ es algebraica.
+\end_layout
+
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F/K$
+\end_inset
+
+ una extensión de cuerpos.
+ Entonces el conjunto 
+\begin_inset Formula 
+\[
+E=\left\{ u\in F/u\, es\, algebraico\, sobre\, K\right\} 
+\]
+
+\end_inset
+
+ es un subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
+\begin_inset Formula $K$
+\end_inset
+
+.(
+\begin_inset Formula $E$
+\end_inset
+
+ se llama la 
+\series bold
+clausura algebraica 
+\series default
+de 
+\begin_inset Formula $K$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -1235,8 +1404,8 @@ Para construir un cuadrado con misma área que un círculo de diámetro 1,
  
 \end_layout
 
-\begin_layout Subsection
-Teorema fundamental
+\begin_layout Section
+Teorema Fundamental
 \end_layout
 
 \begin_layout Standard
@@ -1253,8 +1422,57 @@ Sea
 \begin_inset Formula $F\rightarrow F$
 \end_inset
 
- forman un grupo bajo las operaciones de composicion de funciones.
+ forman un grupo bajo las operaciones de composición de funciones.
  En general, no es abeliano.
+ Fue un descubrimiento notable de Galois que muchas preguntas acerca de
+ que los cuerpos son, de hecho, equivalentes a las preguntas de teoría de
+ grupos determinados por grupos de automorfismos de cuerpos.
+ Cuando surgen estas preguntas, que implican generalmente no solo a 
+\begin_inset Formula $F$
+\end_inset
+
+, sino también a un subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ En otras palabras, nos ocupamos de las extensiones de cuerpo.
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de un cuerpo
+\begin_inset Formula $K$
+\end_inset
+
+ , la estructura de 
+\begin_inset Formula $F$
+\end_inset
+
+ como un 
+\begin_inset Formula $K$
+\end_inset
+
+ -espacio vectorial tiene mucha significancia.
+ Por lo tanto, parece natural considerar los automorfismos de 
+\begin_inset Formula $F$
+\end_inset
+
+ que también son 
+\begin_inset Formula $K$
+\end_inset
+
+-module maps.
+ Es evidente que el conjunto de todos los automorfismos, es un subgrupo
+ de 
+\begin_inset Formula $Aut\, F$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Definition
@@ -1271,11 +1489,100 @@ Sean
 \end_inset
 
 .
- Un mapeo distint
+ Un función no nula 
+\begin_inset Formula $\sigma:E\rightarrow F$
+\end_inset
+
+ que es tanto un cuerpo y un 
+\begin_inset Formula $K$
+\end_inset
+
+-homomorfismo módulo se denomina un 
+\begin_inset Formula $K$
+\end_inset
+
+-homomorfismo.
+ Del mismo modo, si un automorfismo de cuerpos 
+\begin_inset Formula $\sigma\in Aut\, F$
+\end_inset
+
+ es un 
+\begin_inset Formula $K-$
+\end_inset
+
+homomorfismo, entonces 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ se llama un 
+\begin_inset Formula $K-$
+\end_inset
+
+automorfismo de 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ El grupo de todos los 
+\begin_inset Formula $K-$
+\end_inset
+
+automorfismo de 
+\begin_inset Formula $F$
+\end_inset
+
+ se llaman el grupo de Galois de 
+\begin_inset Formula $F$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K,$
+\end_inset
+
+ y se denota 
+\begin_inset Formula $Aut_{K}\, F$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Subsection
-Extenciones Ciclotómicas
+\begin_layout Section
+Extensiones Ciclotómicas
+\end_layout
+
+\begin_layout Standard
+Vamos a examinar los cuerpos de división del polinomio 
+\begin_inset Formula $x^{n}-1_{K}$
+\end_inset
+
+, con especial atención al caso 
+\begin_inset Formula $K=\mathbb{Q}$
+\end_inset
+
+.
+ Estos cuerpos de división(descomposición) resultan ser las extensiones
+ abelianas cuyo grupos de Galois son bien conocidos.Un cuerpo 
+\begin_inset Formula $F$
+\end_inset
+
+ de descomposición(división) sobre un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+ de 
+\begin_inset Formula $x^{n}-1_{K}\in K\left[x\right]$
+\end_inset
+
+,(cuando 
+\begin_inset Formula $n\geq1$
+\end_inset
+
+) se llama una extensión ciclotómica de orden 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ 
 \end_layout
 
 \end_body
