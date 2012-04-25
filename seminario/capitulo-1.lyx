@@ -230,7 +230,6 @@ leftmark
 Introducción
 \end_layout
 
-<<<<<<< HEAD
 \begin_layout Section
 Primera Sección
 \end_layout
@@ -242,7 +241,7 @@ Todo lo que va en esta sección
 \begin_layout Section
 Segunda Sección
 \end_layout
-=======
+
 \begin_layout Definition
 Un cuerpo 
 \begin_inset Formula $F$
@@ -1901,9 +1900,9 @@ La dimensión de una extensión ciclotómica de orden
  está relacionada con la función de Euler 
 \begin_inset Formula $\varphi$
 \end_inset
->>>>>>> e1330aa522ae368a2ea3caae67f7ae1e6eababc0
 
- de la teoría elemental de números, que asigna a cada entero positivo 
+>>>>>>> e1330aa522ae368a2ea3caae67f7ae1e6eababc0 de la teoría elemental
+ de números, que asigna a cada entero positivo 
 \begin_inset Formula $n$
 \end_inset
 
@@ -2103,16 +2102,7 @@ Sea
 \begin_inset Formula $\zeta=\sigma^{-1}\sigma(\zeta)=\zeta^{i.j}.$
 \end_inset
 
- Luego kr ≡ 1 (mod n) y por lo tanto k ∈ Zn es una unidad.
- ( k 7→ k es la proyecci´on can´onica al cociente).
- La funci´on σ 7→ k deﬁne un monomorﬁsmo (es claro que es morﬁsmo; para
- ver que es monomorﬁsmo supongamos k = 1, luego σ(ζ) = ζ y as´ı σ = id)
- f de G(F/K) en el grupo abeliano multiplicativo de las unidades en el anillo
- Zn (que tiene orden ϕ(n)).
- Por lo tanto, G(F/K) =∼ Im f es abeliano de orden d que divide a ϕ(n).
- Por el teorema 2.10 tenemos [F : K] = d.
- Si n es primo, entonces Zn es cuerpo y G(F/K) =∼ Im f es c´ıclico por la
- proposici´on 3.13.
+ 
 \end_layout
 
 \end_body
