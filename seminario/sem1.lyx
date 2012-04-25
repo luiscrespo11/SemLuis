@@ -158,8 +158,6 @@ Seminario para obtener el título de Profesora en Matemática
 status open
 
 \begin_layout Plain Layout
-
-\lang english
 Use the official terms and title page layout instead of this one!
 \end_layout
 
@@ -173,23 +171,11 @@ Justificación algebraica de las construcciones con regla y compás
 \end_layout
 
 \begin_layout Subtitle
-
-\lang english
 El subtítulo
 \end_layout
 
 \begin_layout Author
-<<<<<<< HEAD
-Mi nombre
-=======
 Luis Fernando Crespo
-\end_layout
-
-\begin_layout Date
-
-\lang english
-Date (optional)
->>>>>>> e1330aa522ae368a2ea3caae67f7ae1e6eababc0
 \end_layout
 
 \begin_layout Publishers
@@ -235,7 +221,11 @@ Facultad de Ciencias Exactas
 \begin_inset Newline newline
 \end_inset
 
+
+\lang spanish
 Departamento de Matemáticas
+\lang english
+
 \begin_inset Newline newline
 \end_inset
 
@@ -249,7 +239,6 @@ Departamento de Matemáticas
 \begin_layout Lowertitleback
 
 \series bold
-\lang english
 Director
 \series default
 
@@ -318,14 +307,10 @@ xx.yy.zzzz
 \end_layout
 
 \begin_layout Dedication
-
-\lang english
 A mis queridos ......
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -659,6 +644,8 @@ status open
 
 \end_inset
 
+
+\lang spanish
 Agradecimientos
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -696,13 +683,13 @@ Acknowledgments
 status open
 
 \begin_layout Plain Layout
-
-\lang english
 Agradecimientos
 \end_layout
 
 \end_inset
 
+
+\lang spanish
 
 \begin_inset Note Note
 status collapsed
@@ -774,9 +761,9 @@ filename "Appendix.lyx"
 status open
 
 \begin_layout Plain Layout
-
+Appendix is of course optiona
 \lang english
-Appendix is of course optional
+l
 \end_layout
 
 \end_inset
@@ -819,13 +806,37 @@ rightmark
 \end_inset
 
 
+\lang spanish
+
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
+remove
 \lang english
-remove the chapter from the header line
+ 
+\lang spanish
+the
+\lang english
+ 
+\lang spanish
+chapter
+\lang english
+ 
+\lang spanish
+from
+\lang english
+ 
+\lang spanish
+the
+\lang english
+ 
+\lang spanish
+header
+\lang english
+ 
+\lang spanish
+line
 \end_layout
 
 \end_inset
@@ -864,9 +875,23 @@ leftmark
 status open
 
 \begin_layout Plain Layout
-
+restore
 \lang english
-restore the right header line
+ 
+\lang spanish
+the
+\lang english
+ 
+\lang spanish
+right
+\lang english
+ 
+\lang spanish
+header
+\lang english
+ 
+\lang spanish
+line
 \end_layout
 
 \end_inset
@@ -924,6 +949,8 @@ status open
 
 \end_inset
 
+
+\lang spanish
 Nomenclature
 \begin_inset Note Note
 status collapsed
@@ -948,14 +975,10 @@ Nomenclature
 \end_layout
 
 \begin_layout Right Header
-
-\lang english
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
-
-\lang english
 Nomenclature
 \end_layout
 
@@ -979,10 +1002,10 @@ width "2.5cm"
 status open
 
 \begin_layout Plain Layout
-
-\lang english
 The width of the nomenclature entries can be changed by clicking on the
- nomenclature inset.
+ nomenclature inset
+\lang english
+.
 \end_layout
 
 \end_inset
