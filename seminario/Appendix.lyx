@@ -1,5 +1,5 @@
-#LyX 2.0.0svn created this file. For more info see http://www.lyx.org/
-\lyxformat 410
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass scrbook
@@ -60,6 +60,7 @@ customHeadersFooters
 \end_modules
 \maintain_unincluded_children false
 \language english
+\language_package default
 \inputencoding auto
 \fontencoding global
 \font_roman lmodern
@@ -125,6 +126,7 @@ customHeadersFooters
 \tracking_changes false
 \output_changes false
 \html_math_output 0
+\html_css_as_file 0
 \html_be_strict false
 \end_header
 
@@ -266,19 +268,22 @@ thepage
 \end_layout
 
 \begin_layout Chapter
-Title of the first appendix chapter
+Título del primer apéndice
 \end_layout
 
 \begin_layout Section
-Overview
+Revisión
 \end_layout
 
 \begin_layout Standard
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla b
+\end_layout
+
+\begin_layout Standard
+la bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla roughness parameter 
+ bla bla bla bla bla bla bla bla bla bla roughness parameter 
 \begin_inset Formula $R_{a}$
 \end_inset
 
@@ -314,7 +319,7 @@ key "ISO10780"
 \end_layout
 
 \begin_layout Section
-The next section
+La siguiente sección
 \end_layout
 
 \begin_layout Standard

@@ -230,6 +230,19 @@ leftmark
 Introducción
 \end_layout
 
+<<<<<<< HEAD
+\begin_layout Section
+Primera Sección
+\end_layout
+
+\begin_layout Standard
+Todo lo que va en esta sección
+\end_layout
+
+\begin_layout Section
+Segunda Sección
+\end_layout
+=======
 \begin_layout Definition
 Un cuerpo 
 \begin_inset Formula $F$
@@ -1888,6 +1901,7 @@ La dimensión de una extensión ciclotómica de orden
  está relacionada con la función de Euler 
 \begin_inset Formula $\varphi$
 \end_inset
+>>>>>>> e1330aa522ae368a2ea3caae67f7ae1e6eababc0
 
  de la teoría elemental de números, que asigna a cada entero positivo 
 \begin_inset Formula $n$
