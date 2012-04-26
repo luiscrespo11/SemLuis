@@ -373,7 +373,7 @@ status open
 
 \lang english
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -402,7 +402,7 @@ status open
 
 \lang english
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -428,14 +428,25 @@ thepage
 \begin_layout Right Footer
 
 \lang english
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+
+\lang english
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 
 \backslash
 thepage
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
