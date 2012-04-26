@@ -1573,7 +1573,7 @@ Si
 \begin_inset Formula $\alpha$
 \end_inset
 
- es raiz del polinomio 
+ es raíz del polinomio 
 \begin_inset Formula $f=x^{3}-3x-1$
 \end_inset
 
@@ -1812,6 +1812,70 @@ automorfismo de
 .
 \end_layout
 
+\begin_layout Proposition
+Sea 
+\begin_inset Formula $n$
+\end_inset
+
+ un entero positivo y 
+\begin_inset Formula $K$
+\end_inset
+
+ un cuerpo que contiene una raíz 
+\begin_inset Formula $n$
+\end_inset
+
+-ésima de la unidad 
+\begin_inset Formula $\zeta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proposition
+Si 
+\begin_inset Formula $d\text{ |}n$
+\end_inset
+
+, entonces 
+\begin_inset Formula $\zeta^{n/d}=\eta$
+\end_inset
+
+ es una raiz d-esima de la unidad primitiva en 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proposition
+Si 
+\begin_inset Formula $d\text{ |}n$
+\end_inset
+
+ y 
+\begin_inset Formula $u$
+\end_inset
+
+ es una raíz no nula de 
+\begin_inset Formula $x^{d}-a\in K\left[x\right]$
+\end_inset
+
+, entonces 
+\begin_inset Formula $x^{d}-a$
+\end_inset
+
+ tiene 
+\begin_inset Formula $d$
+\end_inset
+
+ raíces distintas, 
+\begin_inset Formula $u,\eta u$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Extensiones Ciclotómicas
 \end_layout
@@ -1901,8 +1965,7 @@ La dimensión de una extensión ciclotómica de orden
 \begin_inset Formula $\varphi$
 \end_inset
 
->>>>>>> e1330aa522ae368a2ea3caae67f7ae1e6eababc0 de la teoría elemental
- de números, que asigna a cada entero positivo 
+ de la teoría elemental de números, que asigna a cada entero positivo 
 \begin_inset Formula $n$
 \end_inset
 
@@ -2098,11 +2161,89 @@ Sea
 \begin_inset Formula $\sigma^{-1}(\zeta)=\zeta^{j}$
 \end_inset
 
- asi que 
+ y 
 \begin_inset Formula $\zeta=\sigma^{-1}\sigma(\zeta)=\zeta^{i.j}.$
 \end_inset
 
- 
+ Luego 
+\begin_inset Formula $i.j\equiv1\,\,(mod\, n)$
+\end_inset
+
+ y por lo tanto 
+\begin_inset Formula $\overline{i}\in\mathbb{Z}_{n}$
+\end_inset
+
+ es una unidad.
+ (
+\begin_inset Formula $i\mapsto\overline{i}$
+\end_inset
+
+ es una proyección canónica del cociente).
+ La función 
+\begin_inset Formula $\sigma\mapsto\overline{k}$
+\end_inset
+
+ define un monoformismo (es claro que es morfismo; para ver que es monomorfismo
+ supongamos que 
+\begin_inset Formula $\overline{i}=\overline{1}$
+\end_inset
+
+, luego 
+\begin_inset Formula $\sigma(\zeta)=\zeta$
+\end_inset
+
+ y asi 
+\begin_inset Formula $\sigma=id$
+\end_inset
+
+ ) 
+\begin_inset Formula $f$
+\end_inset
+
+ de 
+\begin_inset Formula $Aut_{K}F$
+\end_inset
+
+ es el grupo abeliano multiplicativo de las unidades en el anillo 
+\begin_inset Formula $\mathbb{Z}_{n}$
+\end_inset
+
+ ( que tiene orden 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+.
+ Por lo tanto 
+\begin_inset Formula $Aut_{K}F\cong im\,\, f$
+\end_inset
+
+ es abeliano de orden 
+\begin_inset Formula $d$
+\end_inset
+
+ que divide 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+.
+ Por teorema 2.5 
+\begin_inset Formula $\left[F:K\right]=d$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $n$
+\end_inset
+
+ es primo, entonces 
+\begin_inset Formula $\mathbb{Z}_{n}$
+\end_inset
+
+ es cuerpo y 
+\begin_inset Formula $Aut_{K}F\cong im\,\, f$
+\end_inset
+
+ es cíclico por teorema 5.3
 \end_layout
 
 \end_body
