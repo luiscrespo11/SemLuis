@@ -531,22 +531,6 @@ filename "Resumen.lyx"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{fancy}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Left Header
 \begin_inset Argument
 status open
@@ -609,6 +593,10 @@ Enable page headers and add the chapter to the header line.
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Right Footer
 
 \end_layout
 
