@@ -271,6 +271,40 @@ Historia
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Dibujo.bmp
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Prueba de figura BMP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Entre los más famosos problemas planteados por los griegos de la Antigüedad
  están tres construcciones geométricas, a realizarse usando sólo una regla
  sin marcas para medir y un compás: 
@@ -307,19 +341,512 @@ La cuadratura del círculo: dado un círculo de área A, construir un cuadrado
 \end_layout
 
 \begin_layout Standard
-El requerimiento de usar sólo la regla y el compás para realizar estas o
- a construcciones, está asociado a la visión que tenía Platón de la recta
- y el círculo: estas dos eran las únicas figuras “perfectas.” ́ Muchas construcci
-ones geométricas son realizables con regla y compás: segmentos de rectas
- pueden ser divididos en cualquier número de segmentos de igual medida;
- se pueden trazar paralelas a una recta dada; se puede trazar la bisectriz
- de un ángulo dado; se puede construir un cuadrado de igual área que la
- de un polígono cualquiera dado.
+Muchas construcciones geométricas son realizables con regla y compás: segmentos
+ de rectas pueden ser divididos en cualquier número de segmentos de igual
+ medida; se pueden trazar paralelas a una recta dada; se puede trazar la
+ bisectriz de un ángulo dado; se puede construir un cuadrado de igual área
+ que la de un polígono cualquiera dado.
  En la búsqueda de una construcción con regla y compás que resolviera los
  tres problemas mencionados arriba, los griegos invirtieron todo su ingenio
  y esfuerzo, sin alcanzarla nunca, aunque, como suele suceder en estos casos,
  otros hallazgos se obtuvieron en el camino de esa búsqueda.
- Por ejemplo, Arquíımedes llegó a aproximar a 
+\end_layout
+
+\begin_layout Standard
+El requerimiento de usar sólo la regla y el compás para realizar estas construcc
+iones, está asociado a la visión que tenía Platón de la recta y el círculo:
+ estas dos eran las únicas figuras “perfectas”.
+ De la investigación de estos problemas se ocuparon numerosos pensadores
+ griegos del periodo helénico, el más antiguo de los cuales fue el filósofo
+ Anaxágoras, contemporáneo notable de Zenón y a quien se conoce como el
+ último de los celebrados filósofos de la escuela jónica, condenado a muerte
+ a la edad de 72 años por favorecer la causa persa.
+ Aun cuando su trabajo principal fue en filosofía, donde su primer postulado
+ era “la razón gobierna el mundo”, se interesó en matemáticas y escribió
+ sobre el problema de la cuadratura del círculo y sus perspectivas.
+ Cuando fue desterrado de Atenas declaró: “No soy yo quien ha perdido a
+ los atenienses, sino los atenienses quienes me pierden a mí”.
+ Anaxágoras llegó a Grecia en el siglo 
+\begin_inset Formula $V$
+\end_inset
+
+ a.C., en la gran era de Pericles.
+ Anaxágoras representaba claramente la motivación griega típica: el deseo
+ de saber.
+ En matemáticas también la actitud griega difería, de manera tajante, de
+ la de las primeras culturas potámicas.
+ El contraste era claro por las contribuciones generalmente atribuidas a
+ Tales y Pitágoras, en el siglo 
+\begin_inset Formula $V$
+\end_inset
+
+ a.C..
+ Pero su mente inquisidora lo llevó a involucrarse en el seguimiento de
+ problemas matemáticos.
+ En su libro Sobre el exilio que escribió en la primera centuria d.C., Plutarco
+ cuenta que mientras Anaxágoras estaba en la cárcel intentó “cuadrar el
+ círculo”.
+ Aquí tenemos la primera mención registrada de un problema que fascinaría
+ a los matemáticos por más de 2 000 años.
+ En una fecha posterior se entendió que el cuadrado requerido, de área exactamen
+te igual a la del disco, se construiría con el uso de regla y compás solamente.
+ Se trata de un tipo de matemáticas muy diferente a la de los egipcios y
+ babilonios.
+ No es la aplicación práctica de una ciencia de números a una faceta de
+ la experiencia de la vida, sino una cuestión teórica.
+ En el mundo griego las matemáticas estaban más estrechamente relacionadas
+ con la filosofía que con las cuestiones prácticas y esta tendencia persiste
+ hasta nuestros días.
+ Anaxágoras murió en 428 a.C..
+ La profunda impresión que causó esta catástrofe es quizás el origen de
+ un tercer problema matemático famoso: se sabe que una delegación de la
+ ciudad de Delos fue enviada al oráculo de Apolo en Delfos para preguntar
+ cómo se podría contrarrestar la plaga que invadió su ciudad y el oráculo
+ respondió que se debería doblar en volumen el altar a Apolo, que tenía
+ la forma de un cubo en su ciudad.
+ Se cuenta que los habitantes de Delos realmente doblaron las dimensiones
+ del altar pero esto no doblegó la plaga.
+ El altar, por supuesto, se había incrementado ocho veces su volumen, no
+ el doble.
+ Esto, de acuerdo con la leyenda, fue el origen del problema de la duplicación
+ del cubo, usualmente referido como el problema deliano o de Delos: dada
+ la esquina de un cubo, construya solamente con compás y regla, la orilla
+ de un segundo cubo que tenga el doble del volumen del primero.
+ 
+\end_layout
+
+\begin_layout Standard
+Matemáticos de diferentes periodos, incluido el nuestro, han mostrado la
+ conexión entre los tres problemas griegos y la moderna teoría de ecuaciones,
+ la cual involucra consideraciones que pertenecen a los dominios de la teoría
+ de grupos.
+ Hablar de las soluciones a estos tres problemas es hablar de la historia
+ de las matemáticas.
+ Su estudio se ha continuado a través de los siglos y las naciones.
+ Empecemos por referirnos a los dos primeros problemas, ya que a éstos,
+ a menudo, se les reducía a la búsqueda de dos segmentos de línea, dados
+ otros dos segmentos conocidos.
+ Es decir, a encontrar dos medias proporcionales.
+ Más aún, el problema de la duplicación del cubo es esencialmente el mismo
+ sólo que ahora los valores de los segmentos conocidos están relacionados
+ entre sí: uno es el doble del otro.
+ Este problema es una extensión de la búsqueda de la proporcional geométrica.
+ Pero la búsqueda de la doble proporcional geométrica, el problema que nos
+ ocupa, no puede ser resuelto con regla y compás únicamente.
+ Esto, por otra parte, condujo al descubrimiento de las secciones cónicas
+ y de algunas curvas cúbicas y cuárticas y al de una curva trascendental
+ llamada la cuadratriz, entre otras.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+La trisección del ángulo
+\end_layout
+
+\begin_layout Standard
+El problema de trisectar un ángulo, es decir, dividir un ángulo cualquiera
+ en tres partes iguales, es un problema que debió haber nacido naturalmente,
+ y si llamó la atención, fue sencillamente por la desconcertante discrepancia
+ entre la sencillez de sus términos y la imposibilidad de resolverlo con
+ los medios elementales de la geometría, imposibilidad tanto más llamativa
+ cuanto que con esos medios podía dividirse un ángulo cualquiera en 2, 4,
+ 8, … partes, y que también podían trisectarse algunos ángulos especiales
+ como el recto, y el llano.
+ Este problema difiere de los otros dos.
+ En primer lugar, no hay una historia real que relacione la forma en que
+ el problema se empezó a estudiar.
+ En segundo lugar, es un problema de un tipo distinto.
+ Uno no puede cuadrar ningún círculo ni duplicar ningún cubo y, sin embargo,
+ es posible trisectar ciertos ángulos.
+ El problema es trisectar un ángulo arbitrario usando solamente regla y
+ compás (lo cual es imposible).
+ Los antiguos griegos buscaron la forma de dividir ángulos en cualquier
+ relación requerida, ya que eso hubiera hecho posible la construcción de
+ un polígono regular de cualquier número de lados.
+ La construcción de polígonos regulares usando regla y compás era, ciertamente,
+ una de las ambiciones de los matemáticos griegos.
+ Sabemos que en el siglo 
+\begin_inset Formula $V$
+\end_inset
+
+ a.C., Hipócrates de Quío hizo la primera contribución de importancia a los
+ problemas de cuadrar el círculo y duplicar el cubo, pero también estudió
+ el problema de trisectar un ángulo.
+ Hay una forma directa de trisectar cualquier ángulo que era conocida por
+ Hipócrates.
+ Es una construcción muy fácil de llevar a cabo en la práctica pero que
+ no es posible hacer con una regla no graduada y un compás.
+ Y se dice que es una solución mecánica.
+ Existe también otra solución mecánica dada por Arquímedes que está muy
+ en relación con el espíritu de su trabajo Sobre espirales.
+ Pero a los griegos no les satisfacían las soluciones mecánicas.
+ Platón decía que procediendo de forma mecánica se perdía irremediablemente
+ lo mejor de la geometría.
+ El sofista Hipias de Elis utilizó una curva para resolver el problema de
+ la trisección de un ángulo.
+ Hipias es uno de los primeros innovadores en la evolución del pensamiento
+ griego de fines del siglo V a.C., a quien se debe la curva que más tarde
+ se denominó cuadratriz, ya que por obra de un matemático del siglo siguiente,
+ Dinostrato, se demostró que, con esa curva, podía rectificarse la circunferenci
+a o, lo que es lo mismo, resolver el problema equivalente a la cuadratura
+ del círculo.
+ Hipias fue un hombre de gran versatilidad que poseía la seguridad característic
+a de los últimos sofistas; enseñó poesía, gramática, historia, política,
+ arqueología, matemáticas y astronomía.
+ A él se atribuye un excelente trabajo sobre Homero, colecciones de literatura
+ griega y extranjera, tratados de arqueología y, además, decía ser competente
+ en matemáticas; eso permite identificarlo con el Hipias que descubrió la
+ cuadratriz, la primera curva diferente del círculo reconocida por los geómetras
+ griegos.
+ 
+\end_layout
+
+\begin_layout Standard
+Nicomedes, quien vivió en la misma época que Arquímedes, creó su famosa
+ curva concoide; es, quizás, el método más conocido de los intentos griegos
+ por trisectar un ángulo.
+ Y ésta es exactamente la curva necesaria para resolver las diferentes versiones
+ del problema de la trisección del ángulo.
+ Pero como en la práctica es más cómodo mover una regla que dibujar una
+ curva concoide, su método fue más de interés teórico que práctico.
+ Todas las aplicaciones de la concoide en la antigüedad fueron desarrolladas
+ por el mismo Nicomedes, pero no fue sino hasta el siglo 
+\begin_inset Formula $XVI$
+\end_inset
+
+, cuando se hicieron conocidos los trabajos de Pappus de Alejandría y de
+ Eutocio, en los que se describía la curva, que el interés en ella revivió.
+ Nicomedes también utilizó la cuadratriz, descubierta por Hipias, para resolver
+ el problema de la cuadratura del círculo.
+ 
+\end_layout
+
+\begin_layout Standard
+En la Colección matemática (o Sinagoga), escrita en el año 325 o 340 a.C.,
+ Pappus menciona que el problema de trisectar un ángulo fue también resuelto
+ por Apolonio usando “las cónicas”.
+ Pappus mismo da dos soluciones utilizando una hipérbola.
+ Las construcciones descritas por Pappus muestran el progreso hecho al pasar
+ de una solución mecánica a otra que involucra secciones cónicas: las soluciones
+ planas eran imposibles.
+ Sin embargo, la prueba de la imposibilidad tuvo que esperar las matemáticas
+ del siglo XIX.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+La cuadratura del círculo
+\series default
+\bar default
+ 
+\end_layout
+
+\begin_layout Standard
+El segundo problema famoso de la Antigüedad fue el de “cuadrar el círculo”.
+ Los primeros intentos fueron, por supuesto, empíricos.
+ Se hicieron mucho antes del periodo científico de la civilización griega
+ como aproximaciones crudas.
+ Los griegos no se contentaron con resultados empíricos, así que la rectificació
+n de la circunferencia y el problema relacionado de cuadrar el círculo atrajeron
+ la atención de sus filósofos.
+ El problema de construir un cuadrado de área igual a la de un círculo se
+ remonta al inicio de las matemáticas, cuando el escriba Ahmes, a quien
+ se situa en el siglo 
+\begin_inset Formula $II$
+\end_inset
+
+ a.C., en el papiro Rhind da una regla para construir un cuadrado de área
+ casi igual a la del círculo: cortar 
+\begin_inset Formula $1/9$
+\end_inset
+
+ del diámetro del círculo y construir el cuadrado con lo restante.
+ Esto da una buena aproximación para el número 
+\begin_inset Formula $\pi$
+\end_inset
+
+ de 
+\begin_inset Formula $3.1605$
+\end_inset
+
+, aunque todavía lejos de 3.14159.
+ Hay tres métodos para atacar el problema de la curvatura: primero, usando
+ la regla y el compás solamente; segundo, por medio de curvas planas superiores
+ y, tercero, por métodos como las series infinitas, que aproximaban el problema.
+ Los matemáticos griegos parecen haber encontrado la inutilidad del primer
+ método, aun cuando ellos no probaron que fuese imposible.
+ Con el segundo método tuvieron éxito, con el tercero fueron menos hábiles.
+ El problema de la cuadratura del círculo se originó en las matemáticas
+ griegas y pocas veces se entendió debidamente.
+ Pronto se popularizó, y no sólo entre los matemáticos.
+ Conocemos los trabajos de algunos de ellos —como Oenopides, Antífanes,
+ Brisón, Hipócrates e Hipias.
+ Hipócrates de Quio fue realmente el primero en usar una construcción plana
+ para encontrar un cuadrado con área igual a la de una figura con lados
+ circulares.
+ No obstante, Hipócrates estaba perfectamente consciente de que sus métodos
+ habían fallado para cuadrar el círculo.
+ A pesar de esto, fue el primero que realmente cuadró una figura curvilínea.
+ Construyó semicírculos en los tres lados de un triángulo recto isósceles
+ y mostró que la suma de las lunas así formadas es igual al área del triángulo
+ mismo: las famosas “lúnulas de Hipócrates”.
+ Al problema de la cuadratura como tal, su contribución no fue importante.
+ Las consideraciones de Hipócrates acerca de las lúnulas figuran en unos
+ comentarios de Simplicio, en la primera mitad del siglo VI, y serían transcripc
+iones de la historia de Eudemo de Rodas en cuyo caso constituirían el primer
+ documento escrito de la matemática griega.
+ Hipócrates puede considerarse como el primer matemático “profesional”.
+ Las contribuciones geométricas que se le atribuyen son importantes, destacándos
+e entre ellas las investigaciones relacionadas con el problema de la cuadratura
+ del círculo, con el cual están vinculadas sus célebres “lúnulas” cuadrables
+ y con el de la duplicación del cubo que él convierte en un problema de
+ geometría plana.
+ Según el testimonio de Proclo, se le considera como el primer redactor
+ de un texto de elementos de geometría.
+ El problema de la cuadratura del círculo, enfrentado por Hipócrates mediante
+ la búsqueda de figuras circulares cuadrables, fue enfocado por algunos
+ sofistas contemporáneos desde otro punto de vista que, infructuoso entonces,
+ resultó fértil más adelante.
+ Así se atribuye al sofista Antífanes el raciocinio siguiente: si se inscribe
+ en un círculo un cuadrado y después, bisectando los arcos respectivos,
+ se inscribe un octágono y así sucesivamente se llegará a un polígono cuyos
+ lados serán tan pequeños que el polígono podrá confundirse con el círculo
+ y, como todo polígono puede transformarse en un cuadrado equivalente, queda
+ demostrada la posibilidad de encontrar un cuadrado equivalente al círculo.
+ Parece ser que, otro sofista, Brisón, en el 450 a.
+ C., mejoró el argumento de Antífanes no solamente inscribiendo polígonos
+ en un círculo sino también circunscribiéndolos, y declaró que el círculo
+ es mayor que todos los polígonos inscritos y menor que los circunscritos,
+ afirmando, con razón, que el área del círculo está comprendida entre la
+ de los polígonos inscritos y circunscritos.
+ A él se atribuye el agregado erróneo de que el área del círculo estaba
+ dada por el valor medio proporcional entre las áreas de los cuadrados inscrito
+ y circunscrito; esto equivale a adoptar para 
+\begin_inset Formula $\pi$
+\end_inset
+
+ la grosera aproximación de 
+\begin_inset Formula $2\sqrt{2}=2.828$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Hipias y Dinostrato se asocian con el método de cuadrar el círculo utilizando
+ la curva llamada formadora de cuadrados o cuadratriz.
+ Aun cuando la curva es invención de Hipias, su aplicación para cuadrar
+ el círculo parece deberse a Dinostrato.
+ Sin embargo, esta curva se construye con métodos mecánicos y fue también
+ muy criticada por suponer, en primer lugar, como conocida la propiedad
+ buscada, ya que se requería saber la relación entre una línea y un arco
+ de círculo.
+ Está claro que Dinostrato nunca proclamó que la cuadratriz fuera un método
+ plano para cuadrar el círculo.
+ Nicomedes, muchos años más tarde, también usó la cuadratriz para cuadrar
+ el círculo.
+ Los antiguos griegos sabían, básicamente, que el círculo no podría cuadrarse
+ por métodos planos aun cuando no tuvieron posibilidad de probarlo.
+ La cuadratriz de Hipias es la primera curva conocida que se define cinemáticame
+nte, es decir, con un movimiento de rotación uniforme alrededor de algún
+ eje.
+ Posteriormente, a consecuencia de los trabajos de Arquímedes, quedó demostrada
+ la equivalencia entre los problemas de la rectificación de la circunferencia
+ y el de la cuadratura del círculo.
+ La siguiente contribución notable a la solución del problema de la cuadratura
+ del círculo fue la de Arquímedes en el 225 a.C.
+ Para probar su proposición inscribió y circunscribió polígonos regulares,
+ encontró sus áreas hasta para los de noventa y seis lados y mostró que
+ el área del círculo está entre estos resultados.
+ Estos límites, expresados en forma decimal moderna, son: 
+\begin_inset Formula $3.142857$
+\end_inset
+
+… y 
+\begin_inset Formula $3.140845$
+\end_inset
+
+… Si la notación actual y nuestros métodos para encontrar una raíz cuadrada
+ se hubiesen conocido, el resultado se hubiera aproximado más puesto que
+ los métodos geométricos permiten cualquier grado de aproximación.
+ Los romanos estaban poco interesados en obtener resultados exactos en temas
+ como éste, y no es de sorprender que Vitrubio hable de que la circunferencia
+ de una rueda de diámetro de cuatro pies sea de doce y medio pies, de aquí
+ que tomara el número 
+\begin_inset Formula $\pi$
+\end_inset
+
+ como 
+\begin_inset Formula $3\frac{1}{8}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+La duplicación del cubo
+\end_layout
+
+\begin_layout Standard
+Una historia del origen del tercer problema, el de la duplicación del cubo,
+ fue, como ya se dijo, que los habitantes de Delos recurrieron al oráculo
+ de Delfos para saber cómo contener la plaga que invadió su ciudad.
+ Se dice que el oráculo respondió que debían doblar en volumen el altar
+ de Apolo.
+ El altar era un cubo y el problema era el de su duplicación.
+ Puesto que problemas acerca del tamaño y forma de los altares aparecen
+ en las primeras manifestaciones de la literatura hindú, no es improbable
+ que éste se introdujera en Grecia desde el este quizás por medio de Pitágoras.
+ Era un problema familiar a los griegos en la quinta centuria a.C.
+ ya que Eratóstenes informa que Eurípides se refiere a él en una de sus
+ tragedias, la cual no se conoce a la fecha.
+ Los orígenes del problema de doblar el cubo pueden ser algo oscuros pero
+ no hay duda de que los griegos sabían, desde hacía tiempo, cómo resolver
+ el problema de duplicar el cuadrado.
+ La mención de los matemáticos del periodo helénico que se ocuparon de él
+ aparece brevemente expuesta en una carta de Eratóstenes enviada por éste
+ a Ptolomeo III, rey de Egipto, con una solución propia y hasta con un instrumen
+to con el cual se llevaba a cabo, prácticamente, la solución.
+ Esa carta expresa: “Se cuenta que uno de los antiguos poetas trágicos hiciese
+ aparecer en escena al rey Minos en el acto de ordenar la construcción de
+ una tumba para su hijo Glauco y que advirtiendo que la tumba tenía en cada
+ uno de sus lados una longitud de cien pies, exclamara: ‘Escaso espacio
+ en verdad concedéis a un sepulcro real; duplicadlo, conservando siempre
+ la forma cúbica, duplicad de inmediato cada uno de los lados’”.
+ Es evidente que esto es claramente un error, puesto que duplicando los
+ lados de una figura plana ésta se cuadruplica mientras que, si es sólida,
+ se octuplica.
+ Se agitó entonces entre los geómetras la cuestión de cómo podría duplicarse
+ cualquier figura sólida manteniendo su especie, mismo problema que nos
+ ocupa ahora.
+ “Se cuenta, además, que, más tarde, los habitantes de Delos, instados por
+ el oráculo a duplicar el altar de Apolo, encontraron las mismas dificultades.
+ Y algunos emisarios fueron enviados a los geómetras agrupados alrededor
+ de Platón, en la Academia, a fin de excitarlos en la búsqueda del deseo
+ del oráculo”.
+ Ellos se ocuparon con atención y se cree que el tercer problema lo resolvió
+ Hipócrates después de muchos titubeos y que fue él quien primero pensó
+ en una solución.
+ Encontró que si entre dos rectas, una doble de la otra, se insertan dos
+ medias proporcionales, se duplicará el cubo, con lo que se convirtió una
+ dificultad en otra no menor.
+ Él resuelve el problema al hallar la intersección de dos parábolas o de
+ una parábola y una hipérbola.
+ Hipócrates no parece haber ido más allá, ni buscado alguna solución al
+ problema plano.
+\end_layout
+
+\begin_layout Standard
+Arquitas mediante una construcción estereométrica: mediante las intersecciones
+ de una superficie cilíndrica, una superficie cónica y una superficie tórica.
+ Su demostración es geométrica y se funda en las propiedades que resultan
+ de las intersecciones de rectas y de circunferencias situadas en distintos
+ planos.
+ Es posible que Arquitas guiara a Menecmo a descubrir la solución por medio
+ de las cónicas.
+ Con esta solución de Arquitas se ha vinculado la solución del problema
+ de Delos que se atribuye a Eudoxo, admitiendo que éste resolviera el problema
+ mediante la intersección del círculo, base de la superficie cilíndrica,
+ con la proyección de la curva intersección de las superficies tórica y
+ cónica.
+ De esto no se tiene suficiente información: se dice de Eudoxo que era un
+ matemático demasiado bueno para conformarse con una mera adaptación del
+ método de Arquitas.
+ Eratóstenes nos dice también que Eudoxo, un matemático muy original, resolvió
+ el problema “por medio de las así llamadas líneas curvas”, pero qué fueron
+ esas líneas, no se sabe.
+ Se dice que Platón resolvió el problema por medio de un instrumento mecánico
+ pero que rechazó este método por no ser geométrico.
+ Es muy dudosa la solución que se atribuye a Platón.
+ Tal solución es muy simple, pues consiste en una determinación directa
+ de las dos medias proporcionales a la que Hipócrates había reducido el
+ problema.
+ Pero obtener esa determinación mediante un instrumento, hecho que contradice
+ abiertamente la concepción ideal que Platón tenía de la matemática, hace
+ poco verosímil que esa solución pertenezca al filósofo ateniense.
+ Joannes Philoponus, un filósofo cristiano de origen griego de la sexta
+ centuria, nos dice que Apolonio tenía un método para encontrar las dos
+ medias proporcionales.
+ Sin embargo, la construcción supone un postulado que cuestiona todo el
+ planteamiento.
+ Una de las soluciones más conocidas de la Antigüedad fue la de Diocles
+ en el 180 a.
+ C., quien utilizó una curva conocida como cisoide, según relata Arquímedes
+ en su libro Sobre la esfera y el cilindro.
+\end_layout
+
+\begin_layout Standard
+Aun cuando se inventaron muchos métodos para duplicar el cubo y se hicieron
+ numerosos descubrimientos notables en el intento, los antiguos griegos
+ nunca iban a encontrar la solución que realmente buscaban, esto es, una
+ que pudiera hacerse con regla y compás.
+ Nunca encontrarían tal construcción porque dicha construcción no puede
+ hacerse.
+ Sin embargo, no había forma de que los antiguos pudieran alguna vez probar
+ tal resultado, puesto que requería matemáticas que iban mucho más allá
+ de lo que ellos desarrollaron.
+ Es justo decir, sin embargo, que aun cuando ellos no pudieron probar que
+ una construcción de regla y compás era imposible, los mejores antiguos
+ matemáticos griegos supieron, intuitivamente, que en verdad era imposible.
+\end_layout
+
+\begin_layout Standard
+Varios autores posteriores han sugerido métodos para duplicar el cubo.
+ Entre ellos están Vieta, Descartes, Fermat, de Sluze y Newton.
+ Descartes consideró no solamente el problema de encontrar dos medias proporcion
+ales, conforme se requería para resolver el problema, sino también considerar
+ cuatro y Fermat llegó más lejos al considerar ciertas clases que involucran
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ medias proporcionales, una línea de trabajo que fue seguida posteriormente
+ por Clairaut.
+ En el siglo 
+\begin_inset Formula $XVII$
+\end_inset
+
+ Viviani resolvió el problema con la ayuda de una hipérbola de segundo orden.
+ Huygens, en 1654, dio tres métodos de solución.
+ Newton, en 1707, sugirió varios métodos pero prefirió uno en el cual se
+ hace uso de la limaçon de Pascal.
+ 
+\end_layout
+
+\begin_layout Standard
+Tanto la solución de Hipócrates al problema de Delos, que lo reduce, como
+ decía Eratóstenes, a otro de dificultad no menor, como la de Arquitas,
+ alarde de virtuosismo en la geometría espacial, apenas si merecen el nombre
+ de soluciones.
+ El reconocimiento de la imposibilidad de lograrla con regla y compás y
+ la invención de curvas especiales para resolver los tres problemas clásicos
+ señalan un progreso importante en la evolución del pensamiento griego,
+ que sólo consideraba perfectas la circunferencia y la esfera, figuras con
+ las que pretendía explicar el Universo.
+ Por último, conviene mencionar que algunas soluciones de estos problemas
+ clásicos de la geometría griega están vinculados con un tipo característico
+ de problemas griegos que hoy se designan con el nombre de “problemas de
+ inserción”.
+ Así, según una construcción que se remonta al siglo 
+\begin_inset Formula $V$
+\end_inset
+
+ a.C., puede reducirse el problema de la trisección del ángulo a un problema
+ de inserción.
+\end_layout
+
+\begin_layout Standard
+Por ejemplo, Arquíımedes llegó a aproximar a 
 \begin_inset Formula $\pi$
 \end_inset
 
@@ -354,6 +881,36 @@ ad de tales construcciones.
  
 \end_layout
 
+\begin_layout Standard
+AGREGAR BIBLIOGRAFIA :
+\end_layout
+
+\begin_layout Itemize
+Boyer, C.
+ B.
+ 1968.
+ History of Mathematics.
+ 
+\end_layout
+
+\begin_layout Itemize
+John Wiley.
+ Dirk J.
+ Struik.
+ 1980.
+ Historia concisa de las matemáticas.
+ México, IPN.
+\end_layout
+
+\begin_layout Itemize
+Rey Pastor, J.
+ y J.
+ Babini.
+ 1951.
+ Historia de la Matemática.
+ Argentina
+\end_layout
+
 \begin_layout Section
 Extensiones de Cuerpos
 \end_layout
@@ -363,7 +920,7 @@ Un cuerpo
 \begin_inset Formula $F$
 \end_inset
 
- se dice que es una extensión de cuerpo un 
+ se dice que es una extensión de un cuerpo 
 \begin_inset Formula $K$
 \end_inset
 
@@ -627,26 +1184,15 @@ status open
 
 \begin_layout Plain Layout
 
-
+$$
 \backslash
-begin{center}
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Formula $\gamma=\sum_{i=1,j=1}^{m.n}b_{ij}\beta_{j}\alpha_{i}$
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
+gamma=
 \backslash
-end{center}
+sum_{i=1,j=1}^{m.n}b_{ij}
+\backslash
+beta_{j}
+\backslash
+alpha_{i}$$
 \end_layout
 
 \end_inset
@@ -900,6 +1446,39 @@ con
 \end_layout
 
 \end_deeper
+\begin_layout Remark
+Una extensión puede ser simple aunque aparentemente esté́ generada por un
+ conjunto de varios elementos.
+ Así ejemplo,
+\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+ es simple porque como veremos, 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})=\mathbb{Q}(\sqrt{2}+\sqrt{3})$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\sqrt{2},\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+ por lo tanto 
+\begin_inset Formula $(\sqrt{2}+\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+, además 
+\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+ por lo que 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2}+\sqrt{3})\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Definition
 Sea 
 \begin_inset Formula $F$
@@ -1019,39 +1598,6 @@ Como ejemplos, tenemos que en
 
  es algebraico sobre 
 \begin_inset Formula $\mathbb{Q}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Remark
-Una extensión puede ser simple aunque aparentemente esté́ generada por un
- conjunto de varios elementos.
- Así ejemplo,
-\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})$
-\end_inset
-
- es simple porque como veremos un próximo ejemplo, 
-\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})=\mathbb{Q}(\sqrt{2}+\sqrt{3})$
-\end_inset
-
- .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $(\sqrt{2},\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
-\end_inset
-
- por lo tanto 
-\begin_inset Formula $(\sqrt{2}+\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
-\end_inset
-
-, además 
-\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
-\end_inset
-
- por lo que 
-\begin_inset Formula $\mathbb{Q}(\sqrt{2}+\sqrt{3})\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
 \end_inset
 
 .
@@ -1202,26 +1748,27 @@ status open
 
 \begin_layout Plain Layout
 
-
+$$K(
 \backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $K(\alpha)=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},con\,\, a_{i}\in K\right\} $
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
+alpha)=
 \backslash
-end{center}
+left
+\backslash
+{ a_{0}+a_{1}
+\backslash
+alpha+...+a_{n-1}
+\backslash
+alpha^{n-1},con
+\backslash
+,
+\backslash
+, a_{i}
+\backslash
+in K
+\backslash
+right
+\backslash
+}$$
 \end_layout
 
 \end_inset
@@ -1243,26 +1790,25 @@ status open
 
 \begin_layout Plain Layout
 
-
+$$A=
 \backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $A=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},con\,\, a_{i}\in K\right\} $
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
+left
 \backslash
-end{center}
+{ a_{0}+a_{1}
+\backslash
+alpha+...+a_{n-1}
+\backslash
+alpha^{n-1},con
+\backslash
+,
+\backslash
+, a_{i}
+\backslash
+in K
+\backslash
+right
+\backslash
+}$$
 \end_layout
 
 \end_inset
@@ -1384,7 +1930,7 @@ Suponiendo conocido que
 \begin_inset Formula $A,B\in K\left[x\right]$
 \end_inset
 
- tales que 
+ tales que
 \end_layout
 
 \begin_layout Proof
@@ -1393,26 +1939,7 @@ status open
 
 \begin_layout Plain Layout
 
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $1=AP+BQ_{2}$
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
+$$1=AP+BQ_{2}$$
 \end_layout
 
 \end_inset
@@ -1434,13 +1961,33 @@ Multiplicando por
 \end_inset
 
 se tiene
-\begin_inset Formula 
-\[
-\frac{Q_{1}(\alpha)}{Q_{2}(\alpha)}=Q_{1}(\alpha)B(\alpha)
-\]
+\end_layout
+
+\begin_layout Proof
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$$
+\backslash
+frac{Q_{1}(
+\backslash
+alpha)}{Q_{2}(
+\backslash
+alpha)}=Q_{1}(
+\backslash
+alpha)B(
+\backslash
+alpha)$$
+\end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Proof
 Por otra parte, al dividir 
 \begin_inset Formula $Q_{1}B$
 \end_inset
@@ -1559,7 +2106,11 @@ Si
 \begin_inset Formula $Q$
 \end_inset
 
- se llama recta en 
+ se llama 
+\series bold
+recta en
+\series default
+ 
 \begin_inset Formula $F$
 \end_inset
 
@@ -1571,7 +2122,11 @@ Si
 \begin_inset Formula $PQ$
 \end_inset
 
- se llama círculo en 
+ se llama 
+\series bold
+círculo en
+\series default
+ 
 \begin_inset Formula $F$
 \end_inset
 
@@ -1627,7 +2182,7 @@ Sea
 \begin_deeper
 \begin_layout Enumerate
 \paragraph_spacing onehalf
-\begin_inset Formula $L_{1}\cap L_{2}=\emptyset$
+\begin_inset Formula $L_{1}\cap L_{2}$
 \end_inset
 
  es un punto en el plano de 
@@ -1718,7 +2273,7 @@ o
 \begin_inset Formula $L$
 \end_inset
 
- es una linea en 
+ es una linea recta en 
 \begin_inset Formula $F$
 \end_inset
 
@@ -1728,6 +2283,25 @@ o
 
  se reduce al caso 
 \begin_inset Formula $2.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $2.$
+\end_inset
+
+ Supongo que 
+\begin_inset Formula $L_{1}$
+\end_inset
+
+ tiene la ecuación 
+\begin_inset Formula $dx+ey+f=0$
+\end_inset
+
+,
+\begin_inset Formula $(d,e,f\in F).$
 \end_inset
 
 
@@ -2334,7 +2908,7 @@ automorfismo de
 \end_layout
 
 \begin_layout Section
-Los cuerpos de división, clausura algebraica y normal
+Los cuerpos de descomposición, clausura algebraicas y normal
 \end_layout
 
 \begin_layout Standard
@@ -2475,6 +3049,557 @@ Sea
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:RaicesN"
+
+\end_inset
+
+Sea 
+\begin_inset Formula $D$
+\end_inset
+
+ un dominio de integridad contenido en otro dominio de integridad 
+\begin_inset Formula $E$
+\end_inset
+
+ y 
+\begin_inset Formula $f\in D\left[x\right]$
+\end_inset
+
+ un polinomio de grado 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $f$
+\end_inset
+
+ tiene a lo sumo 
+\begin_inset Formula $n$
+\end_inset
+
+ raíces distintas en 
+\begin_inset Formula $E$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Sea 
+\begin_inset Formula $c_{1},c_{2}....$
+\end_inset
+
+ las raíces distintas de 
+\begin_inset Formula $f$
+\end_inset
+
+ en 
+\begin_inset Formula $E$
+\end_inset
+
+ y por teorema 6.6 
+\begin_inset Formula $f(x)=q_{1}(x)(x_{1}-c_{1})$
+\end_inset
+
+, donde 
+\begin_inset Formula $0=f(c_{c})=q_{1}(c_{2})(c_{2}-c_{1})$
+\end_inset
+
+ por corolario 5.6 .
+ .
+ Ya que 
+\begin_inset Formula $c_{1}\neq c_{2}$
+\end_inset
+
+ y 
+\begin_inset Formula $E$
+\end_inset
+
+ es un dominio de integridad, 
+\begin_inset Formula $q_{1}(c_{2})=0$
+\end_inset
+
+.
+ Por lo tanto, 
+\begin_inset Formula $x-c_{2}$
+\end_inset
+
+ divide a 
+\begin_inset Formula $q_{2}$
+\end_inset
+
+ y 
+\begin_inset Formula $f(x)=q_{3}(x)(x-c_{2})(x-c_{1})$
+\end_inset
+
+.
+ Un argumento inductivo nos muestra que cuando 
+\begin_inset Formula $c_{1},...,c_{m}$
+\end_inset
+
+ son raíces distintas de 
+\begin_inset Formula $f$
+\end_inset
+
+ en 
+\begin_inset Formula $E$
+\end_inset
+
+, entonces 
+\begin_inset Formula $g_{m}=(x-c_{1})(x-c_{2})...(x-c_{m})$
+\end_inset
+
+ divide 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ Pero el grado 
+\begin_inset Formula $g_{m}=m$
+\end_inset
+
+ por teorema 6.1.
+ Por lo tanto 
+\begin_inset Formula $m\leq n$
+\end_inset
+
+ por teorema 6.1 de nuevo.
+\end_layout
+
+\begin_layout Theorem
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+, entonces las siguientes afirmaciones son equivalentes:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $F$
+\end_inset
+
+ es algebraica y Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $F$
+\end_inset
+
+ es separable sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $F$
+\end_inset
+
+ es el cuerpo de descomposición sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ de una conjunto 
+\begin_inset Formula $S$
+\end_inset
+
+de polinomios en 
+\begin_inset Formula $K\left[x\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $F$
+\end_inset
+
+ es un cuerpo de descomposición sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ de un conjunto 
+\begin_inset Formula $T$
+\end_inset
+
+ de polinomios en 
+\begin_inset Formula $K\left[x\right]$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Proof
+\begin_inset Formula $(i)\Rightarrow(ii)$
+\end_inset
+
+ y 
+\begin_inset Formula $(iii)$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $u\in F$
+\end_inset
+
+ y tiene polinomio irreducible 
+\begin_inset Formula $f\in K\left[x\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $u=u_{1},u_{2},..,u_{r}$
+\end_inset
+
+ son las raíces distinta de 
+\begin_inset Formula $f$
+\end_inset
+
+ que están en 
+\begin_inset Formula $F$
+\end_inset
+
+, entonces 
+\begin_inset Formula $n\leq r=grad\, f$
+\end_inset
+
+ por el teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:RaicesN"
+
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $\tau\in Aut_{K}F$
+\end_inset
+
+, entonces sabemos por el teorema 2.2 que 
+\begin_inset Formula $\tau$
+\end_inset
+
+ solo permuta los 
+\begin_inset Formula $u_{i}$
+\end_inset
+
+.
+ Esto implica que los coeficientes del polinomio mónico 
+\begin_inset Formula $g(x)=(x-u_{1})(x-u_{2})...(x-u_{r})\in F\left[x\right]$
+\end_inset
+
+ quedan fijos cuando le aplicamos cualquier 
+\begin_inset Formula $\tau\in Aut_{K}F$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $F$
+\end_inset
+
+es Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+, tenemos que 
+\begin_inset Formula $g\in K\left[x\right]$
+\end_inset
+
+.
+ Ahora 
+\begin_inset Formula $u=u_{1}$
+\end_inset
+
+ es una raíz de 
+\begin_inset Formula $g$
+\end_inset
+
+, por lo tanto 
+\begin_inset Formula $f|g$
+\end_inset
+
+.
+ Como además 
+\begin_inset Formula $g$
+\end_inset
+
+ es mónico y 
+\begin_inset Formula $deg\, g\leq deg\, f$
+\end_inset
+
+, debemos tener 
+\begin_inset Formula $g=f$
+\end_inset
+
+ .
+ Por lo tanto, todas las raíces de 
+\begin_inset Formula $f$
+\end_inset
+
+ son distintas y están en 
+\begin_inset Formula $F$
+\end_inset
+
+ .
+ Sea 
+\begin_inset Formula $\left\{ v_{i}|i\in I\right\} $
+\end_inset
+
+una base de 
+\begin_inset Formula $F$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ y para cada 
+\begin_inset Formula $i\in I$
+\end_inset
+
+ sea 
+\begin_inset Formula $f_{i}\in K\left[x\right]$
+\end_inset
+
+ el polinomio irreducible de 
+\begin_inset Formula $v_{i}$
+\end_inset
+
+ .
+ Pero tenemos que cada 
+\begin_inset Formula $f_{i}$
+\end_inset
+
+ es separable y se descompone en 
+\begin_inset Formula $F\left[x\right]$
+\end_inset
+
+.
+ Luego 
+\begin_inset Formula $F$
+\end_inset
+
+ es el a cuerpo de descomposición sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ de 
+\begin_inset Formula $S=\left\{ v_{i}|i\in I\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $(i)\Rightarrow(ii)$
+\end_inset
+
+ .
+ Sea 
+\begin_inset Formula $f\in S$
+\end_inset
+
+ y sea 
+\begin_inset Formula $g\in K\left[x\right]$
+\end_inset
+
+ un factor mónico irreducible de 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $f$
+\end_inset
+
+ se descompone en 
+\begin_inset Formula $F\left[x\right]$
+\end_inset
+
+, 
+\begin_inset Formula $g$
+\end_inset
+
+ debe ser un polinomio irreducible de algún 
+\begin_inset Formula $u\in F$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $F$
+\end_inset
+
+ es separable sobre 
+\begin_inset Formula $K$
+\end_inset
+
+, 
+\begin_inset Formula $g$
+\end_inset
+
+ es necesariamente separable.
+ Luego 
+\begin_inset Formula $F$
+\end_inset
+
+ es el cuerpo de descomposición sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ del conjunto 
+\begin_inset Formula $T$
+\end_inset
+
+ de polinomios separables que consisten en todos los factores mónicos irreducibl
+es (en 
+\begin_inset Formula $K\left[x\right]$
+\end_inset
+
+) de los polinomios en 
+\begin_inset Formula $S$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $(iii)\Rightarrow(i)$
+\end_inset
+
+.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ ya que cualquier cuerpo de descomposición sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ es una extensión algebraica.
+ Si 
+\begin_inset Formula $u\in F-K$
+\end_inset
+
+, entonces 
+\begin_inset Formula $u\in K(v_{1},...v_{n})$
+\end_inset
+
+, donde cada 
+\begin_inset Formula $v_{i}$
+\end_inset
+
+ es raíz de algún 
+\begin_inset Formula $f_{i}\in T$
+\end_inset
+
+ por definición de cuerpo de descomposición por teorema 1.3(falta poner).
+ Así 
+\begin_inset Formula $u\in E=K(u_{1},...u_{r})$
+\end_inset
+
+ donde los 
+\begin_inset Formula $u_{i}$
+\end_inset
+
+ son todas las raíces de 
+\begin_inset Formula $f_{1},...,f_{n}$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ Luego 
+\begin_inset Formula $\left[E:K\right]$
+\end_inset
+
+ es finito por teorema 1.12(falta poner).
+ Como cada 
+\begin_inset Formula $f_{i}$
+\end_inset
+
+ se descompone en 
+\begin_inset Formula $F$
+\end_inset
+
+, 
+\begin_inset Formula $E$
+\end_inset
+
+ es un cuerpo de descomposición sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ del conjunto finito 
+\begin_inset Formula $\left\{ f_{1},...,f_{n}\right\} $
+\end_inset
+
+, o equivalentemente de 
+\begin_inset Formula $f=f_{1}f_{2}...f_{n}$
+\end_inset
+
+.
+ Supongamos por ahora que teorema es cierto en dimensión finita.
+ 
+\begin_inset Formula $E$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ y por lo tanto existe 
+\begin_inset Formula $\tau\in Aut_{K}E$
+\end_inset
+
+ tal que 
+\begin_inset Formula $\tau(u)\neq U$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $F$
+\end_inset
+
+ es también el cuerpo de descomposición de 
+\begin_inset Formula $T$
+\end_inset
+
+ sobre 
+\begin_inset Formula $E$
+\end_inset
+
+, 
+\begin_inset Formula $\tau$
+\end_inset
+
+ se extiende a un elemento 
+\begin_inset Formula $\sigma\in Aut_{K}F$
+\end_inset
+
+ tal que 
+\begin_inset Formula $\sigma(u)=\tau(u)\neq u$
+\end_inset
+
+ por teorema 3.8(falta)
 \end_layout
 
 \begin_layout Proposition
