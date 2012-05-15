@@ -1,0 +1,320 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Proyecto de Trabajo
+\end_layout
+
+\begin_layout Section*
+Tema: Justificación Algebraica de las Construcciones con Regla y Cómpas.
+\end_layout
+
+\begin_layout Subsection*
+Subtema: Teoría de Galois
+\end_layout
+
+\begin_layout Subsubsection*
+Alumno: Luis Fernando Crespo
+\end_layout
+
+\begin_layout Subsubsection*
+Director: Antonio Noé Sángari
+\end_layout
+
+\begin_layout Section*
+Fundamentación
+\end_layout
+
+\begin_layout Standard
+Este trabajo propone estudiar las justifaciones algebraicas de las construccione
+s con regla y cómpas.
+ Para esto podremos énfasis especial en las Teoría de Extensiones de Cuerpos
+ de Galois.
+ Ya los trabajos de Gauss y Wantzel mostraron la relación estrecha entre
+ el Álgebra y las construcciones de polígonos regulares, pero los trabajos
+ de Galois dieron una estructura íntegra para el tratamiento general.
+\end_layout
+
+\begin_layout Section*
+Planteo del Problema
+\end_layout
+
+\begin_layout Standard
+Las construcciones con Regla y Compás siempre han llamado la atención de
+ los matemáticos y de los educadores de matemática, surgiendo de esta manera
+ múltiples interrogantes y resultados interesantes.
+ En cuanto a lo que en este trabajo nos proponemos, partamos de la pregunta:
+ ¿Será siempre posible construir un polígono regular (con regla y compás)?.
+ Y en los casos que fuera posible, ¿Cómo se construyen? Sabemos que la respuesta
+ a la primera pregunta es no y que los únicos polígonos regulares construibles,
+ son aquellos cuya descomposición en factores primos del número de lados
+ es un producto de primos de Fermat por potencias de dos.
+ Además, los primos de Fermat que aparecen, lo hacen solamente a la primera
+ potencia.
+ La segunda pregunta será respondida con algún detalle.
+ 
+\end_layout
+
+\begin_layout Standard
+La construcción de triángulos equiláteros, incluso de pentágonos regulares,
+ se encuentran con alguna frecuencia en textos básicos de Geometría, pero
+ no es tan común la construcción por ejemplo del Heptadecágono Regular.
+ Pero además de justificar algebraicamente las construcciones, estamos interesad
+os en realizarlas con asistencia del software libre Geogebra.
+ Esta decisión se fundamenta en la agilidad y eficiencia del software en
+ contraposición a los elementos de uso tradicional en geometría (regla y
+ compás).
+ 
+\end_layout
+
+\begin_layout Section*
+Objetivos
+\end_layout
+
+\begin_layout Itemize
+Fundamentar las Construcciones con Regla y Compás y específicamente, las
+ Construcciones de los Polígonos Regulares.
+\end_layout
+
+\begin_layout Itemize
+Establecer métodos que permitan realizar en forma eficiente las construcciones
+ con regla y compás con asistencia del Geogebra.
+\end_layout
+
+\begin_layout Section*
+Metodología
+\end_layout
+
+\begin_layout Standard
+Para la Fundamentación de las construcciones con regla y compás, necesitamos
+ estudiar las Extensiones de Cuerpo y la Teoría de Galois.
+\end_layout
+
+\begin_layout Section*
+Cronograma Tentativo
+\end_layout
+
+\begin_layout Subsection*
+Abril
+\end_layout
+
+\begin_layout Standard
+Análisis Bibliográfico Capítulo V del libro Álgebra de Hungerford
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hungerford"
+
+\end_inset
+
+, Galois Theory de Emil Artin
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Artin"
+
+\end_inset
+
+.
+ Estudio de los antecedentes históricos del tema a desarrollar Historia
+ de la Matemática de Jose Babini y Rey Pastor 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Babini y Rey Pastor"
+
+\end_inset
+
+y Historia de la mateática de ?????.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Mayo
+\end_layout
+
+\begin_layout Standard
+Continuación del estudio del Capítulo V de libro Algebra de Hungerford y
+ Galois Theory de Emil Artin.
+ Además del libro Galois Theory de Ian Steward
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Steward"
+
+\end_inset
+
+.
+ Estudio de la extensiones cuerpos.
+\end_layout
+
+\begin_layout Subsection*
+Junio
+\end_layout
+
+\begin_layout Standard
+Justificaciones algebraicas usando las extensiones de cuerpos para probar
+ que no es posible la construcciones con regla y cómpas de los problemas
+ griegos.
+\end_layout
+
+\begin_layout Subsection*
+Agosto
+\end_layout
+
+\begin_layout Standard
+Estudio de las cuerpos de descomposicion y clausuras algebraicas para el
+ estudio de las extensiones ciclotómicas.
+\end_layout
+
+\begin_layout Subsection*
+Septiembre
+\end_layout
+
+\begin_layout Standard
+Investigación sobre la metodología de construcción del polígono regular
+ de 257 lados.
+\end_layout
+
+\begin_layout Subsection*
+Octubre
+\end_layout
+
+\begin_layout Standard
+Análisis de la construcción de poligonos regulares con número de lados no
+ primos (por ejemplo: el pentadecágono regular o el polígono regular de
+ 51 lados).
+ 
+\end_layout
+
+\begin_layout Subsection*
+Noviembre
+\end_layout
+
+\begin_layout Standard
+Conclusiones del tema estudiado.
+ Redacción final del documento.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Iv"
+key "Ivorra"
+
+\end_inset
+
+Geometría.
+ Carlos Ivorra Castillo
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hu"
+key "Hungerford"
+
+\end_inset
+
+Álgebra
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ar"
+key "Artin"
+
+\end_inset
+
+ Galois Ther
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "St"
+key "Steward"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Br"
+key "Babini y Rey Pastor"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
