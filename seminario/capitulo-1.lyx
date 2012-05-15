@@ -266,8 +266,18 @@ thepage}
 Introducción
 \end_layout
 
+\begin_layout Standard
+Los problemas de las construcción ha sido un tema favorito de la geometría.
+ Entre todos los problemas de construcción, el de trazar con regla y compás
+ el polígono regular de 
+\begin_inset Formula $n$
+\end_inset
+
+ lados tiene quizás el máximo interés 
+\end_layout
+
 \begin_layout Section
-Historia
+Introducción Histórica
 \end_layout
 
 \begin_layout Standard
@@ -908,7 +918,7 @@ Rey Pastor, J.
  Babini.
  1951.
  Historia de la Matemática.
- Argentina
+ Argentin
 \end_layout
 
 \begin_layout Section
@@ -1446,39 +1456,309 @@ con
 \end_layout
 
 \end_deeper
-\begin_layout Remark
-Una extensión puede ser simple aunque aparentemente esté́ generada por un
- conjunto de varios elementos.
- Así ejemplo,
-\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\begin_layout Proposition
+Sea 
+\begin_inset Formula $F$
 \end_inset
 
- es simple porque como veremos, 
-\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})=\mathbb{Q}(\sqrt{2}+\sqrt{3})$
+ un cuerpo y 
+\begin_inset Formula $K$
+\end_inset
+
+ un subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+,y 
+\begin_inset Formula $u,v\in F$
 \end_inset
 
  .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $(\sqrt{2},\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
-\end_inset
-
- por lo tanto 
-\begin_inset Formula $(\sqrt{2}+\sqrt{3})\in\mathbb{Q}(\sqrt{2},\sqrt{3})$
-\end_inset
-
-, además 
-\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
-\end_inset
-
- por lo que 
-\begin_inset Formula $\mathbb{Q}(\sqrt{2}+\sqrt{3})\subset\mathbb{Q}(\sqrt{2},\sqrt{3})$
+ Entonces 
+\begin_inset Formula $K(u,v)=K(u)(v)$
 \end_inset
 
 .
 \end_layout
 
+\begin_layout Proof
+\begin_inset Formula $(\subset)$
+\end_inset
+
+
+\begin_inset Formula $K(u,v)$
+\end_inset
+
+ es el menor subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
+\begin_inset Formula $K$
+\end_inset
+
+,
+\begin_inset Formula $u$
+\end_inset
+
+ y 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ Pero 
+\begin_inset Formula $K(u)(v)$
+\end_inset
+
+ es un subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
+\begin_inset Formula $K$
+\end_inset
+
+, 
+\begin_inset Formula $u$
+\end_inset
+
+ y 
+\begin_inset Formula $v$
+\end_inset
+
+, luego 
+\begin_inset Formula $K(u,v)\subset K(u)(v)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $(\supset)$
+\end_inset
+
+
+\begin_inset Formula $K(u)(v)$
+\end_inset
+
+ es el menor subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ y 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ Pero 
+\begin_inset Formula $K(u,v)$
+\end_inset
+
+ es un subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ y 
+\begin_inset Formula $v$
+\end_inset
+
+, luego 
+\begin_inset Formula $K(u)(v)\subset K(u,v)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Theorem
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+, 
+\begin_inset Formula $u$
+\end_inset
+
+, 
+\begin_inset Formula $u_{i}\in F$
+\end_inset
+
+, y 
+\begin_inset Formula $X\subset F$
+\end_inset
+
+, entonces 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+El subanillo 
+\begin_inset Formula $K\left[u\right]$
+\end_inset
+
+ consiste en todos los elementos de la forma 
+\begin_inset Formula $f(u)$
+\end_inset
+
+, donde 
+\begin_inset Formula $f$
+\end_inset
+
+ es un polinomio con coeficientes en 
+\begin_inset Formula $K$
+\end_inset
+
+ ( es decir, 
+\begin_inset Formula $f\in K\left[x\right]$
+\end_inset
+
+);
+\end_layout
+
+\begin_layout Enumerate
+El subanillo 
+\begin_inset Formula $K\left[u_{1},...,u_{m}\right]$
+\end_inset
+
+ consiste en todos los elementos de la forma 
+\begin_inset Formula $g(u_{1},...,u_{m})$
+\end_inset
+
+, donde 
+\begin_inset Formula $g$
+\end_inset
+
+ es un polinomio en 
+\begin_inset Formula $m$
+\end_inset
+
+ indeterminadas con coeficientes en 
+\begin_inset Formula $K$
+\end_inset
+
+ ( es decir,
+\begin_inset Formula $g\in K\left[x_{1},...,x_{m}\right]$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+El subanillo 
+\begin_inset Formula $K\left[X\right]$
+\end_inset
+
+ consiste en todos los elementos de la forma 
+\begin_inset Formula $h(u_{1},...,u_{n})$
+\end_inset
+
+, donde cada 
+\begin_inset Formula $u_{i}\in X$
+\end_inset
+
+, 
+\begin_inset Formula $n$
+\end_inset
+
+ es un entero positivo , y 
+\begin_inset Formula $h$
+\end_inset
+
+ es un polinomio en 
+\begin_inset Formula $n$
+\end_inset
+
+ indeterminadas con coeficientes en 
+\begin_inset Formula $K$
+\end_inset
+
+ ( es decir, 
+\begin_inset Formula $n\in\mathbb{N},h\in K\left[x_{1},...,x_{n}\right]$
+\end_inset
+
+);
+\end_layout
+
+\begin_layout Enumerate
+El subcuerpo 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ consiste en todos los elementos de la forma 
+\begin_inset Formula $f(u)/g(u)=f(u)g(u)^{-1}$
+\end_inset
+
+, donde 
+\begin_inset Formula $f,g\in K\left[x\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $g(u)\neq0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+El subcuerpo 
+\begin_inset Formula $K(u_{1},...,u_{m})$
+\end_inset
+
+ consiste en todos elementos de la forma 
+\begin_inset Formula $h(u_{1},...,u_{m})/k(u_{1},...,u_{m})=h(u_{1},...,u_{m})k(u_{1},...,u_{m})^{-1}$
+\end_inset
+
+, donde 
+\begin_inset Formula $h,k\in K\left[x_{1},...,x_{m}\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $k(u,...,u_{m})\neq0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+El subcuerpo 
+\begin_inset Formula $K(X)$
+\end_inset
+
+ consiste en todos elementos de la forma 
+\begin_inset Formula $f(u_{1},...,u_{n})/g(u_{1},...,u_{n})=f(u_{1},...,u_{n})g(u_{1},...,u_{n})^{-1}$
+\end_inset
+
+, donde 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+,
+\begin_inset Formula $f,g\in K\left[x_{1},...,x_{n}\right]$
+\end_inset
+
+, 
+\begin_inset Formula $u_{1},...,u_{n}\in X$
+\end_inset
+
+ y 
+\begin_inset Formula $g(u_{1},...,u_{n})\neq0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Definition
 Sea 
 \begin_inset Formula $F$
@@ -1575,6 +1855,60 @@ extensión trascendental
 .
 \end_layout
 
+\begin_layout Remark
+Si 
+\begin_inset Formula $u\in K$
+\end_inset
+
+, entonces 
+\begin_inset Formula $u$
+\end_inset
+
+ es una raíz de 
+\begin_inset Formula $x-u\in K\left[x\right]$
+\end_inset
+
+ y por lo tanto algebraico sobre sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $u\in F$
+\end_inset
+
+ es algebraico sobre algún subcuerpo 
+\begin_inset Formula $K'$
+\end_inset
+
+de 
+\begin_inset Formula $K$
+\end_inset
+
+, entonces 
+\begin_inset Formula $u$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ donde 
+\begin_inset Formula $K'\left[x\right]\subset K\left[x\right]$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $u\in F$
+\end_inset
+
+ es una raíz de 
+\begin_inset Formula $f\in K\left[x\right]$
+\end_inset
+
+ con coeficiente principal 
+\end_layout
+
 \begin_layout Example
 Como ejemplos, tenemos que en 
 \begin_inset Formula $\mathbb{C}/\mathbb{R}$
@@ -1598,6 +1932,175 @@ Como ejemplos, tenemos que en
 
  es algebraico sobre 
 \begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:polmonic"
+
+\end_inset
+
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+es una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $u\in F$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+, entonces 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $K(u)=K\left[u\right]$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $K(u)\cong K\left[x\right]/(f)$
+\end_inset
+
+, donde 
+\begin_inset Formula $f\in K\left[x\right]$
+\end_inset
+
+ es un polinomio mónico irreducible de grado 
+\begin_inset Formula $n\geq1$
+\end_inset
+
+ determinado únicamente por la condición que 
+\begin_inset Formula $f(u)=o$
+\end_inset
+
+ y 
+\begin_inset Formula $g(u)=0$
+\end_inset
+
+ (
+\begin_inset Formula $g\in K\left[x\right]$
+\end_inset
+
+) si y solo si 
+\begin_inset Formula $f$
+\end_inset
+
+ divide a 
+\begin_inset Formula $g$
+\end_inset
+
+ ;
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left[K(u):K\right]=n$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left\{ 1_{K},u,u^{2},...,u^{n-1}\right\} $
+\end_inset
+
+ es una base del espacio vectorial 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+Cada elemento de 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ puede ser escrito únicamente en la forma 
+\begin_inset Formula $a_{0}+a_{1}u+...+a_{n-1}u^{n-1}$
+\end_inset
+
+ (
+\begin_inset Formula $a_{i}\in K)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $u\in F$
+\end_inset
+
+ algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ El polinomio mónico irreducible 
+\begin_inset Formula $f$
+\end_inset
+
+ del teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:polmonic"
+
+\end_inset
+
+, se llama 
+\series bold
+el polinomio irreducible de
+\series default
+ 
+\begin_inset Formula $u$
+\end_inset
+
+.
+ El 
+\series bold
+grado de 
+\begin_inset Formula $u$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+
+\series default
+ 
+\shape italic
+es grad 
+\shape default
+
+\begin_inset Formula $f=\left[K(u):K\right]$
 \end_inset
 
 .
@@ -2822,11 +3325,11 @@ Si
 \begin_inset Formula $F$
 \end_inset
 
- que también son 
+ que también son funciones 
 \begin_inset Formula $K$
 \end_inset
 
--module maps.
+-module .
  Es evidente que el conjunto de todos los automorfismos, es un subgrupo
  de 
 \begin_inset Formula $Aut\, F$
@@ -2837,74 +3340,221 @@ Si
 \end_layout
 
 \begin_layout Definition
-Sean 
-\begin_inset Formula $E$
+Sea 
+\begin_inset Formula $Aut(F)$
 \end_inset
 
- y 
+ el grupo de todos los automorfismos de 
 \begin_inset Formula $F$
 \end_inset
 
- extensiones de cuerpos de un cuerpo 
+ , esto es, funciones biyectivas de 
+\begin_inset Formula $F$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+ que preservan la adición y la multiplicación.
+ Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión del cuerpo 
 \begin_inset Formula $K$
 \end_inset
 
 .
- Un función no nula 
-\begin_inset Formula $\sigma:E\rightarrow F$
-\end_inset
-
- que es tanto un cuerpo y un 
-\begin_inset Formula $K$
-\end_inset
-
--homomorfismo módulo se denomina un 
-\begin_inset Formula $K$
-\end_inset
-
--homomorfismo.
- Del mismo modo, si un automorfismo de cuerpos 
-\begin_inset Formula $\sigma\in Aut\, F$
-\end_inset
-
- es un 
-\begin_inset Formula $K-$
-\end_inset
-
-homomorfismo, entonces 
-\begin_inset Formula $\sigma$
-\end_inset
-
- se llama un 
-\begin_inset Formula $K-$
-\end_inset
-
-automorfismo de 
-\begin_inset Formula $F$
-\end_inset
-
-.
- El grupo de todos los 
-\begin_inset Formula $K-$
-\end_inset
-
-automorfismo de 
-\begin_inset Formula $F$
-\end_inset
-
- se llaman el grupo de Galois de 
+ El grupo de Galois de 
 \begin_inset Formula $F$
 \end_inset
 
  sobre 
-\begin_inset Formula $K,$
+\begin_inset Formula $K$
 \end_inset
 
- y se denota 
-\begin_inset Formula $Aut_{K}\, F$
+ se define como el grupo de los automorfismos de 
+\begin_inset Formula $F$
+\end_inset
+
+ que dejan fijo al cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+, es decir
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$$Gal(F/K)=
+\backslash
+left
+\backslash
+{ 
+\backslash
+sigma
+\backslash
+in Aut(F):
+\backslash
+sigma(a)=a
+\backslash
+, para
+\backslash
+, todo
+\backslash
+, a
+\backslash
+in K
+\backslash
+right
+\backslash
+} $$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:raizF"
+
+\end_inset
+
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $f\in K\left[x\right]$
 \end_inset
 
 .
+ Si 
+\begin_inset Formula $u\in F$
+\end_inset
+
+ es una raíz de 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $\sigma\in Aut_{K}F$
+\end_inset
+
+, entonces 
+\begin_inset Formula $\sigma(u)\in F$
+\end_inset
+
+ es raíz de 
+\begin_inset Formula $f$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Si 
+\begin_inset Formula $f=\overset{n}{\underset{i=1}{\sum}k_{i}x^{i}}$
+\end_inset
+
+, entonces 
+\begin_inset Formula $f(u)=0$
+\end_inset
+
+ implica 
+\begin_inset Formula $0=\sigma(f(u))=\sigma(\sum k_{i}u^{i})=\sum\sigma(k_{i})\sigma(u^{i})=\sum k_{i}\sigma(u)^{i}=f(\sigma(u)).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Una de las principales aplicaciones del teorema
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:raizF"
+
+\end_inset
+
+, es en la situación donde 
+\begin_inset Formula $u$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ con polinomio irreducible 
+\begin_inset Formula $f\in K\left[x\right]$
+\end_inset
+
+ de grado 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Entonces cualquier 
+\begin_inset Formula $\sigma\in Aut_{K}K(u)$
+\end_inset
+
+ esta completamente determinado por su acción sobre 
+\begin_inset Formula $u$
+\end_inset
+
+ (como 
+\begin_inset Formula $\left\{ 1_{K},u,u^{2},...,u^{n-1}\right\} $
+\end_inset
+
+ es una base de 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ por teorema 1.6 ).
+ Como 
+\begin_inset Formula $\sigma(u)$
+\end_inset
+
+ es una raíz de 
+\begin_inset Formula $f$
+\end_inset
+
+ por teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:raizF"
+
+\end_inset
+
+,
+\begin_inset Formula $\left|Aut_{K}K(u)\right|\leq m$
+\end_inset
+
+ , donde 
+\begin_inset Formula $m$
+\end_inset
+
+ es el numero de las distintas raíces de 
+\begin_inset Formula $f$
+\end_inset
+
+ en 
+\begin_inset Formula $K(u)$
+\end_inset
+
+.Por teorema III.6.7
 \end_layout
 
 \begin_layout Section
@@ -2967,7 +3617,7 @@ Sea
 \begin_inset Formula $K$
 \end_inset
 
- se dice que es el cuerpo de descomposición (división) sobre 
+ se dice que es el cuerpo de descomposición sobre 
 \begin_inset Formula $K$
 \end_inset
 
@@ -2975,7 +3625,7 @@ Sea
 \begin_inset Formula $f$
 \end_inset
 
- si 
+, si 
 \begin_inset Formula $f$
 \end_inset
 
@@ -3020,7 +3670,7 @@ Sea
 \begin_inset Formula $K$
 \end_inset
 
- se o dice que es el cuerpo de descomposición sobre 
+ se dice que es el cuerpo de descomposición sobre 
 \begin_inset Formula $K$
 \end_inset
 
@@ -3173,6 +3823,12 @@ Sea
 \end_layout
 
 \begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:Polsep-algGa-Des"
+
+\end_inset
+
 Si 
 \begin_inset Formula $F$
 \end_inset
@@ -3216,7 +3872,7 @@ Si
 \begin_inset Formula $S$
 \end_inset
 
-de polinomios en 
+ de polinomios en 
 \begin_inset Formula $K\left[x\right]$
 \end_inset
 
@@ -3288,7 +3944,14 @@ reference "thm:RaicesN"
 \begin_inset Formula $\tau\in Aut_{K}F$
 \end_inset
 
-, entonces sabemos por el teorema 2.2 que 
+, sabemos por teorema
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:raizF"
+
+\end_inset
+
+ que 
 \begin_inset Formula $\tau$
 \end_inset
 
@@ -3599,7 +4262,311 @@ es (en
 \begin_inset Formula $\sigma(u)=\tau(u)\neq u$
 \end_inset
 
- por teorema 3.8(falta)
+ por teorema 3.8(falta).
+ Luego 
+\begin_inset Formula $u$
+\end_inset
+
+ no esta en el cuerpo fijo de 
+\begin_inset Formula $Aut_{K}F$
+\end_inset
+
+ ; es decir 
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Lo probaremos por inducción sobre 
+\begin_inset Formula $n=\left[F:K_{0}\right]$
+\end_inset
+
+, para el caso 
+\begin_inset Formula $n=1$
+\end_inset
+
+ es trivial.
+ Si 
+\begin_inset Formula $n>1,$
+\end_inset
+
+entonces uno de los 
+\begin_inset Formula $g_{i}$
+\end_inset
+
+, podemos tomar 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ que tiene grado 
+\begin_inset Formula $s>1$
+\end_inset
+
+ (sino todas las raíces de los 
+\begin_inset Formula $g_{i}$
+\end_inset
+
+ están en 
+\begin_inset Formula $K$
+\end_inset
+
+, 
+\begin_inset Formula $F=K$
+\end_inset
+
+).
+ Sea 
+\begin_inset Formula $u\in F$
+\end_inset
+
+ una raíz de 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+; luego 
+\begin_inset Formula $\left[K(u):K\right]=gr\, g_{1}=s$
+\end_inset
+
+ por teorema 1.6 y el numero de raices distintas de 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+es 
+\begin_inset Formula $s$
+\end_inset
+
+, pues 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ es separable.
+ La demostracion del lemma 2.8 (con 
+\begin_inset Formula $L=K,M=K(u)$
+\end_inset
+
+ y 
+\begin_inset Formula $f=g_{1}$
+\end_inset
+
+) muestra que hay un función inyectiva del conjunto de todos de todos los
+ coset a izquierdas de 
+\begin_inset Formula $H=Aut_{K(u)}F$
+\end_inset
+
+ en 
+\begin_inset Formula $Aut_{K}F$
+\end_inset
+
+ en el conjunto de todas las raices de 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+, dada por 
+\begin_inset Formula $\sigma H\mapsto\sigma(u)$
+\end_inset
+
+.
+ Luego, 
+\begin_inset Formula $\left[Aut_{K}F\right]\leq s$
+\end_inset
+
+ .
+ Ahora si 
+\begin_inset Formula $v\in F$
+\end_inset
+
+ es otra raiz de 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+,entonces hay un isomorfismo 
+\begin_inset Formula $\tau:K(u)\cong K(v)$
+\end_inset
+
+ con 
+\begin_inset Formula $\tau(u)=v$
+\end_inset
+
+ y 
+\begin_inset Formula $\tau|K=1_{K}$
+\end_inset
+
+ por corolario 1.9 .
+ Como 
+\begin_inset Formula $F$
+\end_inset
+
+ es un cuerpo de descomposición de 
+\begin_inset Formula $\left\{ g_{1},...,g_{t}\right\} $
+\end_inset
+
+ sobre 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ y sobre 
+\begin_inset Formula $K(v)$
+\end_inset
+
+, 
+\begin_inset Formula $\tau$
+\end_inset
+
+ se extiende a un automorfismo 
+\begin_inset Formula $\sigma\in Aut_{K}F$
+\end_inset
+
+ con 
+\begin_inset Formula $\sigma(u)=v$
+\end_inset
+
+ (teorema 3.8).
+ Luego , cada raíz de 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ es imagen de algún coset of 
+\begin_inset Formula $H$
+\end_inset
+
+ y 
+\begin_inset Formula $\left[Aut_{K}F:H\right]=s$
+\end_inset
+
+ .
+ Además , 
+\begin_inset Formula $F$
+\end_inset
+
+ es un cuerpo de descomposición sobre 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ del conjunto de todos los factores irreducibles 
+\begin_inset Formula $h_{j}$
+\end_inset
+
+ (en 
+\begin_inset Formula $K(u)\left[x\right]$
+\end_inset
+
+) del conjunto de los 
+\begin_inset Formula $g_{i}$
+\end_inset
+
+.
+ Cada 
+\begin_inset Formula $h_{j}$
+\end_inset
+
+ es separable pues divide a algún 
+\begin_inset Formula $g_{i}$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $\left[F:K(u)\right]=n/s<n$
+\end_inset
+
+ por hipótesis inductiva tenemos que 
+\begin_inset Formula $\left[F:K(u)\right]=\left|Aut_{K(u)}F\right|=\left|H\right|$
+\end_inset
+
+.
+ Por lo tanto,
+\end_layout
+
+\begin_layout Proof
+Ahora probaremos el teorema para dimensión finita, esto es 
+\begin_inset Formula $\left[F:K\right]$
+\end_inset
+
+.
+ En este caso existen un número finito de polinomios 
+\begin_inset Formula $g_{1},...,g_{t}\in T$
+\end_inset
+
+ tal que 
+\begin_inset Formula $F$
+\end_inset
+
+ es un cuerpo de descomposición de 
+\begin_inset Formula $g_{1},...,g_{t}$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ (sino 
+\begin_inset Formula $F$
+\end_inset
+
+ sería de dimensión infinita sobre 
+\begin_inset Formula $K$
+\end_inset
+
+).
+ Además 
+\begin_inset Formula $Aut_{K}F$
+\end_inset
+
+ es un grupo finito por Lema 2.8.
+ Si 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+ es el cuerpo fijo de 
+\begin_inset Formula $Aut_{K}F$
+\end_inset
+
+, entonces 
+\begin_inset Formula $F$
+\end_inset
+
+ es la extensión de Galois de 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+ con 
+\begin_inset Formula $\left[F:K_{0}\right]=\left[Aut_{K}F\right]$
+\end_inset
+
+ por teorema de Artin 2.15 y teorema Fundamental.
+ Asi para mostrar que 
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ ( es decir, 
+\begin_inset Formula $K=K_{0}$
+\end_inset
+
+) basta mostrar que 
+\begin_inset Formula $\left[F:K_{0}\right]=\left[Aut_{K}F\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\left[F:K\right]=\left[F:K(u)\right]\left[K(u):K\right]=\left|H\right|s=\left|H\right|\left[Aut_{K(u)}F:H\right]=\left|Aut_{K}F\right|$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proposition
@@ -3833,7 +4800,7 @@ Extensiones Ciclotómicas
 \end_layout
 
 \begin_layout Standard
-Vamos a examinar los cuerpos de división del polinomio 
+Vamos a examinar los cuerpos de descomposición del polinomio 
 \begin_inset Formula $x^{n}-1_{K}$
 \end_inset
 
@@ -3842,12 +4809,13 @@ Vamos a examinar los cuerpos de división del polinomio
 \end_inset
 
 .
- Estos cuerpos de división (descomposición) resultan ser las extensiones
- abelianas cuyo grupos de Galois son bien conocidos.Un cuerpo 
+ Estos cuerpos de descomposición resultan ser las extensiones abelianas
+ cuyo grupos de Galois son bien conocidos.
+ Un cuerpo 
 \begin_inset Formula $F$
 \end_inset
 
- de descomposición (división) sobre un cuerpo 
+ de descomposición sobre un cuerpo 
 \begin_inset Formula $K$
 \end_inset
 
@@ -3880,7 +4848,7 @@ Vamos a examinar los cuerpos de división del polinomio
 \begin_inset Formula $x^{n}-1_{K}=(x^{m}-1)^{p^{t}}$
 \end_inset
 
-(EJERCICIO) de modo que una extensión ciclotomica de orden 
+(EJERCICIO) de modo que una extensión ciclotómica de orden 
 \begin_inset Formula $n$
 \end_inset
 
@@ -4078,7 +5046,14 @@ Sea
 \end_inset
 
  es el cuerpo de descomposición de familia ﬁnita de polinomios separables
- y por la proposición 3.11 
+ y por teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:Polsep-algGa-Des"
+
+\end_inset
+
+ 
 \begin_inset Formula $F$
 \end_inset
 
@@ -4100,7 +5075,14 @@ Sea
 \end_inset
 
 .
- Por la proposición 2.4, 
+ Por teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:raizF"
+
+\end_inset
+
+, 
 \begin_inset Formula $\sigma(\zeta)=\zeta^{i}$
 \end_inset
 
@@ -4202,5 +5184,68 @@ Sea
  es cíclico por teorema 5.3
 \end_layout
 
+\begin_layout Proposition
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión ciclotómica de orden 
+\begin_inset Formula $n$
+\end_inset
+
+ del cuerpo 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de los números racionales y 
+\begin_inset Formula $g_{n}(x)$
+\end_inset
+
+ el 
+\begin_inset Formula $n$
+\end_inset
+
+-ésimo polinomio ciclotímico sobre 
+\begin_inset Formula $\mathbb{Q}.$
+\end_inset
+
+Entonces 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $g_{n}(x)$
+\end_inset
+
+ es irreducible en 
+\begin_inset Formula $\mathbb{Q}\left[x\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left[F:\mathbb{Q}\right]=\varphi(n)$
+\end_inset
+
+, donde 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ es la función de Euler.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Aut_{\mathbb{Q}}F$
+\end_inset
+
+ es isomorfo al grupo multiplicativo de las unidades en el anillo 
+\begin_inset Formula $\mathbb{Z}_{n}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
