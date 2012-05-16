@@ -73,7 +73,7 @@ Tema: Justificación Algebraica de las Construcciones con Regla y Cómpas.
 \end_layout
 
 \begin_layout Subsection*
-Subtema: Teoría de Galois
+Subtema: Aplicaciones de la Teoría de Galois
 \end_layout
 
 \begin_layout Subsubsection*
@@ -89,8 +89,8 @@ Fundamentación
 \end_layout
 
 \begin_layout Standard
-Este trabajo propone estudiar las justifaciones algebraicas de las construccione
-s con regla y cómpas.
+Este trabajo propone estudiar las justificaciones algebraicas de las construccio
+nes con regla y compás.
  Para esto podremos énfasis especial en las Teoría de Extensiones de Cuerpos
  de Galois.
  Ya los trabajos de Gauss y Wantzel mostraron la relación estrecha entre
@@ -103,30 +103,25 @@ Planteo del Problema
 \end_layout
 
 \begin_layout Standard
-Las construcciones con Regla y Compás siempre han llamado la atención de
- los matemáticos y de los educadores de matemática, surgiendo de esta manera
- múltiples interrogantes y resultados interesantes.
- En cuanto a lo que en este trabajo nos proponemos, partamos de la pregunta:
- ¿Será siempre posible construir un polígono regular (con regla y compás)?.
- Y en los casos que fuera posible, ¿Cómo se construyen? Sabemos que la respuesta
- a la primera pregunta es no y que los únicos polígonos regulares construibles,
- son aquellos cuya descomposición en factores primos del número de lados
- es un producto de primos de Fermat por potencias de dos.
- Además, los primos de Fermat que aparecen, lo hacen solamente a la primera
- potencia.
- La segunda pregunta será respondida con algún detalle.
- 
-\end_layout
-
-\begin_layout Standard
-La construcción de triángulos equiláteros, incluso de pentágonos regulares,
- se encuentran con alguna frecuencia en textos básicos de Geometría, pero
- no es tan común la construcción por ejemplo del Heptadecágono Regular.
- Pero además de justificar algebraicamente las construcciones, estamos interesad
-os en realizarlas con asistencia del software libre Geogebra.
- Esta decisión se fundamenta en la agilidad y eficiencia del software en
- contraposición a los elementos de uso tradicional en geometría (regla y
- compás).
+No es difícil encontrar estudiantes dibujando en la parte posterior de su
+ cuaderno polígonos regulares, por ejemplo, exágonos y triángulos.
+ En algunas oportunidades se preguntan porqué es tan sencillo dibujar un
+ exágono regular.
+ Este tipo de inquietudes debería ser aprovechado por los docentes y por
+ aquellos que están interesados en incorporarse a la docencia.
+ El poder cautivador de las construcciones geométricas no solamente afecta
+ a los jóvenes estudiantes sino también a matemáticos notables como Gauss
+ y a los iniciadores de la Geometría: Los griegos antiguos.
+ Pero a poco de comenzar con las construcciones uno se enfrenta a la pregunta:
+ ¿Que es posible y qué no es posible construir usando la Regla y El Compás?
+ La respuesta a esa pregunta es la razón de nuestro trabajo.
+ Amen de la gloriosa historia de las construcciones con Regla y Compás,
+ que comenzó temprano en la historia de las Matemáticas y concluyó con los
+ trabajos de Gauss y Wantzel, nuestro interés se centrará en la 
+\series bold
+justificación algebraicas de las posibilidades de construcción
+\series default
+.
  
 \end_layout
 
@@ -135,13 +130,16 @@ Objetivos
 \end_layout
 
 \begin_layout Itemize
-Fundamentar las Construcciones con Regla y Compás y específicamente, las
- Construcciones de los Polígonos Regulares.
+Compilar y clasificar material bibliográfico procedente de fuente física
+ o virtual sobre la problemática concreta que nos ocupa
 \end_layout
 
 \begin_layout Itemize
-Establecer métodos que permitan realizar en forma eficiente las construcciones
- con regla y compás con asistencia del Geogebra.
+Diseñar una sucesión de conceptos que permitan un entendimiento acabado
+ sobre los temas algebraicos que fundamentan las Construcciones con Regla
+ y Compás.
+ (Teorías de Extensiones de Cuerpos de Galois, Extensión ciclotómicas, etc.)
+ 
 \end_layout
 
 \begin_layout Section*
@@ -185,7 +183,14 @@ key "Babini y Rey Pastor"
 
 \end_inset
 
-y Historia de la mateática de ?????.
+y Historia de la matemática de Carl Boyer 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Boyer"
+
+\end_inset
+
+ .
  
 \end_layout
 
@@ -222,7 +227,7 @@ Agosto
 \end_layout
 
 \begin_layout Standard
-Estudio de las cuerpos de descomposicion y clausuras algebraicas para el
+Estudio de las cuerpos de descomposición y clausuras algebraicas para el
  estudio de las extensiones ciclotómicas.
 \end_layout
 
@@ -231,8 +236,8 @@ Septiembre
 \end_layout
 
 \begin_layout Standard
-Investigación sobre la metodología de construcción del polígono regular
- de 257 lados.
+Estudio de las extensiones ciclotómicas para el primer tratamiento de los
+ polígonos regulares.
 \end_layout
 
 \begin_layout Subsection*
@@ -240,10 +245,7 @@ Octubre
 \end_layout
 
 \begin_layout Standard
-Análisis de la construcción de poligonos regulares con número de lados no
- primos (por ejemplo: el pentadecágono regular o el polígono regular de
- 51 lados).
- 
+Continuación del tratamiento de los polígonos regulares.
 \end_layout
 
 \begin_layout Subsection*
@@ -289,7 +291,7 @@ key "Artin"
 
 \end_inset
 
- Galois Ther
+ Galois Theory
 \end_layout
 
 \begin_layout Bibliography
@@ -301,7 +303,7 @@ key "Steward"
 
 \end_inset
 
-
+Galois Theory
 \end_layout
 
 \begin_layout Bibliography
@@ -313,7 +315,19 @@ key "Babini y Rey Pastor"
 
 \end_inset
 
+Historia de la Matemática
+\end_layout
 
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bo"
+key "Boyer"
+
+\end_inset
+
+Historia de la Matemática
 \end_layout
 
 \end_body
