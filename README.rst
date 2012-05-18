@@ -1,6 +1,6 @@
 Seminario Para el Profesorado en Matematicas 
-
-Luis Crespo
+---------------------------------------------
+Alumno: Luis Crespo
 ------------------------
 Tema : Justificaciones Algebraicas de las construcciones con Regla y Compás
 --------------------------------------------------------------------------
