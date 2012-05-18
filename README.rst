@@ -1,5 +1,8 @@
-Seminario de Luis Crespo
+Seminario Para el Profesorado en Matematicas 
+
+Luis Crespo
 ------------------------
 Tema : Justificaciones Algebraicas de las construcciones con Regla y Compás
-
+--------------------------------------------------------------------------
 Subtema : Aplicaciones de la Teoria de Galois
+-----------------------------------------------
