@@ -3418,6 +3418,70 @@ right
 
 \end_layout
 
+\begin_layout Remark
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ si y solo si para cualquier 
+\begin_inset Formula $u\in F-K,$
+\end_inset
+
+ existe un 
+\begin_inset Formula $K$
+\end_inset
+
+-automorfismo 
+\begin_inset Formula $\sigma\in Gal(F/K)$
+\end_inset
+
+ tal que 
+\begin_inset Formula $\sigma(u)\neq u$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de cuerpos arbitraria de 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+ es cuerpo fijo de 
+\begin_inset Formula $Gal(F/K)$
+\end_inset
+
+ (probablemente 
+\begin_inset Formula $K\neq K_{0}$
+\end_inset
+
+), entonces es fácil de ver que 
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+, de modo que 
+\begin_inset Formula $K\subset K_{0}$
+\end_inset
+
+, y que 
+\begin_inset Formula $Gal(F/K)=Gal(F/K_{0})$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Theorem
 \begin_inset CommandInset label
 LatexCommand label
