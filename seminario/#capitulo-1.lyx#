@@ -3418,6 +3418,85 @@ right
 
 \end_layout
 
+\begin_layout Remark
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ si y solo si para cualquier 
+\begin_inset Formula $u\in F-K,$
+\end_inset
+
+ existe un 
+\begin_inset Formula $K$
+\end_inset
+
+-automorfismo 
+\begin_inset Formula $\sigma\in Gal(F/K)$
+\end_inset
+
+ tal que 
+\begin_inset Formula $\sigma(u)\neq u$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de cuerpos arbitraria de 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+ es cuerpo fijo de 
+\begin_inset Formula $Gal(F/K)$
+\end_inset
+
+ (probablemente 
+\begin_inset Formula $K\neq K_{0}$
+\end_inset
+
+), entonces es fácil de ver que 
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+, de modo que 
+\begin_inset Formula $K\subset K_{0}$
+\end_inset
+
+, y que 
+\begin_inset Formula $Gal(F/K)=Gal(F/K_{0})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathbb{Q}($
+\end_inset
+
+
+\end_layout
+
 \begin_layout Theorem
 \begin_inset CommandInset label
 LatexCommand label
@@ -4333,7 +4412,7 @@ entonces uno de los
 \begin_inset Formula $\left[K(u):K\right]=gr\, g_{1}=s$
 \end_inset
 
- por teorema 1.6 y el numero de raíces distintas de 
+ por teorema 1.6 y el numero de raices distintas de 
 \begin_inset Formula $g_{1}$
 \end_inset
 
@@ -5205,7 +5284,7 @@ Sea
 \begin_inset Formula $n$
 \end_inset
 
--ésimo polinomio ciclotímico sobre 
+-ésimo polinomio ciclotómico sobre 
 \begin_inset Formula $\mathbb{Q}.$
 \end_inset
 

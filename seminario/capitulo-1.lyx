@@ -3482,6 +3482,25 @@ right
 .
 \end_layout
 
+\begin_layout Example
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathbb{Q}(\sqrt{3}$
+\end_inset
+
+) es Galois sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.(FALTA RESOLVERLOS)
+\end_layout
+
 \begin_layout Theorem
 \begin_inset CommandInset label
 LatexCommand label
@@ -5269,7 +5288,7 @@ Sea
 \begin_inset Formula $n$
 \end_inset
 
--ésimo polinomio ciclotímico sobre 
+-ésimo polinomio ciclotómico sobre 
 \begin_inset Formula $\mathbb{Q}.$
 \end_inset
 
