@@ -1,0 +1,1133 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans lmss
+\font_typewriter lmtt
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false"
+\papersize a4paper
+\use_geometry true
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 0
+\branch chapter-1
+\selected 1
+\filename_suffix 0
+\color #ffaa00
+\end_branch
+\branch chapter-2
+\selected 1
+\filename_suffix 0
+\color #55aaff
+\end_branch
+\branch Summary
+\selected 1
+\filename_suffix 0
+\color #7f7f7f
+\end_branch
+\branch Acknowledgments
+\selected 1
+\filename_suffix 0
+\color #ffff00
+\end_branch
+\branch Appendix
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size large
+Justificaciones algebraicas de las construcciones con Regla y Compás
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Luis Fernando Crespo, Antonio Sángari
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Universidad Nacional de Salta
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+(Avenida Bolivia N° 5150)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+luiscrespo11@hotmail.com
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría del Trabajo:
+\series default
+ Reflexiones.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Nivel educativo: 
+\series default
+Universitario.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Palabras claves:
+\series default
+ Construcciones con regla y compás.
+ Educación en geometría, Extensiones de Cuerpos.
+ Teoría de Galois.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Resumen: 
+\series default
+En este trabajo presentamos una propuesta de una secuencia de conceptos
+ algebraicos que explican la posibilidad o imposibilidad de las construcciones
+ con regla y compás.
+ En algunos planes de estudio se presentan los conceptos necesarios para
+ justificar estos conceptos en un segundo curso de álgebra abstracta.
+ Sin embargo estamos persuadidos que sería más provechoso e interesante
+ presentarlo después de haber hecho una presentación de las construcciones
+ geométricas y haber permitido a los estudiantes realizar construcciones
+ concretas con regla y compás.
+ Por lo tanto en una primera parte mostraremos que puntos en el plano complejo
+ se pueden construir.
+ En una segunda indicamos la imposibilidad de ciertas construcciones como
+ por ejemplo los Problemas Delianos.
+ Por último, presentamos argumentos algebraicos para justificar las construccion
+es.
+ En todas estas partes indicamos una posible secuencia de actividades.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Justificaciones Algebraicas.
+\end_layout
+
+\begin_layout Subsection
+Introducción.
+\end_layout
+
+\begin_layout Standard
+La idea de este trabajo es ver qué construcciones geométricas pueden hacerse
+ con el uso de una Regla no graduada (sin marcas), de un Compás, de un lápiz
+ y una hoja.
+ Los antiguos griegos se interesaron especialmente por los problemas geométricos
+ asociados a figuras que pueden ser trazadas con los instrumentos más simples:
+ una a regla para trazar rectas y un compás para trazar circunferencias.
+ Con más precisión, una construcción con regla y compás en sentido estricto
+ no admite que se tracen rectas o circunferencias aleatorias.
+ Para que una recta se pueda considerar ‘construida’ es necesario tener
+ construidos dos de sus puntos, sobre los que apoyar la regla; un punto
+ está construido cuando lo hemos determinado como intersección de dos rectas,
+ dos circunferencias, o una recta y una circunferencia; finalmente, para
+ construir una circunferencia tenemos que tener construido su centro, sobre
+ el que clavar el compás, y su radio ha de ser la distancia entre dos a
+ puntos construidos, con los que fijar la apertura del compás .
+ Todos estamos acostumbrados a que en el colegio primario y secundario se
+ enseña a trazar la bisectriz de un ángulo, la mediatriz de un segmento
+ y a construir triángulos con regla y compás.
+ La pregunta es qué otras construcciones se pueden hacer.
+ 
+\end_layout
+
+\begin_layout Standard
+Los griegos ya tenían planteadas tres preguntas (que hoy se consideran clásicas)
+: 
+\end_layout
+
+\begin_layout Itemize
+¿Es posible trisecar un ángulo arbitrario solo por construcciones de regla
+ y compás?
+\end_layout
+
+\begin_layout Itemize
+¿Se puede duplicar un cubo usando sólo regla y compás? (es decir, si tenemos
+ un modelo plano de seis cuadrados para construir un cubo de volumen v ¿se
+ puede construir un modelo plano para construir un cubo de volumen 2v s
+ ́lo usando regla o y compás?) 
+\end_layout
+
+\begin_layout Itemize
+¿Se puede cuadrar un círculo con regla y compás? (es decir, dado un círculo,
+ ¿se puede dibujar un cuadrado de su misma superficie usando sólo regla
+ y compás?) 
+\end_layout
+
+\begin_layout Standard
+Otra pregunta que puede formularse es:
+\end_layout
+
+\begin_layout Itemize
+¿Cuáles polígonos regulares pueden construirse usando regla y compás? .
+\end_layout
+
+\begin_layout Standard
+Vamos a intentar dar respuesta a algunas de estas preguntas.
+\end_layout
+
+\begin_layout Subsection
+Construcciones con Regla y Compás.
+\end_layout
+
+\begin_layout Standard
+De aquí en más construible sera sinónimo de construible con regla y compás.
+ Dada una linea recta 
+\begin_inset Formula $L$
+\end_inset
+
+ y un punto un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ que no este en 
+\begin_inset Formula $L$
+\end_inset
+
+, la única linea recta que pasa por 
+\begin_inset Formula $P$
+\end_inset
+
+ y es paralela a 
+\begin_inset Formula $L$
+\end_inset
+
+ es construible.
+ Podemos entonces construir dos lineas rectas perpendiculares (ejes).
+ Tomemos una unidad de longitud, y a partir de esta construimos todos los
+ puntos en el plano de coordenadas enteras.
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es un subcuerpo del cuerpo 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ de los números reales, el plano de 
+\begin_inset Formula $F$
+\end_inset
+
+ es el subconjunto del plano formado por los puntos de la forma 
+\begin_inset Formula $(c,d)$
+\end_inset
+
+, con 
+\begin_inset Formula $c\in F$
+\end_inset
+
+,
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $d\in F$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $P$
+\end_inset
+
+ ,
+\begin_inset Formula $Q$
+\end_inset
+
+ son puntos distintos en el plano de 
+\begin_inset Formula $F$
+\end_inset
+
+, la única recta que pasa por 
+\begin_inset Formula $P$
+\end_inset
+
+ y 
+\begin_inset Formula $Q$
+\end_inset
+
+ se llama 
+\series bold
+recta en
+\series default
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ y el círculo con centro en 
+\begin_inset Formula $P$
+\end_inset
+
+ y radio el segmento 
+\begin_inset Formula $PQ$
+\end_inset
+
+ se llama 
+\series bold
+círculo en
+\series default
+ 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ Se verifica que toda linea recta en 
+\begin_inset Formula $F$
+\end_inset
+
+ tiene una ecuación de la forma 
+\begin_inset Formula $ax+by+c=0\,\,\,(a,b,c)\in F$
+\end_inset
+
+ y todo círculo en 
+\begin_inset Formula $F$
+\end_inset
+
+ tiene una ecuación de la forma 
+\begin_inset Formula $x^{2}+y^{2}+ax+by+c=0\,\,\,(a,b,c)\in F$
+\end_inset
+
+.
+ Aceptaremos el siguiente resultado:
+\end_layout
+
+\begin_layout Lemma
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ un subcuerpo del cuerpo de los números reales 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ y sea 
+\begin_inset Formula $L_{1},L_{2}$
+\end_inset
+
+ lineas rectas no paralelas en 
+\begin_inset Formula $F$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{1,}C_{2}$
+\end_inset
+
+ círculos distintos en 
+\begin_inset Formula $F.$
+\end_inset
+
+ Entonces
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\begin_inset Formula $L_{1}\cap L_{2}$
+\end_inset
+
+ es un punto en el plano de 
+\begin_inset Formula $F.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\begin_inset Formula $L_{1}\cap L_{2}=\emptyset$
+\end_inset
+
+ o consiste en uno o dos puntos en el plano de 
+\begin_inset Formula $F(\sqrt{u})$
+\end_inset
+
+ para algún 
+\begin_inset Formula $u\in F$
+\end_inset
+
+, 
+\begin_inset Formula $(u\geq0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\begin_inset Formula $C_{1}\cap C_{2}=\textrm{\emptyset}$
+\end_inset
+
+ o consiste en uno o dos puntos en el plano de 
+\begin_inset Formula $F(\sqrt{u})$
+\end_inset
+
+ para algún 
+\begin_inset Formula $u\in F$
+\end_inset
+
+, 
+\begin_inset Formula $(u\geq0)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Un número real 
+\begin_inset Formula $c$
+\end_inset
+
+ se dice construible si el punto 
+\begin_inset Formula $(c,0)$
+\end_inset
+
+ puede ser localizado en el plano mediante una sucesión finita de construcciones
+ con regla y compás que comiencen en un punto con coordenadas enteras.
+ Claramente, el número 
+\begin_inset Formula $c$
+\end_inset
+
+ es construible si y sólo si se puede construir un segmento de longitud
+ 
+\begin_inset Formula $\left|c\right|$
+\end_inset
+
+.
+ Más aún, el punto 
+\begin_inset Formula $(c,d)$
+\end_inset
+
+ en el plano es construible si y sólo si 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son construibles.
+ Notemos que los enteros son claramente construibles; además se puede probar
+ los siguientes hechos:
+\end_layout
+
+\begin_layout Enumerate
+Los números racionales son construibles.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ es construibles, entonces 
+\begin_inset Formula $\sqrt{c}$
+\end_inset
+
+ también lo es.
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son construibles, entonces 
+\begin_inset Formula $c\pm d,\, cd\,$
+\end_inset
+
+y 
+\begin_inset Formula $c/d\,(d\neq0)$
+\end_inset
+
+ son construibles, así los números construibles son un subcuerpo de los
+ números reales.
+\end_layout
+
+\begin_layout Standard
+El paso fundamental para relacionar el álgebra con las construcciones con
+ regla y compás es calcular las posibles dimensiones de los cuerpos que
+ generan los números construibles:
+\end_layout
+
+\begin_layout Proposition
+\begin_inset CommandInset label
+LatexCommand label
+name "prop:gradopar"
+
+\end_inset
+
+Si un número real 
+\begin_inset Formula $c$
+\end_inset
+
+ es construible, entonces 
+\begin_inset Formula $c$
+\end_inset
+
+ es algebraico de grado una potencia de 2 sobre el cuerpo 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de los racionales.
+\end_layout
+
+\begin_layout Corollary
+Un ángulo de 60° no puede ser trisecado por construcciones con regla y compás.
+\end_layout
+
+\begin_layout Proof
+Trisecar un ángulo dado 
+\begin_inset Formula $\theta$
+\end_inset
+
+ es equivalente a: dado 
+\begin_inset Formula $\cos\theta$
+\end_inset
+
+, construir 
+\begin_inset Formula $\cos\theta/3$
+\end_inset
+
+.
+ En efecto, tener un ángulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ es equivalente a tener el punto en la circunferencia unidad con ángulo
+ 
+\begin_inset Formula $\theta$
+\end_inset
+
+, es decir, a tener 
+\begin_inset Formula $(\cos\theta,\sin\theta$
+\end_inset
+
+), que es equivalente a tener sólo 
+\begin_inset Formula $\cos\theta$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+Consideremos 
+\begin_inset Formula $\theta=60\text{°}$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\cos\theta=1/2$
+\end_inset
+
+.
+ Tenemos la identidad
+\end_layout
+
+\begin_layout Proof
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$$
+\backslash
+cos
+\backslash
+theta=4
+\backslash
+cos^{3}
+\backslash
+theta/3-3
+\backslash
+cos
+\backslash
+theta/3$$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+En este caso si 
+\begin_inset Formula $\beta=\cos20\text{°}$
+\end_inset
+
+, la fórmula queda
+\end_layout
+
+\begin_layout Proof
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$$4
+\backslash
+beta^{3}-3
+\backslash
+beta-1/2=0
+\backslash
+Rightarrow8
+\backslash
+beta^{3}-6
+\backslash
+beta-1=0
+\backslash
+Rightarrow(2
+\backslash
+beta)^{3}-3(2
+\backslash
+beta)-1=0$$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Si 
+\begin_inset Formula $\alpha=2\beta$
+\end_inset
+
+, nos queda 
+\begin_inset Formula $\alpha^{3}-3\alpha-1=0$
+\end_inset
+
+.
+ Construir 
+\begin_inset Formula $\beta$
+\end_inset
+
+ es equivalente a construir 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, pero 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ es raíz del polinomio 
+\begin_inset Formula $f=x^{3}-3x-1$
+\end_inset
+
+ de grado 
+\begin_inset Formula $3$
+\end_inset
+
+ que es irreducible sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+ Tenemos entonces 
+\begin_inset Formula $\left[\mathbb{Q}(\alpha):\mathbb{Q}\right]=3$
+\end_inset
+
+, luego 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ no es construible por proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:gradopar"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Corollary
+Es imposible con regla y compás la construcción para duplicar un cubo de
+ longitud de lado 1 .
+\end_layout
+
+\begin_layout Proof
+Para duplicar el cubo unitario tendríamos que construir 
+\begin_inset Formula $\sqrt[3]{2}$
+\end_inset
+
+ a partir de 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+, pero 
+\begin_inset Formula $\left[\mathbb{Q}(\sqrt[3]{2}):\mathbb{Q}\right]=3$
+\end_inset
+
+ que no es potencia de dos, por lo que por proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:gradopar"
+
+\end_inset
+
+, no es construible.
+\end_layout
+
+\begin_layout Corollary
+Es imposible cuadrar un circulo con construcciones de regla y compás.
+ 
+\end_layout
+
+\begin_layout Proof
+Para construir un cuadrado con misma área que un círculo de diámetro 1,
+ tendríamos que construir 
+\begin_inset Formula $\sqrt{\pi}$
+\end_inset
+
+.
+ Pero si 
+\begin_inset Formula $\sqrt{\pi}$
+\end_inset
+
+ fuera algebraico, también 
+\begin_inset Formula $\pi$
+\end_inset
+
+ sería algebraico.
+ En efecto, si consideramos 
+\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\pi)\subset\mathbb{Q}(\sqrt{\pi})$
+\end_inset
+
+, entonces la transitividad de grados nos dice 
+\begin_inset Formula $\left[\mathbb{Q}(\sqrt{\pi}):\mathbb{Q}\right]=\left[\mathbb{Q}(\sqrt{\pi}):\mathbb{Q}(\pi)\right]\left[\mathbb{Q}(\pi):\mathbb{Q}\right]$
+\end_inset
+
+.
+ Suponiendo el lado izquierdo finito, se tendría 
+\begin_inset Formula $\left[\mathbb{Q}(\pi):\mathbb{Q}\right]<\infty$
+\end_inset
+
+, absurdo.
+ 
+\end_layout
+
+\begin_layout Subsection
+Los cuerpos y las construcciones 
+\end_layout
+
+\begin_layout Definition
+Los números primos de la forma 
+\begin_inset Formula $2^{n}+1$
+\end_inset
+
+ se llaman primos de Fermat.
+ 
+\end_layout
+
+\begin_layout Theorem
+El polígono regular de 
+\begin_inset Formula $n$
+\end_inset
+
+ vértices es construible con regla y compás si y sólo si es producto de
+ una potencia de 2 y de primos de Fermat con exponente 1.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Construcción del pentágono regular 
+\end_layout
+
+\begin_layout Standard
+Sea la extensión de cuerpos 
+\begin_inset Formula $F/\mathbb{Q}$
+\end_inset
+
+, donde 
+\begin_inset Formula $F=\mathbb{Q}(\zeta)$
+\end_inset
+
+ es cuerpo ciclotómico quinto, que es una extensión de Galois de grado 
+\begin_inset Formula $\varphi(5)=4$
+\end_inset
+
+, donde 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ es la función de Euler,que por teorema nos dice que si el polígono regular
+ de 
+\begin_inset Formula $5$
+\end_inset
+
+ vértices es construible con regla y compás si y sólo si 
+\begin_inset Formula $\varphi(5)$
+\end_inset
+
+ es potencia de 2, por lo tanto el pentágono regular es construible con
+ regla y compás.
+ Notemos que la constructibilidad del pentágono regular equivale a la constructi
+bilidad de los ángulos de amplitud 
+\begin_inset Formula $\frac{2\pi}{5}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Consideremos el pentágono regular inscripto en la circunferencia de centro
+ 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+ y radio 
+\begin_inset Formula $1$
+\end_inset
+
+ con vértice en el 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+.
+ Las coordenadas del vértice en el primer cuadrante son 
+\begin_inset Formula $(\cos\frac{2\pi}{5},\sin\frac{2\pi}{5})$
+\end_inset
+
+.
+ Si lo pensamos como número complejo, es el número 
+\begin_inset Formula $\zeta=\cos\frac{2\pi}{5}+i\sin\frac{2\pi}{5}$
+\end_inset
+
+ .
+ Y tenemos también que 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ es la raíz quinta de la unidad, osea 
+\begin_inset Formula $\zeta^{5}=1$
+\end_inset
+
+ (fórmula de moivre), es decir que
+\begin_inset Formula $\zeta$
+\end_inset
+
+ es raíz del polinomio:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X^{5}-1=(X-1)(X^{4}+X^{3}+X^{2}+X+1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pero como 
+\begin_inset Formula $\zeta\neq1$
+\end_inset
+
+, resulta que satisface
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0
+\]
+
+\end_inset
+
+ Sacando factor común 
+\begin_inset Formula $\zeta^{2}$
+\end_inset
+
+, se tiene que 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\zeta^{2}+\zeta+1+\zeta^{-1}+\zeta^{-2}=(\zeta+\zeta^{-1})^{2}+(\zeta+\zeta^{-1})+1=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pero
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(\zeta+\zeta^{-1})=\cos(\frac{2\pi}{5})+i\sin(\frac{2\pi}{5})+\cos(\frac{2\pi}{5})-i\sin(\frac{2\pi}{5})=2\cos(\frac{2\pi}{5})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con lo que 
+\begin_inset Formula $2\cos\frac{2\pi}{5}$
+\end_inset
+
+ resulta ser raíz positiva del polinomio 
+\begin_inset Formula $X^{2}+X-1$
+\end_inset
+
+ que es irreducible en 
+\begin_inset Formula $\mathbb{Q}\left[X\right]$
+\end_inset
+
+.
+ Luego, 
+\begin_inset Formula $\left[\mathbb{Q}(2\cos(\frac{2\pi}{5}):\mathbb{Q}\right]=2$
+\end_inset
+
+ que es una potencia de 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Por lo tanto, el Pentágono regular es construible con regla y compás, y
+ el número 
+\begin_inset Formula $2\cos\frac{2\pi}{5}=\frac{-1+\sqrt{5}}{2}$
+\end_inset
+
+ es construible con regla y compás.
+\end_layout
+
+\begin_layout Subsubsection*
+El heptágono regular no se puede construir con regla y compás.
+ 
+\end_layout
+
+\begin_layout Standard
+El heptágono regular no se puede construir con regla y compás.
+ Consideremos el número complejo 
+\begin_inset Formula $\zeta=\cos(\frac{2\pi}{7})+i\sin(\frac{2\pi}{7})$
+\end_inset
+
+.
+ Por el mismo razonamiento que hicimos antes, tenemos que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\zeta^{6}+\zeta^{5}+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sacando factor común 
+\begin_inset Formula $\zeta^{3}$
+\end_inset
+
+, tenemos que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\zeta^{3}+\zeta^{2}+\zeta+1+\zeta^{-1}+\zeta^{-2}+\zeta^{-3}=(\zeta+\zeta^{-1})^{3}+(\zeta+\zeta^{-1})^{2}-2(\zeta+\zeta^{-1})+1=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pero 
+\begin_inset Formula $(\zeta+\zeta^{-1})=2\cos(\frac{2\pi}{7})$
+\end_inset
+
+ ser raíz del polinomio 
+\begin_inset Formula $X^{3}+X^{2}-2X+1$
+\end_inset
+
+, que es irreducible en 
+\begin_inset Formula $\mathbb{Q}\left[X\right]$
+\end_inset
+
+.
+ Luego, 
+\begin_inset Formula $\left[\mathbb{Q}(2\cos(\frac{2\pi}{7}):\mathbb{Q}\right]=3$
+\end_inset
+
+ que no es una potencia de 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Por lo tanto, el número 
+\begin_inset Formula $2\cos\frac{2\pi}{7}$
+\end_inset
+
+ no es construible con regla y compás y, entonces 
+\begin_inset Formula $\cos(\frac{2\pi}{7})$
+\end_inset
+
+ tampoco lo es, con lo que el heptágono regular no es construible.
+ 
+\end_layout
+
+\end_body
+\end_document
