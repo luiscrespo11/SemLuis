@@ -566,6 +566,64 @@ algebraico
 \begin_inset Formula $f\in K\left[\alpha\right]$
 \end_inset
 
+.Si 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ no es una raíz de cualquier polinomio distinto de cero 
+\begin_inset Formula $f\in K\left[\alpha\right]$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ se dice que es 
+\series bold
+trascendental
+\series default
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama 
+\series bold
+extensión algebraica
+\series default
+ de 
+\begin_inset Formula $K$
+\end_inset
+
+ si cada elemento de 
+\begin_inset Formula $F$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama 
+\series bold
+extensión trascendental
+\series default
+ si por lo menos un elemento de 
+\begin_inset Formula $F$
+\end_inset
+
+ es trascendental sobre 
+\begin_inset Formula $K$
+\end_inset
+
 .
 \end_layout
 
@@ -1259,7 +1317,129 @@ Para construir un cuadrado con misma área que un círculo de diámetro 1,
 \end_layout
 
 \begin_layout Subsection
-Polígonos Construibles
+Polígonos Regulares.
+\end_layout
+
+\begin_layout Standard
+Es fácil probar que fijado un punto en una circunferencia existe un único
+ polígono regular inscrito en ella con un vértice en el punto dado.
+ Los polígonos regulares de tres lados son simplemente los triángulos equilátero
+s, los de cuatro lados son los cuadrados, los siguientes reciben el nombre
+ de pentágono regular, a hexágono regular, heptágono regular, etc.
+ También es fácil ver que dos polígonos regulares son congruentes si y sólo
+ si tienen el mismo radio y el mismo número de lados.
+ 
+\end_layout
+
+\begin_layout Standard
+Fijada una circunferencia 
+\begin_inset Formula $\omega$
+\end_inset
+
+ y un punto en ella, podemos tomar como 
+\begin_inset Formula $0$
+\end_inset
+
+ el centro y como 
+\begin_inset Formula $1$
+\end_inset
+
+ el punto dado, de modo que los vértices del 
+\begin_inset Formula $n$
+\end_inset
+
+-ágono regular serín los números complejos de módulo 
+\begin_inset Formula $1$
+\end_inset
+
+y argumento 
+\begin_inset Formula $\frac{2k\pi}{n}$
+\end_inset
+
+, para 
+\begin_inset Formula $n=1,2,3,...n-1$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Construir dicho polígono es, por definición, construir estos vértices, pero
+ en realidad basta construir 
+\begin_inset Formula $\zeta_{n}=1_{\frac{2\pi}{n}}$
+\end_inset
+
+ pues, una vez construido éste, la circunferencia de centro 
+\begin_inset Formula $\zeta_{n}$
+\end_inset
+
+ que pasa por 
+\begin_inset Formula $1$
+\end_inset
+
+ corta a 
+\begin_inset Formula $\omega$
+\end_inset
+
+ en 
+\begin_inset Formula $1_{\frac{4\pi}{n}}$
+\end_inset
+
+, la circunferencia de centro 
+\begin_inset Formula $1_{\frac{4\pi}{n}}$
+\end_inset
+
+ y que pasa por 
+\begin_inset Formula $1_{\frac{2\pi}{n}}$
+\end_inset
+
+ corta a 
+\begin_inset Formula $\omega$
+\end_inset
+
+ en 
+\begin_inset Formula $1_{\frac{6\pi}{n}}$
+\end_inset
+
+ , y de este modo se construyen los vértices restantes.
+ 
+\end_layout
+
+\begin_layout Standard
+Así pues, un polígono regular de 
+\begin_inset Formula $n$
+\end_inset
+
+ vértices es construible si y sólo si lo es el número complejo
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$$
+\backslash
+zeta_{n}=
+\backslash
+cos(
+\backslash
+frac{2
+\backslash
+pi}{7})+i
+\backslash
+sin(
+\backslash
+frac{2
+\backslash
+pi}{7})$$
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Definition
@@ -1279,6 +1459,36 @@ El polígono regular de
  vértices es construible con regla y compás si y sólo si es producto de
  una potencia de 2 y de primos de Fermat con exponente 1.
  
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
+Los polígonos regulares de 
+\begin_inset Formula $n$
+\end_inset
+
+ vértices son construibles con regla y compás si y sólo si 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+ es potencia de 2.( donde 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+ es la función de Euler)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Notemos que la constructibilidad de los polígonos regulares de 
+\begin_inset Formula $n$
+\end_inset
+
+ vértices equivale a la constructibilidad de lo ángulos de amplitud 
+\begin_inset Formula $\frac{2\pi}{n}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection*
