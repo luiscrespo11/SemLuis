@@ -240,7 +240,7 @@ es.
 \end_layout
 
 \begin_layout Section
-Justificaciones Algebraicas.
+Nose me ocurre nada =).
 \end_layout
 
 \begin_layout Subsection
@@ -276,21 +276,33 @@ Los griegos ya tenían planteadas tres preguntas (que hoy se consideran clásica
 \end_layout
 
 \begin_layout Itemize
-¿Es posible trisecar un ángulo arbitrario solo por construcciones de regla
- y compás?
+La duplicación del cubo: a partir de un cubo dado, de volumen 
+\begin_inset Formula $V$
+\end_inset
+
+, o construir un cubo de volumen 
+\begin_inset Formula $2V$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
-¿Se puede duplicar un cubo usando sólo regla y compás? (es decir, si tenemos
- un modelo plano de seis cuadrados para construir un cubo de volumen v ¿se
- puede construir un modelo plano para construir un cubo de volumen 2v s
- ́lo usando regla o y compás?) 
+La trisección del ángulo: dado un ángulo cualquiera de medida 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, construir otro ángulo de medida 
+\begin_inset Formula $\alpha/3$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Itemize
-¿Se puede cuadrar un círculo con regla y compás? (es decir, dado un círculo,
- ¿se puede dibujar un cuadrado de su misma superficie usando sólo regla
- y compás?) 
+La cuadratura del círculo: dado un círculo de área A, construir un cuadrado
+ de área A.
 \end_layout
 
 \begin_layout Standard
@@ -535,6 +547,44 @@ Es linealmente independiente: Supongamos que
 \end_layout
 
 \begin_layout Definition
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de cuerpos de 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Un elemento 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ de 
+\begin_inset Formula $F$
+\end_inset
+
+ se dice que es 
+\series bold
+algebraico
+\series default
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ siempre que 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ sea una raíz de algún polinomio distinto de cero 
+\begin_inset Formula $f\in K\left[\alpha\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Definition
 Si 
 \begin_inset Formula $K$
 \end_inset
@@ -566,6 +616,7 @@ Si
  al conjunto 
 \end_layout
 
+\end_deeper
 \begin_layout Definition
 \begin_inset Formula 
 \[
@@ -575,6 +626,36 @@ K(\alpha)=\left\{ \frac{f(\alpha)}{g(\alpha)}|f,g\in K\left[X\right],g(\alpha)\n
 \end_inset
 
 
+\end_layout
+
+\begin_layout Proposition
+Sea 
+\begin_inset Formula $K\subseteq\mathbb{R}$
+\end_inset
+
+ un cuerpo y sea 
+\begin_inset Formula $\alpha\in\mathbb{R}$
+\end_inset
+
+ un elemento que es raíz de un polinomio mónico irreducible 
+\begin_inset Formula $f$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ de grado 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\left[K(\alpha):K\right]=n$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -1323,7 +1404,8 @@ Con lo que
 \begin_inset Formula $\cos\frac{2\pi}{5}=\frac{-1+\sqrt{5}}{4}$
 \end_inset
 
- es construible con regla y compás, por lo que pentágono regular es construible.
+ es construible con regla y compás, por lo tanto el pentágono regular es
+ construible.
 \end_layout
 
 \begin_layout Subsubsection*
