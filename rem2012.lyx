@@ -306,7 +306,279 @@ Vamos a intentar dar respuesta a algunas de estas preguntas.
 \end_layout
 
 \begin_layout Subsection
-Construcciones con Regla y Compás.
+Extensiones de Cuerpos.
+\end_layout
+
+\begin_layout Definition
+Un cuerpo 
+\begin_inset Formula $F$
+\end_inset
+
+ se dice que es una extensión de un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+(o simplemente una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+) siempre que 
+\begin_inset Formula $K$
+\end_inset
+
+ sea un subcuerpo de 
+\begin_inset Formula $F.$
+\end_inset
+
+ La notación que se usa habitualmente para designar una extensión es 
+\begin_inset Formula $F/K$
+\end_inset
+
+ o también 
+\begin_inset Formula $F:K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:grad1"
+
+\end_inset
+
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de un cuerpo 
+\begin_inset Formula $E$
+\end_inset
+
+ y 
+\begin_inset Formula $E$
+\end_inset
+
+ una extensión de un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\left[F:K\right]=\left[F:E\right]\left[E:K\right]$
+\end_inset
+
+.
+ Por otra parte 
+\begin_inset Formula $\left[F:K\right]$
+\end_inset
+
+ es finita si y solo si 
+\begin_inset Formula $\left[F:E\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $\left[E:K\right]$
+\end_inset
+
+ son finitas.
+\end_layout
+
+\begin_layout Proof
+Supongamos primero que 
+\begin_inset Formula $K\subset E$
+\end_inset
+
+ y 
+\begin_inset Formula $E\subset F$
+\end_inset
+
+ son extensiones finitas.
+ Sean entonces 
+\begin_inset Formula $\left\{ \alpha_{1},...,\alpha_{m}\right\} $
+\end_inset
+
+ una 
+\begin_inset Formula $E$
+\end_inset
+
+-base de 
+\begin_inset Formula $F$
+\end_inset
+
+, y 
+\begin_inset Formula $\left\{ \beta_{1},...,\beta_{n}\right\} $
+\end_inset
+
+ una 
+\begin_inset Formula $K$
+\end_inset
+
+-base de 
+\begin_inset Formula $E$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Proof
+Dado 
+\begin_inset Formula $\gamma\in F$
+\end_inset
+
+, existen únicos 
+\begin_inset Formula $a_{i}\in E$
+\end_inset
+
+ tales que 
+\begin_inset Formula $\gamma=a_{1}\alpha_{1}+...+a_{m}\alpha_{m}$
+\end_inset
+
+ .
+ A su vez 
+\begin_inset Formula $a_{i}\in E$
+\end_inset
+
+, luego existen 
+\begin_inset Formula $b_{ij}\in K$
+\end_inset
+
+ tales que 
+\begin_inset Formula $a_{i}=b_{i1}\beta_{1}+...+b_{in}\beta_{n}$
+\end_inset
+
+ .
+ Por lo tanto
+\end_layout
+
+\begin_layout Proof
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$$
+\backslash
+gamma=
+\backslash
+sum_{i=1,j=1}^{m.n}b_{ij}
+\backslash
+beta_{j}
+\backslash
+alpha_{i}$$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Entonces 
+\begin_inset Formula $\left\{ \beta_{j}\alpha_{i}\right\} _{i,j=1}^{m.n}$
+\end_inset
+
+ es un generador de 
+\begin_inset Formula $K$
+\end_inset
+
+ sobre 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Es linealmente independiente: Supongamos que 
+\begin_inset Formula $\sum_{i,j}b_{ij}\beta_{j}\alpha_{i}=0$
+\end_inset
+
+, es decir, 
+\begin_inset Formula $\sum_{i}a_{i}\alpha_{i}=0$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $\left\{ a_{i}\right\} _{i=1}^{m}$
+\end_inset
+
+ es linealmente independiente, entonces 
+\begin_inset Formula $a_{i}=0$
+\end_inset
+
+ para todo 
+\begin_inset Formula $i=1,...,m$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\left\{ b_{i1}\beta_{1}+...+b_{in}\beta_{n}\right\} =0$
+\end_inset
+
+.
+ Como 
+\begin_inset Formula $\left\{ \beta_{j}\right\} _{j=1}^{n}$
+\end_inset
+
+ es linealmente independiente , entonces 
+\begin_inset Formula $b_{ij}=0$
+\end_inset
+
+ para todo 
+\begin_inset Formula $i,j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Definition
+Si 
+\begin_inset Formula $K$
+\end_inset
+
+ es un cuerpo, y tenemos las siguientes extensiones de cuerpos 
+\begin_inset Formula $\mathbb{R}/K$
+\end_inset
+
+ y 
+\begin_inset Formula $K/\mathbb{Q}$
+\end_inset
+
+, y 
+\begin_inset Formula $\alpha\in\mathbb{R}$
+\end_inset
+
+ ,se define el cuerpo generado por 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ y se denota 
+\begin_inset Formula $K(\alpha)$
+\end_inset
+
+ al conjunto 
+\end_layout
+
+\begin_layout Definition
+\begin_inset Formula 
+\[
+K(\alpha)=\left\{ \frac{f(\alpha)}{g(\alpha)}|f,g\in K\left[X\right],g(\alpha)\neq0\right\} .
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Construcciones con Regla y Compás
 \end_layout
 
 \begin_layout Standard
@@ -863,49 +1135,6 @@ Para construir un cuadrado con misma área que un círculo de diámetro 1,
 
 \begin_layout Subsection
 Los cuerpos y las construcciones 
-\end_layout
-
-\begin_layout Definition*
-Si 
-\begin_inset Formula $K$
-\end_inset
-
- es un cuerpo, y tenemos las siguientes extensiones de cuerpos 
-\begin_inset Formula $\mathbb{R}/K$
-\end_inset
-
- y 
-\begin_inset Formula $K/\mathbb{Q}$
-\end_inset
-
-, y 
-\begin_inset Formula $\alpha\in\mathbb{R}$
-\end_inset
-
- ,se define el cuerpo generado por 
-\begin_inset Formula $\alpha$
-\end_inset
-
- sobre 
-\begin_inset Formula $K$
-\end_inset
-
- y se denota 
-\begin_inset Formula $K(\alpha)$
-\end_inset
-
- al conjunto 
-\end_layout
-
-\begin_layout Definition*
-\begin_inset Formula 
-\[
-K(\alpha)=\left\{ \frac{f(\alpha)}{g(\alpha)}|f,g\in K\left[X\right],g(\alpha)\neq0\right\} 
-\]
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Definition
