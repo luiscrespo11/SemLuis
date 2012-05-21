@@ -253,7 +253,7 @@ La idea de este trabajo es ver qué construcciones geométricas pueden hacerse
  y una hoja.
  Los antiguos griegos se interesaron especialmente por los problemas geométricos
  asociados a figuras que pueden ser trazadas con los instrumentos más simples:
- una a regla para trazar rectas y un compás para trazar circunferencias.
+ una regla para trazar rectas y un compás para trazar circunferencias.
  Con más precisión, una construcción con regla y compás en sentido estricto
  no admite que se tracen rectas o circunferencias aleatorias.
  Para que una recta se pueda considerar ‘construida’ es necesario tener
@@ -264,7 +264,7 @@ La idea de este trabajo es ver qué construcciones geométricas pueden hacerse
  el que clavar el compás, y su radio ha de ser la distancia entre dos a
  puntos construidos, con los que fijar la apertura del compás .
  Todos estamos acostumbrados a que en el colegio primario y secundario se
- enseña a trazar la bisectriz de un ángulo, la mediatriz de un segmento
+ enseñen a trazar la bisectriz de un ángulo, la mediatriz de un segmento
  y a construir triángulos con regla y compás.
  La pregunta es qué otras construcciones se pueden hacer.
  
@@ -619,6 +619,12 @@ Si un número real
  de los racionales.
 \end_layout
 
+\begin_layout Subsubsection*
+
+\bar under
+Problemas Delianos
+\end_layout
+
 \begin_layout Corollary
 Un ángulo de 60° no puede ser trisecado por construcciones con regla y compás.
 \end_layout
@@ -859,6 +865,49 @@ Para construir un cuadrado con misma área que un círculo de diámetro 1,
 Los cuerpos y las construcciones 
 \end_layout
 
+\begin_layout Definition*
+Si 
+\begin_inset Formula $K$
+\end_inset
+
+ es un cuerpo, y tenemos las siguientes extensiones de cuerpos 
+\begin_inset Formula $\mathbb{R}/K$
+\end_inset
+
+ y 
+\begin_inset Formula $K/\mathbb{Q}$
+\end_inset
+
+, y 
+\begin_inset Formula $\alpha\in\mathbb{R}$
+\end_inset
+
+ ,se define el cuerpo generado por 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ y se denota 
+\begin_inset Formula $K(\alpha)$
+\end_inset
+
+ al conjunto 
+\end_layout
+
+\begin_layout Definition*
+\begin_inset Formula 
+\[
+K(\alpha)=\left\{ \frac{f(\alpha)}{g(\alpha)}|f,g\in K\left[X\right],g(\alpha)\neq0\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Definition
 Los números primos de la forma 
 \begin_inset Formula $2^{n}+1$
@@ -1041,12 +1090,11 @@ Con lo que
 \end_inset
 
 .
- Por lo tanto, el Pentágono regular es construible con regla y compás, y
- el número 
-\begin_inset Formula $2\cos\frac{2\pi}{5}=\frac{-1+\sqrt{5}}{2}$
+ Por lo tanto, el número 
+\begin_inset Formula $\cos\frac{2\pi}{5}=\frac{-1+\sqrt{5}}{4}$
 \end_inset
 
- es construible con regla y compás.
+ es construible con regla y compás, por lo que pentágono regular es construible.
 \end_layout
 
 \begin_layout Subsubsection*
