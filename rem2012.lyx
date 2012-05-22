@@ -460,28 +460,6 @@ Dado
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-gamma=
-\backslash
-sum_{i=1,j=1}^{m.n}b_{ij}
-\backslash
-beta_{j}
-\backslash
-alpha_{i}$$
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Proof
 Entonces 
 \begin_inset Formula $\left\{ \beta_{j}\alpha_{i}\right\} _{i,j=1}^{m.n}$
 \end_inset
@@ -666,54 +644,10 @@ Si
 \end_inset
 
  al conjunto 
-\begin_inset Formula 
-\[
-K(\alpha)=\left\{ \frac{f(\alpha)}{g(\alpha)}:f,g\in K\left[X\right],g(\alpha)\neq0\right\} 
-\]
-
+\begin_inset Formula $K(\alpha)=\left\{ \frac{f(\alpha)}{g(\alpha)}:f,g\in K\left[X\right],g(\alpha)\neq0\right\} $
 \end_inset
 
-
-\end_layout
-
-\begin_layout Definition
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$K(
-\backslash
-alpha)=
-\backslash
-left
-\backslash
-{ 
-\backslash
-frac{f(
-\backslash
-alpha)}{g(
-\backslash
-alpha)}|f,g
-\backslash
-in K
-\backslash
-left[X
-\backslash
-right],g(
-\backslash
-alpha)
-\backslash
-neq0
-\backslash
-right
-\backslash
-} .$$
-\end_layout
-
-\end_inset
-
-
+.
 \end_layout
 
 \end_deeper
@@ -946,7 +880,7 @@ Sea
 
 \begin_layout Enumerate
 \paragraph_spacing onehalf
-\begin_inset Formula $L_{1}\cap L_{2}=\emptyset$
+\begin_inset Formula $L_{1}\cap C_{1}=\emptyset$
 \end_inset
 
  o consiste en uno o dos puntos en el plano de 
@@ -1090,6 +1024,10 @@ Si un número real
  de los racionales.
 \end_layout
 
+\begin_layout Example
+FALTA PONER EJEMPLOS.
+\end_layout
+
 \begin_layout Subsubsection*
 
 \bar under
@@ -1097,7 +1035,11 @@ Problemas Delianos
 \end_layout
 
 \begin_layout Corollary
-Un ángulo de 60° no puede ser trisecado por construcciones con regla y compás.
+Un ángulo de 
+\begin_inset Formula $\theta$
+\end_inset
+
+ no puede ser trisecado por construcciones con regla y compás.
 \end_layout
 
 \begin_layout Proof
@@ -1150,26 +1092,7 @@ Consideremos
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-cos
-\backslash
-theta=4
-\backslash
-cos^{3}
-\backslash
-theta/3-3
-\backslash
-cos
-\backslash
-theta/3$$
-\end_layout
-
+\begin_inset Formula $\cos\theta=4\cos^{3}\theta/3-3\cos\theta/3$
 \end_inset
 
 
@@ -1184,30 +1107,7 @@ En este caso si
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$4
-\backslash
-beta^{3}-3
-\backslash
-beta-1/2=0
-\backslash
-Rightarrow8
-\backslash
-beta^{3}-6
-\backslash
-beta-1=0
-\backslash
-Rightarrow(2
-\backslash
-beta)^{3}-3(2
-\backslash
-beta)-1=0$$
-\end_layout
-
+\begin_inset Formula $4\beta^{3}-3\beta-1/2=0\Rightarrow8\beta^{3}-6\beta-1=0\Rightarrow(2\beta)^{3}-3(2\beta)-1=0$
 \end_inset
 
 
@@ -1431,28 +1331,7 @@ Así pues, un polígono regular de
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-zeta_{n}=
-\backslash
-cos(
-\backslash
-frac{2
-\backslash
-pi}{7})+i
-\backslash
-sin(
-\backslash
-frac{2
-\backslash
-pi}{7})$$
-\end_layout
-
+\begin_inset Formula $\zeta_{n}=\cos(\frac{2\pi}{7})+i\sin(\frac{2\pi}{7})$
 \end_inset
 
 
@@ -1588,14 +1467,7 @@ Consideremos el pentágono regular inscripto en la circunferencia de centro
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$X^{5}-1=(X-1)(X^{4}+X^{3}+X^{2}+X+1)$$
-\end_layout
-
+\begin_inset Formula $X^{5}-1=(X-1)(X^{4}+X^{3}+X^{2}+X+1)$
 \end_inset
 
 
@@ -1610,22 +1482,7 @@ Pero como
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-zeta^{4}+
-\backslash
-zeta^{3}+
-\backslash
-zeta^{2}+
-\backslash
-zeta+1=0$$
-\end_layout
-
+\begin_inset Formula $\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0$
 \end_inset
 
 
@@ -1640,30 +1497,7 @@ Sacando factor común
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-zeta^{2}+
-\backslash
-zeta+1+
-\backslash
-zeta^{-1}+
-\backslash
-zeta^{-2}=(
-\backslash
-zeta+
-\backslash
-zeta^{-1})^{2}+(
-\backslash
-zeta+
-\backslash
-zeta^{-1})+1=0$$
-\end_layout
-
+\begin_inset Formula $\zeta^{2}+\zeta+1+\zeta^{-1}+\zeta^{-2}=(\zeta+\zeta^{-1})^{2}+(\zeta+\zeta^{-1})+1=0$
 \end_inset
 
 
@@ -1674,48 +1508,7 @@ Pero
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$(
-\backslash
-zeta+
-\backslash
-zeta^{-1})=
-\backslash
-cos(
-\backslash
-frac{2
-\backslash
-pi}{5})+i
-\backslash
-sin(
-\backslash
-frac{2
-\backslash
-pi}{5})+
-\backslash
-cos(
-\backslash
-frac{2
-\backslash
-pi}{5})-i
-\backslash
-sin(
-\backslash
-frac{2
-\backslash
-pi}{5})=2
-\backslash
-cos(
-\backslash
-frac{2
-\backslash
-pi}{5})$$
-\end_layout
-
+\begin_inset Formula $(\zeta+\zeta^{-1})=\cos(\frac{2\pi}{5})+i\sin(\frac{2\pi}{5})+\cos(\frac{2\pi}{5})-i\sin(\frac{2\pi}{5})=2\cos(\frac{2\pi}{5})$
 \end_inset
 
 
@@ -1768,26 +1561,7 @@ El heptágono regular no se puede construir con regla y compás.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-zeta^{6}+
-\backslash
-zeta^{5}+
-\backslash
-zeta^{4}+
-\backslash
-zeta^{3}+
-\backslash
-zeta^{2}+
-\backslash
-zeta+1=0$$
-\end_layout
-
+\begin_inset Formula $\zeta^{6}+\zeta^{5}+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0$
 \end_inset
 
 
@@ -1802,38 +1576,7 @@ Sacando factor común
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-zeta^{3}+
-\backslash
-zeta^{2}+
-\backslash
-zeta+1+
-\backslash
-zeta^{-1}+
-\backslash
-zeta^{-2}+
-\backslash
-zeta^{-3}=(
-\backslash
-zeta+
-\backslash
-zeta^{-1})^{3}+(
-\backslash
-zeta+
-\backslash
-zeta^{-1})^{2}-2(
-\backslash
-zeta+
-\backslash
-zeta^{-1})+1=0$$
-\end_layout
-
+\begin_inset Formula $\zeta^{3}+\zeta^{2}+\zeta+1+\zeta^{-1}+\zeta^{-2}+\zeta^{-3}=(\zeta+\zeta^{-1})^{3}+(\zeta+\zeta^{-1})^{2}-2(\zeta+\zeta^{-1})+1=0$
 \end_inset
 
 
