@@ -113,7 +113,7 @@ customHeadersFooters
 
 \series bold
 \size large
-Justificaciones algebraicas de las construcciones con Regla y Compás
+Enseñanza de Construcciones Geométricas con recursos algebraicos
 \end_layout
 
 \begin_layout Standard
@@ -128,7 +128,10 @@ Justificaciones algebraicas de las construcciones con Regla y Compás
 \align center
 
 \series bold
-Luis Fernando Crespo, Antonio Sángari
+\bar under
+Luis Crespo
+\bar default
+, Antonio Sángari
 \end_layout
 
 \begin_layout Standard
@@ -198,8 +201,9 @@ Universitario.
 Palabras claves:
 \series default
  Construcciones con regla y compás.
- Educación en geometría, Extensiones de Cuerpos.
- Teoría de Galois.
+ Educación en Geometría.
+ Extensiones de Cuerpos.
+ Aplicaciones de la Teoría de Galois.
 \end_layout
 
 \begin_layout Standard
@@ -296,8 +300,15 @@ La trisección del ángulo: dado un ángulo cualquiera de medida
 \end_layout
 
 \begin_layout Itemize
-La cuadratura del círculo: dado un círculo de área A, construir un cuadrado
- de área A.
+La cuadratura del círculo: dado un círculo de área 
+\begin_inset Formula $A$
+\end_inset
+
+, construir un cuadrado de área 
+\begin_inset Formula $A$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -316,8 +327,31 @@ Vamos a intentar dar respuesta a algunas de estas preguntas.
 Conceptos Necesarios
 \end_layout
 
+\begin_layout Standard
+Para poder hablar de construcciones con regla y compás, se hace necesario
+ tratar con conceptos como extensiones de cuerpos, que nos habla de posibilidad
+ (o no) de poder construir puntos a partir de otros puntos dados.
+ Estos conceptos fueron principalmente obtenidos del libro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hungerford"
+
+\end_inset
+
+.
+ Los presentaremos sin demostración.
+\end_layout
+
 \begin_layout Subsection
 Extensiones de Cuerpos
+\end_layout
+
+\begin_layout Standard
+Es esta sección contamos con que nuestros estudiantes realizaron un curso
+ de Álgebra Abstracta, o sea que conocen los conceptos de grupos, anillos
+ y cuerpos.
+ Los cuales se mencionan en este trabajo.
+ Comenzaremos con una definición básica para lo subsiguiente
 \end_layout
 
 \begin_layout Definition
@@ -329,7 +363,7 @@ Un cuerpo
 \begin_inset Formula $K$
 \end_inset
 
-(o simplemente una extensión de 
+ (o simplemente una extensión de 
 \begin_inset Formula $K$
 \end_inset
 
@@ -342,14 +376,18 @@ Un cuerpo
 \end_inset
 
  La notación que se usa habitualmente para designar una extensión es 
-\begin_inset Formula $F/K$
-\end_inset
-
- o también 
 \begin_inset Formula $F:K$
 \end_inset
 
+ o también 
+\begin_inset Formula $F/K$
+\end_inset
+
 .
+\end_layout
+
+\begin_layout Standard
+Un resultado casi inmediato de esta definición es el siguiente
 \end_layout
 
 \begin_layout Theorem
@@ -383,139 +421,8 @@ Sea
 .
 \end_layout
 
-\begin_layout Proof
-Supongamos primero que 
-\begin_inset Formula $K\subset E$
-\end_inset
+\begin_layout Theorem
 
- y 
-\begin_inset Formula $E\subset F$
-\end_inset
-
- son extensiones finitas.
- Sean entonces 
-\begin_inset Formula $\left\{ \alpha_{1},...,\alpha_{m}\right\} $
-\end_inset
-
- una 
-\begin_inset Formula $E$
-\end_inset
-
--base de 
-\begin_inset Formula $F$
-\end_inset
-
-, y 
-\begin_inset Formula $\left\{ \beta_{1},...,\beta_{n}\right\} $
-\end_inset
-
- una 
-\begin_inset Formula $K$
-\end_inset
-
--base de 
-\begin_inset Formula $E$
-\end_inset
-
- .
- 
-\end_layout
-
-\begin_layout Proof
-Dado 
-\begin_inset Formula $\gamma\in F$
-\end_inset
-
-, existen únicos 
-\begin_inset Formula $a_{i}\in E$
-\end_inset
-
- tales que 
-\begin_inset Formula $\gamma=a_{1}\alpha_{1}+...+a_{m}\alpha_{m}$
-\end_inset
-
- .
- A su vez 
-\begin_inset Formula $a_{i}\in E$
-\end_inset
-
-, luego existen 
-\begin_inset Formula $b_{ij}\in K$
-\end_inset
-
- tales que 
-\begin_inset Formula $a_{i}=b_{i1}\beta_{1}+...+b_{in}\beta_{n}$
-\end_inset
-
- .
- Por lo tanto
-\begin_inset Formula 
-\[
-\gamma=\sum_{i=1,j=1}^{m\cdot n}b_{ij}\beta_{j}\alpha_{i}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Proof
-Entonces 
-\begin_inset Formula $\left\{ \beta_{j}\alpha_{i}\right\} _{i,j=1}^{m.n}$
-\end_inset
-
- es un generador de 
-\begin_inset Formula $K$
-\end_inset
-
- sobre 
-\begin_inset Formula $F$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Proof
-Es linealmente independiente: Supongamos que 
-\begin_inset Formula $\sum_{i,j}b_{ij}\beta_{j}\alpha_{i}=0$
-\end_inset
-
-, es decir, 
-\begin_inset Formula $\sum_{i}a_{i}\alpha_{i}=0$
-\end_inset
-
-.
- Como 
-\begin_inset Formula $\left\{ a_{i}\right\} _{i=1}^{m}$
-\end_inset
-
- es linealmente independiente, entonces 
-\begin_inset Formula $a_{i}=0$
-\end_inset
-
- para todo 
-\begin_inset Formula $i=1,...,m$
-\end_inset
-
-.
- Entonces 
-\begin_inset Formula $\left\{ b_{i1}\beta_{1}+...+b_{in}\beta_{n}\right\} =0$
-\end_inset
-
-.
- Como 
-\begin_inset Formula $\left\{ \beta_{j}\right\} _{j=1}^{n}$
-\end_inset
-
- es linealmente independiente , entonces 
-\begin_inset Formula $b_{ij}=0$
-\end_inset
-
- para todo 
-\begin_inset Formula $i,j$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Definition
@@ -1615,6 +1522,17 @@ Pero
 
  tampoco lo es, con lo que el heptágono regular no es construible.
  
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hu"
+key "Hungerford"
+
+\end_inset
+
+Hungerford
 \end_layout
 
 \end_body
