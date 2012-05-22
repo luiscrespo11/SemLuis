@@ -240,11 +240,7 @@ es.
 \end_layout
 
 \begin_layout Section
-Nose me ocurre nada =).
-\end_layout
-
-\begin_layout Subsection
-Introducción.
+Introducción
 \end_layout
 
 \begin_layout Standard
@@ -316,8 +312,12 @@ Otra pregunta que puede formularse es:
 Vamos a intentar dar respuesta a algunas de estas preguntas.
 \end_layout
 
+\begin_layout Section
+Conceptos Necesarios
+\end_layout
+
 \begin_layout Subsection
-Extensiones de Cuerpos.
+Extensiones de Cuerpos
 \end_layout
 
 \begin_layout Definition
@@ -449,6 +449,14 @@ Dado
 
  .
  Por lo tanto
+\begin_inset Formula 
+\[
+\gamma=\sum_{i=1,j=1}^{m\cdot n}b_{ij}\beta_{j}\alpha_{i}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proof
@@ -658,6 +666,14 @@ Si
 \end_inset
 
  al conjunto 
+\begin_inset Formula 
+\[
+K(\alpha)=\left\{ \frac{f(\alpha)}{g(\alpha)}:f,g\in K\left[X\right],g(\alpha)\neq0\right\} 
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Definition
@@ -760,7 +776,7 @@ Si tomamos
 .
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Construcciones con Regla y Compás
 \end_layout
 
