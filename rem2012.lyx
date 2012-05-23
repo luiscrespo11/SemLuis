@@ -347,11 +347,11 @@ Extensiones de Cuerpos
 \end_layout
 
 \begin_layout Standard
-Es esta sección contamos con que nuestros estudiantes realizaron un curso
- de Álgebra Abstracta, o sea que conocen los conceptos de grupos, anillos
- y cuerpos.
+Es esta sección contamos con que nuestros estudiantes hayan realizado un
+ curso de Álgebra Abstracta, o sea que conocen los conceptos de grupos,
+ anillos y cuerpos.
  Los cuales se mencionan en este trabajo.
- Comenzaremos con una definición básica para lo subsiguiente
+ Comenzaremos con una definición básica para lo subsiguiente.
 \end_layout
 
 \begin_layout Definition
@@ -386,51 +386,13 @@ Un cuerpo
 .
 \end_layout
 
-\begin_layout Standard
-Un resultado casi inmediato de esta definición es el siguiente
-\end_layout
-
-\begin_layout Theorem
-\begin_inset CommandInset label
-LatexCommand label
-name "thm:grad1"
-
-\end_inset
-
-Sea 
-\begin_inset Formula $F$
-\end_inset
-
- una extensión de un cuerpo 
-\begin_inset Formula $E$
-\end_inset
-
- y 
-\begin_inset Formula $E$
-\end_inset
-
- una extensión de un cuerpo 
-\begin_inset Formula $K$
-\end_inset
-
-.
- Entonces 
-\begin_inset Formula $\left[F:K\right]=\left[F:E\right]\left[E:K\right]$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Theorem
-
-\end_layout
-
+\begin_deeper
 \begin_layout Definition
 Sea 
 \begin_inset Formula $F$
 \end_inset
 
- una extensión de cuerpos de 
+ una extensión de 
 \begin_inset Formula $K$
 \end_inset
 
@@ -558,6 +520,79 @@ Si
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+Desde otro punto de vista, 
+\begin_inset Formula $K(\alpha)$
+\end_inset
+
+ es el resultado de añadir 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ a 
+\begin_inset Formula $K$
+\end_inset
+
+ y hacer todas las posibles sumas, restas, multiplicaciones y divisiones.
+ Tenemos así por ejemplo algo sencillo como el cuerpo 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt{2}\right)=\left\{ a+b\sqrt{2}:a,b\in\mathbb{Q}\right\} $
+\end_inset
+
+, que es el resultado de adjuntar 
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+ a 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Un resultado casi inmediato de estas definiciones es el siguiente, el cual,
+ en lo que sigue de este trabajo va ha ser mucha utilidad, mas precisamente
+ para la resolución de uno de los problemas Delianos.
+ 
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:grad1"
+
+\end_inset
+
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de 
+\begin_inset Formula $E$
+\end_inset
+
+ y 
+\begin_inset Formula $E$
+\end_inset
+
+ una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\left[F:K\right]=\left[F:E\right]\left[E:K\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Un ejemplo sencillo para utilidad de este teorema viene dado, si tomamos
+ las tomamos las siguientes extensiones 
+\end_layout
+
 \begin_layout Proposition
 Sea 
 \begin_inset Formula $K\subseteq\mathbb{R}$
@@ -619,6 +654,22 @@ Si tomamos
 
 \begin_layout Section
 Construcciones con Regla y Compás
+\end_layout
+
+\begin_layout Standard
+Esta sección es una de las más bellas del trabajo.
+ Veremos que el mundo artificial que hemos poblado en la anterior con las
+ extensiones de cuerpos, no pertenece a la estratosfera de la abstracción
+ matemática, sino que desciende suavemente hasta la base de nuestra historia
+ para dar respuesta a tres cuestiones geométricas que no supieron resolver
+ los antiguos griegos.
+\end_layout
+
+\begin_layout Standard
+Por ello un problema de constructibilidad será planteado como el estudio
+ de la posibilidad de obtener una figura geométrica (o un conjunto de puntos
+ que la determinen de modo único) a partir de un conjunto de puntos conocido.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -931,14 +982,21 @@ Si un número real
  de los racionales.
 \end_layout
 
-\begin_layout Example
-FALTA PONER EJEMPLOS.
-\end_layout
-
 \begin_layout Subsubsection*
 
 \bar under
 Problemas Delianos
+\end_layout
+
+\begin_layout Standard
+Finalizamos esta parte con la aplicación de los conocimientos hasta ahora
+ adquiridos sobre extensiones de cuerpos a la solución de los problemas
+ geométricos clásicos, que fueron la trisección de un ángulo y así como
+ también dedicaremos nuestra atención a la duplicación del cubo y a la cuadratur
+a del círculo, todo esto utilizando solamente la regla y el compás, estos
+ problemas han llegado a ser famosos y han permanecido sin resolver durante
+ mucho tiempo.
+ 
 \end_layout
 
 \begin_layout Corollary
@@ -1144,6 +1202,10 @@ Polígonos Regulares.
 \end_layout
 
 \begin_layout Standard
+Esta ultima seccion 
+\end_layout
+
+\begin_layout Standard
 Es fácil probar que fijado un punto en una circunferencia existe un único
  polígono regular inscrito en ella con un vértice en el punto dado.
  Los polígonos regulares de tres lados son simplemente los triángulos equilátero
@@ -1171,7 +1233,7 @@ Fijada una circunferencia
 \begin_inset Formula $n$
 \end_inset
 
--ágono regular serín los números complejos de módulo 
+-ágono regular serían los números complejos de módulo 
 \begin_inset Formula $1$
 \end_inset
 
@@ -1525,6 +1587,7 @@ Pero
 \end_layout
 
 \begin_layout Bibliography
+\labelwidthstring Referencias
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 label "Hu"
