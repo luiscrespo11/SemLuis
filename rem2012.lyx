@@ -658,9 +658,9 @@ Construcciones con Regla y Compás
 
 \begin_layout Standard
 Esta sección es una de las más bellas del trabajo.
- Veremos que el mundo artificial que hemos poblado en la anterior con las
- extensiones de cuerpos, no pertenece a la estratosfera de la abstracción
- matemática, sino que desciende suavemente hasta la base de nuestra historia
+ Veremos que el mundo artificial que hemos poblado en la anterior sección
+ con las extensiones de cuerpos, no pertenece a la estratosfera de la abstracció
+n matemática, sino que desciende suavemente hasta la base de nuestra historia
  para dar respuesta a tres cuestiones geométricas que no supieron resolver
  los antiguos griegos.
 \end_layout
@@ -989,13 +989,13 @@ Problemas Delianos
 \end_layout
 
 \begin_layout Standard
-Finalizamos esta parte con la aplicación de los conocimientos hasta ahora
- adquiridos sobre extensiones de cuerpos a la solución de los problemas
- geométricos clásicos, que fueron la trisección de un ángulo y así como
- también dedicaremos nuestra atención a la duplicación del cubo y a la cuadratur
-a del círculo, todo esto utilizando solamente la regla y el compás, estos
- problemas han llegado a ser famosos y han permanecido sin resolver durante
- mucho tiempo.
+Finalizamos esta parte de la sección con la aplicación de los conocimientos
+ hasta ahora adquiridos sobre extensiones de cuerpos a la solución de los
+ problemas geométricos clásicos, que fueron la trisección de un ángulo y
+ así como también dedicaremos nuestra atención a la duplicación del cubo
+ y a la cuadratura del círculo, todo esto utilizando solamente la regla
+ y el compás, estos problemas han llegado a ser famosos y han permanecido
+ sin resolver durante mucho tiempo.
  
 \end_layout
 
@@ -1202,7 +1202,8 @@ Polígonos Regulares.
 \end_layout
 
 \begin_layout Standard
-Esta ultima seccion 
+Esta última parte de la sección, se presentará algunas herramientas que
+ nos permitirán
 \end_layout
 
 \begin_layout Standard
@@ -1300,19 +1301,10 @@ Así pues, un polígono regular de
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\zeta_{n}=\cos(\frac{2\pi}{7})+i\sin(\frac{2\pi}{7})$
+\begin_inset Formula $\zeta_{n}=\cos(\frac{2\pi}{n})+i\sin(\frac{2\pi}{n})$
 \end_inset
 
 
-\end_layout
-
-\begin_layout Definition
-Los números primos de la forma 
-\begin_inset Formula $2^{n}+1$
-\end_inset
-
- se llaman primos de Fermat.
- 
 \end_layout
 
 \begin_layout Theorem
@@ -1595,7 +1587,39 @@ key "Hungerford"
 
 \end_inset
 
-Hungerford
+ Hungerford, Tomas.
+ Algebra.
+ New York.
+ Springer ,1974.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ar"
+key "Artin"
+
+\end_inset
+
+ Artin, E., Galois Theory.
+ Notre Dame, Ind.: Notre Dame Mathematical Lectures No.
+ 2 (2d edition),1994.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Iv"
+key "Ivorra"
+
+\end_inset
+
+ Ivorra, Carlos.
+ Geometría.
+ Valencia.
+ 2010.
 \end_layout
 
 \end_body
