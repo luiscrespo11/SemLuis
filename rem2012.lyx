@@ -113,7 +113,7 @@ customHeadersFooters
 
 \series bold
 \size large
-Enseñanza de Construcciones Geométricas con recursos algebraicos
+ENSEÑANZA DE CONSTRUCCIONES GEOMÉTRICAS CON RECURSOS ALGEBRAICOS 
 \end_layout
 
 \begin_layout Standard
@@ -484,39 +484,52 @@ extensión trascendental
 
 \begin_deeper
 \begin_layout Definition
-Si 
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de 
 \begin_inset Formula $K$
-\end_inset
-
- es un cuerpo, y tenemos las siguientes extensiones de cuerpos 
-\begin_inset Formula $\mathbb{R}/K$
-\end_inset
-
- y 
-\begin_inset Formula $K/\mathbb{Q}$
 \end_inset
 
 , y 
-\begin_inset Formula $\alpha\in\mathbb{R}$
+\begin_inset Formula $S\subset F$
 \end_inset
 
- ,se define el cuerpo generado por 
-\begin_inset Formula $\alpha$
+ un subconjunto.
+ Denotamos 
+\begin_inset Formula $K(S)$
 \end_inset
 
- sobre 
+ al menor subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
 \begin_inset Formula $K$
 \end_inset
 
- y se denota 
-\begin_inset Formula $K(\alpha)$
-\end_inset
-
- al conjunto 
-\begin_inset Formula $K(\alpha)=\left\{ \frac{f(\alpha)}{g(\alpha)}:f,g\in K\left[X\right],g(\alpha)\neq0\right\} $
+ y 
+\begin_inset Formula $S$
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Definition
+De esta definición podemos tener las extensiones de cuerpos tales como 
+\begin_inset Formula $\mathbb{Q}\left(i\right)\subset\mathbb{C}$
+\end_inset
+
+, en este caso 
+\begin_inset Formula $S=\left\{ i\right\} $
+\end_inset
+
+, pero tambien podemos extensiones como 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt{2},\right)\subset\mathbb{C}$
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1202,8 +1215,55 @@ Polígonos Regulares.
 \end_layout
 
 \begin_layout Standard
-Esta última parte de la sección, se presentará algunas herramientas que
- nos permitirán
+Esta última parte de la sección, se presentará la posibilidad o imposibilidad
+ de la construcción de los polígonos regulares que están muy presentes en
+ el mundo real , así comenzamos dando una definición de polígono, y se procederá
+ después a dar herramientas que nos servirá luego para justificar las construcci
+ones que queremos.
+\end_layout
+
+\begin_layout Standard
+Diremos que 
+\begin_inset Formula $n$
+\end_inset
+
+ puntos 
+\begin_inset Formula $P_{1},...,P_{n}$
+\end_inset
+
+ , con 
+\begin_inset Formula $n\geq3$
+\end_inset
+
+ son los vértices de un polígono regular  de 
+\begin_inset Formula $n$
+\end_inset
+
+ lados si están contenidos en una circunferencia y los arcos menores 
+\begin_inset Formula $\widehat{P_{1}P_{2}},\widehat{P_{2}P_{3}},...,\widehat{P_{n}P_{1}}$
+\end_inset
+
+ son todos disjuntos y tienen amplitud 
+\begin_inset Formula $\frac{2\pi}{n}$
+\end_inset
+
+.
+ Los lados del polígono son los segmentos 
+\begin_inset Formula $\overline{P_{1}P_{2}},\overline{P_{2}P_{3}},...,P_{n}P_{1}$
+\end_inset
+
+, el polígono con los vértices indicados es la intersección de todos los
+ semiplanos respecto a las rectas 
+\begin_inset Formula $P_{1}P_{2},P_{2}P_{3},...,P_{n}P_{1}$
+\end_inset
+
+ que contienen a los vértices restantes.
+ La circunferencia que contiene a los vértices de un polígono regular se
+ llama circunferencia circunscrita al polígono (también se dice que el polígono
+ está inscrito en la circunferencia).
+ El centro y el radio de la circunferencia se llaman también centro y radio
+ del polígono.
+ 
 \end_layout
 
 \begin_layout Standard
