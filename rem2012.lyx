@@ -416,6 +416,28 @@ Se dice que una extensión
  del álgebra lineal en el estudio de los extensiones de cuerpos.
 \end_layout
 
+\begin_layout Definition
+Un ejemplo sencillo para esta definición, puede esta dado si tenemos la
+ extensión de cuerpos 
+\begin_inset Formula $\mathbb{C}:\mathbb{R}$
+\end_inset
+
+, el grado de esta extensión es 
+\begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]=2$
+\end_inset
+
+ porque 
+\begin_inset Formula $\left\{ 1,i\right\} $
+\end_inset
+
+es una base de 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+, como espacio espacio vectorial.
+ 
+\end_layout
+
 \begin_deeper
 \begin_layout Definition
 Sea 
@@ -621,8 +643,35 @@ Sea
 \end_layout
 
 \begin_layout Standard
-Un ejemplo sencillo para utilidad de este teorema viene dado, si tomamos
- las tomamos las siguientes extensiones 
+La utilidad de este teorema permite calcular el grado de una extensión dada,
+ si se conoce el grado de las extensiones intermedias.
+ Por ejemplo,el caso en de las extensiones 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2)}$
+\end_inset
+
+ si se conoce 
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}\right]=2$
+\end_inset
+
+ y
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2)}\right]=2$
+\end_inset
+
+, se puede calcular 
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}\right]$
+\end_inset
+
+.
+ Entonces tenemos por el teorema anterior que 
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}\right]=\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2}\right]\left[\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}\right]=4$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Proposition
@@ -655,7 +704,7 @@ Sea
  
 \end_layout
 
-\begin_layout Example
+\begin_layout Standard
 Si tomamos 
 \begin_inset Formula $K=\mathbb{Q}$
 \end_inset
@@ -678,7 +727,7 @@ Si tomamos
 
  por Einsestein.
  Por lo tanto 
-\begin_inset Formula $\left[K\left(\alpha\right):K\right]=3$
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt[3]{2}\right):\mathbb{Q}\right]=3$
 \end_inset
 
 .
