@@ -1193,10 +1193,6 @@ reference "prop:gradopar"
 \end_inset
 
 , no es construible.
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Corollary
@@ -1245,8 +1241,16 @@ Polígonos Regulares.
 Esta última parte de la sección, se presentará la posibilidad o imposibilidad
  de la construcción de los polígonos regulares que están muy presentes en
  el mundo real , así comenzamos dando una definición de polígono, y se procederá
- después a dar herramientas que nos servirá luego para justificar las construcci
-ones que queremos.
+ después a dar conceptos que nos servirá luego para justificar las construccione
+s que queremos realizar.
+ Estos conceptos fueron extraídos del libro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ivorra"
+
+\end_inset
+
+, los cuales se presentan sin demostración.
 \end_layout
 
 \begin_layout Definition
