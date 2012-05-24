@@ -379,33 +379,55 @@ Un cuerpo
 \begin_inset Formula $F:K$
 \end_inset
 
- o también 
-\begin_inset Formula $F/K$
+ .
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Definition
+Se dice que una extensión 
+\begin_inset Formula $F:K$
 \end_inset
 
-.
+ es finita si 
+\begin_inset Formula $F$
+\end_inset
+
+ como 
+\begin_inset Formula $K$
+\end_inset
+
+-espacio vectorial es de dimensión finita.
+ A la dimensión de este espacio vectorial se le llama grado de la extensión
+ y se denota 
+\begin_inset Formula $\left[F:K\right]$
+\end_inset
+
+ .
+ Si tomamos a 
+\begin_inset Formula $F$
+\end_inset
+
+ como un 
+\begin_inset Formula $K$
+\end_inset
+
+-espacio vectorial, esto nos permite utilizar los conceptos y resultados
+ del álgebra lineal en el estudio de los extensiones de cuerpos.
 \end_layout
 
 \begin_deeper
 \begin_layout Definition
 Sea 
-\begin_inset Formula $F$
+\begin_inset Formula $F:K$
 \end_inset
 
- una extensión de 
-\begin_inset Formula $K$
+ una extensión de cuerpos.
+ Decimos que un elemento 
+\begin_inset Formula $\alpha\in F$
 \end_inset
 
-.
- Un elemento 
-\begin_inset Formula $\alpha$
-\end_inset
-
- de 
-\begin_inset Formula $F$
-\end_inset
-
- se dice que es 
+ es 
 \series bold
 algebraico
 \series default
@@ -413,34 +435,19 @@ algebraico
 \begin_inset Formula $K$
 \end_inset
 
- siempre que 
-\begin_inset Formula $\alpha$
+ si existe 
+\begin_inset Formula $p\in K\left[x\right],\, f\neq0$
 \end_inset
 
- sea una raíz de algún polinomio distinto de cero 
-\begin_inset Formula $f\in K\left[\alpha\right]$
+ tal 
+\begin_inset Formula $p(\alpha)=0$
 \end_inset
 
-.Si 
-\begin_inset Formula $\alpha$
-\end_inset
-
- no es una raíz de cualquier polinomio distinto de cero 
-\begin_inset Formula $f\in K\left[\alpha\right]$
-\end_inset
-
-, 
-\begin_inset Formula $\alpha$
-\end_inset
-
- se dice que es 
+ .
+ En caso contrario, decimos que a es 
 \series bold
-trascendental
+trascendente
 \series default
- sobre 
-\begin_inset Formula $K$
-\end_inset
-
 .
  
 \begin_inset Formula $F$
@@ -516,57 +523,69 @@ Sea
 .
 \end_layout
 
+\end_deeper
 \begin_layout Definition
 De esta definición podemos tener las extensiones de cuerpos tales como 
 \begin_inset Formula $\mathbb{Q}\left(i\right)\subset\mathbb{C}$
 \end_inset
 
-, en este caso 
+, donde en este caso 
 \begin_inset Formula $S=\left\{ i\right\} $
 \end_inset
 
-, pero tambien podemos extensiones como 
-\begin_inset Formula $\mathbb{Q}\left(\sqrt{2},\right)\subset\mathbb{C}$
+ y 
+\begin_inset Formula $\mathbb{R}\left(i\right)=\left\{ a+bi:a,b\in\mathbb{R}\right\} $
 \end_inset
 
-
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-Desde otro punto de vista, 
-\begin_inset Formula $K(\alpha)$
+ es el menor cuerpo que contiene a 
+\begin_inset Formula $i$
 \end_inset
 
- es el resultado de añadir 
-\begin_inset Formula $\alpha$
+ y 
+\begin_inset Formula $\mathbb{R}$
 \end_inset
 
- a 
-\begin_inset Formula $K$
+ esta extensión se la llama 
+\shape italic
+extensión simple
+\shape default
+, otro ejemplo puede ser la extensión 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt{2},\sqrt{3}\right)\subset\mathbb{C}$
 \end_inset
 
- y hacer todas las posibles sumas, restas, multiplicaciones y divisiones.
- Tenemos así por ejemplo algo sencillo como el cuerpo 
-\begin_inset Formula $\mathbb{Q}\left(\sqrt{2}\right)=\left\{ a+b\sqrt{2}:a,b\in\mathbb{Q}\right\} $
+ donde 
+\begin_inset Formula $S=\left\{ \sqrt{2},\sqrt{3}\right\} $
 \end_inset
 
-, que es el resultado de adjuntar 
+ y 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt{2},i\right)=\left\{ a+b\sqrt{2}+ci+di\sqrt{2}:a,b,c,d\in\mathbb{Q}\right\} $
+\end_inset
+
+es el menor cuerpo que contiene a 
 \begin_inset Formula $\sqrt{2}$
 \end_inset
 
- a 
+,
+\begin_inset Formula $i$
+\end_inset
+
+ y 
 \begin_inset Formula $\mathbb{Q}$
 \end_inset
 
+, a esta extensión se llama 
+\shape italic
+extensión finitamente generada
+\shape default
 .
 \end_layout
 
+\end_deeper
+\end_deeper
 \begin_layout Standard
 Un resultado casi inmediato de estas definiciones es el siguiente, el cual,
- en lo que sigue de este trabajo va ha ser mucha utilidad, mas precisamente
- para la resolución de uno de los problemas Delianos.
+ en lo que sigue sera de importancia para la resolución de uno de los problemas
+ Delianos.
  
 \end_layout
 
@@ -988,7 +1007,11 @@ Si un número real
 \begin_inset Formula $c$
 \end_inset
 
- es algebraico de grado una potencia de 2 sobre el cuerpo 
+ es algebraico de grado una potencia de 
+\begin_inset Formula $2$
+\end_inset
+
+ sobre el cuerpo 
 \begin_inset Formula $\mathbb{Q}$
 \end_inset
 
@@ -1114,7 +1137,7 @@ Si
 \end_inset
 
  es raíz del polinomio 
-\begin_inset Formula $f=x^{3}-3x-1$
+\begin_inset Formula $p(x)=x^{3}-3x-1$
 \end_inset
 
  de grado 
@@ -1170,6 +1193,10 @@ reference "prop:gradopar"
 \end_inset
 
 , no es construible.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Corollary
@@ -1222,7 +1249,7 @@ Esta última parte de la sección, se presentará la posibilidad o imposibilidad
 ones que queremos.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Definition
 Diremos que 
 \begin_inset Formula $n$
 \end_inset
@@ -1263,17 +1290,6 @@ Diremos que
  está inscrito en la circunferencia).
  El centro y el radio de la circunferencia se llaman también centro y radio
  del polígono.
- 
-\end_layout
-
-\begin_layout Standard
-Es fácil probar que fijado un punto en una circunferencia existe un único
- polígono regular inscrito en ella con un vértice en el punto dado.
- Los polígonos regulares de tres lados son simplemente los triángulos equilátero
-s, los de cuatro lados son los cuadrados, los siguientes reciben el nombre
- de pentágono regular, a hexágono regular, heptágono regular, etc.
- También es fácil ver que dos polígonos regulares son congruentes si y sólo
- si tienen el mismo radio y el mismo número de lados.
  
 \end_layout
 
@@ -1364,7 +1380,37 @@ Así pues, un polígono regular de
 \begin_inset Formula $\zeta_{n}=\cos(\frac{2\pi}{n})+i\sin(\frac{2\pi}{n})$
 \end_inset
 
+.
+\end_layout
 
+\begin_layout Standard
+En términos algebraicos, 
+\begin_inset Formula $\zeta_{n}$
+\end_inset
+
+ es una raíz 
+\begin_inset Formula $n$
+\end_inset
+
+-ésima primitiva de la unidad, el cuerpo 
+\begin_inset Formula $\mathbb{Q}(\zeta)$
+\end_inset
+
+ es el cuerpo ciclotómico 
+\begin_inset Formula $n$
+\end_inset
+
+-ésimo, que es una extensión de Galois de grado 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+, donde 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ es la función de Euler.
+ El siguiente resultado nos da una caracterización.
+ 
 \end_layout
 
 \begin_layout Theorem
@@ -1387,11 +1433,7 @@ Los polígonos regulares de
 \begin_inset Formula $\varphi(n)$
 \end_inset
 
- es potencia de 2.( donde 
-\begin_inset Formula $\varphi(n)$
-\end_inset
-
- es la función de Euler)
+ es potencia de 2.
 \end_layout
 
 \end_deeper
@@ -1412,11 +1454,11 @@ Construcción del pentágono regular
 \end_layout
 
 \begin_layout Standard
-Sea la extensión de cuerpos 
+Sea 
 \begin_inset Formula $F:\mathbb{Q}$
 \end_inset
 
-, donde 
+ la extensión de cuerpos, donde 
 \begin_inset Formula $F=\mathbb{Q}(\zeta)$
 \end_inset
 
@@ -1424,12 +1466,7 @@ Sea la extensión de cuerpos
 \begin_inset Formula $\varphi(5)=4$
 \end_inset
 
-, donde 
-\begin_inset Formula $\varphi$
-\end_inset
-
- es la función de Euler,que por teorema nos dice que si el polígono regular
- de 
+,que por teorema nos dice que si el polígono regular de 
 \begin_inset Formula $5$
 \end_inset
 
@@ -1437,8 +1474,11 @@ Sea la extensión de cuerpos
 \begin_inset Formula $\varphi(5)$
 \end_inset
 
- es potencia de 2, por lo tanto el pentágono regular es construible con
- regla y compás.
+ es potencia de 
+\begin_inset Formula $2$
+\end_inset
+
+, por lo tanto el pentágono regular es construible con regla y compás.
  Notemos que la constructibilidad del pentágono regular equivale a la constructi
 bilidad de los ángulos de amplitud 
 \begin_inset Formula $\frac{2\pi}{5}$
@@ -1541,11 +1581,11 @@ Con lo que
 \end_inset
 
  resulta ser raíz positiva del polinomio 
-\begin_inset Formula $X^{2}+X-1$
+\begin_inset Formula $x^{2}+x-1$
 \end_inset
 
  que es irreducible en 
-\begin_inset Formula $\mathbb{Q}\left[X\right]$
+\begin_inset Formula $\mathbb{Q}\left[x\right]$
 \end_inset
 
 .
