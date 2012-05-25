@@ -262,9 +262,9 @@ La idea de este trabajo es ver qué construcciones geométricas pueden hacerse
  construir una circunferencia tenemos que tener construido su centro, sobre
  el que clavar el compás, y su radio ha de ser la distancia entre dos a
  puntos construidos, con los que fijar la apertura del compás .
- Todos estamos acostumbrados a que en el colegio primario y secundario se
- enseñen a trazar la bisectriz de un ángulo, la mediatriz de un segmento
- y a construir triángulos con regla y compás.
+ Todos estamos acostumbrados en los niveles educativos a que se nos enseñen
+ a trazar la bisectriz de un ángulo, la mediatriz de un segmento y a construir
+ triángulos con regla y compás.
  La pregunta es qué otras construcciones se pueden hacer.
  
 \end_layout
@@ -379,8 +379,7 @@ Un cuerpo
 \begin_inset Formula $F:K$
 \end_inset
 
- .
- 
+.
 \end_layout
 
 \begin_deeper
@@ -417,8 +416,8 @@ Se dice que una extensión
 \end_layout
 
 \begin_layout Definition
-Un ejemplo sencillo para esta definición, puede esta dado si tenemos la
- extensión de cuerpos 
+Un ejemplo sencillo puede estar dado si tenemos la extensión de cuerpos
+ 
 \begin_inset Formula $\mathbb{C}:\mathbb{R}$
 \end_inset
 
@@ -430,7 +429,7 @@ Un ejemplo sencillo para esta definición, puede esta dado si tenemos la
 \begin_inset Formula $\left\{ 1,i\right\} $
 \end_inset
 
-es una base de 
+ es una base de 
 \begin_inset Formula $\mathbb{C}$
 \end_inset
 
@@ -457,7 +456,7 @@ algebraico
 \begin_inset Formula $K$
 \end_inset
 
- si existe 
+ si existe un polinomio 
 \begin_inset Formula $p\in K\left[x\right],\, f\neq0$
 \end_inset
 
@@ -466,7 +465,11 @@ algebraico
 \end_inset
 
  .
- En caso contrario, decimos que a es 
+ En caso contrario, decimos que 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ es 
 \series bold
 trascendente
 \series default
@@ -567,7 +570,7 @@ De esta definición podemos tener las extensiones de cuerpos tales como
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
- esta extensión se la llama 
+, esta extensión se la llama 
 \shape italic
 extensión simple
 \shape default
@@ -657,7 +660,7 @@ La utilidad de este teorema permite calcular el grado de una extensión dada,
 \begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}\right]=2$
 \end_inset
 
- y
+ y 
 \begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2)}\right]=2$
 \end_inset
 
@@ -755,27 +758,6 @@ Por ello un problema de constructibilidad será planteado como el estudio
 
 \begin_layout Standard
 De aquí en más construible sera sinónimo de construible con regla y compás.
- Dada una linea recta 
-\begin_inset Formula $L$
-\end_inset
-
- y un punto un punto 
-\begin_inset Formula $P$
-\end_inset
-
- que no este en 
-\begin_inset Formula $L$
-\end_inset
-
-, la única linea recta que pasa por 
-\begin_inset Formula $P$
-\end_inset
-
- y es paralela a 
-\begin_inset Formula $L$
-\end_inset
-
- es construible.
  Podemos entonces construir dos lineas rectas perpendiculares (ejes).
  Tomemos una unidad de longitud, y a partir de esta construimos todos los
  puntos en el plano de coordenadas enteras.
@@ -844,7 +826,7 @@ recta en
 \end_inset
 
  y radio el segmento 
-\begin_inset Formula $PQ$
+\begin_inset Formula $\overline{PQ}$
 \end_inset
 
  se llama 
@@ -1074,19 +1056,18 @@ Problemas Delianos
 \end_layout
 
 \begin_layout Standard
-Finalizamos esta parte de la sección con la aplicación de los conocimientos
- hasta ahora adquiridos sobre extensiones de cuerpos a la solución de los
- problemas geométricos clásicos, que fueron la trisección de un ángulo y
- así como también dedicaremos nuestra atención a la duplicación del cubo
- y a la cuadratura del círculo, todo esto utilizando solamente la regla
- y el compás, estos problemas han llegado a ser famosos y han permanecido
- sin resolver durante mucho tiempo.
+En esta parte de la sección mediante la aplicación de los conocimientos
+ hasta ahora adquiridos sobre extensiones de cuerpos damos la solución a
+ los problemas geométricos clásicos, que fueron la trisección de un ángulo,
+ la duplicación del cubo y a la cuadratura del círculo, todo esto utilizando
+ solamente la regla y el compás, estos problemas han llegado a ser famosos
+ y han permanecido sin resolver durante mucho tiempo.
  
 \end_layout
 
 \begin_layout Corollary
 Un ángulo de 
-\begin_inset Formula $\theta$
+\begin_inset Formula $\alpha$
 \end_inset
 
  no puede ser trisecado por construcciones con regla y compás.
@@ -1094,33 +1075,33 @@ Un ángulo de
 
 \begin_layout Proof
 Trisecar un ángulo dado 
-\begin_inset Formula $\theta$
+\begin_inset Formula $\alpha$
 \end_inset
 
  es equivalente a: dado 
-\begin_inset Formula $\cos\theta$
+\begin_inset Formula $\cos\alpha$
 \end_inset
 
 , construir 
-\begin_inset Formula $\cos\theta/3$
+\begin_inset Formula $\cos\alpha/3$
 \end_inset
 
 .
  En efecto, tener un ángulo 
-\begin_inset Formula $\theta$
+\begin_inset Formula $\alpha$
 \end_inset
 
  es equivalente a tener el punto en la circunferencia unidad con ángulo
  
-\begin_inset Formula $\theta$
+\begin_inset Formula $\alpha$
 \end_inset
 
 , es decir, a tener 
-\begin_inset Formula $(\cos\theta,\sin\theta$
+\begin_inset Formula $(\cos\alpha,\sin\alpha$
 \end_inset
 
 ), que es equivalente a tener sólo 
-\begin_inset Formula $\cos\theta$
+\begin_inset Formula $\cos\alpha$
 \end_inset
 
 .
@@ -1129,12 +1110,12 @@ Trisecar un ángulo dado
 
 \begin_layout Proof
 Consideremos 
-\begin_inset Formula $\theta=60\text{°}$
+\begin_inset Formula $\alpha=60\text{°}$
 \end_inset
 
 .
  Entonces 
-\begin_inset Formula $\cos\theta=1/2$
+\begin_inset Formula $\cos\alpha=1/2$
 \end_inset
 
 .
@@ -1142,7 +1123,7 @@ Consideremos
 \end_layout
 
 \begin_layout Proof
-\begin_inset Formula $\cos\theta=4\cos^{3}\theta/3-3\cos\theta/3$
+\begin_inset Formula $\cos\alpha=4\cos^{3}\alpha/3-3\cos\alpha/3$
 \end_inset
 
 
@@ -1165,11 +1146,11 @@ En este caso si
 
 \begin_layout Proof
 Si 
-\begin_inset Formula $\alpha=2\beta$
+\begin_inset Formula $\theta=2\beta$
 \end_inset
 
 , nos queda 
-\begin_inset Formula $\alpha^{3}-3\alpha-1=0$
+\begin_inset Formula $\theta^{3}-3\theta-1=0$
 \end_inset
 
 .
@@ -1178,11 +1159,11 @@ Si
 \end_inset
 
  es equivalente a construir 
-\begin_inset Formula $\alpha$
+\begin_inset Formula $\theta$
 \end_inset
 
 , pero 
-\begin_inset Formula $\alpha$
+\begin_inset Formula $\theta$
 \end_inset
 
  es raíz del polinomio 
@@ -1199,11 +1180,11 @@ Si
 
 .
  Tenemos entonces 
-\begin_inset Formula $\left[\mathbb{Q}(\alpha):\mathbb{Q}\right]=3$
+\begin_inset Formula $\left[\mathbb{Q}(\theta):\mathbb{Q}\right]=3$
 \end_inset
 
 , luego 
-\begin_inset Formula $\alpha$
+\begin_inset Formula $\theta$
 \end_inset
 
  no es construible por proposición 
@@ -1287,12 +1268,13 @@ Polígonos Regulares.
 \end_layout
 
 \begin_layout Standard
-Esta última parte de la sección, se presentará la posibilidad o imposibilidad
+Esta última parte de la sección, presentamos la posibilidad o imposibilidad
  de la construcción de los polígonos regulares que están muy presentes en
- el mundo real , así comenzamos dando una definición de polígono, y se procederá
- después a dar conceptos que nos servirá luego para justificar las construccione
-s que queremos realizar.
- Estos conceptos fueron extraídos del libro 
+ el mundo real , así comenzamos dando una definición de polígono, y procederemos
+ después a dar conceptos que nos servirá luego para justificar las construcción
+ del pentágono y la imposibilidad de construcción del heptágono, como ejemplos
+ de los conceptos que se darán, estos mismos fueron extraídos del libro
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Ivorra"
@@ -1581,7 +1563,7 @@ Consideremos el pentágono regular inscripto en la circunferencia de centro
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $X^{5}-1=(X-1)(X^{4}+X^{3}+X^{2}+X+1)$
+\begin_inset Formula $x^{5}-1=(x-1)(x^{4}+x^{3}+x^{2}+x+1)$
 \end_inset
 
 
@@ -1731,6 +1713,21 @@ Pero
  
 \end_layout
 
+\begin_layout Section
+Conclusiones
+\end_layout
+
+\begin_layout Standard
+Desde hace tiempo hay una relación muy estrecha entre el campo de estudio
+ del Álgebra y la Geometría, por eso quisimos mostrar mediante los conceptos
+ algebraicos una mayor asimilación de contenidos visto por los alumnos de
+ nivel universitario, es decir la justificación de los procedimientos realizados
+ y la aplicación de conceptos aprendidos en el transcurso de la carrera,
+ gracias a esto se puede justificar que construcciones son realizables mediante
+ el uso de la regla y el compás.
+ 
+\end_layout
+
 \begin_layout Bibliography
 \labelwidthstring Referencias
 \begin_inset CommandInset bibitem
@@ -1744,20 +1741,6 @@ key "Hungerford"
  Algebra.
  New York.
  Springer ,1974.
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Ar"
-key "Artin"
-
-\end_inset
-
- Artin, E., Galois Theory.
- Notre Dame, Ind.: Notre Dame Mathematical Lectures No.
- 2 (2d edition),1994.
 \end_layout
 
 \begin_layout Bibliography
