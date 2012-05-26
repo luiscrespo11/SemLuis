@@ -234,10 +234,7 @@ En este trabajo presentamos una propuesta de una secuencia de conceptos
  Por último, presentamos argumentos algebraicos para justificar las construccion
 es.
  En todas estas partes indicamos una posible secuencia de actividades.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1485,7 +1482,7 @@ Notemos que la constructibilidad de los polígonos regulares de
 \end_layout
 
 \begin_layout Subsubsection*
-Construcción del pentágono regular 
+El pentágono regular se puede construir con regla y compás.
 \end_layout
 
 \begin_layout Standard
