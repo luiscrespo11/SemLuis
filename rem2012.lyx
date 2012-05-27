@@ -234,7 +234,10 @@ En este trabajo presentamos una propuesta de una secuencia de conceptos
  Por último, presentamos argumentos algebraicos para justificar las construccion
 es.
  En todas estas partes indicamos una posible secuencia de actividades.
-\begin_inset Newpage pagebreak
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -379,6 +382,32 @@ Un cuerpo
 .
 \end_layout
 
+\begin_layout Definition
+Podemos citar varios ejemplos de extensiones de cuerpos tales como 
+\begin_inset Formula $\mathbb{C}:\mathbb{R}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt[3]{2}\right):\mathbb{Q}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbb{C}:\mathbb{Q},$
+\end_inset
+
+ 
+\begin_inset Formula $\mathbb{R}(i):\mathbb{R}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbb{R}:\mathbb{\mathbb{Q}}$
+\end_inset
+
+.
+ Ahora a continuación vamos a damos la definición que se va a utlizar a
+ lo largo del trabajo.
+\end_layout
+
 \begin_deeper
 \begin_layout Definition
 Se dice que una extensión 
@@ -431,7 +460,15 @@ Un ejemplo sencillo puede estar dado si tenemos la extensión de cuerpos
 \end_inset
 
 , como espacio espacio vectorial.
- 
+ También tenemos extensiones que no son finitas tales como 
+\begin_inset Formula $\mathbb{R}:\mathbb{\mathbb{Q}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbb{C}:\mathbb{Q}$
+\end_inset
+
+, donde el grado de estas extensiones es infinita.
 \end_layout
 
 \begin_deeper
@@ -583,7 +620,7 @@ extensión simple
 \begin_inset Formula $\mathbb{Q}\left(\sqrt{2},i\right)=\left\{ a+b\sqrt{2}+ci+di\sqrt{2}:a,b,c,d\in\mathbb{Q}\right\} $
 \end_inset
 
-es el menor cuerpo que contiene a 
+ es el menor cuerpo que contiene a 
 \begin_inset Formula $\sqrt{2}$
 \end_inset
 
