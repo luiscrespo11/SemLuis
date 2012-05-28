@@ -410,8 +410,8 @@ Podemos citar varios ejemplos de extensiones de cuerpos tales como
 \end_inset
 
 .
- Ahora a continuación vamos a damos la definición que se va a utilizar a
- lo largo del trabajo.
+ Ahora a continuación damos la definición que se va a utilizar a lo largo
+ del trabajo.
 \end_layout
 
 \begin_deeper
@@ -435,7 +435,10 @@ Se dice que una extensión
 \end_inset
 
  .
- Si tomamos a 
+\end_layout
+
+\begin_layout Definition
+Si tomamos a 
 \begin_inset Formula $F$
 \end_inset
 
@@ -497,10 +500,10 @@ algebraico
 \end_inset
 
  si existe un polinomio 
-\begin_inset Formula $p\in K\left[x\right],\, f\neq0$
+\begin_inset Formula $p\in K\left[x\right],\, p\neq0$
 \end_inset
 
- tal 
+ tal que 
 \begin_inset Formula $p(\alpha)=0$
 \end_inset
 
@@ -555,7 +558,7 @@ extensión trascendental
 \end_layout
 
 \begin_layout Definition
-Por ejemplo,
+Por ejemplo, 
 \begin_inset Formula $i\in\mathbb{C}$
 \end_inset
 
@@ -589,7 +592,7 @@ Por ejemplo,
 \begin_inset Formula $\mathbb{Q}$
 \end_inset
 
-; o sea que no hay una ecuación polinómica con coeficientes en 
+, o sea que no hay una ecuación polinómica con coeficientes en 
 \begin_inset Formula $\mathbb{Q}$
 \end_inset
 
@@ -601,7 +604,7 @@ Por ejemplo,
 \begin_inset Formula $e$
 \end_inset
 
- sean una raiz.
+ sean una raíz.
 \end_layout
 
 \begin_deeper
@@ -680,7 +683,7 @@ extensión simple
 \begin_inset Formula $\sqrt{2}$
 \end_inset
 
-,
+, 
 \begin_inset Formula $i$
 \end_inset
 
