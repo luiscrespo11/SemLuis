@@ -227,8 +227,8 @@ En este trabajo presentamos una propuesta de una secuencia de conceptos
  presentarlo después de haber hecho una presentación de las construcciones
  geométricas y haber permitido a los estudiantes realizar construcciones
  concretas con regla y compás.
- Por lo tanto en una primera parte mostraremos que puntos en el plano complejo
- se pueden construir.
+ Por lo tanto en una primera parte enunciaremos algunos conceptos algebraicos
+ que servirán para mostrar que puntos en el plano complejo se pueden construir.
  En una segunda indicamos la imposibilidad de ciertas construcciones como
  por ejemplo los Problemas Delianos.
  Por último, presentamos argumentos algebraicos para justificar las construccion
@@ -265,13 +265,23 @@ La idea de este trabajo es ver qué construcciones geométricas pueden hacerse
  Todos estamos acostumbrados en los niveles educativos a que se nos enseñen
  a trazar la bisectriz de un ángulo, la mediatriz de un segmento y a construir
  triángulos con regla y compás.
- La pregunta es qué otras construcciones se pueden hacer.
- 
+ Las cuestiones que pueden surgir y que trataremos de bosquejar una respuesta
+ son:
+\end_layout
+
+\begin_layout Itemize
+Dados dos puntos en el plano complejo ¿Que otros puntos podremos construir
+ (con el uso de una regla y un compás)?
+\end_layout
+
+\begin_layout Itemize
+¿Qué puntos no podremos construir del plano complejo?
 \end_layout
 
 \begin_layout Standard
-Los griegos ya tenían planteadas tres preguntas (que hoy se consideran clásicas)
-: 
+Los griegos ya tenían planteadas tres cuestiones que se denominan Problemas
+ Delianos.
+ (que hoy se consideran clásicas): 
 \end_layout
 
 \begin_layout Itemize
@@ -317,10 +327,6 @@ Otra pregunta que puede formularse es:
 
 \begin_layout Itemize
 ¿Cuáles polígonos regulares pueden construirse usando regla y compás? .
-\end_layout
-
-\begin_layout Standard
-Vamos a intentar dar respuesta a algunas de estas preguntas.
 \end_layout
 
 \begin_layout Section
@@ -549,41 +555,33 @@ extensión trascendental
 \end_layout
 
 \begin_layout Definition
-Consideremos las extensiones 
-\begin_inset Formula $\mathbb{C}:\mathbb{R}$
-\end_inset
-
-, 
-\begin_inset Formula $\mathbb{R}:\mathbb{Q}$
-\end_inset
-
-.
- Evidentemente,
+Por ejemplo,
 \begin_inset Formula $i\in\mathbb{C}$
-\end_inset
-
-, de 
-\begin_inset Formula $x^{2}+1=0$
 \end_inset
 
  es algebraico sobre 
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
-.
- Asi como también 
-\begin_inset Formula $\sqrt{2}\in\mathbb{R}$
+, pues es solución de 
+\begin_inset Formula $x^{2}+1=0$
 \end_inset
 
-, de 
-\begin_inset Formula $x^{2}-2=0$
+.
+ También, 
+\begin_inset Formula $\sqrt{2}\in\mathbb{R}$
 \end_inset
 
  es algebraico sobre 
 \begin_inset Formula $\mathbb{Q}$
 \end_inset
 
-, es posible demostrar que 
+ pues es solución de 
+\begin_inset Formula $x^{2}-2=0$
+\end_inset
+
+.
+ Por otro lado, es posible demostrar que 
 \begin_inset Formula $\pi,e\in\mathbb{R}$
 \end_inset
 
@@ -591,7 +589,19 @@ Consideremos las extensiones
 \begin_inset Formula $\mathbb{Q}$
 \end_inset
 
-.
+; o sea que no hay una ecuación polinómica con coeficientes en 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de la que 
+\begin_inset Formula $\pi$
+\end_inset
+
+ o 
+\begin_inset Formula $e$
+\end_inset
+
+ sean una raiz.
 \end_layout
 
 \begin_deeper
@@ -816,34 +826,7 @@ Si tomamos
 .
 \end_layout
 
-\begin_layout Section
-Construcciones con Regla y Compás
-\end_layout
-
-\begin_layout Standard
-Esta sección es una de las más bellas del trabajo.
- Veremos que el mundo artificial que hemos poblado en la anterior sección
- con las extensiones de cuerpos, no pertenece a la estratosfera de la abstracció
-n matemática, sino que desciende suavemente hasta la base de nuestra historia
- para dar respuesta a tres cuestiones geométricas que no supieron resolver
- los antiguos griegos.
-\end_layout
-
-\begin_layout Standard
-Por ello un problema de constructibilidad será planteado como el estudio
- de la posibilidad de obtener una figura geométrica (o un conjunto de puntos
- que la determinen de modo único) a partir de un conjunto de puntos conocido.
- 
-\end_layout
-
-\begin_layout Standard
-De aquí en más construible sera sinónimo de construible con regla y compás.
- Podemos entonces construir dos lineas rectas perpendiculares (ejes).
- Tomemos una unidad de longitud, y a partir de esta construimos todos los
- puntos en el plano de coordenadas enteras.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Definition
 Si 
 \begin_inset Formula $F$
 \end_inset
@@ -852,7 +835,11 @@ Si
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
- de los números reales, el plano de 
+ de los números reales, el 
+\series bold
+plano de
+\series default
+ 
 \begin_inset Formula $F$
 \end_inset
 
@@ -1020,6 +1007,37 @@ Sea
 \end_layout
 
 \end_deeper
+\begin_layout Section
+Construcciones con Regla y Compás
+\end_layout
+
+\begin_layout Standard
+Esta sección es una de las más bellas del trabajo.
+ Veremos que el mundo artificial que hemos poblado en la anterior sección
+ con las extensiones de cuerpos, no pertenece a la estratosfera de la abstracció
+n matemática, sino que desciende suavemente hasta la base de nuestra historia
+ para dar respuesta a tres cuestiones geométricas que no supieron resolver
+ los antiguos griegos.
+\end_layout
+
+\begin_layout Standard
+El problema de constructibilidad, o sea la posibilidad de ser construido,
+ será planteado como el estudio de la posibilidad de obtener una figura
+ geométrica en el plano complejo (o un conjunto de puntos que la determinen
+ de modo único) a partir de dos puntos dados a los que asignaremos los reales
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ y 
+\begin_inset Formula $0$
+\end_inset
+
+, con el uso de una regla y un compás (perfectos) solamente.
+ Por ejemplo, puesto que podemos construir lineas rectas perpendiculares,
+ podemos construir todos los puntos en el plano de coordenadas enteras.
+\end_layout
+
 \begin_layout Standard
 Un número real 
 \begin_inset Formula $c$
@@ -1059,24 +1077,6 @@ Un número real
 \end_layout
 
 \begin_layout Enumerate
-Los números racionales son construibles.
- 
-\end_layout
-
-\begin_layout Enumerate
-Si 
-\begin_inset Formula $c$
-\end_inset
-
- es construibles, entonces 
-\begin_inset Formula $\sqrt{c}$
-\end_inset
-
- también lo es.
-\end_layout
-
-\begin_layout Enumerate
-\paragraph_spacing onehalf
 Si 
 \begin_inset Formula $c$
 \end_inset
@@ -1093,8 +1093,28 @@ y
 \begin_inset Formula $c/d\,(d\neq0)$
 \end_inset
 
- son construibles, así los números construibles son un subcuerpo de los
- números reales.
+ son construibles.
+\end_layout
+
+\begin_layout Enumerate
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ es construibles, entonces 
+\begin_inset Formula $\sqrt{c}$
+\end_inset
+
+ también lo es.
+\end_layout
+
+\begin_layout Enumerate
+Los números construibles son un subcuerpo de los números reales que contiene
+ a los racionales y es cerrado bajo la extracción de raices cuadradas.
+\end_layout
+
+\begin_layout Standard
+Este último hecho se deduce inmediatamente de los anteriores
 \end_layout
 
 \begin_layout Standard
@@ -1564,7 +1584,7 @@ Notemos que la constructibilidad de los polígonos regulares de
 .
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 El pentágono regular se puede construir con regla y compás.
 \end_layout
 
@@ -1635,7 +1655,7 @@ Consideremos el pentágono regular inscripto en la circunferencia de centro
 \begin_inset Formula $\zeta^{5}=1$
 \end_inset
 
- (fórmula de moivre), es decir que
+ (fórmula de De Moivre), es decir que
 \begin_inset Formula $\zeta$
 \end_inset
 
@@ -1721,7 +1741,7 @@ Con lo que
  construible.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 El heptágono regular no se puede construir con regla y compás.
  
 \end_layout
@@ -1798,14 +1818,35 @@ Conclusiones
 \end_layout
 
 \begin_layout Standard
-Desde hace tiempo hay una relación muy estrecha entre el campo de estudio
- del Álgebra y la Geometría, por eso quisimos mostrar mediante los conceptos
- algebraicos una mayor asimilación de contenidos visto por los alumnos de
- nivel universitario, es decir la justificación de los procedimientos realizados
- y la aplicación de conceptos aprendidos en el transcurso de la carrera,
- que nos permitieron justificar que construcciones son realizables mediante
- el uso de la regla y el compás.
-  
+Se cuenta que lo que llevó al matemático Gauss a dedicarse a la Matemática
+ fue la construcción del heptadecágono regular 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Perez"
+
+\end_inset
+
+.
+ Al parecer esta devoción la llevó toda su vida, hasta el punto que también
+ se cuenta que diseñó la construcción del heptadecágono para la decoración
+ de su propia lápida mortuoria.
+ Este encantamiento debería servirnos en nuestro objetivo de enseñar Matemáticas
+, en particular Geometría.
+ Sumado a este hecho, si podemos mostrar cómo el Álgebra Abstracta se alinea
+ con la Geometría para responder cuestiones antiguas de esta última, tendríamos
+ entre manos un material altamente motivador para nuestro quehacer docente.
+ 
+\end_layout
+
+\begin_layout Standard
+Pensamos que este trabajo puede servir como una guía a aquellos docentes
+ que deban incluir estos temas en su cátedra.
+ El ordenamiento de los conceptos puede ser como el indicado anteriormente.
+ Naturalmente, desarrollando los conceptos algebraicos de acuerdo a las
+ propias circunstancias.
+ Pero creemos que deben mantenerse ligados, en cada instancia, los conceptos
+ algebraicos con las aplicaciones geométricas, para que de esa ligadura
+ puedan brillar ambas disciplinas.
 \end_layout
 
 \begin_layout Bibliography
@@ -1836,6 +1877,24 @@ key "Ivorra"
  Geometría.
  Valencia.
  2010.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Pe"
+key "Perez"
+
+\end_inset
+
+Perez, P.
+ Sángari, A.
+ Construcciones de polígonos regulares con regla y compás con la asistencia
+ del Geogebra” Actas del Encuentro recuperado de http://www.encuentrogeometriaupn.
+com/ (páginas 307 a 314) Universidad Pedagógica Nacional.
+ Bogotá – Colombia.
+ 2011
 \end_layout
 
 \end_body
