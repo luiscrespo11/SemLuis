@@ -258,32 +258,7 @@ Conclusiones del tema estudiado.
 \end_layout
 
 \begin_layout Bibliography
-\labelwidthstring Bibliografía
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Iv"
-key "Ivorra"
-
-\end_inset
-
-Geometría.
- Carlos Ivorra Castillo
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Bibliografía
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Hu"
-key "Hungerford"
-
-\end_inset
-
-Álgebra
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Bibliografía
+\labelwidthstring Referencias
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 label "Ar"
@@ -291,35 +266,30 @@ key "Artin"
 
 \end_inset
 
- Galois Theory
+ Artin, E..
+ Galois Theory.
+ Notre Dame .
+ Ind: Notre Dame Mathematical Lectures N° 2.
+ 1944.
 \end_layout
 
 \begin_layout Bibliography
-\labelwidthstring Bibliografía
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "St"
-key "Steward"
-
-\end_inset
-
-Galois Theory
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Bibliografía
+\labelwidthstring Referencias
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 label "Br"
-key "Babini y Rey Pastor"
+key "Babibini y Rey Pastor"
 
 \end_inset
 
-Historia de la Matemática
+ Babini, J., Rey Pastor, J.
+ Historia de la Matemática.
+ Barcelona.
+ Gedisa, 1985.
 \end_layout
 
 \begin_layout Bibliography
-\labelwidthstring Bibliografía
+\labelwidthstring Referencias
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 label "Bo"
@@ -327,7 +297,55 @@ key "Boyer"
 
 \end_inset
 
-Historia de la Matemática
+ Boyer, Carl.
+ Historia de la Matemática.
+ Alianza Editorial.
+ 1994.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hu"
+key "Hungerford"
+
+\end_inset
+
+ Hungerford, Tomas.
+ Algebra.
+ New York.
+ Springer ,1974.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Iv"
+key "Ivorra"
+
+\end_inset
+
+ Ivorra, Carlos.
+ Geometría.
+ Valencia.
+ 2010.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referencias
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "St"
+key "Stewart"
+
+\end_inset
+
+ Stewart, Ian.
+ Galois Theory.
+ .Chapman and Hall.
+ 2000
 \end_layout
 
 \end_body
