@@ -149,6 +149,10 @@ Metodología
 \begin_layout Standard
 Para la Fundamentación de las construcciones con regla y compás, necesitamos
  estudiar las Extensiones de Cuerpo y la Teoría de Galois.
+ A lo largo de período lectivo colectaremos y estudiaremos bibliografía
+ correspondiente.
+ Simultáneamente redactaremos el trabajo final.
+ 
 \end_layout
 
 \begin_layout Section*
@@ -179,7 +183,7 @@ key "Artin"
  de la Matemática de Jose Babini y Rey Pastor 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Babini y Rey Pastor"
+key "Babibini y Rey Pastor"
 
 \end_inset
 
@@ -204,7 +208,7 @@ Continuación del estudio del Capítulo V de libro Algebra de Hungerford y
  Además del libro Galois Theory de Ian Steward
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Steward"
+key "Stewart"
 
 \end_inset
 
