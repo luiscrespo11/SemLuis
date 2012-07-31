@@ -112,7 +112,14 @@ adds table of contents entry
 \end_layout
 
 \begin_layout Standard
-Resumidamente se puede decir en este resumen...
+Resumidamente se puede decir en este
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hungerford1974algebra,stewart2004galois,artin1997galois"
+
+\end_inset
+
+ resumen...
 \end_layout
 
 \end_body

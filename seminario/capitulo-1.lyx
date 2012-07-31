@@ -273,7 +273,14 @@ Los problemas de las construcción ha sido un tema favorito de la geometría.
 \begin_inset Formula $n$
 \end_inset
 
- lados tiene quizás el máximo interés 
+ lados tiene quizás el máximo interés.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chomsky2004estructuras"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
