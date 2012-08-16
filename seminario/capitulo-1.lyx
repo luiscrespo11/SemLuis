@@ -370,10 +370,7 @@ Muchas construcciones geométricas son realizables con regla y compás: segmento
 \end_layout
 
 \begin_layout Standard
-El requerimiento de usar sólo la regla y el compás para realizar estas construcc
-iones, está asociado a la visión que tenía Platón de la recta y el círculo:
- estas dos eran las únicas figuras “perfectas”.
- De la investigación de estos problemas se ocuparon numerosos pensadores
+De la investigación de estos problemas se ocuparon numerosos pensadores
  griegos del periodo helénico, el más antiguo de los cuales fue el filósofo
  Anaxágoras, contemporáneo notable de Zenón y a quien se conoce como el
  último de los celebrados filósofos de la escuela jónica, condenado a muerte
@@ -382,16 +379,7 @@ iones, está asociado a la visión que tenía Platón de la recta y el círculo:
 \end_inset
 
  años por favorecer la causa persa.
- Aun cuando su trabajo principal fue en filosofía, donde su primer postulado
- era “la razón gobierna el mundo”, se interesó en matemáticas y escribió
- sobre el problema de la cuadratura del círculo y sus perspectivas.
- Cuando fue desterrado de Atenas declaró: “No soy yo quien ha perdido a
- los atenienses, sino los atenienses quienes me pierden a mí”.
- Anaxágoras llegó a Grecia en el siglo 
-\begin_inset Formula $V$
-\end_inset
-
- a.C., en la gran era de Pericles.
+ Escribió sobre el problema de la cuadratura del círculo y sus perspectivas.
  Anaxágoras representaba claramente la motivación griega típica: el deseo
  de saber.
  En matemáticas también la actitud griega difería, de manera tajante, de
@@ -5384,9 +5372,65 @@ Recordemos que una extensión abeliana es una extensión de Galois algebraica
  
 \end_layout
 
-\begin_layout Proof
+\begin_layout Proposition
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión ciclotomica de orden 
+\begin_inset Formula $n$
+\end_inset
+
+ del cuerpo 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de los números racionales y 
+\begin_inset Formula $g_{n}(x)$
+\end_inset
+
+ el n-ésimo polinmomio ciclotomico sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+ Entonces
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $g_{n}(x)$
+\end_inset
+
+ es irreducible en 
+\begin_inset Formula $\mathbb{Q}\left[x\right]$
+\end_inset
+
 
 \end_layout
 
+\begin_layout Enumerate
+\begin_inset Formula $\left[F:\mathbb{Q}\right]=\varphi(n),$
+\end_inset
+
+ donde 
+\begin_inset Formula $\varphi$
+\end_inset
+
+es la función de Euler
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Aut_{\mathbb{Q}}F$
+\end_inset
+
+ es un isomorfismo al grupo multiplicativo de las unidades del anillo 
+\begin_inset Formula $\mathbb{Z}_{n}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
