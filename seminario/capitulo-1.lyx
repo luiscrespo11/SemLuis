@@ -933,7 +933,7 @@ Rey Pastor, J.
  Babini.
  1951.
  Historia de la Matemática.
- Argentin
+ Argentina
 \end_layout
 
 \begin_layout Section
@@ -993,7 +993,10 @@ Se dice que una extensión
 \end_inset
 
  .
- Si tomamos a 
+\end_layout
+
+\begin_layout Definition
+Si tomamos a 
 \begin_inset Formula $F$
 \end_inset
 
@@ -5345,5 +5348,45 @@ Entonces
 \end_layout
 
 \end_deeper
+\begin_layout Remark
+Recordemos que una extensión abeliana es una extensión de Galois algebraica
+ cuyo grupo de Galois es abeliano.
+ La dimensión de 
+\begin_inset Formula $F$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ puede ser estrictamente menor que 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+.
+ Por ejemplo, si 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ es una raíz 5th de la unidad en 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+, entonces 
+\begin_inset Formula $\mathbb{R}\subset\mathbb{R}(\zeta)\subset\mathbb{C}$
+\end_inset
+
+, donde, 
+\begin_inset Formula $\left[\mathbb{R}(\zeta):\mathbb{R}\right]=2<4=\mbox{\varphi}(5)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+
+\end_layout
+
 \end_body
 \end_document
