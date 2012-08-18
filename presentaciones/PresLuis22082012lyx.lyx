@@ -685,10 +685,7 @@ status open
 
 \end_inset
 
-Comenzaremos
-,
-\lang spanish
-
+Comenzaremos,
 \begin_inset ERT
 status open
 
@@ -1101,12 +1098,398 @@ status open
 \end_layout
 
 \end_deeper
-\begin_layout Section
-Objetivos
+\begin_layout BeginFrame
+
+\end_layout
+
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+, y 
+\begin_inset Formula $S\subset F$
+\end_inset
+
+ un subconjunto.
+ Denotamos 
+\begin_inset Formula $K(S)$
+\end_inset
+
+ al menor subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $S$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+De esta definición podemos tener las extensiones de cuerpos
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ tales como 
+\begin_inset Formula $\mathbb{Q}\left(i\right)\subset\mathbb{C}$
+\end_inset
+
+, donde en este caso 
+\begin_inset Formula $S=\left\{ i\right\} $
+\end_inset
+
+ y 
+\begin_inset Formula $\mathbb{R}\left(i\right)=\left\{ a+bi:a,b\in\mathbb{R}\right\} $
+\end_inset
+
+ es el menor cuero que contiene a 
+\begin_inset Formula $i$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+, esta extensión se la llama 
+\shape italic
+extensión simple.
 \end_layout
 
 \begin_layout BeginFrame
-Objetivos 
+
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Theorem
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de 
+\begin_inset Formula $E$
+\end_inset
+
+ y 
+\begin_inset Formula $E$
+\end_inset
+
+ una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\left[F:K\right]=\left[F:E\right]\left[E:K\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+La utilidad de este teorema
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ permite calcular el grado de una extensión dada, si se conoce el grado
+ de las extensiones intermedias
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Por ejemplo,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+el caso en de las extensiones 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2)}$
+\end_inset
+
+ si se conoce 
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}\right]=2$
+\end_inset
+
+ y 
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2)}\right]=2$
+\end_inset
+
+, se puede calcular 
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}\right]$
+\end_inset
+
+.
+ Entonces tenemos por el teorema anterior que 
+\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}\right]=\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2}\right]\left[\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}\right]=4$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Los conocimientos hasta ahora adquiridos sobre extensiones de cuerpos
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ damos la solución a los problemas delianos, que fueron la trisección de
+ un ángulo, la duplicación del cubo y a la cuadratura del círculo, todo
+ esto utilizando solamente la regla y el compás, estos problemas han llegado
+ a ser famosos y han permanecido sin resolver durante mucho tiempo.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Es imposible con regla y compás la construcción para duplicar un cubo de
+ longitud de lado 1
+.
+\lang spanish
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ Para duplicar el cubo unitario tendríamos que construir 
+\begin_inset Formula $\sqrt[3]{2}$
+\end_inset
+
+ a partir de 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+, pero 
+\begin_inset Formula $\left[\mathbb{Q}(\sqrt[3]{2}):\mathbb{Q}\right]=3$
+\end_inset
+
+ que no es potencia de dos, por lo que por proposición , no es construible.
+\end_layout
+
+\begin_layout BeginFrame
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Es imposible cuadrar un circulo con construcciones de regla y compás.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Para construir un cuadrado
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ con misma área que un círculo de diámetro 1, tendríamos que construir 
+\begin_inset Formula $\sqrt{\pi}$
+\end_inset
+
+.
+ Pero si 
+\begin_inset Formula $\sqrt{\pi}$
+\end_inset
+
+ fuera algebraico, también 
+\begin_inset Formula $\pi$
+\end_inset
+
+ sería algebraico.
+ En efecto, si consideramos 
+\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\pi)\subset\mathbb{Q}(\sqrt{\pi})$
+\end_inset
+
+, entonces la transitividad de grados nos dice 
+\begin_inset Formula $\left[\mathbb{Q}(\sqrt{\pi}):\mathbb{Q}\right]=\left[\mathbb{Q}(\sqrt{\pi}):\mathbb{Q}(\pi)\right]\left[\mathbb{Q}(\pi):\mathbb{Q}\right]$
+\end_inset
+
+.
+ Suponiendo el lado izquierdo finito, se tendría 
+\begin_inset Formula $\left[\mathbb{Q}(\pi):\mathbb{Q}\right]<\infty$
+\end_inset
+
+, absurdo.
+ 
+\end_layout
+
+\begin_layout Section
+En construcción...
+\end_layout
+
+\begin_layout BeginFrame
+Lo que se esta Trabajando
+\end_layout
+
+\begin_layout BeginFrame
+Por hacer
 \begin_inset Note Note
 status open
 
@@ -1131,18 +1514,6 @@ Usar Letras Capitales
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-Diseño de esquema de actividades para la enseñanza de la Teoría de Conjuntos.
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Análisis detallado de las paradojas más comunes de la teoría.
 \end_layout
 
 \begin_layout Section
@@ -1181,24 +1552,6 @@ key "Ivorra"
  Geometría.
  Valencia.
  2010.
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Pe"
-key "Perez"
-
-\end_inset
-
-Perez, P.
- Sángari, A.
- Construcciones de polígonos regulares con regla y compás con la asistencia
- del Geogebra” Actas del Encuentro recuperado de http://www.encuentrogeometriaupn.
-com/ (páginas 307 a 314) Universidad Pedagógica Nacional.
- Bogotá – Colombia.
- 2011
 \end_layout
 
 \begin_layout EndFrame
