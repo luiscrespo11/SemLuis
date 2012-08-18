@@ -32,6 +32,7 @@
 \use_default_options false
 \begin_modules
 theorems-ams-bytype
+enumitem
 \end_modules
 \maintain_unincluded_children false
 \language spanish
@@ -685,6 +686,9 @@ status open
 \end_inset
 
 Comenzaremos
+,
+\lang spanish
+
 \begin_inset ERT
 status open
 
@@ -695,9 +699,8 @@ status open
 
 \end_inset
 
-,contando que se conocen ya los conceptos de grupos, anillos y cuerpos,
- los cuales se mencionan en este trabajo, y fueron vistas en cursos de la
- carrera.
+contando que se conocen ya los conceptos de grupos, anillos y cuerpos, los
+ cuales se mencionan en este trabajo, y fueron vistas en cursos de la carrera.
  Comenzaremos con una definición básica para lo subsiguiente.
 \end_layout
 
@@ -761,29 +764,53 @@ Un cuerpo
 .
 \end_layout
 
-\begin_layout Example*
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Standard
 Podemos citar varios ejemplos de extensiones de cuerpos tales como 
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
 \begin_inset Formula $\mathbb{C}:\mathbb{R}$
 \end_inset
 
-, 
+
+\end_layout
+
+\begin_layout Enumerate
 \begin_inset Formula $\mathbb{Q}\left(\sqrt[3]{2}\right):\mathbb{Q}$
 \end_inset
 
-, 
-\begin_inset Formula $\mathbb{C}:\mathbb{Q},$
-\end_inset
 
- 
+\end_layout
+
+\begin_layout Enumerate
 \begin_inset Formula $\mathbb{R}(i):\mathbb{R}$
 \end_inset
 
-, 
+
+\end_layout
+
+\begin_layout Enumerate
 \begin_inset Formula $\mathbb{R}:\mathbb{\mathbb{Q}}$
 \end_inset
 
-.
- Ahora a continuación damos la definición que se va a utilizar a lo largo
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Ahora a continuación damos la definición que se va a utilizar a lo largo
  del trabajo.
 \end_layout
 
@@ -813,6 +840,267 @@ Se dice que una extensión
  .
 \end_layout
 
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Si tomamos a 
+\begin_inset Formula $F$
+\end_inset
+
+ como un 
+\begin_inset Formula $K$
+\end_inset
+
+-espacio vectorial,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+esto nos permite utilizar los conceptos y resultados del álgebra lineal
+ en el estudio de los extensiones de cuerpos.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Un ejemplo sencillo puede estar dado
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ si tenemos la extensión de cuerpos 
+\begin_inset Formula $\mathbb{C}:\mathbb{R}$
+\end_inset
+
+, el grado de esta extensión es 
+\begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]=2$
+\end_inset
+
+ porque 
+\begin_inset Formula $\left\{ 1,i\right\} $
+\end_inset
+
+ es una base de 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+, como espacio espacio vectorial.
+ También tenemos extensiones que no son finitas tales como 
+\begin_inset Formula $\mathbb{R}:\mathbb{\mathbb{Q}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbb{C}:\mathbb{Q}$
+\end_inset
+
+, donde el grado de estas extensiones es infinita.
+\end_layout
+
+\begin_layout BeginFrame
+
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F:K$
+\end_inset
+
+ una extensión de cuerpos.
+ Decimos que un elemento 
+\begin_inset Formula $\alpha\in F$
+\end_inset
+
+ es 
+\series bold
+algebraico
+\series default
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ si existe un polinomio 
+\begin_inset Formula $p\in K\left[x\right],\, p\neq0$
+\end_inset
+
+ tal que 
+\begin_inset Formula $p(\alpha)=0$
+\end_inset
+
+ .
+ En caso contrario, decimos que 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ es 
+\series bold
+trascendente
+\series default
+.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama 
+\series bold
+extensión algebraica
+\series default
+ de 
+\begin_inset Formula $K$
+\end_inset
+
+ si cada elemento de 
+\begin_inset Formula $F$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama 
+\series bold
+extensión trascendental
+\series default
+ si por lo menos un elemento de 
+\begin_inset Formula $F$
+\end_inset
+
+ es trascendental sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Por ejemplo,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $i\in\mathbb{C}$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+, pues es solución de 
+\begin_inset Formula $x^{2}+1=0$
+\end_inset
+
+.
+ También, 
+\begin_inset Formula $\sqrt{2}\in\mathbb{R}$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ pues es solución de 
+\begin_inset Formula $x^{2}-2=0$
+\end_inset
+
+.
+ Por otro lado, es posible demostrar que 
+\begin_inset Formula $\pi,e\in\mathbb{R}$
+\end_inset
+
+ son trascendentales sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+, o sea que no hay una ecuación polinómica con coeficientes en 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de la que 
+\begin_inset Formula $\pi$
+\end_inset
+
+ o 
+\begin_inset Formula $e$
+\end_inset
+
+ sean una raíz.
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Objetivos
 \end_layout
