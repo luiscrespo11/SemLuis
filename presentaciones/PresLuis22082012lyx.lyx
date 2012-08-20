@@ -662,7 +662,14 @@ se hace necesario tratar con conceptos como extensiones de cuerpos, que
  Estos conceptos fueron principalmente obtenidos del libro 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Hungerford"
+key "hungerford1974algebra"
+
+\end_inset
+
+y 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "stewart2004galois"
 
 \end_inset
 
@@ -1534,34 +1541,15 @@ Usar Letras Capitales
 Bibliografía
 \end_layout
 
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Hu"
-key "Hungerford"
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "presen"
+options "plain"
 
 \end_inset
 
- Hungerford, Tomas.
- Algebra.
- New York.
- Springer ,1974.
-\end_layout
 
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Iv"
-key "Ivorra"
-
-\end_inset
-
- Ivorra, Carlos.
- Geometría.
- Valencia.
- 2010.
 \end_layout
 
 \begin_layout EndFrame
