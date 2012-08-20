@@ -147,7 +147,7 @@ Justificación Algebraica de las Construcciones con Regla y Compas
 status open
 
 \begin_layout Plain Layout
-Conjuntos 
+Aplicaciones de la Teoria de Galois 
 \begin_inset Note Note
 status open
 
@@ -780,10 +780,7 @@ status open
 
 \end_inset
 
-Ejemplo
-s
-\lang spanish
-
+Ejemplos
 \begin_inset ERT
 status open
 
@@ -1367,7 +1364,7 @@ status open
 
 \end_inset
 
-Los conocimientos hasta ahora adquiridos 
+Con los conocimientos hasta ahora adquiridos sobre extensiones de cuerpos
 \begin_inset ERT
 status open
 
@@ -1378,12 +1375,43 @@ status open
 
 \end_inset
 
- sobre extensiones de cuerpos, dan la solución a los problemas delianos,
- que fueron la trisección de un ángulo, la duplicación del cubo y a la cuadratur
-a del círculo, todo esto utilizando solamente la regla y el compás, estos
- problemas han llegado a ser famosos y han permanecido sin resolver durante
- mucho tiempo.
- 
+ podemos dar solución a los problemas delianos, que fueron la trisección
+ de un ángulo, la duplicación del cubo y a la cuadratura del círculo, todo
+ esto utilizando solamente la regla y el compás.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Standard
+El paso fundamental para relacionar el álgebra con las construcciones con
+ regla y compás es calcular las posibles dimensiones de los cuerpos que
+ generan los números construibles:
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Theorem
+Si un número real 
+\begin_inset Formula $c$
+\end_inset
+
+ es construible, entonces 
+\begin_inset Formula $c$
+\end_inset
+
+ es algebraico de grado una potencia de 
+\begin_inset Formula $2$
+\end_inset
+
+ sobre el cuerpo 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de los racionales.
 \end_layout
 
 \begin_layout BeginFrame
