@@ -143,7 +143,7 @@ e específicamente como parte de otro programa/paquete, el autor otorga permiso
 \end_layout
 
 \begin_layout Title
-Justificación Algebraica de las Construcciones con Regla y Compas
+Justificación Algebraica de las Construcciones con Regla y Compás
 \begin_inset Argument
 status open
 
@@ -669,7 +669,7 @@ key "hungerford1974algebra"
 
 y 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "stewart2004galois"
 
 \end_inset
@@ -1546,7 +1546,7 @@ Bibliografía
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "presen"
-options "plain"
+options "apalike2"
 
 \end_inset
 
