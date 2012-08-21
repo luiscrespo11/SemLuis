@@ -4,6 +4,7 @@
 \begin_header
 \textclass beamer
 \begin_preamble
+
 \usetheme{Warsaw}
 % or ...
 
@@ -661,14 +662,14 @@ se hace necesario tratar con conceptos como extensiones de cuerpos, que
  puntos dados.
  Estos conceptos fueron principalmente obtenidos del libro 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "hungerford1974algebra"
 
 \end_inset
 
 y 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "stewart2004galois"
 
 \end_inset
@@ -963,7 +964,7 @@ Extensiones algebraicas y trascendentes
 
 \begin_deeper
 \begin_layout Column
-5cm
+5.5cm
 \end_layout
 
 \begin_layout Definition
