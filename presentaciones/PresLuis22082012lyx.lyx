@@ -942,7 +942,7 @@ status open
 \begin_inset Formula $\mathbb{C}$
 \end_inset
 
-, como espacio espacio vectorial.
+, como espacio vectorial.
  También tenemos extensiones que no son finitas tales como 
 \begin_inset Formula $\mathbb{R}:\mathbb{\mathbb{Q}}$
 \end_inset
@@ -1190,7 +1190,7 @@ status open
 \end_inset
 
  tales como 
-\begin_inset Formula $\mathbb{Q}\left(i\right)\subset\mathbb{C}$
+\begin_inset Formula $\mathbb{\mathbb{R}}\left(i\right)\subset\mathbb{C}$
 \end_inset
 
 , donde en este caso 
@@ -1201,7 +1201,7 @@ status open
 \begin_inset Formula $\mathbb{R}\left(i\right)=\left\{ a+bi:a,b\in\mathbb{R}\right\} $
 \end_inset
 
- es el menor cuero que contiene a 
+ es el menor cuerpo que contiene a 
 \begin_inset Formula $i$
 \end_inset
 
