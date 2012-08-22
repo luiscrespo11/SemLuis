@@ -1512,6 +1512,39 @@ Lo que haremos
 
 \begin_layout BeginFrame
 Lo que se esta Trabajando
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Grupo de Galois.
+\end_layout
+
+\begin_layout Itemize
+Cuerpos de Descomposición, Clausuras Algebraicas y Normal.
+\end_layout
+
+\begin_layout Itemize
+Cuerpos Ciclotómicos : Extensión de Galois de grado 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+, donde 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ es la función de Euler.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
