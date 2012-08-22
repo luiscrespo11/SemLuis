@@ -667,7 +667,7 @@ key "hungerford1974algebra"
 
 \end_inset
 
-y 
+ y 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "stewart2004galois"
@@ -1522,15 +1522,15 @@ Lo que se esta Trabajando
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Grupo de Galois.
+\begin_layout Enumerate-Resume
+Grupos de Galois.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate-Resume
 Cuerpos de Descomposición, Clausuras Algebraicas y Normal.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate-Resume
 Cuerpos Ciclotómicos : Extensión de Galois de grado 
 \begin_inset Formula $\varphi(n)$
 \end_inset
