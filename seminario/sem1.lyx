@@ -662,13 +662,6 @@ status open
 
 \lang spanish
 Agradecimientos
-\begin_inset CommandInset citation
-LatexCommand citet
-key "TOK06"
-
-\end_inset
-
-
 \begin_inset Note Note
 status collapsed
 

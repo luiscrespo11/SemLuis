@@ -989,6 +989,22 @@ Si tomamos a
 \end_layout
 
 \end_deeper
+\begin_layout Definition
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Example
 \begin_inset space ~
 \end_inset
@@ -3415,6 +3431,27 @@ right
 
 \end_layout
 
+\begin_deeper
+\begin_layout Definition
+Se dice que una extensión finita 
+\begin_inset Formula $F/K$
+\end_inset
+
+ es una extensión de Galois si es separable y normal.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+En adelante, todos los cuerpos considerados serán de característica 
+\begin_inset Formula $0$
+\end_inset
+
+, y todas las exten- siones serán finitas.
+ En este caso, una extensión será de Galois si y sólo si es normal.
+ 
+\end_layout
+
 \begin_layout Remark
 \begin_inset Formula $F$
 \end_inset
@@ -3637,6 +3674,26 @@ reference "thm:raizF"
 .Por teorema III.6.7
 \end_layout
 
+\begin_deeper
+\begin_layout Theorem
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es un extensión de Galois de dimensión finita de 
+\begin_inset Formula $K$
+\end_inset
+
+, entonces hay una correspondencia uno a uno entre el conjunto de todos
+ los cuerpos intermedios de la extensión y el conjunto de todos los subgrupos
+ del grupo de Galois 
+\begin_inset Formula $Aut_{K}F$
+\end_inset
+
+, tal que :
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Los cuerpos de descomposición, clausura algebraicas y normal
 \end_layout
@@ -3782,6 +3839,12 @@ Sea
 \end_layout
 
 \begin_layout Theorem
+Teorema 7.8 (Existencia de cuerpos de descomposición).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
 \begin_inset CommandInset label
 LatexCommand label
 name "thm:RaicesN"
@@ -3820,6 +3883,7 @@ Sea
 .
 \end_layout
 
+\end_deeper
 \begin_layout Proof
 Sea 
 \begin_inset Formula $c_{1},c_{2}....$
@@ -4724,11 +4788,11 @@ Si
 \end_inset
 
 -ésima primitiva de la unidad.
- Mas aun 
+ Mas aún 
 \begin_inset Formula $K(u)$
 \end_inset
 
- es el cuerpo de descomposición(división) 
+ es el cuerpo de descomposición 
 \begin_inset Formula $x^{d}-a$
 \end_inset
 
@@ -5049,7 +5113,7 @@ Sea
 \begin_inset Formula $d/\varphi(n)$
 \end_inset
 
-(
+ (
 \begin_inset Formula $\varphi$
 \end_inset
 
@@ -5368,7 +5432,7 @@ Sea
 \begin_inset Formula $F$
 \end_inset
 
- una extensión ciclotomica de orden 
+ una extensión ciclotómica de orden 
 \begin_inset Formula $n$
 \end_inset
 
@@ -5380,7 +5444,7 @@ Sea
 \begin_inset Formula $g_{n}(x)$
 \end_inset
 
- el n-ésimo polinmomio ciclotomico sobre 
+ el n-ésimo polinomio ciclotómico sobre 
 \begin_inset Formula $\mathbb{Q}$
 \end_inset
 
