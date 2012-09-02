@@ -53,6 +53,11 @@
 
 % avoid that floats are placed above its sections
 \let\mySection\section\renewcommand{\section}{\suppressfloats[t]\mySection}
+%sudo apt-get install latexdraw
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{epsfig}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
 \end_preamble
 \options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
 \use_default_options true
@@ -885,38 +890,43 @@ ad de tales construcciones.
  
 \end_layout
 
-\begin_layout Standard
-AGREGAR BIBLIOGRAFIA :
-\end_layout
-
-\begin_layout Itemize
-Boyer, C.
- B.
- 1968.
- History of Mathematics.
- 
-\end_layout
-
-\begin_layout Itemize
-John Wiley.
- Dirk J.
- Struik.
- 1980.
- Historia concisa de las matemáticas.
- México, IPN.
-\end_layout
-
-\begin_layout Itemize
-Rey Pastor, J.
- y J.
- Babini.
- 1951.
- Historia de la Matemática.
- Argentina
-\end_layout
-
 \begin_layout Section
 Extensiones de Cuerpos
+\end_layout
+
+\begin_layout Standard
+En la versión general en la que actualmente se presenta la Teoría de Galois,
+ la noción de cuerpo ocupa un lugar central.
+ En particular, la idea de “extender” un cuerpo dado 
+\begin_inset Formula $K$
+\end_inset
+
+, es decir, construir un cuerpo 
+\begin_inset Formula $F$
+\end_inset
+
+ tal que 
+\begin_inset Formula $K\subset F$
+\end_inset
+
+ (y las operaciones en 
+\begin_inset Formula $F$
+\end_inset
+
+ “extienden” a las de 
+\begin_inset Formula $K$
+\end_inset
+
+) resulta fundamental para la teoría.
+ La razón por la cual estas ideas aparecen naturalmente en la consideración
+ del problema de la resolución de ecuaciones algebraicas.
+\end_layout
+
+\begin_layout Standard
+Antes de estudiar con mayor generalidad los aspectos esenciales involucrados,
+ introduciremos algunas definiciones básicas, y propiedades a generales
+ de los cuerpos.
+ 
 \end_layout
 
 \begin_layout Definition
@@ -975,7 +985,40 @@ Se dice que una extensión
 \end_layout
 
 \begin_layout Definition
-Si tomamos a 
+Obsérvese que si 
+\begin_inset Formula $F/K$
+\end_inset
+
+ es una extensión de cuerpos, entonces 
+\begin_inset Formula $F$
+\end_inset
+
+ tiene una estructura natural de espacio vectorial sobre 
+\begin_inset Formula $K$
+\end_inset
+
+, en la que la suma de vectores (elementos de 
+\begin_inset Formula $F$
+\end_inset
+
+) es la suma en 
+\begin_inset Formula $F$
+\end_inset
+
+ y el producto de escalares (elementos de 
+\begin_inset Formula $K$
+\end_inset
+
+) por vectores se obtiene multiplicando en 
+\begin_inset Formula $F$
+\end_inset
+
+ ya que tanto los escalares como los vectores pertenecen a 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ Entonces si tomamos a 
 \begin_inset Formula $F$
 \end_inset
 
@@ -985,26 +1028,9 @@ Si tomamos a
 
 -espacio vectorial, esto nos permite utilizar los conceptos y resultados
  del álgebra lineal en el estudio de los extensiones de cuerpos.
- 
 \end_layout
 
 \end_deeper
-\begin_layout Definition
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Example
 \begin_inset space ~
 \end_inset
@@ -1014,6 +1040,7 @@ newpage
 
 \begin_deeper
 \begin_layout Enumerate
+La extensión
 \begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]=2$
 \end_inset
 
@@ -1050,6 +1077,7 @@ espacio vectorial.
 \end_layout
 
 \begin_layout Enumerate
+Las extensiones
 \begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]$
 \end_inset
 
@@ -1078,14 +1106,39 @@ espacio vectorial.
 \end_inset
 
 
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Formula $B=\left\{ 1,\sqrt{2}\right\} $
 \end_inset
 
  generan 
-\begin_inset Formula $\mathbb{Q}\sqrt{2}$
+\begin_inset Formula $\mathbb{Q}(\sqrt{2})$
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Enumerate
+La extensión 
+\begin_inset Formula $\left[\mathbb{Q}(i,\sqrt{5}):\mathbb{Q}\right]=4$
+\end_inset
+
+.
+ Los elementos 
+\begin_inset Formula $\left\{ 1,\sqrt{5},i,i\sqrt{5}\right\} $
+\end_inset
+
+ forman una base para 
+\begin_inset Formula $\mathbb{Q}(i,\sqrt{5})$
+\end_inset
+
+ sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ 
 \end_layout
 
 \end_deeper
@@ -1641,13 +1694,21 @@ El subanillo
 
 \begin_layout Enumerate
 El subanillo 
+\size small
+
 \begin_inset Formula $K\left[u_{1},...,u_{m}\right]$
 \end_inset
 
- consiste en todos los elementos de la forma 
+ 
+\size default
+consiste en todos los elementos de la forma 
+\size small
+
 \begin_inset Formula $g(u_{1},...,u_{m})$
 \end_inset
 
+
+\size default
 , donde 
 \begin_inset Formula $g$
 \end_inset
@@ -1728,11 +1789,15 @@ El subcuerpo
 \begin_inset Formula $K(u_{1},...,u_{m})$
 \end_inset
 
- consiste en todos elementos de la forma 
-\begin_inset Formula $h(u_{1},...,u_{m})/k(u_{1},...,u_{m})=h(u_{1},...,u_{m})k(u_{1},...,u_{m})^{-1}$
+ consiste en todos elementos de la forma
+\begin_inset Formula 
+\[
+h(u_{1},...,u_{m})/k(u_{1},...,u_{m})=h(u_{1},...,u_{m})k(u_{1},...,u_{m})^{-1},
+\]
+
 \end_inset
 
-, donde 
+donde 
 \begin_inset Formula $h,k\in K\left[x_{1},...,x_{m}\right]$
 \end_inset
 
@@ -1749,10 +1814,14 @@ El subcuerpo
 \end_inset
 
  consiste en todos elementos de la forma 
-\begin_inset Formula $f(u_{1},...,u_{n})/g(u_{1},...,u_{n})=f(u_{1},...,u_{n})g(u_{1},...,u_{n})^{-1}$
+\begin_inset Formula 
+\[
+f(u_{1},...,u_{n})/g(u_{1},...,u_{n})=f(u_{1},...,u_{n})g(u_{1},...,u_{n})^{-1},
+\]
+
 \end_inset
 
-, donde 
+donde 
 \begin_inset Formula $n\in\mathbb{N}$
 \end_inset
 
@@ -3286,6 +3355,55 @@ Teorema Fundamental
 \end_layout
 
 \begin_layout Standard
+Citamos el primer párrafo como motivación para la definición siguiente
+\end_layout
+
+\begin_layout Quotation
+¿Por qué un cuadrado nos parece una figura simétrica, un círculo aún más
+ simétrico, pero el dígito “
+\begin_inset Formula $4$
+\end_inset
+
+” completamente asimétrico? Para responder a esta pregunta, consideremos
+ los movimientos del plano que dejan cada una de estas figuras en el mismo
+ lugar que antes.
+ Es fácil ver que para el cuadrado hay ocho de estos movimientos, para el
+ círculo hay infinitos, pero para el dígito “
+\begin_inset Formula $4$
+\end_inset
+
+” sólo uno, la identidad, que deja cada punto del dígito fijo.
+ El conjunto 
+\begin_inset Formula $G$
+\end_inset
+
+ de movimientos diferentes que dejan una figura ocupando el mismo lugar
+ que antes sirve como una medida para su grado de simetría: a mayor cantidad
+ de elementos de 
+\begin_inset Formula $G$
+\end_inset
+
+ , es decir, los movimientos, a mayor simetría de la figura.
+ [Este conjunto 
+\begin_inset Formula $G$
+\end_inset
+
+ es un grupo con la composición.] 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\noindent
+\align right
+M.I.
+ Kargapolov, Ju.I.
+ Merzljakov 
+\end_layout
+
+\begin_layout Standard
 Sea 
 \begin_inset Formula $F$
 \end_inset
@@ -3321,7 +3439,7 @@ Si
 \begin_inset Formula $F$
 \end_inset
 
- es una extensión de un cuerpo
+ es una extensión de un cuerpo 
 \begin_inset Formula $K$
 \end_inset
 
@@ -3396,6 +3514,9 @@ Sea
 \end_inset
 
 , es decir
+\end_layout
+
+\begin_layout Definition
 \begin_inset ERT
 status open
 
@@ -3413,9 +3534,15 @@ in Aut(F):
 \backslash
 sigma(a)=a
 \backslash
+,
+\backslash
 , para
 \backslash
+,
+\backslash
 , todo
+\backslash
+,
 \backslash
 , a
 \backslash
@@ -3423,7 +3550,7 @@ in K
 \backslash
 right
 \backslash
-} $$
+}$$
 \end_layout
 
 \end_inset
@@ -3447,7 +3574,7 @@ En adelante, todos los cuerpos considerados serán de característica
 \begin_inset Formula $0$
 \end_inset
 
-, y todas las exten- siones serán finitas.
+, y todas las extensiones serán finitas.
  En este caso, una extensión será de Galois si y sólo si es normal.
  
 \end_layout
@@ -3737,6 +3864,28 @@ Sea
 \end_layout
 
 \begin_layout Definition
+Se dice que una extensión algebraica 
+\begin_inset Formula $F/K$
+\end_inset
+
+ es normal si todo polinomio irreducible 
+\begin_inset Formula $P\in K\left[x\right]$
+\end_inset
+
+ que tiene una raíz en 
+\begin_inset Formula $F$
+\end_inset
+
+ se descompone en factores lineales en 
+\begin_inset Formula $F\left[x\right]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Definition
 Sea 
 \begin_inset Formula $K$
 \end_inset
@@ -3778,7 +3927,7 @@ Sea
 \begin_inset Formula $u_{1},...,u_{n}$
 \end_inset
 
-son las raíces de 
+ son las raíces de 
 \begin_inset Formula $f$
 \end_inset
 
@@ -3789,6 +3938,7 @@ son las raíces de
 .
 \end_layout
 
+\end_deeper
 \begin_layout Definition
 Sea 
 \begin_inset Formula $S$
@@ -3838,8 +3988,303 @@ Sea
 .
 \end_layout
 
+\begin_layout Example
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+El cuerpo de descomposición de 
+\begin_inset Formula $P=x^{2}-2\in\mathbb{Q}\left[x\right]$
+\end_inset
+
+ es 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2})$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Enumerate
+El cuerpo de descomposición de 
+\begin_inset Formula $P=x^{4}-5x^{2}++\in\mathbb{Q}\left[x\right]$
+\end_inset
+
+ es
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $\mathbb{Q}(\sqrt{2},\sqrt{3})$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang spanish
+ (nótese que 
+\begin_inset Formula $P=(x^{2}-2)(x^{2}-3)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El cuerpo de descomposición de 
+\begin_inset Formula $P=x^{n}-1\in\mathbb{Q}(\sqrt{2})\left[x\right]$
+\end_inset
+
+ es 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2},\mbox{\zeta})$
+\end_inset
+
+ donde 
+\begin_inset Formula $\zeta=e^{2\pi i/n}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Lemma
+Sea 
+\begin_inset Formula $K$
+\end_inset
+
+ un cuerpo, y 
+\begin_inset Formula $P\in K\left[x\right]$
+\end_inset
+
+.
+ Entonces, existe una extensión finita 
+\begin_inset Formula $F/K$
+\end_inset
+
+ tal que 
+\begin_inset Formula $P$
+\end_inset
+
+ tiene una raíz en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Supongamos que 
+\begin_inset Formula $P=P_{1}P_{2}...P_{k}$
+\end_inset
+
+ es una descomposición de 
+\begin_inset Formula $P$
+\end_inset
+
+ en polinomios irreducibles sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Si existe una extensión finita 
+\begin_inset Formula $E/K$
+\end_inset
+
+ tal que 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ tiene una raíz en 
+\begin_inset Formula $E$
+\end_inset
+
+ , entonces 
+\begin_inset Formula $P$
+\end_inset
+
+ tiene una raíz en 
+\begin_inset Formula $E$
+\end_inset
+
+ .
+ Por tanto, en lo sucesivo podemos suponer que 
+\begin_inset Formula $P$
+\end_inset
+
+ es irreducible.
+\end_layout
+
+\begin_layout Proof
+Supongamos que 
+\begin_inset Formula $P=a_{0}+a_{1}x+...+a_{n}x^{n}$
+\end_inset
+
+ y sea 
+\begin_inset Formula $F=K\left[x\right]/(P)$
+\end_inset
+
+.
+ Consideremos el homomorfismo canónico sobre el cociente.
+ Podemos caracterizar 
+\begin_inset Formula $F=K\left[\overline{X}\right]$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $P=a_{0}+a_{1}\overline{X}+...+a_{n}\overline{X}^{n}$
+\end_inset
+
+, de modo que 
+\begin_inset Formula $\overline{X}\in F$
+\end_inset
+
+ es una raíz de 
+\begin_inset Formula $P$
+\end_inset
+
+ .
+ 
+\end_layout
+
 \begin_layout Theorem
-Teorema 7.8 (Existencia de cuerpos de descomposición).
+(Existencia de cuerpos de descomposición) Sea 
+\begin_inset Formula $K$
+\end_inset
+
+ un cuerpo, 
+\begin_inset Formula $P\in K\left[x\right]$
+\end_inset
+
+ un polinomio no constante.
+ Entonces, existe un cuerpo de descomposición de 
+\begin_inset Formula $P$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Proof
+Probaremos este enunciado por inducción sobre el grado del polinomio.Si el
+ grado de 
+\begin_inset Formula $P$
+\end_inset
+
+ es 
+\begin_inset Formula $1$
+\end_inset
+
+, entonces 
+\begin_inset Formula $P$
+\end_inset
+
+ se descompone sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Supongamos el teorema probado para todo polinomio de grado menor que 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Tomemos que el grado de 
+\begin_inset Formula $P$
+\end_inset
+
+ es 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Por el lema anterior, existe una extensión finita 
+\begin_inset Formula $E/K$
+\end_inset
+
+ tal que 
+\begin_inset Formula $P$
+\end_inset
+
+ tiene una raíz, 
+\begin_inset Formula $\alpha_{1}\in E$
+\end_inset
+
+ .
+ Entonces, 
+\begin_inset Formula $P=(X-\alpha_{1})Q$
+\end_inset
+
+ con 
+\begin_inset Formula $Q\in E\left[x\right]$
+\end_inset
+
+ y el grado de 
+\begin_inset Formula $Q$
+\end_inset
+
+ es 
+\begin_inset Formula $n-1$
+\end_inset
+
+.
+ Utilizando la hipótesis de inducción, existe una extensión finita 
+\begin_inset Formula $F/K$
+\end_inset
+
+ tal que 
+\begin_inset Formula $Q$
+\end_inset
+
+ se descompone sobre 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ Así, 
+\begin_inset Formula $F/K$
+\end_inset
+
+ es una extensión finita, ya que 
+\begin_inset Formula $\left[F:K\right]=\left[F:E\right]\left[E:K\right]$
+\end_inset
+
+, y 
+\begin_inset Formula $P$
+\end_inset
+
+ se descompone sobre 
+\begin_inset Formula $F$
+\end_inset
+
+.
  
 \end_layout
 
