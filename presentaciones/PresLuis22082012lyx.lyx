@@ -667,7 +667,7 @@ key "hungerford1974algebra"
 
 \end_inset
 
-y 
+ y 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "stewart2004galois"
@@ -942,7 +942,7 @@ status open
 \begin_inset Formula $\mathbb{C}$
 \end_inset
 
-, como espacio espacio vectorial.
+, como espacio vectorial.
  También tenemos extensiones que no son finitas tales como 
 \begin_inset Formula $\mathbb{R}:\mathbb{\mathbb{Q}}$
 \end_inset
@@ -1190,7 +1190,7 @@ status open
 \end_inset
 
  tales como 
-\begin_inset Formula $\mathbb{Q}\left(i\right)\subset\mathbb{C}$
+\begin_inset Formula $\mathbb{\mathbb{R}}\left(i\right)\subset\mathbb{C}$
 \end_inset
 
 , donde en este caso 
@@ -1201,7 +1201,7 @@ status open
 \begin_inset Formula $\mathbb{R}\left(i\right)=\left\{ a+bi:a,b\in\mathbb{R}\right\} $
 \end_inset
 
- es el menor cuero que contiene a 
+ es el menor cuerpo que contiene a 
 \begin_inset Formula $i$
 \end_inset
 
@@ -1512,6 +1512,39 @@ Lo que haremos
 
 \begin_layout BeginFrame
 Lo que se esta Trabajando
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Grupos de Galois.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Cuerpos de Descomposición, Clausuras Algebraicas y Normal.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Cuerpos Ciclotómicos : Extensión de Galois de grado 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+, donde 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ es la función de Euler.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
