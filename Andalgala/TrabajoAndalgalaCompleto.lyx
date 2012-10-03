@@ -185,7 +185,7 @@ luiscrespo111@gmail.com
 \series bold
 Área temática
 \series default
-: Álgebra
+:Álgebra y Geometría
 \end_layout
 
 \begin_layout Standard
@@ -424,12 +424,14 @@ Este último hecho se deduce inmediatamente de los anteriores
 Antes de continuar es importante a dar algunos conceptos que nos van a permitir
  avanzar en lo que respecta a la justificación algebraica de las construcciones
  con regla y compás, para ello se hace necesario tratar con conceptos como
- extensiones de cuerpos, que nos habla de posibilidad (o no) de poder construir
- puntos a partir de otros puntos dados.
+ extensiones de cuerpos que los alumnos se les puede hacer muy familiar
+ pues hay siempre un curso de álgebra abstracta en la carrera; esto no va
+ a permitir hablar de posibilidad (o no) de poder construir puntos a partir
+ de otros puntos dados.
  Estos conceptos fueron principalmente obtenidos del libro 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Hungerford"
+key "hungerford1974algebra"
 
 \end_inset
 
@@ -490,7 +492,8 @@ Podemos citar varios ejemplos de extensiones de cuerpos tales como
 \end_layout
 
 \begin_layout Standard
-Señalaremos tres tipos destacados de extensiones de cuerpos :
+Señalaremos tres tipos destacados de extensiones de cuerpos , que serán
+ de mucha ayuda para lo subsiguiente:
 \end_layout
 
 \begin_layout Definition
@@ -560,7 +563,7 @@ trascendente
 
 \end_deeper
 \begin_layout Standard
-ALgunos ejemplos son : 
+Algunos ejemplos muy intuitivos son : 
 \begin_inset Formula $\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}$
 \end_inset
 
@@ -639,9 +642,7 @@ Un ejemplo sencillo puede estar dado si tenemos la extensión de cuerpos
 
 \begin_layout Standard
 Un resultado casi inmediato de estas definiciones es el siguiente, el cual,
- en lo que sigue sera de importancia para la resolución de uno de los problemas
- Delianos.
- 
+ es de importancia para la resolución de uno de los problemas Delianos.
 \end_layout
 
 \begin_layout Theorem
@@ -747,12 +748,22 @@ Problemas Delianos
 
 \begin_layout Standard
 En esta parte de la sección mediante la aplicación de los conocimientos
- hasta ahora adquiridos sobre extensiones de cuerpos damos la solución a
- los problemas geométricos clásicos, que fueron la trisección de un ángulo,
- la duplicación del cubo y a la cuadratura del círculo, todo esto utilizando
- solamente la regla y el compás, estos problemas han llegado a ser famosos
- y han permanecido sin resolver durante mucho tiempo.
+ hasta ahora adquiridos sobre extensiones de cuerpos los alumnos estarán
+ en condiciones de poder dar solución a los problemas geométricos clásicos,
+ que fueron la trisección de un ángulo, la duplicación del cubo y a la cuadratur
+a del círculo, todo esto utilizando solamente la regla y el compás, estos
+ problemas han llegado a ser famosos y han permanecido sin resolver durante
+ mucho tiempo.
  
+\end_layout
+
+\begin_layout Standard
+El primer problema que trataremos es la trisección de un ángulo con regla
+ y compás para ello se va a considerar un ángulo de 
+\begin_inset Formula $60^{o}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Corollary
@@ -800,7 +811,7 @@ Trisecar un ángulo dado
 
 \begin_layout Proof
 Consideremos 
-\begin_inset Formula $\alpha=60\text{°}$
+\begin_inset Formula $\alpha=60^{o}$
 \end_inset
 
 .
@@ -953,21 +964,24 @@ Para construir un cuadrado con misma área que un círculo de diámetro 1,
  
 \end_layout
 
-\begin_layout Subsection
-Polígonos Regulares.
+\begin_layout Subsection*
+Justificación algebraica de las construcciones de los Polígonos Regulares.
 \end_layout
 
 \begin_layout Standard
 Esta última parte de la sección, presentamos la posibilidad o imposibilidad
  de la construcción de los polígonos regulares que están muy presentes en
- el mundo real , así comenzamos dando una definición de polígono, y procederemos
- después a dar conceptos que nos servirá luego para justificar las construcción
- del pentágono y la imposibilidad de construcción del heptágono, como ejemplos
- de los conceptos que se darán, estos mismos fueron extraídos del libro
- 
+ el mundo real , para ello los alumnos contarán con mas experiencia en los
+ que respecto a esta parte pues bien ya ha podido demostrar la imposibilidad
+ de algunas construcciones, es así que comenzamos dando una definición de
+ polígono, la cual, muchos en su mayoría van a estar familiarizados con
+ este concepto, y luego procederemos a dar definiciones que nos servirá
+ luego para justificar las construcción del pentágono y la imposibilidad
+ de construcción del heptágono, como ejemplos de los conceptos que se darán,
+ estos mismos fueron extraídos del libro 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Ivorra"
+key "Ivorra2000Geometria"
 
 \end_inset
 
@@ -1412,7 +1426,7 @@ Se cuenta que lo que llevó al matemático Gauss a dedicarse a la Matemática
  fue la construcción del heptadecágono regular 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Perez"
+key "PerezSangari2011Geometria"
 
 \end_inset
 
@@ -1439,52 +1453,15 @@ Pensamos que este trabajo puede servir como una guía a aquellos docentes
  puedan brillar ambas disciplinas.
 \end_layout
 
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Hu"
-key "Hungerford"
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "thesisExample"
+options "apalike"
 
 \end_inset
 
- Hungerford, Tomas.
- Algebra.
- New York.
- Springer ,1974.
-\end_layout
 
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Iv"
-key "Ivorra"
-
-\end_inset
-
- Ivorra, Carlos.
- Geometría.
- Valencia.
- 2010.
-\end_layout
-
-\begin_layout Bibliography
-\labelwidthstring Referencias
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "Pe"
-key "Perez"
-
-\end_inset
-
-Perez, P.
- Sángari, A.
- Construcciones de polígonos regulares con regla y compás con la asistencia
- del Geogebra” Actas del Encuentro recuperado de http://www.encuentrogeometriaupn.
-com/ (páginas 307 a 314) Universidad Pedagógica Nacional.
- Bogotá – Colombia.
- 2011
 \end_layout
 
 \end_body

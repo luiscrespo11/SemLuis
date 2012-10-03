@@ -18,7 +18,7 @@
   %\usepackage[orientation=portrait,size=a1,scale=1.4,grid,debug]{beamerposter}                  % e.g. for DIN-A1 poster, with optional grid and debug output
   %\usepackage[size=custom,width=200,height=120,scale=2,debug]{beamerposter}                     % e.g. for custom size poster
   %\usepackage[orientation=portrait,size=a0,scale=1.0,printer=rwth-glossy-uv.df]{beamerposter}   % e.g. for DIN-A0 poster with rwth-glossy-uv printer check
-\beamertemplateshadingbackground{yellow!50}{magenta!50}
+\beamertemplateshadingbackground{white!50}{blue!50}
 
 % butter (yellowish)
 \definecolor{tabutter}{rgb}{0.98824, 0.91373, 0.30980}		% #fce94f
