@@ -604,11 +604,11 @@ Si se omiten detalles vitales para una demostración/implementación, dígalo
 \end_layout
 
 \begin_layout Section
-Avances del Trabajo de Seminario
+Segundo Avance del Trabajo de Seminario
 \end_layout
 
 \begin_layout BeginFrame
-Consideraciones 
+Repaso de los conceptos visto hasta el momento 
 \begin_inset Note Note
 status open
 
@@ -646,7 +646,7 @@ status open
 
 \end_inset
 
-Para poder hablar de construcciones con regla y compás 
+Hasta el momento hemos hablado de Extensiones de cuerpos 
 \begin_inset ERT
 status open
 
@@ -657,25 +657,12 @@ status open
 
 \end_inset
 
-se hace necesario tratar con conceptos como extensiones de cuerpos, que
- nos habla de posibilidad (o no) de poder construir puntos a partir de otros
- puntos dados.
- Estos conceptos fueron principalmente obtenidos del libro 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "hungerford1974algebra"
-
-\end_inset
-
- y 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "stewart2004galois"
-
-\end_inset
-
-.
- Las cuales se presentarán sin demostración.
+, la dimension de estas extensiones, extensiones algebraica y trascendentes,
+ y un Teorema de extensiones de otras extensiones, que nos permitieron dar
+ una solución algebraica a los problemas delianos que fueron la trisección
+ de un ángulo, la duplicación del cubo y a la cuadratura del círculo, todo
+ esto utilizando solamente la regla y el compás.
+ 
 \end_layout
 
 \begin_layout Pause
@@ -704,21 +691,31 @@ status open
 
 \end_inset
 
-contando que se conocen ya los conceptos de grupos, anillos y cuerpos, los
- cuales se mencionan en este trabajo, y fueron vistas en cursos de la carrera.
- Comenzaremos con una definición básica para lo subsiguiente.
+ dando algunas definiciones que nos brindara ayuda para entender las extensiones
+ ciclotómicas que es adonde se apunta para poder en última estancia, estas
+ definiciones fueron extraidas de los libros 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hungerford1974algebra"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "stewart2004galois"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
-Extensiones de Cuerpos
-\end_layout
-
-\begin_layout Subsection
-Definiciones
+Nose que poner...
 \end_layout
 
 \begin_layout BeginFrame
-Extensión 
+Polinomios de descomposición 
 \begin_inset Note Note
 status open
 
@@ -745,36 +742,146 @@ Usar Letras Capitales
 
 \end_layout
 
-\begin_layout Definition
-Un cuerpo 
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Dado un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+, podemos asociar a cada polinomio 
+\begin_inset Formula $P\in K\left[x\right]$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+una extensión algebraica que contenga a todas sus raíces y que sea minimal
+ en algún sentido.
+ Este cuerpo será muy importante más adelante, pues nos permitirá extender
+ aplicaciones de un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+ una extensión suya 
 \begin_inset Formula $F$
 \end_inset
 
- se dice que es una extensión de un cuerpo 
-\begin_inset Formula $K$
-\end_inset
-
- (o simplemente una extensión de 
-\begin_inset Formula $K$
-\end_inset
-
-) siempre que 
-\begin_inset Formula $K$
-\end_inset
-
- sea un subcuerpo de 
-\begin_inset Formula $F.$
-\end_inset
-
- La notación que se usa habitualmente para designar una extensión es 
-\begin_inset Formula $F:K$
-\end_inset
-
 .
+ 
 \end_layout
 
 \begin_layout Pause
 
+\end_layout
+
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F/K$
+\end_inset
+
+ una extensión, y 
+\begin_inset Formula $P\in K\left[x\right]$
+\end_inset
+
+.
+ Se dice que 
+\begin_inset Formula $P$
+\end_inset
+
+ se 
+\begin_inset Flex Alert
+status collapsed
+
+\begin_layout Plain Layout
+descompone
+\end_layout
+
+\end_inset
+
+ sobre 
+\begin_inset Formula $F$
+\end_inset
+
+ si 
+\begin_inset Formula $P$
+\end_inset
+
+ factoriza como producto de polinomios de primer grado con coeficientes
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout BeginFrame
+Cuerpos de descomposión
+\end_layout
+
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F/K$
+\end_inset
+
+ una extensión, y 
+\begin_inset Formula $P\in K\left[x\right]$
+\end_inset
+
+ un polinomio que se descompone sobre 
+\begin_inset Formula $F$
+\end_inset
+
+ .
+ Se llama 
+\begin_inset Flex Alert
+status collapsed
+
+\begin_layout Plain Layout
+cuerpo de descomposición
+\end_layout
+
+\end_inset
+
+ de 
+\begin_inset Formula $P$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ al menor subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+ que contiene a 
+\begin_inset Formula $K$
+\end_inset
+
+ y sobre el cual P se descompone.
+ 
 \end_layout
 
 \begin_layout ExampleBlock
@@ -804,158 +911,36 @@ status open
 
 \begin_deeper
 \begin_layout Enumerate
-\begin_inset Formula $\mathbb{C}:\mathbb{R}$
+El cuerpo de descomposición de 
+\begin_inset Formula $P=x^{2}-2\in\mathbb{Q}\left[x\right]$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\mathbb{Q}\left(\sqrt[3]{2}\right):\mathbb{Q}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\mathbb{R}(i):\mathbb{R}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\mathbb{R}:\mathbb{\mathbb{Q}}$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout BeginFrame
-Dimensión
-\end_layout
-
-\begin_layout Definition
-Se dice que una extensión 
-\begin_inset Formula $F:K$
-\end_inset
-
- es finita (infinita) si 
-\begin_inset Formula $F$
-\end_inset
-
- como 
-\color red
-
-\begin_inset Formula $K$
-\end_inset
-
--espacio vectorial
-\color inherit
- es de dimensión finita (infinita).
- A la dimensión de este espacio vectorial se le llama grado de la extensión
- y se denota 
-\begin_inset Formula $\left[F:K\right]$
+ es 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2})$
 \end_inset
 
  .
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout AlertBlock
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
+\begin_layout Enumerate
+El cuerpo de descomposición de 
+\begin_inset Formula $P=x^{n}-1\in\mathbb{Q}(\sqrt{2})\left[x\right]$
 \end_inset
 
-El tomar a 
-\begin_inset Formula $F$
+ es 
+\begin_inset Formula $\mathbb{Q}(\sqrt{2},\mbox{\zeta})$
 \end_inset
 
- como un 
-\begin_inset Formula $K$
+ donde 
+\begin_inset Formula $\zeta=e^{2\pi i/n}$
 \end_inset
 
--espacio vectorial,
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
+.
 \end_layout
 
-\end_inset
-
- nos permite utilizar los conceptos y resultados del álgebra lineal en el
- estudio de los extensiones de cuerpos.
-\end_layout
-
+\end_deeper
 \begin_layout BeginFrame
-Por ejemplo ...
-\end_layout
-
-\begin_layout ExampleBlock
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-Un ejemplo sencillo puede estar dado
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
- si tenemos la extensión de cuerpos 
-\begin_inset Formula $\mathbb{C}:\mathbb{R}$
-\end_inset
-
-, el grado de esta extensión es 
-\begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]=2$
-\end_inset
-
- porque 
-\begin_inset Formula $\left\{ 1,i\right\} $
-\end_inset
-
- es una base de 
-\begin_inset Formula $\mathbb{C}$
-\end_inset
-
-, como espacio vectorial.
- También tenemos extensiones que no son finitas tales como 
-\begin_inset Formula $\mathbb{R}:\mathbb{\mathbb{Q}}$
-\end_inset
-
-, 
-\begin_inset Formula $\mathbb{C}:\mathbb{Q}$
-\end_inset
-
-, donde el grado de estas extensiones es infinita.
-\end_layout
-
-\begin_layout BeginFrame
-Extensiones algebraicas y trascendentes 
+Extensiones Normales y Separables
 \end_layout
 
 \begin_layout ColumnsTopAligned
@@ -964,83 +949,37 @@ Extensiones algebraicas y trascendentes
 
 \begin_deeper
 \begin_layout Column
-5.5cm
+4cm
 \end_layout
 
 \begin_layout Definition
-Sea 
-\begin_inset Formula $F:K$
+Se dice que una 
+\begin_inset Flex Alert
+status collapsed
+
+\begin_layout Plain Layout
+extensión algebraica 
+\begin_inset Formula $F/K$
 \end_inset
 
- una extensión de cuerpos.
- Decimos que un elemento 
-\begin_inset Formula $\alpha\in F$
+ es normal
+\end_layout
+
 \end_inset
 
- es 
-\series bold
-algebraico
-\series default
- sobre 
-\begin_inset Formula $K$
+ si todo polinomio irreducible 
+\begin_inset Formula $P\in K\left[x\right]$
 \end_inset
 
- si existe un polinomio 
-\begin_inset Formula $p\in K\left[x\right],\, p\neq0$
+ que tiene una raíz en 
+\begin_inset Formula $F$
 \end_inset
 
- tal que 
-\begin_inset Formula $p(\alpha)=0$
+ se descompone en factores lineales en 
+\begin_inset Formula $F\left[x\right]$
 \end_inset
 
- .
- En caso contrario, decimos que 
-\begin_inset Formula $\alpha$
-\end_inset
-
- es 
-\series bold
-trascendente
-\series default
-.
  
-\begin_inset Formula $F$
-\end_inset
-
- se llama 
-\series bold
-extensión algebraica
-\series default
- de 
-\begin_inset Formula $K$
-\end_inset
-
- si cada elemento de 
-\begin_inset Formula $F$
-\end_inset
-
- es algebraico sobre 
-\begin_inset Formula $K$
-\end_inset
-
-.
- 
-\begin_inset Formula $F$
-\end_inset
-
- se llama 
-\series bold
-extensión trascendental
-\series default
- si por lo menos un elemento de 
-\begin_inset Formula $F$
-\end_inset
-
- es trascendental sobre 
-\begin_inset Formula $K$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Pause
@@ -1048,7 +987,7 @@ extensión trascendental
 \end_layout
 
 \begin_layout Column
-5cm
+7cm
 \end_layout
 
 \begin_layout ExampleBlock
@@ -1073,149 +1012,71 @@ status open
 
 \end_inset
 
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Tenemos que 
+\begin_inset Formula $\mathbb{Q}(i)/\mathbb{Q}$
+\end_inset
+
+ es una extensión normal, pues 
+\begin_inset Formula $\mathbb{Q}(i)$
+\end_inset
+
+ es el cuerpo de descomposición sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+, del polinomio irreducible 
+\begin_inset Formula $x^{2}-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+La extensión 
+\begin_inset Formula $\mathbb{Q}(\sqrt[3]{2})/\mathbb{Q}$
+\end_inset
+
+ no es normal porque sólo una de las raíces de 
+\begin_inset Formula $x^{3}-2$
+\end_inset
+
+ esta en 
+\begin_inset Formula $\mathbb{Q}(\sqrt[3]{2})$
+\end_inset
+
+, las otras son números complejos .
+\end_layout
+
+\begin_layout Enumerate
+La extensión 
+\begin_inset Formula $\mathbb{Q}(e^{2\pi i/n})/\mathbb{Q}$
+\end_inset
+
+ es normal porque 
+\begin_inset Formula $\mathbb{Q}(e^{2\pi i/n})$
+\end_inset
+
+ es el cuerpo de descomposición de 
+\begin_inset Formula $x^{n}-1$
+\end_inset
+
+ sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
  
-\begin_inset Formula $i\in\mathbb{C}$
-\end_inset
-
- es algebraico sobre 
-\begin_inset Formula $\mathbb{R}$
-\end_inset
-
-, pues es solución de 
-\begin_inset Formula $x^{2}+1=0$
-\end_inset
-
-.
- También, 
-\begin_inset Formula $\sqrt{2}\in\mathbb{R}$
-\end_inset
-
- es algebraico sobre 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
- pues es solución de 
-\begin_inset Formula $x^{2}-2=0$
-\end_inset
-
-.
- Por otro lado, es posible demostrar que 
-\begin_inset Formula $\pi,e\in\mathbb{R}$
-\end_inset
-
- son trascendentales sobre 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
-, o sea que no hay una ecuación polinómica con coeficientes en 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
- de la que 
-\begin_inset Formula $\pi$
-\end_inset
-
- o 
-\begin_inset Formula $e$
-\end_inset
-
- sean una raíz.
 \end_layout
 
 \end_deeper
+\end_deeper
 \begin_layout BeginFrame
-\begin_inset Formula $K\left(S\right)$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Definition
-Sea 
-\begin_inset Formula $F$
-\end_inset
-
- una extensión de 
-\begin_inset Formula $K$
-\end_inset
-
-, y 
-\begin_inset Formula $S\subset F$
-\end_inset
-
- un subconjunto.
- Denotamos 
-\begin_inset Formula $K(S)$
-\end_inset
-
- al menor subcuerpo de 
-\begin_inset Formula $F$
-\end_inset
-
- que contiene a 
-\begin_inset Formula $K$
-\end_inset
-
- y 
-\begin_inset Formula $S$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout ExampleBlock
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-De esta definición podemos tener las extensiones de cuerpos
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
- tales como 
-\begin_inset Formula $\mathbb{\mathbb{R}}\left(i\right)\subset\mathbb{C}$
-\end_inset
-
-, donde en este caso 
-\begin_inset Formula $S=\left\{ i\right\} $
-\end_inset
-
- y 
-\begin_inset Formula $\mathbb{R}\left(i\right)=\left\{ a+bi:a,b\in\mathbb{R}\right\} $
-\end_inset
-
- es el menor cuerpo que contiene a 
-\begin_inset Formula $i$
-\end_inset
-
- y 
-\begin_inset Formula $\mathbb{R}$
-\end_inset
-
-, esta extensión se la llama 
-\shape italic
-extensión simple.
-\end_layout
-
-\begin_layout BeginFrame
-Extensión de una extensión
+Extensiones de Galois
 \end_layout
 
 \begin_layout ColumnsTopAligned
@@ -1227,81 +1088,97 @@ Extensión de una extensión
 5cm
 \end_layout
 
-\begin_layout Theorem
+\begin_layout Standard
 Sea 
 \begin_inset Formula $F$
 \end_inset
 
- una extensión de 
-\begin_inset Formula $E$
+ un cuerpo.
+ El conjunto de automorfismos de 
+\begin_inset Formula $F$
 \end_inset
 
- y 
-\begin_inset Formula $E$
+ , denotado 
+\begin_inset Formula $Aut\,\, F$
 \end_inset
 
- una extensión de 
-\begin_inset Formula $K$
+ posee estructura de grupo con respecto a la operación de composición.
+ En particular, nos interesará un subgrupo de éste.
+ De esta manera, podremos utilizar la teoría de grupos para estudiar la
+ estructura de las extensiones de cuerpos, esto es, funciones biyectivas
+ de 
+\begin_inset Formula $F$
 \end_inset
 
-.
- Entonces 
-\begin_inset Formula $\left[F:K\right]=\left[F:E\right]\left[E:K\right]$
+ en 
+\begin_inset Formula $F$
 \end_inset
 
-.
+ que preservan la adición y la multiplicación.
+ 
 \end_layout
 
 \begin_layout Pause
 
 \end_layout
 
-\end_deeper
-\begin_layout ColumnsTopAligned
-
-\end_layout
-
-\begin_deeper
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-La utilidad de este teorema
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
- permite calcular el grado de una extensión dada, si se conoce el grado
- de las extensiones intermedias
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\end_deeper
-\begin_layout ColumnsTopAligned
-
-\end_layout
-
-\begin_deeper
 \begin_layout Column
 6cm
 \end_layout
 
+\begin_layout Definition
+Sea 
+\begin_inset Formula $F/K$
+\end_inset
+
+ una extensión de cuerpos.
+ Se llama 
+\begin_inset Flex Alert
+status collapsed
+
+\begin_layout Plain Layout
+Grupo de Galois
+\end_layout
+
+\end_inset
+
+ de la extensión 
+\begin_inset Formula $F/K$
+\end_inset
+
+,
+\begin_inset Formula $Gal(F/K)$
+\end_inset
+
+, al conjunto de los 
+\begin_inset Formula $K$
+\end_inset
+
+-automorfismos de 
+\begin_inset Formula $F$
+\end_inset
+
+ .
+ Es decir son automorfismos de 
+\begin_inset Formula $F$
+\end_inset
+
+ que dejan fijo al cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+, 
+\begin_inset Formula $\ensuremath{Gal(F/K)=\left\{ \sigma\in Aut(F):\sigma(a)=a\,\, para\,\, todo\,\, a\in K\right\} }$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Por Ejemplo...
+\end_layout
+
 \begin_layout ExampleBlock
 \begin_inset ERT
 status open
@@ -1313,197 +1190,65 @@ status open
 
 \end_inset
 
-Por ejemplo,
+Por ejemplo
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-}
+,}
 \end_layout
 
 \end_inset
 
-el caso en de las extensiones 
-\begin_inset Formula $\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}$
+.
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset Formula $Gal(C/R)=\left\{ id,conj\right\} $
+\end_inset
+
+, donde 
+\begin_inset Formula $conj(z)=\overline{z}$
+\end_inset
+
+ es la conjugación compleja.
+ Se tiene 
+\begin_inset Formula $C=R(i)$
+\end_inset
+
+ y como 
+\begin_inset Formula $i$
 \end_inset
 
  y 
-\begin_inset Formula $\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2)}$
+\begin_inset Formula $−i$
 \end_inset
 
- si se conoce 
-\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}\right]=2$
+ son las raíces de 
+\begin_inset Formula $x^{2}+1\in R\left[x\right]$
+\end_inset
+
+, los únicos posibles automorfismos son 
+\begin_inset Formula $a+ib\rightarrow a+ib$
 \end_inset
 
  y 
-\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2)}\right]=2$
-\end_inset
-
-, se puede calcular 
-\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}\right]$
+\begin_inset Formula $a+ib\rightarrow a-ib$
 \end_inset
 
 .
- Entonces tenemos por el teorema anterior que 
-\begin_inset Formula $\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}\right]=\left[\mathbb{Q}\left(\sqrt{2},i\right):\mathbb{Q}(\sqrt{2}\right]\left[\mathbb{Q}\left(\sqrt{2}\right):\mathbb{Q}\right]=4$
+ El primero es la identidad y el segundo la conjugación.
+ Este último es un 
+\begin_inset Formula $R$
 \end_inset
 
-.
-\end_layout
-
-\end_deeper
-\begin_layout Subsection
-Aplicación
-\end_layout
-
-\begin_layout BeginFrame
-Problemas Delianos
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
+-automorfismo porque deja fijos a los Reales, es biyectivo (es su propia
+ inverso) y satisface las propiedades de homomorfismo 
+\begin_inset Formula $(\overline{z+w}=\overline{z}+\overline{w},\overline{z.w}=\overline{z}.\overline{w},\overline{1}=1)$
 \end_inset
 
-Con los conocimientos hasta ahora adquiridos sobre extensiones de cuerpos
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
- podemos dar solución a los problemas delianos, que fueron la trisección
- de un ángulo, la duplicación del cubo y a la cuadratura del círculo, todo
- esto utilizando solamente la regla y el compás.
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Standard
-El paso fundamental para relacionar el álgebra con las construcciones con
- regla y compás es calcular las posibles dimensiones de los cuerpos que
- generan los números construibles:
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Theorem
-Si un número real 
-\begin_inset Formula $c$
-\end_inset
-
- es construible, entonces 
-\begin_inset Formula $c$
-\end_inset
-
- es algebraico de grado una potencia de 
-\begin_inset Formula $2$
-\end_inset
-
- sobre el cuerpo 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
- de los racionales.
-\end_layout
-
-\begin_layout BeginFrame
-Duplicación del cubo
-\end_layout
-
-\begin_layout Theorem
-Es imposible con regla y compás la construcción para duplicar un cubo de
- longitud de lado 1.
- 
-\end_layout
-
-\begin_layout Theorem
-
-\end_layout
-
-\begin_layout Theorem
-
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Remark
-Para duplicar el cubo unitario tendríamos que construir 
-\begin_inset Formula $\sqrt[3]{2}$
-\end_inset
-
- a partir de 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
-, pero 
-\begin_inset Formula $\left[\mathbb{Q}(\sqrt[3]{2}):\mathbb{Q}\right]=3$
-\end_inset
-
- que no es potencia de dos, por lo que, no es construible.
-\end_layout
-
-\begin_layout BeginFrame
-Cuadratura del círculo
-\end_layout
-
-\begin_layout Theorem
-Es imposible cuadrar un circulo con construcciones de regla y compás.
- 
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Remark
-Para construir un cuadrado con misma área que un círculo de diámetro 1,
- tendríamos que construir 
-\begin_inset Formula $\sqrt{\pi}$
-\end_inset
-
-.
- Pero si 
-\begin_inset Formula $\sqrt{\pi}$
-\end_inset
-
- fuera algebraico, también 
-\begin_inset Formula $\pi$
-\end_inset
-
- sería algebraico.
- En efecto, si consideramos 
-\begin_inset Formula $\mathbb{Q}\subset\mathbb{Q}(\pi)\subset\mathbb{Q}(\sqrt{\pi})$
-\end_inset
-
-, entonces la transitividad de grados nos dice 
-\begin_inset Formula $\left[\mathbb{Q}(\sqrt{\pi}):\mathbb{Q}\right]=\left[\mathbb{Q}(\sqrt{\pi}):\mathbb{Q}(\pi)\right]\left[\mathbb{Q}(\pi):\mathbb{Q}\right]$
-\end_inset
-
-.
- Suponiendo el lado izquierdo finito, se tendría 
-\begin_inset Formula $\left[\mathbb{Q}(\pi):\mathbb{Q}\right]<\infty$
-\end_inset
-
-, absurdo.
- 
 \end_layout
 
 \begin_layout Section
@@ -1523,15 +1268,7 @@ Lo que se esta Trabajando
 
 \begin_deeper
 \begin_layout Enumerate-Resume
-Grupos de Galois.
-\end_layout
-
-\begin_layout Enumerate-Resume
-Cuerpos de Descomposición, Clausuras Algebraicas y Normal.
-\end_layout
-
-\begin_layout Enumerate-Resume
-Cuerpos Ciclotómicos : Extensión de Galois de grado 
+Ciclotómicos : Extensión de Galois de grado 
 \begin_inset Formula $\varphi(n)$
 \end_inset
 
@@ -1540,7 +1277,7 @@ Cuerpos Ciclotómicos : Extensión de Galois de grado
 \end_inset
 
  es la función de Euler.
- 
+ rupos de Galois.
 \end_layout
 
 \end_deeper
