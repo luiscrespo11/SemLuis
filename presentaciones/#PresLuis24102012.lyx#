@@ -949,25 +949,15 @@ Extensiones Normales y Separables
 
 \begin_deeper
 \begin_layout Column
-4cm
+5cm
 \end_layout
 
 \begin_layout Definition
-Se dice que una 
-\begin_inset Flex Alert
-status collapsed
-
-\begin_layout Plain Layout
-extensión algebraica 
+Se dice que una extensión algebraica 
 \begin_inset Formula $F/K$
 \end_inset
 
- es normal
-\end_layout
-
-\end_inset
-
- si todo polinomio irreducible 
+ es normal si todo polinomio irreducible 
 \begin_inset Formula $P\in K\left[x\right]$
 \end_inset
 
@@ -982,12 +972,13 @@ extensión algebraica
  
 \end_layout
 
+\end_deeper
 \begin_layout Pause
 
 \end_layout
 
 \begin_layout Column
-7cm
+5cm
 \end_layout
 
 \begin_layout ExampleBlock
@@ -1073,7 +1064,6 @@ La extensión
  
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout BeginFrame
 Extensiones de Galois
@@ -1177,6 +1167,19 @@ Grupo de Galois
 \end_deeper
 \begin_layout BeginFrame
 Por Ejemplo...
+\end_layout
+
+\begin_layout Definition
+Se dice que una extensión finita 
+\begin_inset Formula $F/K$
+\end_inset
+
+ es una extensión de Galois si es separable y normal.
+ 
+\end_layout
+
+\begin_layout Pause
+
 \end_layout
 
 \begin_layout ExampleBlock
