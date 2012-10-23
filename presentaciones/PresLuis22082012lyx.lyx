@@ -1578,7 +1578,7 @@ Bibliografía
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "presen"
+bibfiles "thesisExample"
 options "apalike2"
 
 \end_inset
