@@ -657,7 +657,7 @@ status open
 
 \end_inset
 
-, la dimension de estas extensiones, extensiones algebraica y trascendentes,
+, la dimensión de estas extensiones, extensiones algebraica y trascendentes,
  y un Teorema de extensiones de otras extensiones, que nos permitieron dar
  una solución algebraica a los problemas delianos que fueron la trisección
  de un ángulo, la duplicación del cubo y a la cuadratura del círculo, todo
@@ -691,9 +691,15 @@ status open
 
 \end_inset
 
- dando algunas definiciones que nos brindara ayuda para entender las extensiones
- ciclotómicas que es adonde se apunta para poder en última estancia, estas
- definiciones fueron extraidas de los libros 
+ dando algunas definiciones que nos brindará ayuda para entender las extensiones
+ ciclotómicas, que es adonde se apunta, para poder en última estancia resolver
+ el problema de la posibilidad de la construcción de polígonos regulares
+ con Regla y Compás.
+ 
+\end_layout
+
+\begin_layout Block
+Estas definiciones fueron extraídas de los libros 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "hungerford1974algebra"
@@ -711,7 +717,7 @@ key "stewart2004galois"
 \end_layout
 
 \begin_layout Section
-Nose que poner...
+Grupos de Galois
 \end_layout
 
 \begin_layout BeginFrame
@@ -823,7 +829,7 @@ descompone
 \begin_inset Formula $P$
 \end_inset
 
- factoriza como producto de polinomios de primer grado con coeficientes
+ se factoriza como producto de polinomios de primer grado con coeficientes
  en 
 \begin_inset Formula $F$
 \end_inset
@@ -833,7 +839,7 @@ descompone
 \end_layout
 
 \begin_layout BeginFrame
-Cuerpos de descomposión
+Cuerpos de descomposición
 \end_layout
 
 \begin_layout Definition
@@ -924,11 +930,11 @@ El cuerpo de descomposición de
 
 \begin_layout Enumerate
 El cuerpo de descomposición de 
-\begin_inset Formula $P=x^{n}-1\in\mathbb{Q}(\sqrt{2})\left[x\right]$
+\begin_inset Formula $P=x^{n}-1\in\mathbb{Q}\left[x\right]$
 \end_inset
 
  es 
-\begin_inset Formula $\mathbb{Q}(\sqrt{2},\mbox{\zeta})$
+\begin_inset Formula $\mathbb{Q}(\mbox{\zeta})$
 \end_inset
 
  donde 
@@ -940,7 +946,7 @@ El cuerpo de descomposición de
 
 \end_deeper
 \begin_layout BeginFrame
-Extensiones Normales y Separables
+Extensiones Normales 
 \end_layout
 
 \begin_layout ColumnsTopAligned
@@ -949,15 +955,25 @@ Extensiones Normales y Separables
 
 \begin_deeper
 \begin_layout Column
-5cm
+4cm
 \end_layout
 
 \begin_layout Definition
-Se dice que una extensión algebraica 
+Se dice que una 
+\begin_inset Flex Alert
+status collapsed
+
+\begin_layout Plain Layout
+extensión algebraica 
 \begin_inset Formula $F/K$
 \end_inset
 
- es normal si todo polinomio irreducible 
+ es normal
+\end_layout
+
+\end_inset
+
+ si todo polinomio irreducible 
 \begin_inset Formula $P\in K\left[x\right]$
 \end_inset
 
@@ -972,13 +988,12 @@ Se dice que una extensión algebraica
  
 \end_layout
 
-\end_deeper
 \begin_layout Pause
 
 \end_layout
 
 \begin_layout Column
-5cm
+7cm
 \end_layout
 
 \begin_layout ExampleBlock
@@ -1065,6 +1080,7 @@ La extensión
 \end_layout
 
 \end_deeper
+\end_deeper
 \begin_layout BeginFrame
 Extensiones de Galois
 \end_layout
@@ -1113,7 +1129,7 @@ Sea
 \end_layout
 
 \begin_layout Column
-6cm
+7cm
 \end_layout
 
 \begin_layout Definition
@@ -1169,19 +1185,6 @@ Grupo de Galois
 Por Ejemplo...
 \end_layout
 
-\begin_layout Definition
-Se dice que una extensión finita 
-\begin_inset Formula $F/K$
-\end_inset
-
- es una extensión de Galois si es separable y normal.
- 
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout ExampleBlock
 \begin_inset ERT
 status open
@@ -1208,7 +1211,7 @@ status open
 \end_layout
 
 \begin_layout ExampleBlock
-\begin_inset Formula $Gal(C/R)=\left\{ id,conj\right\} $
+\begin_inset Formula $Gal(\mathbb{C}/\mathbb{R})=\left\{ id,conj\right\} $
 \end_inset
 
 , donde 
@@ -1217,7 +1220,7 @@ status open
 
  es la conjugación compleja.
  Se tiene 
-\begin_inset Formula $C=R(i)$
+\begin_inset Formula $\mathbb{C}=\mathbb{R}(i)$
 \end_inset
 
  y como 
@@ -1229,7 +1232,7 @@ status open
 \end_inset
 
  son las raíces de 
-\begin_inset Formula $x^{2}+1\in R\left[x\right]$
+\begin_inset Formula $x^{2}+1\in\mathbb{R}\left[x\right]$
 \end_inset
 
 , los únicos posibles automorfismos son 
@@ -1243,7 +1246,7 @@ status open
 .
  El primero es la identidad y el segundo la conjugación.
  Este último es un 
-\begin_inset Formula $R$
+\begin_inset Formula $\mathbb{R}$
 \end_inset
 
 -automorfismo porque deja fijos a los Reales, es biyectivo (es su propia
@@ -1271,7 +1274,8 @@ Lo que se esta Trabajando
 
 \begin_deeper
 \begin_layout Enumerate-Resume
-Ciclotómicos : Extensión de Galois de grado 
+Extensiones Separables.
+ {Ciclotómicos : Extensión de Galois de grado 
 \begin_inset Formula $\varphi(n)$
 \end_inset
 
@@ -1280,7 +1284,6 @@ Ciclotómicos : Extensión de Galois de grado
 \end_inset
 
  es la función de Euler.
- rupos de Galois.
 \end_layout
 
 \end_deeper
