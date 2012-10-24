@@ -1129,7 +1129,7 @@ Sea
 \end_layout
 
 \begin_layout Column
-6cm
+7cm
 \end_layout
 
 \begin_layout Definition
@@ -1275,7 +1275,7 @@ Lo que se esta Trabajando
 \begin_deeper
 \begin_layout Enumerate-Resume
 Extensiones Separables.
- {Ciclotómicos : Extensión de Galois de grado 
+ Cuerpos Ciclotómicos : Extensión de Galois de grado 
 \begin_inset Formula $\varphi(n)$
 \end_inset
 
