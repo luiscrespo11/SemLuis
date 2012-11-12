@@ -273,56 +273,40 @@ Introducción
 
 \begin_layout Standard
 Los problemas de las construcción ha sido un tema favorito de la geometría.
- Entre todos los problemas de construcción, el de trazar con regla y compás
- el polígono regular de 
-\begin_inset Formula $n$
-\end_inset
-
- lados tiene quizás el máximo interés.
+ La idea de este trabajo es ver qué construcciones geométricas pueden hacerse
+ con el uso de una Regla no graduada, de un Compás, de un lápiz y una hoja.
+ Los antiguos griegos se interesaron especialmente por los problemas geométricos
+ asociados a figuras que pueden ser trazadas con los instrumentos más simples:
+ una regla para trazar rectas y un compás para trazar circunferencias.
+ Con más precisión, una construcción con regla y compás en sentido estricto
+ no admite que se tracen rectas o circunferencias aleatorias.
+ Para que una recta se pueda considerar ‘construida’ es necesario tener
+ construidos dos de sus puntos, sobre los que apoyar la regla; un punto
+ está construido cuando lo hemos determinado como intersección de dos rectas,
+ dos circunferencias, o una recta y una circunferencia; finalmente, para
+ construir una circunferencia tenemos que tener construido su centro, sobre
+ el que clavar el compás, y su radio ha de ser la distancia entre dos a
+ puntos construidos, con los que fijar la apertura del compás .
+ Todos estamos acostumbrados en los niveles educativos a que se nos enseñen
+ a trazar la bisectriz de un ángulo, la mediatriz de un segmento y a construir
+ triángulos con regla y compás.
+ Las cuestiones que pueden surgir y que trataremos de bosquejar una respuesta
+ son:
 \end_layout
 
-\begin_layout Section
-Introducción Histórica
+\begin_layout Itemize
+Dados dos puntos en el plano complejo ¿Que otros puntos podremos construir
+ (con el uso de una regla y un compás)?
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Dibujo.bmp
-	scale 70
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Prueba de figura BMP
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+¿Qué puntos no podremos construir del plano complejo?
 \end_layout
 
 \begin_layout Standard
-Entre los más famosos problemas planteados por los griegos de la Antigüedad
- están tres construcciones geométricas, a realizarse usando sólo una regla
- sin marcas para medir y un compás: 
+Los griegos ya tenían planteadas tres cuestiones que se denominan Problemas
+ Delianos.
+ (que hoy se consideran clásicas): 
 \end_layout
 
 \begin_layout Itemize
@@ -351,8 +335,27 @@ La trisección del ángulo: dado un ángulo cualquiera de medida
 \end_layout
 
 \begin_layout Itemize
-La cuadratura del círculo: dado un círculo de área A, construir un cuadrado
- de área A.
+La cuadratura del círculo: dado un círculo de área 
+\begin_inset Formula $A$
+\end_inset
+
+, construir un cuadrado de área 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Otra pregunta que puede formularse es:
+\end_layout
+
+\begin_layout Itemize
+¿Cuáles polígonos regulares pueden construirse usando regla y compás? .
+\end_layout
+
+\begin_layout Section
+Introducción Histórica
 \end_layout
 
 \begin_layout Standard
@@ -362,37 +365,23 @@ Muchas construcciones geométricas son realizables con regla y compás: segmento
  bisectriz de un ángulo dado; se puede construir un cuadrado de igual área
  que la de un polígono cualquiera dado.
  En la búsqueda de una construcción con regla y compás que resolviera los
- tres problemas mencionados arriba, los griegos invirtieron todo su ingenio
- y esfuerzo, sin alcanzarla nunca, aunque, como suele suceder en estos casos,
- otros hallazgos se obtuvieron en el camino de esa búsqueda.
+ tres problemas delianos, los griegos invirtieron todo su ingenio y esfuerzo,
+ sin alcanzarla nunca, aunque, como suele suceder en estos casos, otros
+ hallazgos se obtuvieron en el camino de esa búsqueda.
 \end_layout
 
 \begin_layout Standard
 De la investigación de estos problemas se ocuparon numerosos pensadores
- griegos del periodo helénico, el más antiguo de los cuales fue el filósofo
+ griegos del período helénico, el más antiguo de los cuales fue el filósofo
  Anaxágoras, contemporáneo notable de Zenón y a quien se conoce como el
- último de los celebrados filósofos de la escuela jónica, condenado a muerte
- a la edad de 
-\begin_inset Formula $72$
-\end_inset
-
- años por favorecer la causa persa.
- Escribió sobre el problema de la cuadratura del círculo y sus perspectivas.
+ último de los celebrados filósofos de la escuela jónica, escribió sobre
+ el problema de la cuadratura del círculo y sus perspectivas.
  Anaxágoras representaba claramente la motivación griega típica: el deseo
  de saber.
- En matemáticas también la actitud griega difería, de manera tajante, de
- la de las primeras culturas potámicas.
- El contraste era claro por las contribuciones generalmente atribuidas a
- Tales y Pitágoras, en el siglo 
-\begin_inset Formula $V$
-\end_inset
-
- a.C..
- Pero su mente inquisidora lo llevó a involucrarse en el seguimiento de
- problemas matemáticos.
- En su libro Sobre el exilio que escribió en la primera centuria d.C., Plutarco
- cuenta que mientras Anaxágoras estaba en la cárcel intentó “cuadrar el
- círculo”.
+ Su mente inquisidora lo llevó a involucrarse en el seguimiento de problemas
+ matemáticos.
+ Plutarco cuenta que mientras Anaxágoras estaba en la cárcel intentó “cuadrar
+ el círculo”.
  Aquí tenemos la primera mención registrada de un problema que fascinaría
  a los matemáticos por más de 
 \begin_inset Formula $2.000$
@@ -401,8 +390,8 @@ De la investigación de estos problemas se ocuparon numerosos pensadores
  años.
  Anaxágoras murió en 428 a.C..
  La profunda impresión que causó esta catástrofe es quizás el origen de
- un tercer problema matemático famoso: se sabe que una delegación de la
- ciudad de Delos fue enviada al oráculo de Apolo en Delfos para preguntar
+ un segundo problema matemático famoso: se sabe que una delegación de la
+ ciudad de Delos fue enviada al oráculo de Apolo en Delos para preguntar
  cómo se podría contrarrestar la plaga que invadió su ciudad y el oráculo
  respondió que se debería doblar en volumen el altar a Apolo, que tenía
  la forma de un cubo en su ciudad.
@@ -418,7 +407,26 @@ De la investigación de estos problemas se ocuparon numerosos pensadores
 \end_layout
 
 \begin_layout Standard
-Matemáticos de diferentes periodos, incluido el nuestro, han mostrado la
+La trisección del ángulo fue el tercero de los problemas clásicos de la
+ antigüedad griega.
+ Se pretendía trisecar un ángulo, o dicho de otra forma, dividirlo en tres
+ partes perfectamente iguales usando sólo una regla (no graduada) y un compás.
+ Esto, en general, no es posible.
+ Un ejemplo sencillo en donde sí es posible es dividir el ángulo de 
+\begin_inset Formula $90^{o}$
+\end_inset
+
+ en 
+\begin_inset Formula $30^{o}$
+\end_inset
+
+.
+ La división de un ángulo cualquiera en su tercera parte, puede lograrse
+ introduciendo curvas auxiliares que permiten su construcción.
+\end_layout
+
+\begin_layout Standard
+Matemáticos de diferentes períodos, incluido el nuestro, han mostrado la
  conexión entre los tres problemas griegos y la moderna teoría de ecuaciones,
  la cual involucra consideraciones que pertenecen a los dominios de la teoría
  de grupos.
