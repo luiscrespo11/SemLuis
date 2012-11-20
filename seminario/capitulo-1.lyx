@@ -891,7 +891,7 @@ ad de tales construcciones.
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Extensiones de Cuerpos
 \end_layout
 
@@ -5846,7 +5846,7 @@ Sea
 \begin_inset Formula $K$
 \end_inset
 
-un cuerpo tal que la caracteritica de 
+ un cuerpo tal que la característica de 
 \begin_inset Formula $K$
 \end_inset
 
