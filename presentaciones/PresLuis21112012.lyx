@@ -1121,10 +1121,7 @@ status open
 
 presentamos la posibilidad o imposibilidad de la construcción de los polígonos
  regulares que están muy presentes en el mundo real.
-\end_layout
-
-\begin_layout Block
-los conceptos que se darán, fueron extraídos del libro 
+ Esta parte del trabajo fue basado en el libro de
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Ivorra2000Geometria"
