@@ -1000,57 +1000,97 @@ El polígono regular de
 \end_layout
 
 \begin_layout BeginFrame
-
+De donde provino esto...
 \end_layout
 
-\begin_layout ColumnsTopAligned
+\begin_layout Theorem
+Sea 
+\begin_inset Formula $n$
+\end_inset
 
+ un entero positivo, 
+\begin_inset Formula $K$
+\end_inset
+
+ un cuerpo tal que la característica de 
+\begin_inset Formula $K$
+\end_inset
+
+ no divide a 
+\begin_inset Formula $n$
+\end_inset
+
+ y 
+\begin_inset Formula $g_{n}(x)$
+\end_inset
+
+ el n-ésimo polinomio ciclotómico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
 \end_layout
 
 \begin_deeper
-\begin_layout Column
-4cm
+\begin_layout Enumerate
+\begin_inset Formula $x^{n}-1_{K}=\underset{d|n}{\prod}g_{d}(x)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Definition
-Se dice que una 
-\begin_inset Flex Alert
-status collapsed
-
-\begin_layout Plain Layout
-extensión algebraica 
-\begin_inset Formula $F/K$
+\begin_layout Enumerate
+Los coeficientes de 
+\begin_inset Formula $g_{n}(x)$
 \end_inset
 
- es normal
+ se encuentra en el subcuerpo 
+\begin_inset Formula $T$
+\end_inset
+
+ de 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Si la característica 
+\begin_inset Formula $K=0$
+\end_inset
+
+ y 
+\begin_inset Formula $T$
+\end_inset
+
+ se identifica con el cuerpo 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de los racionales, entonces los coeficientes son en la realidad los enteros.
 \end_layout
 
+\begin_layout Enumerate
+El grado de 
+\begin_inset Formula $g_{n}(x)$
 \end_inset
 
- si todo polinomio irreducible 
-\begin_inset Formula $P\in K\left[x\right]$
+ es 
+\begin_inset Formula $\phi(n)$
 \end_inset
 
- que tiene una raíz en 
-\begin_inset Formula $F$
+, donde 
+\begin_inset Formula $\phi$
 \end_inset
 
- se descompone en factores lineales en 
-\begin_inset Formula $F\left[x\right]$
-\end_inset
-
+ es la función de Euler.
  
 \end_layout
 
-\begin_layout Pause
-
+\end_deeper
+\begin_layout BeginFrame
+Polígonos Regulares
 \end_layout
 
-\begin_layout Column
-7cm
-\end_layout
-
-\begin_layout ExampleBlock
+\begin_layout Block
 \begin_inset ERT
 status open
 
@@ -1061,7 +1101,7 @@ status open
 
 \end_inset
 
-Por ejemplo,
+Como última parte del trabajo
 \begin_inset ERT
 status open
 
@@ -1072,174 +1112,26 @@ status open
 
 \end_inset
 
-.
+presentamos la posibilidad o imposibilidad de la construcción de los polígonos
+ regulares que están muy presentes en el mundo real.
 \end_layout
 
-\begin_deeper
-\begin_layout Enumerate
-Tenemos que 
-\begin_inset Formula $\mathbb{Q}(i)/\mathbb{Q}$
-\end_inset
+\begin_layout Block
+los conceptos que se darán, fueron extraídos del libro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ivorra2000Geometria"
 
- es una extensión normal, pues 
-\begin_inset Formula $\mathbb{Q}(i)$
-\end_inset
-
- es el cuerpo de descomposición sobre 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
-, del polinomio irreducible 
-\begin_inset Formula $x^{2}-1$
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Enumerate
-La extensión 
-\begin_inset Formula $\mathbb{Q}(\sqrt[3]{2})/\mathbb{Q}$
-\end_inset
-
- no es normal porque sólo una de las raíces de 
-\begin_inset Formula $x^{3}-2$
-\end_inset
-
- esta en 
-\begin_inset Formula $\mathbb{Q}(\sqrt[3]{2})$
-\end_inset
-
-, las otras son números complejos .
-\end_layout
-
-\begin_layout Enumerate
-La extensión 
-\begin_inset Formula $\mathbb{Q}(e^{2\pi i/n})/\mathbb{Q}$
-\end_inset
-
- es normal porque 
-\begin_inset Formula $\mathbb{Q}(e^{2\pi i/n})$
-\end_inset
-
- es el cuerpo de descomposición de 
-\begin_inset Formula $x^{n}-1$
-\end_inset
-
- sobre 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
-.
- 
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout BeginFrame
-Extensiones de Galois
+El Pentágono regular se puede construir con Regla y Compás
 \end_layout
 
-\begin_layout ColumnsTopAligned
-
-\end_layout
-
-\begin_deeper
-\begin_layout Column
-5cm
-\end_layout
-
-\begin_layout Standard
-Sea 
-\begin_inset Formula $F$
-\end_inset
-
- un cuerpo.
- El conjunto de automorfismos de 
-\begin_inset Formula $F$
-\end_inset
-
- , denotado 
-\begin_inset Formula $Aut\,\, F$
-\end_inset
-
- posee estructura de grupo con respecto a la operación de composición.
- En particular, nos interesará un subgrupo de éste.
- De esta manera, podremos utilizar la teoría de grupos para estudiar la
- estructura de las extensiones de cuerpos, esto es, funciones biyectivas
- de 
-\begin_inset Formula $F$
-\end_inset
-
- en 
-\begin_inset Formula $F$
-\end_inset
-
- que preservan la adición y la multiplicación.
- 
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Column
-7cm
-\end_layout
-
-\begin_layout Definition
-Sea 
-\begin_inset Formula $F/K$
-\end_inset
-
- una extensión de cuerpos.
- Se llama 
-\begin_inset Flex Alert
-status collapsed
-
-\begin_layout Plain Layout
-Grupo de Galois
-\end_layout
-
-\end_inset
-
- de la extensión 
-\begin_inset Formula $F/K$
-\end_inset
-
-,
-\begin_inset Formula $Gal(F/K)$
-\end_inset
-
-, al conjunto de los 
-\begin_inset Formula $K$
-\end_inset
-
--automorfismos de 
-\begin_inset Formula $F$
-\end_inset
-
- .
- Es decir son automorfismos de 
-\begin_inset Formula $F$
-\end_inset
-
- que dejan fijo al cuerpo 
-\begin_inset Formula $K$
-\end_inset
-
-, 
-\begin_inset Formula $\ensuremath{Gal(F/K)=\left\{ \sigma\in Aut(F):\sigma(a)=a\,\, para\,\, todo\,\, a\in K\right\} }$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout BeginFrame
-Por Ejemplo...
-\end_layout
-
-\begin_layout ExampleBlock
+\begin_layout Block
 \begin_inset ERT
 status open
 
@@ -1250,94 +1142,327 @@ status open
 
 \end_inset
 
-Por ejemplo
+Sea 
+\begin_inset Formula $F:\mathbb{Q}$
+\end_inset
+
+ la extensión de cuerpos
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-,}
+}
 \end_layout
 
 \end_inset
 
-.
+donde 
+\begin_inset Formula $F=\mathbb{Q}(\zeta)$
+\end_inset
+
+ es cuerpo ciclotómico quinto, que es una extensión de Galois de grado 
+\begin_inset Formula $\varphi(5)=4$
+\end_inset
+
+, que por teorema nos dice que si el polígono regular de 
+\begin_inset Formula $5$
+\end_inset
+
+ vértices es construible con regla y compás.
 \end_layout
 
-\begin_layout ExampleBlock
-\begin_inset Formula $Gal(\mathbb{C}/\mathbb{R})=\left\{ id,conj\right\} $
-\end_inset
-
-, donde 
-\begin_inset Formula $conj(z)=\overline{z}$
-\end_inset
-
- es la conjugación compleja.
- Se tiene 
-\begin_inset Formula $\mathbb{C}=\mathbb{R}(i)$
-\end_inset
-
- y como 
-\begin_inset Formula $i$
-\end_inset
-
- y 
-\begin_inset Formula $−i$
-\end_inset
-
- son las raíces de 
-\begin_inset Formula $x^{2}+1\in\mathbb{R}\left[x\right]$
-\end_inset
-
-, los únicos posibles automorfismos son 
-\begin_inset Formula $a+ib\rightarrow a+ib$
-\end_inset
-
- y 
-\begin_inset Formula $a+ib\rightarrow a-ib$
-\end_inset
-
-.
- El primero es la identidad y el segundo la conjugación.
- Este último es un 
-\begin_inset Formula $\mathbb{R}$
-\end_inset
-
--automorfismo porque deja fijos a los Reales, es biyectivo (es su propia
- inverso) y satisface las propiedades de homomorfismo 
-\begin_inset Formula $(\overline{z+w}=\overline{z}+\overline{w},\overline{z.w}=\overline{z}.\overline{w},\overline{1}=1)$
-\end_inset
-
+\begin_layout Pause
 
 \end_layout
 
-\begin_layout Section
-Lo que haremos
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Si lo pensamos como número complejo, e número 
+\begin_inset Formula $\zeta=\cos\frac{2\pi}{5}+i\sin\frac{2\pi}{5}$
+\end_inset
+
+ .
+ 
 \end_layout
 
 \begin_layout BeginFrame
-Lo que se esta Trabajando
+Continuando...
 \end_layout
 
-\begin_layout AlertBlock
-\begin_inset space ~
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Tenemos que 
+\begin_inset Formula $\zeta$
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+es la raíz quinta de la unidad, osea 
+\begin_inset Formula $\zeta^{5}=1$
+\end_inset
+
+ (fórmula de De Moivre), es decir que
+\begin_inset Formula $\zeta$
+\end_inset
+
+ es raíz del polinomio:
+\end_layout
+
+\begin_layout Block
+\begin_inset Formula 
+\[
+x^{5}-1=(x-1)(x^{4}+x^{3}+x^{2}+x+1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Pero como 
+\begin_inset Formula $\zeta\neq1$
+\end_inset
+
+, resulta que satisface
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Formula 
+\[
+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+Pero
+\end_layout
+
+\begin_layout Block
+\begin_inset Formula $(\zeta+\zeta^{-1})=\cos(\frac{2\pi}{5})+i\sin(\frac{2\pi}{5})+\cos(\frac{2\pi}{5})-i\sin(\frac{2\pi}{5})=2\cos(\frac{2\pi}{5})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Con lo que 
+\begin_inset Formula $2\cos\frac{2\pi}{5}$
+\end_inset
+
+ resulta ser raíz positiva
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+del polinomio 
+\begin_inset Formula $x^{2}+x-1$
+\end_inset
+
+ que es irreducible en 
+\begin_inset Formula $\mathbb{Q}\left[x\right]$
+\end_inset
+
+.
+ Luego, 
+\begin_inset Formula $\left[\mathbb{Q}(2\cos(\frac{2\pi}{5}):\mathbb{Q}\right]=2$
+\end_inset
+
+ que es una potencia de 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Por lo tanto, el número 
+\begin_inset Formula $\cos\frac{2\pi}{5}=\frac{-1+\sqrt{5}}{4}$
+\end_inset
+
+ es construible con regla y compás, entonces el pentágono regular es construible.
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$$
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagen2.png
+	scale 40
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+El heptágono regular no se puede construir con regla y compás
+\end_layout
+
+\begin_layout Standard
+Consideremos el número complejo 
+\begin_inset Formula $\zeta=\cos(\frac{2\pi}{7})+i\sin(\frac{2\pi}{7})$
+\end_inset
+
+.
+ Por el mismo razonamiento que hicimos antes, tenemos que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\zeta^{6}+\zeta^{5}+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Trabajando algebraicamente se llegará a que 
+\begin_inset Formula $(\zeta+\zeta^{-1})=2\cos(\frac{2\pi}{7})$
+\end_inset
+
+ es raíz del polinomio 
+\begin_inset Formula $x^{3}+x^{2}-2x+1$
+\end_inset
+
+, que es irreducible en 
+\begin_inset Formula $\mathbb{Q}\left[X\right]$
+\end_inset
+
+.
+ Luego, 
+\begin_inset Formula $\left[\mathbb{Q}(2\cos(\frac{2\pi}{7}):\mathbb{Q}\right]=3$
+\end_inset
+
+ que no es una potencia de 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Por lo tanto, el número 
+\begin_inset Formula $2\cos\frac{2\pi}{7}$
+\end_inset
+
+ no es construible con regla y compás, entonces el heptágono regular no
+ es construible con regla y compás.
+\end_layout
+
+\begin_layout Section
+Por último...
+\end_layout
+
+\begin_layout BeginFrame
+Conclusiones
+\end_layout
+
+\begin_layout Block
+De acuerdo a lo trabajado hasta el momento podemos afirmar el estrecho vínculo
+ entre el Álgebra Abstracta y la Geometría, para responder cuestiones antiguas
+ de esta última, tenemos así entre manos un material altamente motivador
+ para nuestro quehacer docente.
+ 
 \end_layout
 
 \begin_deeper
-\begin_layout Enumerate-Resume
-Extensiones Separables.
- Cuerpos Ciclotómicos : Extensión de Galois de grado 
-\begin_inset Formula $\varphi(n)$
-\end_inset
-
-, donde 
-\begin_inset Formula $\varphi$
-\end_inset
-
- es la función de Euler.
+\begin_layout Block
+Pensamos que este trabajo puede servir como una guía a aquellos docentes
+ que deban incluir estos temas en su cátedra, , los conceptos algebraicos
+ con las aplicaciones geométricas, para que de esa ligadura puedan brillar
+ ambas disciplinas.
 \end_layout
 
 \end_deeper
