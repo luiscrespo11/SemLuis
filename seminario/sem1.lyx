@@ -18,7 +18,8 @@
  \renewcommand{\tableautorefname}{Tab.\negthinspace}
 }
 }
-
+\oddsidemargin=0.5cm
+\evensidemargin=0.5cm
 % in case somebody want to have the label "equation"
 %\renewcommand{\eqref}[1]{equation~(\negthinspace\autoref{#1})}
 

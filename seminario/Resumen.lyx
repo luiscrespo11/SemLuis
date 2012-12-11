@@ -112,14 +112,22 @@ adds table of contents entry
 \end_layout
 
 \begin_layout Standard
-Resumidamente se puede decir en este
-\begin_inset CommandInset citation
-LatexCommand cite
-key "hungerford1974algebra,stewart2004galois,artin1997galois"
-
-\end_inset
-
- resumen...Poner aqui a toda la bibliografia
+En este trabajo presentamos una propuesta de una secuencia de conceptos
+ algebraicos que explican la posibilidad o imposibilidad de las construcciones
+ con regla y compás.
+ En algunos planes de estudio se presentan los conceptos necesarios para
+ justificar estos conceptos en un segundo curso de álgebra abstracta.
+ Sin embargo estamos persuadidos que sería más provechoso e interesante
+ presentarlo después de haber hecho una presentación de las construcciones
+ geométricas y haber permitido a los estudiantes realizar construcciones
+ concretas con regla y compás.
+ Por lo tanto en una primera parte enunciaremos algunos conceptos algebraicos
+ que servirán para mostrar que puntos en el plano complejo se pueden construir.
+ En una segunda indicamos la imposibilidad de ciertas construcciones como
+ por ejemplo los Problemas Delianos.
+ Por último, presentamos argumentos algebraicos para justificar las construccion
+es.
+ En todas estas partes indicamos una posible secuencia de actividades.
 \end_layout
 
 \end_body

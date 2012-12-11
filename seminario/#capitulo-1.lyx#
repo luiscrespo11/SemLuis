@@ -2352,7 +2352,7 @@ reference "thm:grad1"
 
 \begin_layout Proposition
 Si 
-\begin_inset Formula $K(\alpha):K$
+\begin_inset Formula $K(\alpha)/K$
 \end_inset
 
  es finita si y sólo si 

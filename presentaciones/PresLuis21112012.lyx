@@ -991,7 +991,7 @@ El polígono regular de
 \begin_inset Formula $n$
 \end_inset
 
- vértices es construible con regla y compás si 
+ vértices es construible con regla y compás si y sólo si 
 \begin_inset Formula $n$
 \end_inset
 
@@ -1121,7 +1121,7 @@ status open
 
 presentamos la posibilidad o imposibilidad de la construcción de los polígonos
  regulares que están muy presentes en el mundo real.
- Esta parte del trabajo fue basado en el libro de
+ Esta parte del trabajo fue basado en el libro de 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Ivorra2000Geometria"
@@ -1191,7 +1191,12 @@ status open
 
 \end_inset
 
-Si lo pensamos como número complejo
+
+El polígono regular de 
+\begin_inset Formula $5$
+\end_inset
+
+ vértices es construible si y sólo si lo es el número complejo
 \begin_inset ERT
 status open
 
@@ -1202,6 +1207,8 @@ status open
 
 \end_inset
 
+
+\lang spanish
  
 \begin_inset Formula 
 \[
@@ -1447,11 +1454,36 @@ status open
 \end_layout
 
 \begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
 Por el mismo razonamiento que hicimos antes, tenemos que
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Block
-\begin_inset Formula $\zeta^{6}+\zeta^{5}+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0$
+\begin_inset Formula 
+\[
+\zeta^{6}+\zeta^{5}+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0
+\]
+
 \end_inset
 
 
@@ -1466,7 +1498,8 @@ Trabajando algebraicamente se llegará a que
 \begin_inset Formula $x^{3}+x^{2}-2x+1$
 \end_inset
 
-.Luego, 
+.
+ Luego, 
 \begin_inset Formula $\left[\mathbb{Q}(2\cos(\frac{2\pi}{7}):\mathbb{Q}\right]=3$
 \end_inset
 
@@ -1546,8 +1579,8 @@ status open
 \end_inset
 
  puede servir como una guía a aquellos docentes que deban incluir estos
- temas en su cátedra,los conceptos algebraicos con las aplicaciones geométricas,
- para que de esa ligadura puedan brillar ambas disciplinas.
+ temas en su cátedra, y puedan tener las aplicaciones geométricas correspondient
+e, para que de esta ligadura puedan brillar ambas disciplinas.
 \end_layout
 
 \begin_layout Standard
