@@ -59,7 +59,7 @@
 \usepackage{pst-grad} % For gradients
 \usepackage{pst-plot} % For axes
 \end_preamble
-\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
+\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage
 \use_default_options true
 \begin_modules
 customHeadersFooters
@@ -886,8 +886,17 @@ ad de tales construcciones.
 
 .
  La técnica empleada para probar la imposibilidad de las construcciones
- mencionadas incluye la formulación de las mismas en términos de la Geometría
- Analítica, y el uso de la teoría de las extensiones de cuerpos.
+ mencionadas incluye la formulación de las mismas en términos de la Geo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Geometría
+\end_layout
+
+\end_inset
+
+metría Analítica, y el uso de la teoría de las extensiones de cuerpos.
  
 \end_layout
 
@@ -1264,32 +1273,10 @@ Dado
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula ${\displaystyle \gamma=\sum_{i=1,j=1}^{m.n}b_{ij}\beta_{j}\alpha}$
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+{\displaystyle \gamma=\sum_{i=1,j=1}^{m.n}b_{ij}\beta_{j}\alpha}
+\]
 
 \end_inset
 
@@ -2352,7 +2339,7 @@ reference "thm:grad1"
 
 \begin_layout Proposition
 Si 
-\begin_inset Formula $K(\alpha)/K$
+\begin_inset Formula $K(\alpha):K$
 \end_inset
 
  es finita si y sólo si 
@@ -2380,32 +2367,10 @@ Si
 \end_layout
 
 \begin_layout Proposition
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $K(\alpha)=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},\textrm{con }a_{i}\in K\right\} $
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+K(\alpha)=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},\textrm{con }a_{i}\in K\right\} 
+\]
 
 \end_inset
 
@@ -2421,32 +2386,10 @@ Sea
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $A=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},\textrm{con }a_{i}\in K\right\} $
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+A=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},\textrm{con }a_{i}\in K\right\} 
+\]
 
 \end_inset
 
@@ -2571,32 +2514,10 @@ Suponiendo conocido que
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $1=AP+BQ_{2}$
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+1=AP+BQ_{2}
+\]
 
 \end_inset
 
@@ -2620,32 +2541,10 @@ se tiene
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $\dfrac{Q_{1}(\alpha)}{Q_{2}(\alpha}=Q_{1}(\alpha)B(\alpha)$
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+\dfrac{Q_{1}(\alpha)}{Q_{2}(\alpha}=Q_{1}(\alpha)B(\alpha)
+\]
 
 \end_inset
 
@@ -3264,36 +3163,14 @@ Consideremos
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
+\begin_inset Formula 
+\[
+\cos\theta=4\cos^{3}\theta/3-3\cos\theta/3
+\]
 
 \end_inset
 
  
-\begin_inset Formula $\cos\theta=4\cos^{3}\theta/3-3\cos\theta/3$
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Proof

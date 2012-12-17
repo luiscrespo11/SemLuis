@@ -59,7 +59,7 @@
 \usepackage{pst-grad} % For gradients
 \usepackage{pst-plot} % For axes
 \end_preamble
-\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
+\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage
 \use_default_options true
 \begin_modules
 customHeadersFooters
@@ -889,6 +889,13 @@ ad de tales construcciones.
  mencionadas incluye la formulación de las mismas en términos de la Geometría
  Analítica, y el uso de la teoría de las extensiones de cuerpos.
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pastor2000historia,boyer2011history"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -921,6 +928,13 @@ En la versión general en la que actualmente se presenta la Teoría de Galois,
 ) resulta fundamental para la teoría.
  La razón por la cual estas ideas aparecen naturalmente en la consideración
  del problema de la resolución de ecuaciones algebraicas.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hungerford1974algebra,stewart2004galois"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1264,32 +1278,10 @@ Dado
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula ${\displaystyle \gamma=\sum_{i=1,j=1}^{m.n}b_{ij}\beta_{j}\alpha}$
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+{\displaystyle \gamma=\sum_{i=1,j=1}^{m.n}b_{ij}\beta_{j}\alpha}
+\]
 
 \end_inset
 
@@ -2380,32 +2372,10 @@ Si
 \end_layout
 
 \begin_layout Proposition
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $K(\alpha)=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},\textrm{con }a_{i}\in K\right\} $
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+K(\alpha)=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},\textrm{con }a_{i}\in K\right\} 
+\]
 
 \end_inset
 
@@ -2421,32 +2391,10 @@ Sea
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $A=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},\textrm{con }a_{i}\in K\right\} $
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+A=\left\{ a_{0}+a_{1}\alpha+...+a_{n-1}\alpha^{n-1},\textrm{con }a_{i}\in K\right\} 
+\]
 
 \end_inset
 
@@ -2571,32 +2519,10 @@ Suponiendo conocido que
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $1=AP+BQ_{2}$
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+1=AP+BQ_{2}
+\]
 
 \end_inset
 
@@ -2620,32 +2546,10 @@ se tiene
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $\dfrac{Q_{1}(\alpha)}{Q_{2}(\alpha}=Q_{1}(\alpha)B(\alpha)$
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+\dfrac{Q_{1}(\alpha)}{Q_{2}(\alpha}=Q_{1}(\alpha)B(\alpha)
+\]
 
 \end_inset
 
@@ -3264,36 +3168,14 @@ Consideremos
 \end_layout
 
 \begin_layout Proof
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
+\begin_inset Formula 
+\[
+\cos\theta=4\cos^{3}\theta/3-3\cos\theta/3
+\]
 
 \end_inset
 
  
-\begin_inset Formula $\cos\theta=4\cos^{3}\theta/3-3\cos\theta/3$
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Proof

@@ -271,57 +271,6 @@ thepage
 Título del primer apéndice
 \end_layout
 
-\begin_layout Section
-Revisión
-\end_layout
-
-\begin_layout Standard
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla b
-\end_layout
-
-\begin_layout Standard
-la bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla roughness parameter 
-\begin_inset Formula $R_{a}$
-\end_inset
-
-
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "$R_a$"
-description "arithmetic average roughness"
-
-\end_inset
-
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-For nomenclature entries with indices one need to enclose the expression
- with $-signs.
- (This creates a formula.)
-\end_layout
-
-\end_inset
-
- bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
- bla bla bla bla bla bla bla bla bla bla bla bla, see 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "ISO10780"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Section
-La siguiente sección
-\end_layout
-
 \begin_layout Standard
 \begin_inset Branch NoChildDocument
 status collapsed

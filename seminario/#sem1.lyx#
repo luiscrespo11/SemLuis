@@ -199,8 +199,24 @@ Luis Fernando Crespo
 \end_inset
 
 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename escunsa.bmp
+	filename /home/luis/Música/seminario/escudo_UNSa.JPG
 
 \end_inset
 
@@ -236,20 +252,15 @@ Universidad Nacional de Salta
 
 \lang spanish
 Facultad de Ciencias Exactas
-\lang english
-
 \begin_inset Newline newline
 \end_inset
 
+Departamento de Matemática
+\end_layout
 
-\lang spanish
-Departamento de Matemáticas
+\begin_layout Publishers
+
 \lang english
-
-\begin_inset Newline newline
-\end_inset
-
-
 \begin_inset VSpace -3cm
 \end_inset
 
@@ -323,11 +334,11 @@ Fecha de graduación
 \begin_inset Newline newline
 \end_inset
 
-27.06.2013
+xx.yy.zzzz
 \end_layout
 
 \begin_layout Dedication
-Para todos y todas...Argentinos y Argentinas
+Para todos y todas...
 \end_layout
 
 \begin_layout Standard

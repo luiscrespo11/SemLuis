@@ -52,7 +52,7 @@
 % avoid that floats are placed above its sections
 \let\mySection\section\renewcommand{\section}{\suppressfloats[t]\mySection}
 \end_preamble
-\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
+\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage
 \use_default_options true
 \begin_modules
 customHeadersFooters
@@ -441,7 +441,7 @@ El cuerpo de descomposición de
 Como acabamos de señalar, la existencia del cuerpo de descomposición no
  es evidente porque en sitios suficientemente raros no sabemos hallar las
  raíces de un polinomio, por ejemplo en el caso antes citado 
-\begin_inset Formula $x^{2}+1\in\mathbb{F}_{3}\left[x\right]$
+\begin_inset Formula $x^{2}+1\in\mathbb{Z}_{3}\left[x\right]$
 \end_inset
 
 .
@@ -549,127 +549,6 @@ Supongamos que
 \end_inset
 
  .
- 
-\end_layout
-
-\begin_layout Theorem
-(Existencia de cuerpos de descomposición) Sea 
-\begin_inset Formula $K$
-\end_inset
-
- un cuerpo, 
-\begin_inset Formula $P\in K\left[x\right]$
-\end_inset
-
- un polinomio no constante.
- Entonces, existe un cuerpo de descomposición de 
-\begin_inset Formula $P$
-\end_inset
-
- sobre 
-\begin_inset Formula $K$
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Proof
-Probaremos este enunciado por inducción sobre el grado del polinomio.Si el
- grado de 
-\begin_inset Formula $P$
-\end_inset
-
- es 
-\begin_inset Formula $1$
-\end_inset
-
-, entonces 
-\begin_inset Formula $P$
-\end_inset
-
- se descompone sobre 
-\begin_inset Formula $K$
-\end_inset
-
-.
- Supongamos el teorema probado para todo polinomio de grado menor que 
-\begin_inset Formula $n$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Proof
-Tomemos que el grado de 
-\begin_inset Formula $P$
-\end_inset
-
- es 
-\begin_inset Formula $n$
-\end_inset
-
-.
- Por el lema anterior, existe una extensión finita 
-\begin_inset Formula $E/K$
-\end_inset
-
- tal que 
-\begin_inset Formula $P$
-\end_inset
-
- tiene una raíz, 
-\begin_inset Formula $\alpha_{1}\in E$
-\end_inset
-
- .
- Entonces, 
-\begin_inset Formula $P=(X-\alpha_{1})Q$
-\end_inset
-
- con 
-\begin_inset Formula $Q\in E\left[x\right]$
-\end_inset
-
- y el grado de 
-\begin_inset Formula $Q$
-\end_inset
-
- es 
-\begin_inset Formula $n-1$
-\end_inset
-
-.
- Utilizando la hipótesis de inducción, existe una extensión finita 
-\begin_inset Formula $F/K$
-\end_inset
-
- tal que 
-\begin_inset Formula $Q$
-\end_inset
-
- se descompone sobre 
-\begin_inset Formula $F$
-\end_inset
-
-.
- Así, 
-\begin_inset Formula $F/K$
-\end_inset
-
- es una extensión finita, ya que 
-\begin_inset Formula $\left[F:K\right]=\left[F:E\right]\left[E:K\right]$
-\end_inset
-
-, y 
-\begin_inset Formula $P$
-\end_inset
-
- se descompone sobre 
-\begin_inset Formula $F$
-\end_inset
-
-.
- 
 \end_layout
 
 \begin_layout Section
@@ -1559,7 +1438,11 @@ Ahora probaremos el teorema para dimensión finita, esto es
 \end_layout
 
 \begin_layout Proof
-\begin_inset Formula $\left[F:K\right]=\left[F:K(u)\right]\left[K(u):K\right]=\left|H\right|s=\left|H\right|\left[Aut_{K(u)}F:H\right]=\left|Aut_{K}F\right|$
+\begin_inset Formula 
+\[
+\left[F:K\right]=\left[F:K(u)\right]\left[K(u):K\right]=\left|H\right|s=\left|H\right|\left[Aut_{K(u)}F:H\right]=\left|Aut_{K}F\right|
+\]
+
 \end_inset
 
 
@@ -1958,32 +1841,10 @@ Sea
 \end_layout
 
 \begin_layout Definition
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $Gal(F/K)=\left\{ \sigma\in Aut(F):\sigma(a)=a\textrm{\,\, para todo\,\ }a\in K\right\} $
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
+\begin_inset Formula 
+\[
+Gal(F/K)=\left\{ \sigma\in Aut(F):\sigma(a)=a\textrm{\,\,\ para todo\,\ }a\in K\right\} 
+\]
 
 \end_inset
 
@@ -2402,6 +2263,7 @@ Sea
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Formula $F=K(\zeta)$
 \end_inset
@@ -2418,7 +2280,6 @@ Sea
  
 \end_layout
 
-\begin_deeper
 \begin_layout Enumerate
 \begin_inset Formula $F$
 \end_inset
@@ -2793,6 +2654,7 @@ Sea
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Formula $x^{n}-1_{K}=\underset{d|n}{\prod}g_{d}(x)$
 \end_inset
@@ -2800,7 +2662,6 @@ Sea
 
 \end_layout
 
-\begin_deeper
 \begin_layout Enumerate
 Los coeficientes de 
 \begin_inset Formula $g_{n}(x)$
@@ -2925,20 +2786,12 @@ El grado de
 \begin_inset Formula $g_{d}(x)=\underset{\underset{|\eta|=d}{\eta\in G}}{\prod}(x-\eta)$
 \end_inset
 
- y 
-\end_layout
+ y
+\begin_inset Formula 
+\[
+x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\prod}(\underset{\underset{|\eta|=d}{\eta\in G}}{\prod}(x-\eta))=\underset{\underset{d|n}{d}}{\prod}g_{d}(x)
+\]
 
-\begin_layout Proof
-\begin_inset Formula $x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\prod}(\underset{\underset{|\eta|=d}{\eta\in G}}{\prod}(x-\eta))=\underset{\underset{d|n}{d}}{\prod}g_{d}(x)$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Proof
-2.
- Vamos a probar la primera sentencia esta inducida por 
-\begin_inset Formula $n$
 \end_inset
 
 
@@ -2973,6 +2826,7 @@ Sea
  Entonces
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Formula $g_{n}(x)$
 \end_inset
@@ -2984,7 +2838,6 @@ Sea
 
 \end_layout
 
-\begin_deeper
 \begin_layout Enumerate
 \begin_inset Formula $\left[F:\mathbb{Q}\right]=\varphi(n),$
 \end_inset
@@ -3009,8 +2862,8 @@ Sea
 
 \end_deeper
 \begin_layout Proof
-(i) Es suficiente que por lemma III.6.13 para mostrar que polinomio mónico
- 
+(i) Es suficiente que por lemma III.6.13(falta poner) para mostrar que polinomio
+ mónico 
 \family roman
 \series medium
 \shape up
@@ -3192,7 +3045,7 @@ Sea
 \end_inset
 
 - ésima raíz primitiva de la unidad.
- La demostración de la proposion 8.2(iii) implica que 
+ La demostración de la proposición 8.2(iii) implica que 
 \begin_inset Formula $\zeta^{p}$
 \end_inset
 
@@ -3324,7 +3177,7 @@ Sea
 \begin_inset Formula $g=\overset{t}{\underset{i=0}{\sum}}b_{i}x^{i}\mapsto\overline{g}=\overset{t}{\underset{i=0}{\sum}}\overline{b}_{i}x^{i}$
 \end_inset
 
- (ejercicioIII.5.1).
+ (ejercicio III.5.1).
  Consecuentemente , en 
 \begin_inset Formula $\mathbb{Z}_{p}\left[x\right]$
 \end_inset
@@ -3513,10 +3366,79 @@ es un primo tal que
 \begin_inset Formula $\zeta^{p}$
 \end_inset
 
- 
+ es una raíz de 
+\begin_inset Formula $h(x)$
+\end_inset
+
+.
+ Pero 
+\begin_inset Formula $\zeta^{r}$
+\end_inset
+
+ (
+\begin_inset Formula $1\leq r\leq n$
+\end_inset
+
+ y 
+\begin_inset Formula $(r,n)=1$
+\end_inset
+
+) son precisamente todas las raíces primitivas 
+\begin_inset Formula $n$
+\end_inset
+
+-ésimas de la unidad por lo demostrado en la proposicion 35 (iii).
+ Asi 
+\begin_inset Formula $h(x)$
+\end_inset
+
+ es divisible por 
+\begin_inset Formula $\underset{\substack{1\leq r\leq n\\
+(r,n)=1
+}
+}{\prod}(x-\zeta^{r})=g_{n}(x)$
+\end_inset
+
+, donde 
+\begin_inset Formula $g_{n}(x)=h(x).$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Proof
+Por lo tanto, 
+\begin_inset Formula $g_{n}(x)$
+\end_inset
+
+ es irreducible.
+\end_layout
+
+\begin_layout Proof
+(ii) Lemma 7.10 mostramos que 
+\begin_inset Formula $F=\mathbb{Q}(\zeta),$
+\end_inset
+
+donde
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+\left[F:\mathbb{Q}\right]=\left[\mathbb{Q}(\zeta):\mathbb{Q}\right]=\textrm{deg}\, g_{n}=\varphi(n)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Por proposición 35 y (i) .
+ (iii) es consecuencia de (ii), Teorema 32 y ejercicio 1 (hacer)
+\end_layout
+
+\begin_layout Section
 Polígonos Regulares.
 \end_layout
 
@@ -3530,7 +3452,14 @@ Esta última parte de la sección, presentamos la posibilidad o imposibilidad
  
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Ivorra"
+key "Ivorra2000Geometria"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PerezSangari2011Geometria"
 
 \end_inset
 
@@ -3662,13 +3591,14 @@ Así pues, un polígono regular de
 \end_inset
 
  vértices es construible si y sólo si lo es el número complejo
-\end_layout
+\begin_inset Formula 
+\[
+\zeta_{n}=\cos(\frac{2\pi}{n})+i\sin(\frac{2\pi}{n})
+\]
 
-\begin_layout Standard
-\begin_inset Formula $\zeta_{n}=\cos(\frac{2\pi}{n})+i\sin(\frac{2\pi}{n})$
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3735,7 +3665,7 @@ Notemos que la constructibilidad de los polígonos regulares de
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El pentágono regular se puede construir con regla y compás.
 \end_layout
 
@@ -3908,7 +3838,7 @@ Con lo que
  construible.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El heptágono regular no se puede construir con regla y compás.
  
 \end_layout
@@ -3924,7 +3854,11 @@ El heptágono regular no se puede construir con regla y compás.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\zeta^{6}+\zeta^{5}+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0$
+\begin_inset Formula 
+\[
+\zeta^{6}+\zeta^{5}+\zeta^{4}+\zeta^{3}+\zeta^{2}+\zeta+1=0
+\]
+
 \end_inset
 
 
@@ -3939,7 +3873,11 @@ Sacando factor común
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\zeta^{3}+\zeta^{2}+\zeta+1+\zeta^{-1}+\zeta^{-2}+\zeta^{-3}=(\zeta+\zeta^{-1})^{3}+(\zeta+\zeta^{-1})^{2}-2(\zeta+\zeta^{-1})+1=0$
+\begin_inset Formula 
+\[
+\zeta^{3}+\zeta^{2}+\zeta+1+\zeta^{-1}+\zeta^{-2}+\zeta^{-3}=(\zeta+\zeta^{-1})^{3}+(\zeta+\zeta^{-1})^{2}-2(\zeta+\zeta^{-1})+1=0
+\]
+
 \end_inset
 
 
