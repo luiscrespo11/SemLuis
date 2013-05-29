@@ -154,6 +154,7 @@ customHeadersFooters
 \begin_body
 
 \begin_layout Subject
+\SpecialChar \-
 Trabajo Final para obtener el título de Profesor en Matemática
 \lang english
 
@@ -1376,7 +1377,7 @@ Si
 \end_inset
 
 .
- Es facil ver que el grado de 
+ Es fácil ver que el grado de 
 \begin_inset Formula $f(x)$
 \end_inset
 
@@ -3066,7 +3067,7 @@ grado de
 \series default
  
 \shape italic
-, es deg 
+, es gr 
 \shape default
 
 \begin_inset Formula $f=\left[K(u):K\right]$
@@ -3161,7 +3162,7 @@ es una base de
 \begin_inset Formula $K$
 \end_inset
 
-, entonces es facil ver que 
+, entonces es fácil ver que 
 \begin_inset Formula $F=K(v_{1},...,v_{n})$
 \end_inset
 
@@ -3382,7 +3383,7 @@ reference "thm:CuerpoGeneradoAlgebraico"
 \begin_inset Formula $X=\left\{ u_{1},...,u_{n}\right\} $
 \end_inset
 
- es finito , the same demostracción ( con 
+ es finito , the same demostración ( con 
 \begin_inset Formula $F=K(u_{1},...,u_{i-1})$
 \end_inset
 
@@ -6956,7 +6957,7 @@ reference "lem:dividorprimitivo"
 \begin_inset Formula $G=<\zeta>$
 \end_inset
 
- de todas las raices 
+ de todas las raíces 
 \begin_inset Formula $n$
 \end_inset
 
@@ -7038,7 +7039,7 @@ x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\pr
 \begin_inset Formula $f\in P\left[x\right]$
 \end_inset
 
- por hipotesis inductiva and in 
+ por hipótesis inductiva and in 
 \begin_inset Formula $F\left[x\right]$
 \end_inset
 
@@ -7055,8 +7056,8 @@ x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\pr
 \begin_inset Formula $f$
 \end_inset
 
- es monico.
- Consecuentemente, por el algoritmo de la division en 
+ es mónico.
+ Consecuentemente, por el algoritmo de la división en 
 \begin_inset Formula $P\left[x\right]$
 \end_inset
 
@@ -7096,7 +7097,7 @@ x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\pr
 
 .
  Por lo tanto por la unidad del cociente y remainder ( o por el algoritmo
- de la division aplicado en 
+ de la división aplicado en 
 \begin_inset Formula $F\left[x\right]$
 \end_inset
 
@@ -7110,7 +7111,7 @@ x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\pr
 
 .
  Esta es la inducción completa .
- Si la caracteristica de 
+ Si la característica de 
 \begin_inset Formula $K$
 \end_inset
 
@@ -7123,7 +7124,7 @@ x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\pr
 \end_inset
 
  entonces por un argumento inductivo similar, usando el algoritmo de la
- divicion en 
+ división en 
 \begin_inset Formula $\mathbb{Z}\left[x\right]$
 \end_inset
 
@@ -7150,7 +7151,7 @@ x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\pr
 \begin_inset Formula $g_{n}(x)$
 \end_inset
 
- es claramente el numero de raices primitivas 
+ es claramente el numero de raíces primitivas 
 \begin_inset Formula $n$
 \end_inset
 
@@ -7432,7 +7433,7 @@ description "$n$-ésimo polinomio ciclotómico"
 \begin_inset Formula $n$
 \end_inset
 
-- ésima primitiva de la unidad.
+-ésima primitiva de la unidad.
  La demostración de la proposición
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -7698,7 +7699,7 @@ Ya que
 \begin_inset Formula $x^{n}-\overline{1}\in\mathbb{Z}_{p}\left[x\right]$
 \end_inset
 
- debe tener una raices múltiples.
+ debe tener una raíces múltiples.
  Esto es contradictorio por el hecho que las raíces de 
 \begin_inset Formula $x^{n}-\overline{1}$
 \end_inset
@@ -7793,7 +7794,7 @@ es un primo tal que
 \begin_inset Formula $n$
 \end_inset
 
--ésimas de la unidad por lo demostrado en la proposicion 
+-ésimas de la unidad por lo demostrado en la proposición 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "prop:polinomiociclotomico"
@@ -7801,7 +7802,7 @@ reference "prop:polinomiociclotomico"
 \end_inset
 
  (iii).
- Asi 
+ Así 
 \begin_inset Formula $h(x)$
 \end_inset
 
