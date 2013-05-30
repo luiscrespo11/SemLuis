@@ -1,0 +1,1597 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans lmss
+\font_typewriter lmtt
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false"
+\papersize a4paper
+\use_geometry true
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 0
+\branch chapter-1
+\selected 1
+\filename_suffix 0
+\color #ffaa00
+\end_branch
+\branch chapter-2
+\selected 1
+\filename_suffix 0
+\color #55aaff
+\end_branch
+\branch Summary
+\selected 1
+\filename_suffix 0
+\color #7f7f7f
+\end_branch
+\branch Acknowledgments
+\selected 1
+\filename_suffix 0
+\color #ffff00
+\end_branch
+\branch Appendix
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size large
+NÚMEROS REALES CONSTRUIBLES 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\bar under
+Luis Fernando Crespo
+\bar default
+, Antonio Noé Sángari
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Universidad Nacional de Salta
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+(Avenida Bolivia N° 5150)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+luiscrespo111@gmail.com
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría del Trabajo:
+\series default
+ Reflexiones.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Nivel educativo: 
+\series default
+Universitario.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Palabras claves:
+\series default
+ Construcciones con regla y compás.
+ Educación en Geometría.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Resumen: 
+\series default
+Es por esto que este trabajo va a estar enfocado en tratar de resolver las
+ siguientes preguntas:
+\end_layout
+
+\begin_layout Standard
+\noindent
+¿Todos los números reales se pueden construir con regla no graduada y compás?
+ Si ese es el caso ¿cómo lo construimos? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+La geometría aparece en los currículos actuales de educación matemática
+ con renovado vigor, sin embargo éste no se transmite en su enseñanza en
+ las aulas.
+ Numerosos trabajos destacan la postergación que sufre esta rama de la matemátic
+a en las escuelas.
+ Otro hecho relevante es que los escasos contenidos geométricos trabajados
+ a lo largo de la escolaridad básica se reiteran año tras años, sin largos
+ cambios en su extensión y complejidad y, por lo tanto en los niveles de
+ conceptualización de los mismos por parte de los alumnos.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AliendroAstorga2005Retorno"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Es por esto que la geometría ha ido desapareciendo progresivamente desde
+ la Educación Media hasta llegar a la Educación Superior debido a que ha
+ perdido aplicabilidad para el estudiante; la vieja geometría del triángulo,
+ de las construcciones, no podrán volver a menos que su estudio de incentive
+ de acuerdo con los intereses de los alumnos.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Es por esto que este trabajo se va a tratar de introducir que números reales
+ son construibles como resultado de un número finito de construcciones básicas
+ y derivadas usando sólo regla y compás.
+ La idea general del trabajo ha sido proporcionada por alumnos que una vez
+ presentados los números reales, establecen una diferencia muy clara entre
+ números como 
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+ ó 
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+ que saben dibujar y números como 
+\begin_inset Formula $\pi$
+\end_inset
+
+, que la teoría aseguran que están en la recta, pero que no saben dibujar
+ con instrumentos comunes.
+ Ello nos lleva al problema de las construcciones con regla y compás, tema
+ superior desde luego visto en el nivel universitario.
+ 
+\end_layout
+
+\begin_layout Section
+Desarrollo del Tema
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Como contenido preliminar se instruye a los estudiantes a: dibujar puntos,
+ utilizando solo regla y compás.
+ Los puntos así dibujados los llamaremos construibles, y se obtienen como
+ intersección de rectas, de círculos y rectas, y de círculos.
+ Una recta se podrá dibujar si contiene dos puntos construibles, y una circunfer
+encia se podrá dibujar si su centro es un punto construible, el radio es
+ un segmento de extremos construibles.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "artin1997galois"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Daremos la definición de un número construible y mostraremos que clases
+ de construcciones son permitidas.
+ 
+\end_layout
+
+\begin_layout Definition
+\paragraph_spacing single
+\noindent
+Un número real 
+\begin_inset Formula $c$
+\end_inset
+
+ se dice que es construible si el punto 
+\begin_inset Formula $(c,0)$
+\end_inset
+
+ puede ser construido por una secuencia finita de construcciones de reglas
+ y compás que comiencen en un punto con coordenadas enteras.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hungerford1974algebra"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Los números construibles entonces aparecen como resultado de un número finito
+ de construcciones básicas permitidas, las cuales son: 
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+\noindent
+Trazar una recta por dos puntos dados.
+ 
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+\noindent
+Trazar un círculo de centro y radio dados.
+ 
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+\noindent
+Trazar una paralela a una recta dada por un punto dado.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+\noindent
+Trazar la perpendicular a una recta dada por un punto dado.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+\noindent
+Trazar la mediatriz de un segmento, y en consecuencia, encontrar su punto
+ medio.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+\noindent
+Además es importante que tengamos en cuenta que: 
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+\noindent
+El compás moderno y el ideal son equivalentes.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+\noindent
+Podemos hallar el punto de intersección de dos rectas, de dos círculos o
+ de una recta y un círculo.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Se puede consultar 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Perez2012Seminario"
+
+\end_inset
+
+ o 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ivorra2000Geometria"
+
+\end_inset
+
+ para ampliar sobre estas construcciones.
+ Sabiendo esto es el momento de asignarle a cada punto construido un par
+ de coordenadas.
+ Para ello, necesitaremos un par de ejes cartesianos-rectangulares construibles,
+ este resultado como los que siguen pueden ser consultados en 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "courant1996mathematics"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Theorem
+\paragraph_spacing single
+\noindent
+Existe al menos un sistema de ejes cartesianos-rectangulares construibles
+ 
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+Consideremos dos puntos construibles 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ La recta 
+\begin_inset Formula $AB$
+\end_inset
+
+ y la circunferencia de centro 
+\begin_inset Formula $A$
+\end_inset
+
+ y radio 
+\begin_inset Formula $\overline{AB}$
+\end_inset
+
+, se cortan en dos puntos 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $B^{\text{'}}$
+\end_inset
+
+, por último construimos la mediatriz del segmento 
+\begin_inset Formula $\overline{BB^{'}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+El sistema de ejes cartesiano-rectangulares queda determinado tomando la
+ recta que pasa por 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+ como eje 
+\begin_inset Formula $X$
+\end_inset
+
+, y la mediatriz del segmento 
+\begin_inset Formula $\overline{BB^{'}}$
+\end_inset
+
+como eje 
+\begin_inset Formula $Y$
+\end_inset
+
+, y el segmento 
+\begin_inset Formula $\overline{AB}$
+\end_inset
+
+ como unidad de medida.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Graphics
+	filename 1.PNG
+	scale 75
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Donde los puntos 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+ son: 
+\series bold
+
+\begin_inset Formula $A=(0,0)$
+\end_inset
+
+ 
+\series default
+y 
+\series bold
+
+\begin_inset Formula $B=(1,0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+A partir de aquí mostremos primero que los números enteros son construibles.
+ Es importante que el estudiante sepa que puede hallar más de un procedimiento
+ para la demostración de los siguientes resultados demostración ya que le
+ va a permitir adquirir el dominio de formas de razonamientos para enriquecer
+ su manera de razonar ante problemas de diversos tipos.
+ 
+\end_layout
+
+\begin_layout Theorem
+\paragraph_spacing single
+\noindent
+Los números enteros son construibles.
+ 
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+En los ejes coordenados que acabamos de construir ya tenemos el 
+\begin_inset Formula $0$
+\end_inset
+
+ y el 
+\begin_inset Formula $1$
+\end_inset
+
+.
+ Trazando una circunferencia de centro en 
+\begin_inset Formula $1$
+\end_inset
+
+ y radio 
+\begin_inset Formula $1$
+\end_inset
+
+ (distancia entre 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+), obtenemos otro punto al cortar la circunferencia con el eje 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ Ese punto seria el 
+\begin_inset Formula $C=(2,0)$
+\end_inset
+
+.
+ Hemos construido por lo tanto el número entero 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Siguiendo con el proceso podemos obtener todos los números enteros positivos
+ trazando circunferencias hacia de la derecha del 
+\begin_inset Formula $2$
+\end_inset
+
+ y los enteros negativos trazando circunferencias a la izquierda del 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 2.PNG
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Remark
+\paragraph_spacing single
+\noindent
+También quedan determinado los enteros en el eje 
+\begin_inset Formula $Y$
+\end_inset
+
+, con el mismo procedimiento.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Ahora pasaremos a mostrar que los números racionales también son construibles
+ con el uso de regla y compás.
+ 
+\end_layout
+
+\begin_layout Theorem
+\paragraph_spacing single
+\noindent
+\begin_inset CommandInset label
+LatexCommand label
+name "racio"
+
+\end_inset
+
+Si los números enteros 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son construibles, entonces 
+\begin_inset Formula $c/d$
+\end_inset
+
+, con 
+\begin_inset Formula $d\neq0$
+\end_inset
+
+ también es construible.
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+Partimos de unos ejes coordenados y dos puntos construibles sobre el eje
+ 
+\begin_inset Formula $X$
+\end_inset
+
+ , 
+\begin_inset Formula $C=(c,0)$
+\end_inset
+
+ y 
+\begin_inset Formula $D=(d,0)$
+\end_inset
+
+.
+ Construimos el punto 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ trazando la circunferencia de centro 
+\begin_inset Formula $A$
+\end_inset
+
+ y radio 
+\begin_inset Formula $\overline{AB}.$
+\end_inset
+
+ Trazamos la recta que pasa por 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ y 
+\begin_inset Formula $(d,0)$
+\end_inset
+
+.
+ Trazamos la recta paralela que pasa por 
+\begin_inset Formula $(c,0)$
+\end_inset
+
+ cortando al eje 
+\begin_inset Formula $Y$
+\end_inset
+
+, en un punto, digamos 
+\begin_inset Formula $(0,x)$
+\end_inset
+
+.
+ Aplicamos ahora el teorema de Thales:
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+\begin_inset Formula 
+\[
+\frac{x}{1}=\frac{c}{d}\,\,\,\,\,\,\,\,\Longrightarrow x=\frac{c}{d}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Para una mayor ejemplificación vamos a considerar el siguiente ejemplo cuando
+ 
+\begin_inset Formula $c=2$
+\end_inset
+
+ y 
+\begin_inset Formula $d=3$
+\end_inset
+
+, y lo queremos entonces es 
+\begin_inset Formula $\tfrac{2}{3}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.PNG
+	scale 68
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Si 
+\begin_inset Formula $c=1$
+\end_inset
+
+ entonces 
+\begin_inset Formula $x=\frac{1}{d}$
+\end_inset
+
+, y por lo tanto hemos construido el inverso de un número construible 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ Con esto obtenemos además que todos los números racionales son construibles.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Ahora veamos el siguiente resultado, el cual también es:
+\end_layout
+
+\begin_layout Theorem
+\paragraph_spacing single
+\noindent
+\begin_inset CommandInset label
+LatexCommand label
+name "RaizCuadra"
+
+\end_inset
+
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ es un número positivo construible, entonces su raíz cuadrada también es
+ construible.
+ 
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+Partimos de unos ejes coordenados y un punto sobre el eje 
+\begin_inset Formula $X$
+\end_inset
+
+, digamos 
+\begin_inset Formula $C=(c,0)$
+\end_inset
+
+.
+ Construimos el punto 
+\begin_inset Formula $E=(c+1,0)$
+\end_inset
+
+ tomando la distancia 
+\begin_inset Formula $1$
+\end_inset
+
+ y trazando la circunferencia de centro 
+\begin_inset Formula $C$
+\end_inset
+
+ y radio 
+\begin_inset Formula $1$
+\end_inset
+
+.
+ Después construimos el punto 
+\begin_inset Formula $M=(\frac{c+1}{2},0)$
+\end_inset
+
+(punto medio del segmento 
+\begin_inset Formula $\overline{AE}$
+\end_inset
+
+).
+ Trazamos ahora la circunferencia de centro 
+\begin_inset Formula $M$
+\end_inset
+
+ y radio 
+\begin_inset Formula $\overline{ME}$
+\end_inset
+
+.
+ Trazamos una paralela al eje 
+\begin_inset Formula $Y$
+\end_inset
+
+ que pase por el punto 
+\begin_inset Formula $B=(0,1)$
+\end_inset
+
+.
+ Esa paralela corta a la circunferencia en un punto que llamaremos 
+\begin_inset Formula $P$
+\end_inset
+
+ (cuya distancia al punto 
+\begin_inset Formula $P$
+\end_inset
+
+ llamaremos 
+\begin_inset Formula $x$
+\end_inset
+
+).
+ Construyendo ahora los segmentos 
+\begin_inset Formula $\overline{AP}$
+\end_inset
+
+(cuya medida llamaremos 
+\begin_inset Formula $y$
+\end_inset
+
+) y 
+\begin_inset Formula $\overline{PE}$
+\end_inset
+
+(cuya medida llamaremos 
+\begin_inset Formula $z$
+\end_inset
+
+).
+ Obtenemos tres triángulos: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+\begin_inset Formula $\overset{\triangle}{APE}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+\begin_inset Formula $\overset{\triangle}{APB}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+\begin_inset Formula $\overset{\triangle}{BPE}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Aplicamos el Teorema de Pitágoras a los tres triángulos.( por ser el segmento
+ 
+\begin_inset Formula $\overline{AE}$
+\end_inset
+
+ un diámetro de la circunferencia y el ángulo 
+\begin_inset Formula $\widehat{APE}$
+\end_inset
+
+ es recto)
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+\begin_inset Formula $(c+1)^{2}=y^{2}+z^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+\begin_inset Formula $y^{2}=x^{2}+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+\begin_inset Formula $z^{2}=x^{2}+c^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Haciendo 
+\begin_inset Formula $2$
+\end_inset
+
+ y 
+\begin_inset Formula $3$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+, obtenemos :
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+\begin_inset Formula 
+\[
+c^{2}+2c+1=x^{2}+1+x^{2}+c^{2}\,\,\,\,\,\Longrightarrow c=x^{2}\,\,\,\,\Longrightarrow x=\sqrt{c}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Entonces solo nos queda trazar una circunferencia de centro 
+\begin_inset Formula $0$
+\end_inset
+
+ y radio 
+\begin_inset Formula $x$
+\end_inset
+
+ y la intersección con el eje 
+\begin_inset Formula $X$
+\end_inset
+
+, es la raíz cuadrada de 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Tomemos el siguiente caso cuando 
+\begin_inset Formula $c=2$
+\end_inset
+
+ y lo queremos entonces es 
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 4.PNG
+	scale 58
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Ahora mostraremos que si 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son números racionales construibles, entonces 
+\begin_inset Formula $c+d$
+\end_inset
+
+, 
+\begin_inset Formula $c-d$
+\end_inset
+
+ y 
+\begin_inset Formula $c.d$
+\end_inset
+
+ son construibles
+\end_layout
+
+\begin_layout Proposition
+\paragraph_spacing single
+\noindent
+\begin_inset CommandInset label
+LatexCommand label
+name "sumres"
+
+\end_inset
+
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son construibles, también lo es 
+\begin_inset Formula $c+d$
+\end_inset
+
+ ( o 
+\begin_inset Formula $c-d$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son construibles, entonces 
+\begin_inset Formula $C=(c,0)$
+\end_inset
+
+ y 
+\begin_inset Formula $D=(d,0)$
+\end_inset
+
+.
+ Trazamos una circunferencia de centro 
+\begin_inset Formula $C$
+\end_inset
+
+ y radio 
+\begin_inset Formula $\overline{AD}$
+\end_inset
+
+ que corta al eje 
+\begin_inset Formula $X$
+\end_inset
+
+ en dos puntos 
+\begin_inset Formula $F$
+\end_inset
+
+ y 
+\begin_inset Formula $E$
+\end_inset
+
+ situados, respectivamente a izquierda y derecha de 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $d\geq0$
+\end_inset
+
+, entonces 
+\begin_inset Formula $E=(c+d,0)$
+\end_inset
+
+ y si 
+\begin_inset Formula $d<0$
+\end_inset
+
+, entonces 
+\begin_inset Formula $F=(c-d,0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Consideremos el siguiente gráfico donde 
+\begin_inset Formula $c=\frac{5}{2}$
+\end_inset
+
+ y 
+\begin_inset Formula $d=\frac{15}{4}$
+\end_inset
+
+ y lo queremos saber cuando esto es 
+\begin_inset Formula $c+d$
+\end_inset
+
+ (o 
+\begin_inset Formula $c-d$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 5.PNG
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Antes de pasar al producto de dos números construibles, mostraremos el siguiente
+ resultado:
+\end_layout
+
+\begin_layout Proposition
+\paragraph_spacing single
+\noindent
+\begin_inset CommandInset label
+LatexCommand label
+name "inver"
+
+\end_inset
+
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ es construible, entonces 
+\begin_inset Formula $-c$
+\end_inset
+
+ es construible.
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ es construible, lo es 
+\begin_inset Formula $C=(c,0)$
+\end_inset
+
+.
+ Trazamos la circunferencia de centro 
+\begin_inset Formula $A=(0,0)$
+\end_inset
+
+ y radio 
+\begin_inset Formula $\overline{AC}$
+\end_inset
+
+, que corta al eje 
+\begin_inset Formula $X$
+\end_inset
+
+ en 
+\begin_inset Formula $C$
+\end_inset
+
+ y 
+\begin_inset Formula $E$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $E=(-c,0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Se ilustra la siguiente construcción cuando 
+\begin_inset Formula $c=\frac{7}{4}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 6.PNG
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proposition
+\paragraph_spacing single
+\noindent
+\begin_inset CommandInset label
+LatexCommand label
+name "mult"
+
+\end_inset
+
+Si 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son construibles, también lo es 
+\begin_inset Formula $c.d$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+Alcanza con demostrar la proposición para el caso 
+\begin_inset Formula $c>0$
+\end_inset
+
+ y 
+\begin_inset Formula $d>0$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $c=0$
+\end_inset
+
+ y 
+\begin_inset Formula $d=0$
+\end_inset
+
+ es trivial.
+ Si alguno de ellos es negativo basta con tener en cuenta la regla de los
+ signos y aplicar la proposición anterior.
+ 
+\end_layout
+
+\begin_layout Proof
+\paragraph_spacing single
+\noindent
+Supongamos entonces 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ construibles y, por lo tanto, 
+\begin_inset Formula $C=(c,0)$
+\end_inset
+
+, 
+\begin_inset Formula $D=(d,0)$
+\end_inset
+
+ construibles.
+ Los puntos 
+\begin_inset Formula $C'=(0,c)$
+\end_inset
+
+, 
+\begin_inset Formula $D'=(0,-d)$
+\end_inset
+
+ y 
+\begin_inset Formula $P=(-1,0)$
+\end_inset
+
+ son ciertamente construibles, y como no están alineados, la circunferencia
+ que pasa por 
+\begin_inset Formula $C'$
+\end_inset
+
+, 
+\begin_inset Formula $D'$
+\end_inset
+
+ y 
+\begin_inset Formula $P$
+\end_inset
+
+ es construible y cortará al eje 
+\begin_inset Formula $Y$
+\end_inset
+
+ un nuevo punto 
+\begin_inset Formula $E$
+\end_inset
+
+, de coordenadas 
+\begin_inset Formula $(c.d,0)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Consideremos el siguiente gráfico donde 
+\begin_inset Formula $c=\frac{5}{2}$
+\end_inset
+
+ y 
+\begin_inset Formula $d=\frac{15}{4}$
+\end_inset
+
+ y lo queremos saber cuando esto es 
+\begin_inset Formula $c.d$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 7.PNG
+	scale 55
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Un conjunto 
+\begin_inset Formula $R_{c}\subset\mathbb{R}$
+\end_inset
+
+, y dos operaciones suma y producto de los números reales tal que :
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+\begin_inset Formula $(R_{c},+)$
+\end_inset
+
+ es un grupo abeliano
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+\begin_inset Formula $(R_{c}-\{0\},.)$
+\end_inset
+
+ es un grupo abeliano
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing single
+\noindent
+Se verifica la propiedad distributiva del producto respecto a la suma, pues
+ 
+\begin_inset Formula $R_{c}\subset\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Remark
+\paragraph_spacing single
+\noindent
+Las operaciones suma y producto de los números reales construibles se definen
+ geométricamente que resultan compatibles con la suma y producto de reales.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Esto se puede probar con las proposiciones vistas anteriormente, y podemos
+ decir que los números construibles 
+\begin_inset Formula $(R_{c})$
+\end_inset
+
+ son un subcuerpo de los números reales que contiene a los racionales y
+ es cerrado bajo la extracción de raíces cuadradas.
+\end_layout
+
+\begin_layout Proposition
+\paragraph_spacing single
+\noindent
+Si un número real 
+\begin_inset Formula $c$
+\end_inset
+
+ es construible, entonces 
+\begin_inset Formula $c$
+\end_inset
+
+ es algebraico de grado una potencia de 
+\begin_inset Formula $2$
+\end_inset
+
+ sobre el cuerpo 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ de los racionales.
+\end_layout
+
+\begin_layout Section
+\paragraph_spacing single
+\noindent
+Conclusiones
+\end_layout
+
+\begin_layout Standard
+Por aplicación de las proposiciones 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sumres"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "inver"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "mult"
+
+\end_inset
+
+ y los teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "racio"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "RaizCuadra"
+
+\end_inset
+
+, se puede construir cualquier número real que se exprese como una operación
+ "racional" (sumas, restas, productos y cocientes) de números racionales
+ y raíces cuadradas de dichos números racionales.
+ E incluso, más aún, con raíces de índice una potencia de dos, aunque esto
+ ya no está al alcance del alumno de ningún modo.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+La preguntar a tratar el trabajo era : ¿Que números reales son construibles?
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "thesisExample"
+options "apalike2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
