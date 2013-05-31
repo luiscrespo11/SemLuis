@@ -290,7 +290,7 @@ Es por esto que este trabajo se va a tratar de introducir que números reales
 \end_layout
 
 \begin_layout Section
-Desarrollo del Tema
+Construcción de Números
 \end_layout
 
 \begin_layout Standard
@@ -626,6 +626,8 @@ En los ejes coordenados que acabamos de construir ya tenemos el
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
 	filename 2.PNG
 	scale 70
@@ -649,9 +651,10 @@ También quedan determinado los enteros en el eje
 \begin_layout Standard
 \paragraph_spacing single
 \noindent
-Ahora pasaremos a mostrar que los números racionales también son construibles
- con el uso de regla y compás.
- 
+Ahora pasaremos a mostrar que todos los números racionales también son construib
+les con el uso de regla y compás.
+ Después pasaremos a mostrar que si tenemos un número racional construible,
+ su raíz cuadrada también es construible.
 \end_layout
 
 \begin_layout Theorem
@@ -769,6 +772,8 @@ Para una mayor ejemplificación vamos a considerar el siguiente ejemplo cuando
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
 	filename 3.PNG
 	scale 68
@@ -1050,9 +1055,11 @@ Tomemos el siguiente caso cuando
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
 	filename 4.PNG
-	scale 58
+	scale 65
 	rotateOrigin center
 
 \end_inset
@@ -1201,6 +1208,8 @@ Consideremos el siguiente gráfico donde
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
 	filename 5.PNG
 	scale 60
@@ -1435,7 +1444,7 @@ Consideremos el siguiente gráfico donde
 \align center
 \begin_inset Graphics
 	filename 7.PNG
-	scale 55
+	scale 60
 	rotateOrigin center
 
 \end_inset
@@ -1443,9 +1452,8 @@ Consideremos el siguiente gráfico donde
 
 \end_layout
 
-\begin_layout Standard
-Veremos por qué el conjunto de los números construibles es tan especial.
- 
+\begin_layout Section
+Subcuerpo de los Números Reales
 \end_layout
 
 \begin_layout Standard
@@ -1553,8 +1561,14 @@ reference "racio"
 \begin_inset Formula $R_{c}$
 \end_inset
 
+, de la misma forma para el elemento identidad para el producto.
+ La propiedad distributiva, asociativa y conmutativa para el producto, la
+ propiedad asociativa y conmutativa para la suma son inherentes a cualquier
+ subconjunto de 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
 .
- 
 \end_layout
 
 \begin_layout Standard
@@ -1563,10 +1577,8 @@ Para una mayor profundización de este tema, es importante marcar que si
  de una Extensión de Cuerpos ( temas que se pueden ver un curso de Álgebra
  Abstracta), se puede llegar el siguiente resultado que de una manera engloba
  lo visto anteriormente y relaciona el Álgebra con la Geometría para responder
- cuestiones antiguas como : La duplicación, trisección de un ángulo, y la
- cuadratura de un circulo, tendríamos entre manos un material altamente
- motivador para nuestro quehacer docente.
- 
+ cuestiones antiguas como : La duplicación del cubo, la trisección de un
+ ángulo, y la cuadratura de un circulo, llamados los problemas griegos.
 \end_layout
 
 \begin_layout Proposition
