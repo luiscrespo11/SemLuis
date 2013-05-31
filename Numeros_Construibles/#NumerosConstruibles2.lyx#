@@ -1496,7 +1496,8 @@ Las operaciones suma y producto de los números reales construibles se definen
 \begin_layout Standard
 \paragraph_spacing single
 \noindent
-Los números construibles 
+Con las proposiciones y teoremas vistos anteriormente, podemos decir que
+ los números construibles 
 \begin_inset Formula $(R_{c})$
 \end_inset
 
@@ -1505,12 +1506,12 @@ Los números construibles
 \end_layout
 
 \begin_layout Standard
-Veremos por qué el conjunto de los números construibles es tan especial.
- 
+Los podemos ....
 \end_layout
 
 \begin_layout Theorem
-El conjunto de los números construibles es un subcuerpo de los números reales.
+Teorema: El conjunto de los números construibles es un subcuerpo de los
+ números reales.
  
 \end_layout
 
@@ -1537,24 +1538,6 @@ reference "mult"
 \end_inset
 
  y 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "racio"
-
-\end_inset
-
-, además sabiendo que el número 0 es un elemento de 
-\begin_inset Formula $R_{c}$
-\end_inset
-
-, pues el cero es el punto de partida del segmento unidad desde el cual
- iniciamos para construir los números enteros.
- Luego existe el elemento identidad para la suma en 
-\begin_inset Formula $R_{c}$
-\end_inset
-
-.
- 
 \end_layout
 
 \begin_layout Standard
@@ -1643,7 +1626,7 @@ reference "RaizCuadra"
 , se puede construir cualquier número real que se exprese como una operación
  "racional" (sumas, restas, productos y cocientes) de números racionales
  y raíces cuadradas de dichos números racionales.
- Incluso, más aún, con raíces de índice una potencia de dos, aunque esto
+ E incluso, más aún, con raíces de índice una potencia de dos, aunque esto
  ya no está al alcance del alumno de ningún modo.
  
 \end_layout
