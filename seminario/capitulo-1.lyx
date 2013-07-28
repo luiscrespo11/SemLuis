@@ -267,8 +267,34 @@ thepage}
 
 \end_layout
 
-\begin_layout Chapter
+\begin_layout Chapter*
 Introducción
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Introducción} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+adds table of contents entry
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -354,8 +380,8 @@ Otra pregunta que puede formularse es:
 ¿Cuáles polígonos regulares pueden construirse usando regla y compás? .
 \end_layout
 
-\begin_layout Section
-Aspectos Históricos 
+\begin_layout Chapter
+Aspectos Históricos
 \end_layout
 
 \begin_layout Standard
@@ -902,6 +928,403 @@ key "pastor2000historia,boyer2011history"
 Extensiones de Cuerpos
 \end_layout
 
+\begin_layout Section
+Polinomios
+\end_layout
+
+\begin_layout Standard
+Una expresión de la forma 
+\begin_inset Formula $a_{0}+a_{1}x+...+a_{n}x^{n}$
+\end_inset
+
+ se llama polinomio en 
+\begin_inset Formula $F$
+\end_inset
+
+ de grado 
+\begin_inset Formula $n$
+\end_inset
+
+ si los coeficientes 
+\begin_inset Formula $a_{0}...a_{n}$
+\end_inset
+
+ son elementos del cuerpo 
+\begin_inset Formula $F$
+\end_inset
+
+ y 
+\begin_inset Formula $a_{n}\neq0$
+\end_inset
+
+.
+ Un polinomio en 
+\begin_inset Formula $F$
+\end_inset
+
+ se dice reducible en 
+\begin_inset Formula $F$
+\end_inset
+
+ si es igual al producto de dos polinomios en 
+\begin_inset Formula $F$
+\end_inset
+
+ , de grados mayores o iguales a uno.
+ Los polinomios que no son reducibles en 
+\begin_inset Formula $F$
+\end_inset
+
+ se llaman polinomios irreducibles en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $f(x)=g(x).h(x)$
+\end_inset
+
+ es una relación que se sostiene entre los polinomios 
+\begin_inset Formula $f(x),g(x)$
+\end_inset
+
+ y 
+\begin_inset Formula $h(x)$
+\end_inset
+
+ en el cuerpo 
+\begin_inset Formula $F$
+\end_inset
+
+, entonces podemos decir que 
+\begin_inset Formula $g(x)$
+\end_inset
+
+ divide a 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+, o que 
+\begin_inset Formula $g(x)$
+\end_inset
+
+ es factor de 
+\begin_inset Formula $f(x)$
+\end_inset
+
+.
+ Es fácil ver que el grado de 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ es la suma de los grados de 
+\begin_inset Formula $g(x)$
+\end_inset
+
+ y 
+\begin_inset Formula $h(x)$
+\end_inset
+
+ por lo tanto si 
+\begin_inset Formula $g(x)$
+\end_inset
+
+ y 
+\begin_inset Formula $h(x)$
+\end_inset
+
+ no son constantes entonces cada uno tiene grado menor a 
+\begin_inset Formula $f(x)$
+\end_inset
+
+.
+ De esto vemos que siempre se puede representar un polinomio como el producto
+ de polinomios irreducibles en 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Para dos polinomios cualesquiera, 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ y 
+\begin_inset Formula $g(x)$
+\end_inset
+
+, el algoritmo de la división se sostiene, es decir, 
+\begin_inset Formula $f(x)=q(x).g(x)+r(x)$
+\end_inset
+
+ donde 
+\begin_inset Formula $q(x)$
+\end_inset
+
+ y 
+\begin_inset Formula $r(x)$
+\end_inset
+
+ son polinomios únicos en 
+\begin_inset Formula $F$
+\end_inset
+
+ y el grado de 
+\begin_inset Formula $r(x)$
+\end_inset
+
+ es menor que el grado de 
+\begin_inset Formula $g(x)$
+\end_inset
+
+ ( es decir, gr 
+\begin_inset Formula $r(x)\leq$
+\end_inset
+
+gr 
+\begin_inset Formula $g(x)$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Podemos ver que 
+\begin_inset Formula $r(x)$
+\end_inset
+
+ esta determinado de forma única, y que 
+\begin_inset Formula $f(x)-r(x)$
+\end_inset
+
+ es divisible por 
+\begin_inset Formula $g(x)$
+\end_inset
+
+.
+ Llamaremos a 
+\begin_inset Formula $r(x)$
+\end_inset
+
+ es el resto de 
+\begin_inset Formula $f(x)$
+\end_inset
+
+.
+ Así mismo, de la forma usual, se puede mostrar que si 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ es una raíz del polinomio 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+, entonces 
+\begin_inset Formula $x-\alpha$
+\end_inset
+
+ es un factor de 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ y como consecuencia de esto, es que un polinomio en un cuerpo no puede
+ tener mas raíces que su grado.
+ Antes de proseguir, vamos a ver un criterio, el llamado Criterio de irreductibi
+lidad de Eisenstein que nos permite determinar cuando un polinomio es irreducibl
+e sobre un determinado cuerpo, al menos en su forma elemental, el teorema
+ dice :
+\end_layout
+
+\begin_layout Theorem
+(Criterio de Eisenstein).
+ Sea 
+\begin_inset Formula $q(x)=a_{0}+a_{1}x+...+a_{n}x^{n}\in\mathbb{Z}\left[x\right]$
+\end_inset
+
+ primitivo.
+ Supongamos que existe un número primo 
+\begin_inset Formula $p$
+\end_inset
+
+ tal que 
+\begin_inset Formula $p|a_{i}$
+\end_inset
+
+ para 
+\begin_inset Formula $0\leq i<n$
+\end_inset
+
+ y 
+\begin_inset Formula $p^{2}\nmid a_{0}$
+\end_inset
+
+ .
+ Entonces 
+\begin_inset Formula $q(x)$
+\end_inset
+
+ es irreducible en 
+\begin_inset Formula $\mathbb{Q}\left[x\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Supongamos entonces que 
+\begin_inset Formula $q(x)$
+\end_inset
+
+ no es irreducible.
+ Entonces 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+q(x)=(b_{m}x^{m}+b_{m-1}x^{m-1}+···+b_{0})(c_{k}x^{k}+c_{k-1}x^{k-1}+···+c_{0}),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+en donde 
+\begin_inset Formula $m<n$
+\end_inset
+
+ y 
+\begin_inset Formula $k<n$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $a_{0}=b_{0}c_{0}$
+\end_inset
+
+ , y como 
+\begin_inset Formula $p|a_{0}$
+\end_inset
+
+ , 
+\begin_inset Formula $p|b_{0}$
+\end_inset
+
+ o bien 
+\begin_inset Formula $p|c_{0}$
+\end_inset
+
+pero no a ambos ya que 
+\begin_inset Formula $p^{2}\nmid a_{0}$
+\end_inset
+
+.
+ Digamos que 
+\begin_inset Formula $p|c_{0}$
+\end_inset
+
+ y 
+\begin_inset Formula $p\nmid b_{0}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Proof
+Por otra parte, como 
+\begin_inset Formula $p\nmid a_{n}=b_{m}c_{k},$
+\end_inset
+
+ 
+\begin_inset Formula $p\nmid b_{m}$
+\end_inset
+
+ y 
+\begin_inset Formula $p\nmid c_{k}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Proof
+Sea 
+\begin_inset Formula $r$
+\end_inset
+
+ el menor índice 
+\begin_inset Formula $i$
+\end_inset
+
+ tal que 
+\begin_inset Formula $p\nmid c_{i}$
+\end_inset
+
+ y 
+\begin_inset Formula $0<r\leq k$
+\end_inset
+
+.
+ Esto significa que 
+\begin_inset Formula $p|c_{0},...,p|c_{r-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Por lo tanto si consideramos
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+a_{r}=b_{0}c_{r}+b_{1}c_{r-1}+···+b_{r}c_{0},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+como 
+\begin_inset Formula $p\nmid b_{0}c_{r}$
+\end_inset
+
+, 
+\begin_inset Formula $p\nmid a_{r}$
+\end_inset
+
+, pero por hipótesis, esto sólo puede ocurrir si 
+\begin_inset Formula $r=n$
+\end_inset
+
+, lo que es una contradicción .
+ 
+\end_layout
+
+\begin_layout Section
+Extensiones de Cuerpos
+\end_layout
+
 \begin_layout Standard
 En la versión general en la que actualmente se presenta la Teoría de Galois,
  la noción de cuerpo ocupa un lugar central.
@@ -928,20 +1351,26 @@ En la versión general en la que actualmente se presenta la Teoría de Galois,
 ) resulta fundamental para la teoría.
  La razón por la cual estas ideas aparecen naturalmente en la consideración
  del problema de la resolución de ecuaciones algebraicas.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "hungerford1974algebra,stewart2004galois"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 Antes de estudiar con mayor generalidad los aspectos esenciales involucrados,
  introduciremos algunas definiciones básicas, y propiedades a generales
- de los cuerpos.
- 
+ de los cuerpos, conceptos que fueron extraídos de los libros 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hungerford1974algebra"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "stewart2004galois"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Definition
@@ -953,7 +1382,7 @@ Un cuerpo
 \begin_inset Formula $K$
 \end_inset
 
-(o simplemente una extensión de 
+ (o simplemente una extensión de 
 \begin_inset Formula $K$
 \end_inset
 
@@ -966,23 +1395,72 @@ Un cuerpo
 \end_inset
 
  La notación que se usa habitualmente para designar una extensión es 
-\begin_inset Formula $F/K$
-\end_inset
-
- o también 
 \begin_inset Formula $F:K$
 \end_inset
 
 .
 \end_layout
 
-\begin_deeper
-\begin_layout Definition
-Se dice que una extensión 
+\begin_layout Remark
+Obsérvese que si 
 \begin_inset Formula $F:K$
 \end_inset
 
- es finita si 
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$F:K$"
+description "$F$ es una extensión de cuerpo de $K$"
+
+\end_inset
+
+ es una extensión de cuerpos, entonces 
+\begin_inset Formula $F$
+\end_inset
+
+ tiene una estructura natural de espacio vectorial sobre 
+\begin_inset Formula $K$
+\end_inset
+
+, en la que la suma de vectores (elementos de 
+\begin_inset Formula $F$
+\end_inset
+
+) es la suma en 
+\begin_inset Formula $F$
+\end_inset
+
+ y el producto de escalares (elementos de 
+\begin_inset Formula $K$
+\end_inset
+
+) por vectores se obtiene multiplicando en 
+\begin_inset Formula $F$
+\end_inset
+
+ ya que tanto los escalares como los vectores pertenecen a 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ Entonces si tomamos a 
+\begin_inset Formula $F$
+\end_inset
+
+ como un 
+\begin_inset Formula $K$
+\end_inset
+
+-espacio vectorial, esto nos permite utilizar los conceptos y resultados
+ del álgebra lineal en el estudio de los extensiones de cuerpos.
+\end_layout
+
+\begin_layout Definition
+Dada una extensión 
+\begin_inset Formula $F:K$
+\end_inset
+
+ , llamamos grado de la extensión a la dimensión de 
 \begin_inset Formula $F$
 \end_inset
 
@@ -990,24 +1468,42 @@ Se dice que una extensión
 \begin_inset Formula $K$
 \end_inset
 
--espacio vectorial es de dimensión finita.
- A la dimensión de este espacio vectorial se le llama grado de la extensión
- y se denota 
-\begin_inset Formula $\left[F:K\right]$
-\end_inset
-
- 
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "$\\left[F:K\\right]$"
-description "Dimensión del Cuerpo $F$ como un $K$- espacio vectorial"
-
-\end_inset
-
-.
+-espacio vectorial.
+ Lo denotaremos:
 \end_layout
 
 \begin_layout Definition
+\begin_inset Formula 
+\[
+\left[F:K\right]:=\textrm{dim}_{K}(F)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+Se dice que la extensión 
+\begin_inset Formula $F:K$
+\end_inset
+
+ es finita si 
+\begin_inset Formula $\left[F:K\right]<\infty$
+\end_inset
+
+ .
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\left[F:K\\right]$"
+description "Dimensión del cuerpo $F$ como un $K$- espacio vectorial"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Remark
 Obsérvese que si 
 \begin_inset Formula $F:K$
 \end_inset
@@ -1053,7 +1549,6 @@ Obsérvese que si
  del álgebra lineal en el estudio de los extensiones de cuerpos.
 \end_layout
 
-\end_deeper
 \begin_layout Example
 \begin_inset space ~
 \end_inset
@@ -1063,7 +1558,7 @@ Obsérvese que si
 
 \begin_deeper
 \begin_layout Enumerate
-La extensión
+La extensión 
 \begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]=2$
 \end_inset
 
@@ -1092,15 +1587,15 @@ La extensión
 \end_inset
 
  como 
-\begin_inset Formula $\mathbb{R}-$
+\begin_inset Formula $\mathbb{R}$
 \end_inset
 
-espacio vectorial.
+-espacio vectorial.
  
 \end_layout
 
 \begin_layout Enumerate
-Las extensiones
+Las extensiones 
 \begin_inset Formula $\left[\mathbb{C}:\mathbb{R}\right]$
 \end_inset
 
@@ -1143,32 +1638,11 @@ Las extensiones
 .
 \end_layout
 
-\begin_layout Enumerate
-La extensión 
-\begin_inset Formula $\left[\mathbb{Q}(i,\sqrt{5}):\mathbb{Q}\right]=4$
-\end_inset
-
-.
- Los elementos 
-\begin_inset Formula $\left\{ 1,\sqrt{5},i,i\sqrt{5}\right\} $
-\end_inset
-
- forman una base para 
-\begin_inset Formula $\mathbb{Q}(i,\sqrt{5})$
-\end_inset
-
- sobre 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
- 
-\end_layout
-
 \end_deeper
-\begin_layout Theorem*
+\begin_layout Theorem
 \begin_inset CommandInset label
 LatexCommand label
-name "thm:grad1"
+name "thm:grad1-1"
 
 \end_inset
 
@@ -1355,7 +1829,7 @@ En la situación que
  del Teorema 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "thm:grad1"
+reference "thm:grad1-1"
 
 \end_inset
 
@@ -1680,6 +2154,12 @@ Sea
 \end_layout
 
 \begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:PolAniSubCuerpo"
+
+\end_inset
+
 Si 
 \begin_inset Formula $F$
 \end_inset
@@ -2048,6 +2528,14 @@ Como ejemplos, tenemos que en
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol " $\\mathbb{R}$"
+description "Cuerpo de los Números Reales"
+
+\end_inset
+
 ; también en 
 \begin_inset Formula $\mathbb{R}:\mathbb{Q}$
 \end_inset
@@ -2066,7 +2554,7 @@ Como ejemplos, tenemos que en
 \begin_layout Theorem
 \begin_inset CommandInset label
 LatexCommand label
-name "thm:polmonic"
+name "thm:polmonic-1"
 
 \end_inset
 
@@ -2196,7 +2684,7 @@ Sea
  del teorema 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "thm:polmonic"
+reference "thm:polmonic-1"
 
 \end_inset
 
@@ -2223,7 +2711,7 @@ grado de
 \series default
  
 \shape italic
-, es grado 
+, es gr 
 \shape default
 
 \begin_inset Formula $f=\left[K(u):K\right]$
@@ -2232,8 +2720,352 @@ grado de
 .
 \end_layout
 
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:CuerpoGeneradoAlgebraico"
+
+\end_inset
+
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de un cuerpo de dimisión finita de 
+\begin_inset Formula $K$
+\end_inset
+
+, entonces 
+\begin_inset Formula $F$
+\end_inset
+
+ es finitamente generada y algebraica sobre 
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Si 
+\begin_inset Formula $\left[F:K\right]=n$
+\end_inset
+
+ y 
+\begin_inset Formula $u\in F$
+\end_inset
+
+, entonces el conjunto de 
+\begin_inset Formula $n+1$
+\end_inset
+
+ elementos 
+\begin_inset Formula $\left\{ 1_{K},u,u^{2},...,u^{n}\right\} $
+\end_inset
+
+must be linealmentes dependientes.
+ Por lo tanto hay 
+\begin_inset Formula $a_{i}\in K$
+\end_inset
+
+, no todos distintos de cero, tal que 
+\begin_inset Formula $a_{0}+a_{1}u+a_{2}u^{2}+...+a_{n}u^{n}=0$
+\end_inset
+
+, which implies que 
+\begin_inset Formula $u$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Donde 
+\begin_inset Formula $u$
+\end_inset
+
+ es arbitrario , 
+\begin_inset Formula $F$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $\left\{ v_{1},...,v_{n}\right\} $
+\end_inset
+
+es una base de 
+\begin_inset Formula $F$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+, entonces es fácil ver que 
+\begin_inset Formula $F=K(v_{1},...,v_{n})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:ExtensionFinita"
+
+\end_inset
+
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $X$
+\end_inset
+
+ es un subconjunto de 
+\begin_inset Formula $F$
+\end_inset
+
+ tal que 
+\begin_inset Formula $F=K(X)$
+\end_inset
+
+ y para cada elemento de 
+\begin_inset Formula $X$
+\end_inset
+
+, es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+, entonces 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión algebraica de 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $X$
+\end_inset
+
+ es un conjunto finito, entonces 
+\begin_inset Formula $F$
+\end_inset
+
+ es de dimensión finita sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Si 
+\begin_inset Formula $v\in F$
+\end_inset
+
+, entonces 
+\begin_inset Formula $v\in K(u_{1},...,u_{n})$
+\end_inset
+
+ para algún 
+\begin_inset Formula $u_{i}\in X$
+\end_inset
+
+ ( Teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:PolAniSubCuerpo"
+
+\end_inset
+
+) y hay una torre de subcuerpos: 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+K\subset K(u_{1})\subset K(u_{1},u_{2})\subset...\subset K(u_{1},...,u_{n-1})\subset K(u_{1},...,u_{n})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+donde 
+\begin_inset Formula $u_{i}$
+\end_inset
+
+, es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+, es entonces necesariamente algebraico sobre 
+\begin_inset Formula $K(u_{1},...,u_{i-1})$
+\end_inset
+
+ para 
+\begin_inset Formula $i\geq2$
+\end_inset
+
+, say of grado .
+ Donde 
+\begin_inset Formula $K(u_{1},...,u_{i-1}).(u_{i})=K(u_{1},...,u_{i})$
+\end_inset
+
+, tenemos 
+\begin_inset Formula $\left[K(u_{1},...,u_{i}):K(u_{1},...,u_{i-1})\right]=r_{i}$
+\end_inset
+
+, por teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:polmonic-1"
+
+\end_inset
+
+.
+ Sea 
+\begin_inset Formula $r_{1}$
+\end_inset
+
+ grado de 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+; entonces por aplicación repetida del teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:grad1-1"
+
+\end_inset
+
+ mostramos que 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $\left[K(u_{1},...,u_{i}):K\right]=r_{1}r_{2}...r_{n}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang spanish
+ .
+ Por Teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:CuerpoGeneradoAlgebraico"
+
+\end_inset
+
+ 
+\begin_inset Formula $K(u_{1},...,u_{n})$
+\end_inset
+
+ ( y por lo tanto 
+\begin_inset Formula $v$
+\end_inset
+
+ ) es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Donde 
+\begin_inset Formula $v\in F$
+\end_inset
+
+ was arbitrary, 
+\begin_inset Formula $F$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $X=\left\{ u_{1},...,u_{n}\right\} $
+\end_inset
+
+ es finito , the same demostración ( con 
+\begin_inset Formula $F=K(u_{1},...,u_{i-1})$
+\end_inset
+
+ ) mostramos que 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $\left[F:K\right]=r_{1}r_{2}...r_{n}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang spanish
+ es finito.
+\end_layout
+
 \begin_layout Proposition
-Toda extensión finita es algebraica.
+T oda extensión finita es algebraica.
 \end_layout
 
 \begin_layout Proof
@@ -2258,7 +3090,7 @@ Sea
  y por tanto, en virtud del teorema del grado 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "thm:grad1"
+reference "thm:grad1-1"
 
 \end_inset
 
@@ -2957,7 +3789,7 @@ y
 \begin_layout Proposition
 \begin_inset CommandInset label
 LatexCommand label
-name "prop:gradopar"
+name "prop:gradopar-1"
 
 \end_inset
 
@@ -3240,7 +4072,7 @@ Si
  no es construible por proposición 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "prop:gradopar"
+reference "prop:gradopar-1"
 
 \end_inset
 
@@ -3268,7 +4100,7 @@ Para duplicar el cubo unitario tendríamos que construir
  que no es potencia de dos, por lo que por proposición 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "prop:gradopar"
+reference "prop:gradopar-1"
 
 \end_inset
 

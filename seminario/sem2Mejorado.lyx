@@ -1712,7 +1712,7 @@ En la versión general en la que actualmente se presenta la Teoría de Galois,
 \begin_layout Standard
 Antes de estudiar con mayor generalidad los aspectos esenciales involucrados,
  introduciremos algunas definiciones básicas, y propiedades a generales
- de los cuerpos estos conceptos fueron extraídos de los libros 
+ de los cuerpos, conceptos que fueron extraídos de los libros 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "hungerford1974algebra"
@@ -1738,7 +1738,7 @@ Un cuerpo
 \begin_inset Formula $K$
 \end_inset
 
-(o simplemente una extensión de 
+ (o simplemente una extensión de 
 \begin_inset Formula $K$
 \end_inset
 

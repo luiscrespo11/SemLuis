@@ -265,6 +265,450 @@ Extensiones Ciclotómicas
 \end_layout
 
 \begin_layout Section
+Extensiones de Galois
+\end_layout
+
+\begin_layout Standard
+Citamos el primer párrafo como motivación para la definición siguiente
+\end_layout
+
+\begin_layout Quotation
+¿Por qué un cuadrado nos parece una figura simétrica, un círculo aún más
+ simétrico, pero el dígito “
+\begin_inset Formula $4$
+\end_inset
+
+” completamente asimétrico? Para responder a esta pregunta, consideremos
+ los movimientos del plano que dejan cada una de estas figuras en el mismo
+ lugar que antes.
+ Es fácil ver que para el cuadrado hay ocho de estos movimientos, para el
+ círculo hay infinitos, pero para el dígito “
+\begin_inset Formula $4$
+\end_inset
+
+” sólo uno, la identidad, que deja cada punto del dígito fijo.
+ El conjunto 
+\begin_inset Formula $G$
+\end_inset
+
+ de movimientos diferentes que dejan una figura ocupando el mismo lugar
+ que antes sirve como una medida para su grado de simetría: a mayor cantidad
+ de elementos de 
+\begin_inset Formula $G$
+\end_inset
+
+ , es decir, los movimientos, a mayor simetría de la figura.
+ [Este conjunto 
+\begin_inset Formula $G$
+\end_inset
+
+ es un grupo con la composición.] 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\noindent
+\align right
+M.I.
+ Kargapolov, Ju.I.
+ Merzljakov 
+\end_layout
+
+\begin_layout Standard
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ un cuerpo.
+ El conjunto de 
+\begin_inset Formula $\mbox{Aut }F$
+\end_inset
+
+ de los todos los automorfismos 
+\begin_inset Formula $F\rightarrow F$
+\end_inset
+
+ forman un grupo bajo las operaciones de composición de funciones.
+ En general, no es abeliano.
+ Fue un descubrimiento notable de Galois que muchas preguntas acerca de
+ que los cuerpos son, de hecho, equivalentes a las preguntas de teoría de
+ grupos determinados por grupos de automorfismos de cuerpos.
+ Cuando surgen estas preguntas, que implican generalmente no solo a 
+\begin_inset Formula $F$
+\end_inset
+
+, sino también a un subcuerpo de 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ En otras palabras, nos ocupamos de las extensiones de cuerpo.
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de un cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+ , la estructura de 
+\begin_inset Formula $F$
+\end_inset
+
+ como un 
+\begin_inset Formula $K$
+\end_inset
+
+ -espacio vectorial tiene mucha significancia.
+ Por lo tanto, parece natural considerar los automorfismos de 
+\begin_inset Formula $F$
+\end_inset
+
+ que también son funciones 
+\begin_inset Formula $K$
+\end_inset
+
+-modulo .
+ Es evidente que el conjunto de todos los automorfismos, es un subgrupo
+ de 
+\begin_inset Formula $Aut\, F$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Definition
+Sea 
+\begin_inset Formula $\mbox{Aut }(F)$
+\end_inset
+
+ el grupo de todos los automorfismos de 
+\begin_inset Formula $F$
+\end_inset
+
+ , esto es, funciones biyectivas de 
+\begin_inset Formula $F$
+\end_inset
+
+ en 
+\begin_inset Formula $F$
+\end_inset
+
+ que preservan la adición y la multiplicación.
+ Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión del cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ El grupo de Galois de 
+\begin_inset Formula $F$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ se define como el grupo de los automorfismos de 
+\begin_inset Formula $F$
+\end_inset
+
+ que dejan fijo al cuerpo 
+\begin_inset Formula $K$
+\end_inset
+
+, es decir
+\end_layout
+
+\begin_layout Definition
+\begin_inset Formula 
+\[
+Gal(F/K)=\left\{ \sigma\in\mbox{Aut}(F):\sigma(a)=a\textrm{\,\,\ para todo\,\ }a\in K\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+Se dice que una extensión finita 
+\begin_inset Formula $F:K$
+\end_inset
+
+ es una extensión de Galois si es separable y normal.
+ 
+\end_layout
+
+\begin_layout Definition
+En adelante, todos los cuerpos considerados serán de característica 
+\begin_inset Formula $0$
+\end_inset
+
+, y todas las extensiones serán finitas.
+ En este caso, una extensión será de Galois si y sólo si es normal.
+ 
+\end_layout
+
+\begin_layout Remark
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ si y solo si para cualquier 
+\begin_inset Formula $u\in F-K,$
+\end_inset
+
+ existe un 
+\begin_inset Formula $K$
+\end_inset
+
+-automorfismo 
+\begin_inset Formula $\sigma\in Gal(F/K)$
+\end_inset
+
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$Gal(F/K)$"
+description "Grupo de Galois de $F$ sobre $K$"
+
+\end_inset
+
+ tal que 
+\begin_inset Formula $\sigma(u)\neq u$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es una extensión de cuerpos arbitraria de 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+ es cuerpo fijo de 
+\begin_inset Formula $Gal(F/K)$
+\end_inset
+
+ (probablemente 
+\begin_inset Formula $K\neq K_{0}$
+\end_inset
+
+), entonces es fácil de ver que 
+\begin_inset Formula $F$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+, de modo que 
+\begin_inset Formula $K\subset K_{0}$
+\end_inset
+
+, y que 
+\begin_inset Formula $Gal(F/K)=Gal(F/K_{0})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+ es Galois sobre 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathbb{Q}(\sqrt{3}$
+\end_inset
+
+) es Galois sobre 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.(FALTA RESOLVERLOS)
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:raizF-1"
+
+\end_inset
+
+Sea 
+\begin_inset Formula $F$
+\end_inset
+
+ una extensión de 
+\begin_inset Formula $K$
+\end_inset
+
+ y 
+\begin_inset Formula $f\in K\left[x\right]$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $u\in F$
+\end_inset
+
+ es una raíz de 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $\sigma\in\mbox{Gal}(F:K)$
+\end_inset
+
+, entonces 
+\begin_inset Formula $\sigma(u)\in F$
+\end_inset
+
+ es raíz de 
+\begin_inset Formula $f$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Si 
+\begin_inset Formula $f=\overset{n}{\underset{i=1}{\sum}k_{i}x^{i}}$
+\end_inset
+
+, entonces 
+\begin_inset Formula $f(u)=0$
+\end_inset
+
+ implica 
+\begin_inset Formula $0=\sigma(f(u))=\sigma(\sum k_{i}u^{i})=\sum\sigma(k_{i})\sigma(u^{i})=\sum k_{i}\sigma(u)^{i}=f(\sigma(u)).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Una de las principales aplicaciones del teorema
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:raizF-1"
+
+\end_inset
+
+, es en la situación donde 
+\begin_inset Formula $u$
+\end_inset
+
+ es algebraico sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ con polinomio irreducible 
+\begin_inset Formula $f\in K\left[x\right]$
+\end_inset
+
+ de grado 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Entonces cualquier 
+\begin_inset Formula $\sigma\in Aut_{K}K(u)$
+\end_inset
+
+ esta completamente determinado por su acción sobre 
+\begin_inset Formula $u$
+\end_inset
+
+ (como 
+\begin_inset Formula $\left\{ 1_{K},u,u^{2},...,u^{n-1}\right\} $
+\end_inset
+
+ es una base de 
+\begin_inset Formula $K(u)$
+\end_inset
+
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ por teorema 1.6 ).
+ Como 
+\begin_inset Formula $\sigma(u)$
+\end_inset
+
+ es una raíz de 
+\begin_inset Formula $f$
+\end_inset
+
+ por teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:raizF-1"
+
+\end_inset
+
+,
+\begin_inset Formula $\left|Aut_{K}K(u)\right|\leq m$
+\end_inset
+
+ , donde 
+\begin_inset Formula $m$
+\end_inset
+
+ es el numero de las distintas raíces de 
+\begin_inset Formula $f$
+\end_inset
+
+ en 
+\begin_inset Formula $K(u)$
+\end_inset
+
+.Por teorema III.6.7
+\end_layout
+
+\begin_layout Theorem
+Si 
+\begin_inset Formula $F$
+\end_inset
+
+ es un extensión de Galois de dimensión finita de 
+\begin_inset Formula $K$
+\end_inset
+
+, entonces hay una correspondencia uno a uno entre el conjunto de todos
+ los cuerpos intermedios de la extensión y el conjunto de todos los subgrupos
+ del grupo de Galois 
+\begin_inset Formula $Aut_{K}F$
+\end_inset
+
+, tal que :
+\end_layout
+
+\begin_layout Section
 El cuerpo de descomposición de un polinomio 
 \end_layout
 
@@ -579,7 +1023,7 @@ Se dice que una extensión algebraica
 \begin_layout Theorem
 \begin_inset CommandInset label
 LatexCommand label
-name "thm:RaicesN"
+name "thm:RaicesN-1"
 
 \end_inset
 
@@ -700,7 +1144,7 @@ Sea
 \begin_layout Theorem
 \begin_inset CommandInset label
 LatexCommand label
-name "thm:Polsep-algGa-Des"
+name "thm:Polsep-algGa-Des-1"
 
 \end_inset
 
@@ -810,19 +1254,19 @@ Si
  por el teorema 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "thm:RaicesN"
+reference "thm:RaicesN-1"
 
 \end_inset
 
 .
  Si 
-\begin_inset Formula $\tau\in Aut_{K}F$
+\begin_inset Formula $\tau\in\mbox{Gal}(F:K)$
 \end_inset
 
 , sabemos por teorema
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "thm:raizF"
+reference "thm:raizF-1"
 
 \end_inset
 
@@ -840,7 +1284,7 @@ reference "thm:raizF"
 \end_inset
 
  quedan fijos cuando le aplicamos cualquier 
-\begin_inset Formula $\tau\in Aut_{K}F$
+\begin_inset Formula $\tau\in\mbox{Gal}(F:K)$
 \end_inset
 
 .
@@ -848,7 +1292,7 @@ reference "thm:raizF"
 \begin_inset Formula $F$
 \end_inset
 
-es Galois sobre 
+ es Galois sobre 
 \begin_inset Formula $K$
 \end_inset
 
@@ -875,7 +1319,7 @@ es Galois sobre
 \end_inset
 
  es mónico y 
-\begin_inset Formula $deg\, g\leq deg\, f$
+\begin_inset Formula $\mbox{grad }g\leq\mbox{grad }f$
 \end_inset
 
 , debemos tener 
@@ -1047,7 +1491,18 @@ es (en
 \begin_inset Formula $f_{i}\in T$
 \end_inset
 
- por definición de cuerpo de descomposición por teorema 1.3(falta poner).
+ por definición de cuerpo de descomposición por teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:PolAniSubCuerpo"
+
+\end_inset
+
+ 
+\begin_inset Formula $(7)$
+\end_inset
+
+.
  Así 
 \begin_inset Formula $u\in E=K(u_{1},...u_{r})$
 \end_inset
@@ -1069,7 +1524,14 @@ es (en
 \begin_inset Formula $\left[E:K\right]$
 \end_inset
 
- es finito por teorema 1.12(falta poner).
+ es finito por teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:ExtensionFinita"
+
+\end_inset
+
+.
  Como cada 
 \begin_inset Formula $f_{i}$
 \end_inset
@@ -1105,7 +1567,7 @@ es (en
 \end_inset
 
  y por lo tanto existe 
-\begin_inset Formula $\tau\in Aut_{K}E$
+\begin_inset Formula $\tau\in\mbox{Gal}(E:K)$
 \end_inset
 
  tal que 
@@ -1402,7 +1864,7 @@ Ahora probaremos el teorema para dimensión finita, esto es
 \end_inset
 
  es el cuerpo fijo de 
-\begin_inset Formula $Aut_{K}F$
+\begin_inset Formula $\mbox{Gal}(F:K)$
 \end_inset
 
 , entonces 
@@ -1431,7 +1893,7 @@ Ahora probaremos el teorema para dimensión finita, esto es
 \end_inset
 
 ) basta mostrar que 
-\begin_inset Formula $\left[F:K_{0}\right]=\left[Aut_{K}F\right]$
+\begin_inset Formula $\left[F:K_{0}\right]=\left[\mbox{Gal}(F:K)\right]$
 \end_inset
 
 .
@@ -1440,7 +1902,7 @@ Ahora probaremos el teorema para dimensión finita, esto es
 \begin_layout Proof
 \begin_inset Formula 
 \[
-\left[F:K\right]=\left[F:K(u)\right]\left[K(u):K\right]=\left|H\right|s=\left|H\right|\left[Aut_{K(u)}F:H\right]=\left|Aut_{K}F\right|
+\left[F:K\right]=\left[F:K(u)\right]\left[K(u):K\right]=\left|H\right|s=\left|H\right|\left[Aut_{K(u)}F:H\right]=\left|\mbox{Gal}(F:K)\right|
 \]
 
 \end_inset
@@ -1448,7 +1910,17 @@ Ahora probaremos el teorema para dimensión finita, esto es
 
 \end_layout
 
-\begin_layout Proposition
+\begin_layout Proof
+y la demostración esta completa.
+\end_layout
+
+\begin_layout Lemma
+\begin_inset CommandInset label
+LatexCommand label
+name "lem:dividorprimitivo"
+
+\end_inset
+
 Sea 
 \begin_inset Formula $n$
 \end_inset
@@ -1639,7 +2111,7 @@ Existe
 \begin_inset Formula $x^{d}-a$
 \end_inset
 
-son elementos distintos de 
+ son elementos distintos de 
 \begin_inset Formula $K(u)$
 \end_inset
 
@@ -1661,7 +2133,13 @@ son elementos distintos de
 \begin_inset Formula $x^{d}-a$
 \end_inset
 
- son separables pues todas las raíces son distintas, usando el teorema 3.11
+ son separables pues todas las raíces son distintas, usando el teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:Polsep-algGa-Des-1"
+
+\end_inset
+
  tenemos que 
 \begin_inset Formula $K(u)$
 \end_inset
@@ -1672,450 +2150,6 @@ son elementos distintos de
 
 .
  
-\end_layout
-
-\begin_layout Section
-Extensiones de Galois
-\end_layout
-
-\begin_layout Standard
-Citamos el primer párrafo como motivación para la definición siguiente
-\end_layout
-
-\begin_layout Quotation
-¿Por qué un cuadrado nos parece una figura simétrica, un círculo aún más
- simétrico, pero el dígito “
-\begin_inset Formula $4$
-\end_inset
-
-” completamente asimétrico? Para responder a esta pregunta, consideremos
- los movimientos del plano que dejan cada una de estas figuras en el mismo
- lugar que antes.
- Es fácil ver que para el cuadrado hay ocho de estos movimientos, para el
- círculo hay infinitos, pero para el dígito “
-\begin_inset Formula $4$
-\end_inset
-
-” sólo uno, la identidad, que deja cada punto del dígito fijo.
- El conjunto 
-\begin_inset Formula $G$
-\end_inset
-
- de movimientos diferentes que dejan una figura ocupando el mismo lugar
- que antes sirve como una medida para su grado de simetría: a mayor cantidad
- de elementos de 
-\begin_inset Formula $G$
-\end_inset
-
- , es decir, los movimientos, a mayor simetría de la figura.
- [Este conjunto 
-\begin_inset Formula $G$
-\end_inset
-
- es un grupo con la composición.] 
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quotation
-\noindent
-\align right
-M.I.
- Kargapolov, Ju.I.
- Merzljakov 
-\end_layout
-
-\begin_layout Standard
-Sea 
-\begin_inset Formula $F$
-\end_inset
-
- un cuerpo.
- El conjunto de 
-\begin_inset Formula $Aut\, F$
-\end_inset
-
- de los todos los automorfismos 
-\begin_inset Formula $F\rightarrow F$
-\end_inset
-
- forman un grupo bajo las operaciones de composición de funciones.
- En general, no es abeliano.
- Fue un descubrimiento notable de Galois que muchas preguntas acerca de
- que los cuerpos son, de hecho, equivalentes a las preguntas de teoría de
- grupos determinados por grupos de automorfismos de cuerpos.
- Cuando surgen estas preguntas, que implican generalmente no solo a 
-\begin_inset Formula $F$
-\end_inset
-
-, sino también a un subcuerpo de 
-\begin_inset Formula $F$
-\end_inset
-
-.
- En otras palabras, nos ocupamos de las extensiones de cuerpo.
-\end_layout
-
-\begin_layout Standard
-Si 
-\begin_inset Formula $F$
-\end_inset
-
- es una extensión de un cuerpo 
-\begin_inset Formula $K$
-\end_inset
-
- , la estructura de 
-\begin_inset Formula $F$
-\end_inset
-
- como un 
-\begin_inset Formula $K$
-\end_inset
-
- -espacio vectorial tiene mucha significancia.
- Por lo tanto, parece natural considerar los automorfismos de 
-\begin_inset Formula $F$
-\end_inset
-
- que también son funciones 
-\begin_inset Formula $K$
-\end_inset
-
--module .
- Es evidente que el conjunto de todos los automorfismos, es un subgrupo
- de 
-\begin_inset Formula $Aut\, F$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Definition
-Sea 
-\begin_inset Formula $Aut(F)$
-\end_inset
-
- el grupo de todos los automorfismos de 
-\begin_inset Formula $F$
-\end_inset
-
- , esto es, funciones biyectivas de 
-\begin_inset Formula $F$
-\end_inset
-
- en 
-\begin_inset Formula $F$
-\end_inset
-
- que preservan la adición y la multiplicación.
- Sea 
-\begin_inset Formula $F$
-\end_inset
-
- una extensión del cuerpo 
-\begin_inset Formula $K$
-\end_inset
-
-.
- El grupo de Galois de 
-\begin_inset Formula $F$
-\end_inset
-
- sobre 
-\begin_inset Formula $K$
-\end_inset
-
- se define como el grupo de los automorfismos de 
-\begin_inset Formula $F$
-\end_inset
-
- que dejan fijo al cuerpo 
-\begin_inset Formula $K$
-\end_inset
-
-, es decir
-\end_layout
-
-\begin_layout Definition
-\begin_inset Formula 
-\[
-Gal(F/K)=\left\{ \sigma\in Aut(F):\sigma(a)=a\textrm{\,\,\ para todo\,\ }a\in K\right\} 
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Definition
-Se dice que una extensión finita 
-\begin_inset Formula $F:K$
-\end_inset
-
- es una extensión de Galois si es separable y normal.
- 
-\end_layout
-
-\begin_layout Definition
-En adelante, todos los cuerpos considerados serán de característica 
-\begin_inset Formula $0$
-\end_inset
-
-, y todas las extensiones serán finitas.
- En este caso, una extensión será de Galois si y sólo si es normal.
- 
-\end_layout
-
-\begin_layout Remark
-\begin_inset Formula $F$
-\end_inset
-
- es Galois sobre 
-\begin_inset Formula $K$
-\end_inset
-
- si y solo si para cualquier 
-\begin_inset Formula $u\in F-K,$
-\end_inset
-
- existe un 
-\begin_inset Formula $K$
-\end_inset
-
--automorfismo 
-\begin_inset Formula $\sigma\in Gal(F/K)$
-\end_inset
-
-
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "$Gal(F/K)$"
-description "Grupo de Galois de $F$ sobre $K$"
-
-\end_inset
-
- tal que 
-\begin_inset Formula $\sigma(u)\neq u$
-\end_inset
-
-.
- Si 
-\begin_inset Formula $F$
-\end_inset
-
- es una extensión de cuerpos arbitraria de 
-\begin_inset Formula $K$
-\end_inset
-
- y 
-\begin_inset Formula $K_{0}$
-\end_inset
-
- es cuerpo fijo de 
-\begin_inset Formula $Gal(F/K)$
-\end_inset
-
- (probablemente 
-\begin_inset Formula $K\neq K_{0}$
-\end_inset
-
-), entonces es fácil de ver que 
-\begin_inset Formula $F$
-\end_inset
-
- es Galois sobre 
-\begin_inset Formula $K_{0}$
-\end_inset
-
-, de modo que 
-\begin_inset Formula $K\subset K_{0}$
-\end_inset
-
-, y que 
-\begin_inset Formula $Gal(F/K)=Gal(F/K_{0})$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Example
-\begin_inset Formula $\mathbb{C}$
-\end_inset
-
- es Galois sobre 
-\begin_inset Formula $\mathbb{R}$
-\end_inset
-
- y 
-\begin_inset Formula $\mathbb{Q}(\sqrt{3}$
-\end_inset
-
-) es Galois sobre 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
-.(FALTA RESOLVERLOS)
-\end_layout
-
-\begin_layout Theorem
-\begin_inset CommandInset label
-LatexCommand label
-name "thm:raizF"
-
-\end_inset
-
-Sea 
-\begin_inset Formula $F$
-\end_inset
-
- una extensión de 
-\begin_inset Formula $K$
-\end_inset
-
- y 
-\begin_inset Formula $f\in K\left[x\right]$
-\end_inset
-
-.
- Si 
-\begin_inset Formula $u\in F$
-\end_inset
-
- es una raíz de 
-\begin_inset Formula $f$
-\end_inset
-
- y 
-\begin_inset Formula $\sigma\in Aut_{K}F$
-\end_inset
-
-, entonces 
-\begin_inset Formula $\sigma(u)\in F$
-\end_inset
-
- es raíz de 
-\begin_inset Formula $f$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Proof
-Si 
-\begin_inset Formula $f=\overset{n}{\underset{i=1}{\sum}k_{i}x^{i}}$
-\end_inset
-
-, entonces 
-\begin_inset Formula $f(u)=0$
-\end_inset
-
- implica 
-\begin_inset Formula $0=\sigma(f(u))=\sigma(\sum k_{i}u^{i})=\sum\sigma(k_{i})\sigma(u^{i})=\sum k_{i}\sigma(u)^{i}=f(\sigma(u)).$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Proof
-Una de las principales aplicaciones del teorema
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "thm:raizF"
-
-\end_inset
-
-, es en la situación donde 
-\begin_inset Formula $u$
-\end_inset
-
- es algebraico sobre 
-\begin_inset Formula $K$
-\end_inset
-
- con polinomio irreducible 
-\begin_inset Formula $f\in K\left[x\right]$
-\end_inset
-
- de grado 
-\begin_inset Formula $n$
-\end_inset
-
-.
- Entonces cualquier 
-\begin_inset Formula $\sigma\in Aut_{K}K(u)$
-\end_inset
-
- esta completamente determinado por su acción sobre 
-\begin_inset Formula $u$
-\end_inset
-
- (como 
-\begin_inset Formula $\left\{ 1_{K},u,u^{2},...,u^{n-1}\right\} $
-\end_inset
-
- es una base de 
-\begin_inset Formula $K(u)$
-\end_inset
-
- sobre 
-\begin_inset Formula $K$
-\end_inset
-
- por teorema 1.6 ).
- Como 
-\begin_inset Formula $\sigma(u)$
-\end_inset
-
- es una raíz de 
-\begin_inset Formula $f$
-\end_inset
-
- por teorema 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "thm:raizF"
-
-\end_inset
-
-,
-\begin_inset Formula $\left|Aut_{K}K(u)\right|\leq m$
-\end_inset
-
- , donde 
-\begin_inset Formula $m$
-\end_inset
-
- es el numero de las distintas raíces de 
-\begin_inset Formula $f$
-\end_inset
-
- en 
-\begin_inset Formula $K(u)$
-\end_inset
-
-.Por teorema III.6.7
-\end_layout
-
-\begin_layout Theorem
-Si 
-\begin_inset Formula $F$
-\end_inset
-
- es un extensión de Galois de dimensión finita de 
-\begin_inset Formula $K$
-\end_inset
-
-, entonces hay una correspondencia uno a uno entre el conjunto de todos
- los cuerpos intermedios de la extensión y el conjunto de todos los subgrupos
- del grupo de Galois 
-\begin_inset Formula $Aut_{K}F$
-\end_inset
-
-, tal que :
 \end_layout
 
 \begin_layout Section
@@ -2164,7 +2198,7 @@ Vamos a examinar los cuerpos de descomposición del polinomio
 \end_inset
 
  con 
-\begin_inset Formula $(p,m)=1$
+\begin_inset Formula $mcd(p,m)=1$
 \end_inset
 
 , entonces 
@@ -2232,6 +2266,12 @@ La dimensión de una extensión ciclotómica de orden
 \end_layout
 
 \begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:primiExtensionIsom"
+
+\end_inset
+
 Sea 
 \begin_inset Formula $n$
 \end_inset
@@ -2304,7 +2344,7 @@ Sea
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $Aut_{K}F$
+\begin_inset Formula $\mbox{Gal}(F:K)$
 \end_inset
 
  es isomorfo a un subgrupo de orden 
@@ -2319,11 +2359,47 @@ Sea
 \end_layout
 
 \end_deeper
-\begin_layout Proof
-\begin_inset Formula $i)$
+\begin_layout Remark
+Recordemos que una extensión abeliana es una extensión de Galois algebraica
+ cuyo grupo de Galois es abeliano.
+ La dimensión de 
+\begin_inset Formula $F$
 \end_inset
 
- Por las observaciones hechas en el preliminar tenemos que 
+ sobre 
+\begin_inset Formula $K$
+\end_inset
+
+ puede ser estrictamente menor que 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+.
+ Por ejemplo, si 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ es una raíz 5th de la unidad en 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+, entonces 
+\begin_inset Formula $\mathbb{R}\subset\mathbb{R}(\zeta)\subset\mathbb{C}$
+\end_inset
+
+, donde, 
+\begin_inset Formula $\left[\mathbb{R}(\zeta):\mathbb{R}\right]=2<4=\mbox{\varphi}(5)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $1)$
+\end_inset
+
+ Por las observaciones hechas en el preliminar , tenemos que 
 \begin_inset Formula $F$
 \end_inset
 
@@ -2336,7 +2412,7 @@ Sea
 \end_inset
 
 .
- Por definición,
+ Por definición 
 \begin_inset Formula $1_{K},\zeta,...,\zeta^{n-1}\in K(\zeta)$
 \end_inset
 
@@ -2357,7 +2433,7 @@ Sea
 \end_layout
 
 \begin_layout Proof
-\begin_inset Formula $ii)-iii)$
+\begin_inset Formula $2)-3)$
 \end_inset
 
  Los factores irreducibles de 
@@ -2372,7 +2448,7 @@ Sea
  y por teorema 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "thm:Polsep-algGa-Des"
+reference "thm:Polsep-algGa-Des-1"
 
 \end_inset
 
@@ -2386,10 +2462,10 @@ reference "thm:Polsep-algGa-Des"
 
 .
  Si 
-\begin_inset Formula $\sigma\in Aut_{K}F$
+\begin_inset Formula $\sigma\in\mbox{Gal}(F:K)$
 \end_inset
 
- , entonces 
+, entonces 
 \begin_inset Formula $\sigma$
 \end_inset
 
@@ -2401,7 +2477,7 @@ reference "thm:Polsep-algGa-Des"
  Por teorema 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "thm:raizF"
+reference "thm:raizF-1"
 
 \end_inset
 
@@ -2462,7 +2538,7 @@ reference "thm:raizF"
 \end_inset
 
  de 
-\begin_inset Formula $Aut_{K}F$
+\begin_inset Formula $\mbox{Gal}(F:K)$
 \end_inset
 
  es el grupo abeliano multiplicativo de las unidades en el anillo 
@@ -2475,7 +2551,7 @@ reference "thm:raizF"
 
 .
  Por lo tanto 
-\begin_inset Formula $Aut_{K}F\cong im\,\, f$
+\begin_inset Formula $\mbox{Gal}(F:K)\cong im\,\, f$
 \end_inset
 
  es abeliano de orden 
@@ -2501,128 +2577,19 @@ reference "thm:raizF"
 \end_inset
 
  es cuerpo y 
-\begin_inset Formula $Aut_{K}F\cong im\,\, f$
+\begin_inset Formula $\mbox{Gal}(F:K)\cong im\,\, f$
 \end_inset
 
  es cíclico por teorema 5.3
 \end_layout
 
 \begin_layout Proposition
-Sea 
-\begin_inset Formula $F$
-\end_inset
-
- una extensión ciclotómica de orden 
-\begin_inset Formula $n$
-\end_inset
-
- del cuerpo 
-\begin_inset Formula $\mathbb{Q}$
-\end_inset
-
-
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "$\\mathbb{Q}$"
-description "Cuerpo de números Racionales"
+\begin_inset CommandInset label
+LatexCommand label
+name "prop:polinomiociclotomico"
 
 \end_inset
 
- de los números racionales y 
-\begin_inset Formula $g_{n}(x)$
-\end_inset
-
-
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "$g_{n}(x)$"
-description "$n$-ésimo polinomio ciclotómico"
-
-\end_inset
-
- el 
-\begin_inset Formula $n$
-\end_inset
-
--ésimo polinomio ciclotómico sobre 
-\begin_inset Formula $\mathbb{Q}.$
-\end_inset
-
-Entonces 
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Formula $g_{n}(x)$
-\end_inset
-
- es irreducible en 
-\begin_inset Formula $\mathbb{Q}\left[x\right]$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\left[F:\mathbb{Q}\right]=\varphi(n)$
-\end_inset
-
-, donde 
-\begin_inset Formula $\varphi$
-\end_inset
-
- es la función de Euler.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $Aut_{\mathbb{Q}}F$
-\end_inset
-
- es isomorfo al grupo multiplicativo de las unidades en el anillo 
-\begin_inset Formula $\mathbb{Z}_{n}$
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
-\begin_layout Remark
-Recordemos que una extensión abeliana es una extensión de Galois algebraica
- cuyo grupo de Galois es abeliano.
- La dimensión de 
-\begin_inset Formula $F$
-\end_inset
-
- sobre 
-\begin_inset Formula $K$
-\end_inset
-
- puede ser estrictamente menor que 
-\begin_inset Formula $\varphi(n)$
-\end_inset
-
-.
- Por ejemplo, si 
-\begin_inset Formula $\zeta$
-\end_inset
-
- es una raíz 5th de la unidad en 
-\begin_inset Formula $\mathbb{C}$
-\end_inset
-
-, entonces 
-\begin_inset Formula $\mathbb{R}\subset\mathbb{R}(\zeta)\subset\mathbb{C}$
-\end_inset
-
-, donde, 
-\begin_inset Formula $\left[\mathbb{R}(\zeta):\mathbb{R}\right]=2<4=\mbox{\varphi}(5)$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Proposition
 Sea 
 \begin_inset Formula $n$
 \end_inset
@@ -2710,7 +2677,9 @@ El grado de
 
 \end_deeper
 \begin_layout Proof
-1.
+\begin_inset Formula $1)$
+\end_inset
+
  Sea 
 \begin_inset Formula $F$
 \end_inset
@@ -2727,12 +2696,19 @@ El grado de
 \begin_inset Formula $\zeta\in F$
 \end_inset
 
- una raíz primitiva 
+ una raíz 
 \begin_inset Formula $n$
 \end_inset
 
--ésima de la unidad.
- Lemma 7.10(aplicada a 
+-ésima primitiva de la unidad.
+ Lema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "lem:dividorprimitivo"
+
+\end_inset
+
+(aplicada a 
 \begin_inset Formula $F$
 \end_inset
 
@@ -2740,11 +2716,11 @@ El grado de
 \begin_inset Formula $G=<\zeta>$
 \end_inset
 
- de todas las 
+ de todas las raíces 
 \begin_inset Formula $n$
 \end_inset
 
--ésima raíces de la unidad contienen a todas las 
+-ésimas de la unidad contienen a todas las 
 \begin_inset Formula $d$
 \end_inset
 
@@ -2765,7 +2741,7 @@ El grado de
 \begin_inset Formula $d$
 \end_inset
 
--ésima raíz de la unidad( donde 
+-ésima raíz de la unidad (donde 
 \begin_inset Formula $d|n$
 \end_inset
 
@@ -2774,7 +2750,7 @@ El grado de
 \end_inset
 
  .
- Por lo tanto para divisor 
+ Por lo tanto para cada divisor 
 \begin_inset Formula $d$
 \end_inset
 
@@ -2797,6 +2773,186 @@ x^{n}-1_{K}=\underset{\eta\in G}{\prod}(x-\eta)=\underset{\underset{d|n}{d}}{\pr
 
 \end_layout
 
+\begin_layout Proof
+\begin_inset Formula $2)$
+\end_inset
+
+ Vamos a probar primero haciendo inducción sobre 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ Claramente 
+\begin_inset Formula $g_{1}(x)=x-1_{K}\in P\left[x\right].$
+\end_inset
+
+ Asumimos que (ii) es verdadero para todo 
+\begin_inset Formula $K<n$
+\end_inset
+
+ y sea 
+\begin_inset Formula $f(x)=\underset{\underset{\underset{d<n}{d|n}}{d}}{\prod}g_{d}(x).$
+\end_inset
+
+ Entonces 
+\begin_inset Formula $f\in P\left[x\right]$
+\end_inset
+
+ por hipótesis inductiva and in 
+\begin_inset Formula $F\left[x\right]$
+\end_inset
+
+, 
+\begin_inset Formula $x^{n}-1_{K}=f(x).g_{n}(x)$
+\end_inset
+
+ por (i).
+ Por otra parte 
+\begin_inset Formula $x^{n}-1_{k}\in P\left[x\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $f$
+\end_inset
+
+ es mónico.
+ Consecuentemente, por el algoritmo de la división en 
+\begin_inset Formula $P\left[x\right]$
+\end_inset
+
+ implica que 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $x^{n}-1_{k}=f.h+r$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang spanish
+ para algún 
+\begin_inset Formula $h,r\in P\left[x\right]\subset F\left[x\right]$
+\end_inset
+
+.
+ Por lo tanto por la unidad del cociente y remainder ( o por el algoritmo
+ de la división aplicado en 
+\begin_inset Formula $F\left[x\right]$
+\end_inset
+
+) we must have 
+\begin_inset Formula $r=0$
+\end_inset
+
+ y 
+\begin_inset Formula $g_{n}(x)=h\in P\left[x\right]$
+\end_inset
+
+.
+ Esta es la inducción completa .
+ Si la característica de 
+\begin_inset Formula $K$
+\end_inset
+
+ es igual 
+\begin_inset Formula $0$
+\end_inset
+
+ y 
+\begin_inset Formula $P=\mathbb{Q},$
+\end_inset
+
+ entonces por un argumento inductivo similar, usando el algoritmo de la
+ división en 
+\begin_inset Formula $\mathbb{Z}\left[x\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathbb{Q}\left[x\right]$
+\end_inset
+
+(instead of 
+\begin_inset Formula $P\left[x\right],F\left[x\right]$
+\end_inset
+
+) mostramos que 
+\begin_inset Formula $g_{n}(x)\in\mathbb{Z}\left[x\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $3)$
+\end_inset
+
+ El grado de 
+\begin_inset Formula $g_{n}(x)$
+\end_inset
+
+ es claramente el numero de raíces primitivas 
+\begin_inset Formula $n$
+\end_inset
+
+-ésimas de la unidad.
+ Sea 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ una raíz primitiva tal que para cualquier otra (primitiva) raíz es potencia
+ de 
+\begin_inset Formula $\zeta$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\zeta^{ï}(1\leq i\leq n)$
+\end_inset
+
+ es una raíz primitiva 
+\begin_inset Formula $n$
+\end_inset
+
+-ésima de la unidad ( es decir, un generador de 
+\begin_inset Formula $G$
+\end_inset
+
+) si y solo si 
+\begin_inset Formula $mcd(i,n)=1$
+\end_inset
+
+ por Teorema I.3.6.
+ Pero el número de 
+\begin_inset Formula $i$
+\end_inset
+
+ es por definición precisamente 
+\begin_inset Formula $\varphi(n)$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Proposition
 Sea 
 \begin_inset Formula $F$
@@ -2810,8 +2966,24 @@ Sea
 \begin_inset Formula $\mathbb{Q}$
 \end_inset
 
- de los números racionales y 
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\mathbb{Q}$"
+description "Cuerpo de números Racionales"
+
+\end_inset
+
+de los números racionales y 
 \begin_inset Formula $g_{n}(x)$
+\end_inset
+
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$g_{n}(x)$"
+description "$n$-ésimo polinomio ciclotómico"
+
 \end_inset
 
  es el 
@@ -2823,7 +2995,7 @@ Sea
 \end_inset
 
 .
- Entonces
+ 
 \end_layout
 
 \begin_deeper
@@ -2862,8 +3034,10 @@ Sea
 
 \end_deeper
 \begin_layout Proof
-(i) Es suficiente que por lemma III.6.13(falta poner) para mostrar que polinomio
- mónico 
+\begin_inset Formula $1)$
+\end_inset
+
+ Partimos de suponer que el polinomio mónico 
 \family roman
 \series medium
 \shape up
@@ -2988,8 +3162,8 @@ Sea
 \begin_inset Formula $p$
 \end_inset
 
- cualquier entero primo talque 
-\begin_inset Formula $(p,n)=1$
+ cualquier entero primo tal que 
+\begin_inset Formula $mcd(p,n)=1$
 \end_inset
 
 .
@@ -3006,54 +3180,35 @@ Sea
 \begin_inset Formula $\zeta$
 \end_inset
 
- es una de 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang english
-
+ es una raíz de 
 \begin_inset Formula $g_{n}(x)$
 \end_inset
 
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang spanish
 , 
 \begin_inset Formula $\zeta$
 \end_inset
 
- es la 
+ es la raíz 
 \begin_inset Formula $n$
 \end_inset
 
-- ésima raíz primitiva de la unidad.
- La demostración de la proposición 8.2(iii) implica que 
+-ésima primitiva de la unidad.
+ La demostración de la proposición
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:polinomiociclotomico"
+
+\end_inset
+
+ (iii) implica que 
 \begin_inset Formula $\zeta^{p}$
 \end_inset
 
- es también una 
+ es también una raíz 
 \begin_inset Formula $n$
 \end_inset
 
--ésima raíz primitiva de la unidad y por lo tanto una raíz de 
+-ésima primitiva de la unidad y por lo tanto una raíz de 
 \begin_inset Formula $f$
 \end_inset
 
@@ -3130,7 +3285,7 @@ Sea
 \noun default
 \color inherit
 \lang spanish
- por teorema 1.6, es decir, 
+ por teorema 1.6(RE VEER), es decir, 
 \begin_inset Formula $f(x^{p})=h(x)k(x)$
 \end_inset
 
@@ -3177,8 +3332,8 @@ Sea
 \begin_inset Formula $g=\overset{t}{\underset{i=0}{\sum}}b_{i}x^{i}\mapsto\overline{g}=\overset{t}{\underset{i=0}{\sum}}\overline{b}_{i}x^{i}$
 \end_inset
 
- (ejercicio III.5.1).
- Consecuentemente , en 
+ (ejercicio III.5.1 RE VEER).
+ Consecuentemente, en 
 \begin_inset Formula $\mathbb{Z}_{p}\left[x\right]$
 \end_inset
 
@@ -3196,7 +3351,11 @@ Sea
 \end_inset
 
  ( donde la característica de 
-\begin_inset Formula $\mathbb{Z}_{p}=p$
+\begin_inset Formula $\mathbb{Z}_{p}$
+\end_inset
+
+ es 
+\begin_inset Formula $p$
 \end_inset
 
 ).
@@ -3299,16 +3458,23 @@ Ya que
 \begin_inset Formula $x^{n}-\overline{1}\in\mathbb{Z}_{p}\left[x\right]$
 \end_inset
 
- debe tener una raíz múltiples.
+ debe tener una raíces múltiples.
  Esto es contradictorio por el hecho que las raíces de 
 \begin_inset Formula $x^{n}-\overline{1}$
 \end_inset
 
  son todas distintas ya que 
-\begin_inset Formula $(p,n)=1$
+\begin_inset Formula $mcd(p,n)=1$
 \end_inset
 
- (se puede ver en las observaciones del Lemma 7.10).
+ (se puede ver en las observaciones del Lemma 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "lem:dividorprimitivo"
+
+\end_inset
+
+).
  Por lo tanto 
 \begin_inset Formula $\zeta^{p}$
 \end_inset
@@ -3346,7 +3512,7 @@ Si
 \end_inset
 
 es un primo tal que 
-\begin_inset Formula $(p_{i},n)=1$
+\begin_inset Formula $mcd(p_{i},n)=1$
 \end_inset
 
 .
@@ -3387,8 +3553,15 @@ es un primo tal que
 \begin_inset Formula $n$
 \end_inset
 
--ésimas de la unidad por lo demostrado en la proposicion 35 (iii).
- Asi 
+-ésimas de la unidad por lo demostrado en la proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:polinomiociclotomico"
+
+\end_inset
+
+ (iii).
+ Así 
 \begin_inset Formula $h(x)$
 \end_inset
 
@@ -3415,7 +3588,17 @@ Por lo tanto,
 \end_layout
 
 \begin_layout Proof
-(ii) Lemma 7.10 mostramos que 
+\begin_inset Formula $2)$
+\end_inset
+
+ Lemma 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "lem:dividorprimitivo"
+
+\end_inset
+
+ mostramos que 
 \begin_inset Formula $F=\mathbb{Q}(\zeta),$
 \end_inset
 
@@ -3434,8 +3617,33 @@ donde
 \end_layout
 
 \begin_layout Proof
-Por proposición 35 y (i) .
- (iii) es consecuencia de (ii), Teorema 32 y ejercicio 1 (hacer)
+Por proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:polinomiociclotomico"
+
+\end_inset
+
+ y (i) .
+ 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $3)$
+\end_inset
+
+ es consecuencia de 
+\begin_inset Formula $2)$
+\end_inset
+
+, Teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:primiExtensionIsom"
+
+\end_inset
+
+ y ejercicio 1 (hacer).
 \end_layout
 
 \begin_layout Section
@@ -3464,6 +3672,29 @@ key "PerezSangari2011Geometria"
 \end_inset
 
 , los cuales también se presentan sin demostración.
+\end_layout
+
+\begin_layout Standard
+La teoría de la sección anterior permite obtener una condición necesaria
+ y suficiente para que el polígono regular de 
+\begin_inset Formula $n$
+\end_inset
+
+ lados sea constructible con regla y compás.
+ Para ello a usaremos la extensión ciclotómica 
+\begin_inset Formula $\mathbb{Q}(\zeta):\mathbb{Q}$
+\end_inset
+
+, donde 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ es una raíz primitiva 
+\begin_inset Formula $n$
+\end_inset
+
+–ésima de la unidad.
+ 
 \end_layout
 
 \begin_layout Definition
@@ -3531,7 +3762,7 @@ Fijada una circunferencia
 \begin_inset Formula $1$
 \end_inset
 
-y argumento 
+ y argumento 
 \begin_inset Formula $\frac{2k\pi}{n}$
 \end_inset
 
@@ -3606,11 +3837,11 @@ Donde,
 \begin_inset Formula $\zeta_{n}$
 \end_inset
 
- es una raíz 
+ es una raíz primitiva 
 \begin_inset Formula $n$
 \end_inset
 
--ésima primitiva de la unidad, el cuerpo 
+-ésima de la unidad, el cuerpo 
 \begin_inset Formula $\mathbb{Q}(\zeta)$
 \end_inset
 
@@ -3889,11 +4120,11 @@ Pero
 \end_inset
 
  ser raíz del polinomio 
-\begin_inset Formula $X^{3}+X^{2}-2X+1$
+\begin_inset Formula $x^{3}+x^{2}-2x+1$
 \end_inset
 
 , que es irreducible en 
-\begin_inset Formula $\mathbb{Q}\left[X\right]$
+\begin_inset Formula $\mathbb{Q}\left[x\right]$
 \end_inset
 
 .
@@ -3916,37 +4147,6 @@ Pero
 
  tampoco lo es, con lo que el heptágono regular no es construible.
  
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch NoChildDocument
-status collapsed
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "thesisExample"
-options "alpha"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomencl_print
-LatexCommand printnomenclature
-set_width "custom"
-width "2.5cm"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_body
